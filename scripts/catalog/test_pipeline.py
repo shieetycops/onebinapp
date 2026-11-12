@@ -125,6 +125,52 @@ class TestFetcherFallback(unittest.TestCase):
         finally:
             B.REPOS_CACHE, B.COST_LOG = old_repos, old_log
 
+    def _fx(self, tmp, http, nodes):
+        fx = B.Fetcher('tok')
+        fx.rest = RR.RestReleases('tok', tmp / 'rest', getter=http, workers=2)
+        fx.query_batch = lambda names, rel_n=15: {n: dict(nodes[n]) for n in names}
+        return fx
+
+    def test_rest_error_with_cached_release_list_does_not_refresh_the_repo(self):
+        """Regression: a stale REST answer (old release list reused) must not rewrite the repo cache with a new fetched_at."""
+        tmp = pathlib.Path(tempfile.mkdtemp())
+        old_repos, old_log = B.REPOS_CACHE, B.COST_LOG
+        B.REPOS_CACHE = tmp / 'repos'; B.COST_LOG = tmp / 'cost.jsonl'
+        try:
+            B.REPOS_CACHE.mkdir()
+            http = FakeHttp(); http.set('o/r', [REL('v1')])
+            nodes = {'o/r': {'databaseId': 1, 'nameWithOwner': 'o/r', 'latestRelease': {'tagName': 'v1'}}}
+            fx = self._fx(tmp, http, nodes)
+            self.assertEqual(fx.fetch(['o/r'], 10), [])
+            first = json.loads(B.cache_path('o/r').read_text(encoding='utf-8'))
+            first['fetched_at'] = 5.0                                     # pretend it is old
+            B.atomic_write(B.cache_path('o/r'), B.jdump(first))
+            http.fail.add('o/r')                                          # REST outage, REST cache still holds a list
+            fx2 = self._fx(tmp, http, nodes)
+            failed = fx2.fetch(['o/r'], 10)
+            self.assertEqual(failed, ['o/r'])
+            self.assertEqual(json.loads(B.cache_path('o/r').read_text(encoding='utf-8'))['fetched_at'], 5.0)   # unchanged: it ages honestly
+        finally:
+            B.REPOS_CACHE, B.COST_LOG = old_repos, old_log
+
+    def test_repos_rejected_by_metadata_get_no_release_request(self):
+        tmp = pathlib.Path(tempfile.mkdtemp())
+        old_repos, old_log = B.REPOS_CACHE, B.COST_LOG
+        B.REPOS_CACHE = tmp / 'repos'; B.COST_LOG = tmp / 'cost.jsonl'
+        try:
+            B.REPOS_CACHE.mkdir()
+            http = FakeHttp(); http.set('o/keep', [REL('v1')]); http.set('o/reject', [REL('v1')])
+            nodes = {n: {'databaseId': i, 'nameWithOwner': n, 'latestRelease': {'tagName': 'v1'}} for i, n in enumerate(['o/keep', 'o/reject'], 1)}
+            fx = self._fx(tmp, http, nodes)
+            fx.rest_skip = lambda n, node: n == 'o/reject'
+            fx.fetch(['o/keep', 'o/reject'], 10)
+            asked = [u for u, _ in http.calls]
+            self.assertTrue(any('/o/keep/' in u for u in asked)); self.assertFalse(any('/o/reject/' in u for u in asked))
+            rej = json.loads(B.cache_path('o/reject').read_text(encoding='utf-8'))['node']
+            self.assertTrue(rej['releases_skipped']); self.assertEqual(rej['releases'], {'nodes': []}); self.assertEqual(fx.rest_skipped, 1)
+        finally:
+            B.REPOS_CACHE, B.COST_LOG = old_repos, old_log
+
     def test_light_query_has_no_releases(self):
         self.assertNotIn('releases(', B.GQL_LIGHT); self.assertNotIn('releaseAssets', B.GQL_LIGHT); self.assertIn('latestRelease { tagName }', B.GQL_LIGHT)
         self.assertIn('releaseAssets', B.GQL_FIELDS)

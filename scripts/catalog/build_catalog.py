@@ -178,6 +178,8 @@ class Fetcher:
         self.queries = 0
         self.rest = None            # RR.RestReleases when releases come from REST (default in daily mode)
         self.rest_failed = []
+        self.rest_skip = None       # callable(name, node) -> True: curation/deny list already rejects the repo, so its releases are not requested
+        self.rest_skipped = 0
 
     def _post(self, query):
         body = json.dumps({'query': query}).encode()
@@ -268,11 +270,19 @@ class Fetcher:
                     if len(chunk) == 1: failed.append(queue.pop(0))
                     continue
             if self.rest:
-                items = [(n, node['nameWithOwner'], (node.get('latestRelease') or {}).get('tagName')) for n, node in res.items() if node]
+                items = []
+                for n, node in res.items():
+                    if not node: continue
+                    if self.rest_skip and self.rest_skip(n, node):       # dropped by metadata curation anyway: no release request, no rate-limit spend
+                        node['releases'] = {'nodes': []}; node['latestRelease'] = None; node['releases_skipped'] = True; self.rest_skipped += 1
+                        continue
+                    items.append((n, node['nameWithOwner'], (node.get('latestRelease') or {}).get('tagName')))
                 got = self.rest.fetch_many([(full, tag) for n, full, tag in items])
                 for n, full, tag in items:
                     r = got[full]
-                    if not r['ok']:                      # keep the previous cache file untouched: the repo becomes "stale"
+                    # a REST failure (even when an old release list is cached) must NOT refresh the repo cache: the repo keeps its old
+                    # fetched_at, ages honestly, expires after --max-stale-days and counts toward the guard
+                    if not r['ok'] or r['state'] == 'stale':
                         res.pop(n); self.rest_failed.append(n); continue
                     node = res[n]
                     node['releases'] = {'nodes': r['nodes']}
@@ -474,16 +484,22 @@ def main():
         if not tok:
             print('no token (env GH_TOKEN or ~/.gh_token)', file=sys.stderr); return 2
         fx = Fetcher(tok)
-        if args.releases == 'rest': fx.rest = RR.RestReleases(tok, CACHE / 'rest_releases')
+        if args.releases == 'rest':
+            fx.rest = RR.RestReleases(tok, CACHE / 'rest_releases')
+            _denied = CUR.load_denied(DATA)
+            fx.rest_skip = lambda n, node: bool(CUR.curate(CUR.meta_from_graphql(node))) or n.lower() in _denied or (node.get('nameWithOwner') or '').lower() in _denied
         failed = fx.fetch(pending, args.batch)
-        if fx.rest: rest_report = fx.rest.report()
+        if fx.rest:
+            rest_report = fx.rest.report(); rest_report['skipped_rejected_by_metadata_or_denylist'] = fx.rest_skipped
         print('fetched; queries=%d points spent this run=%d remaining=%s' % (fx.queries, fx.session_cost, fx.remaining), flush=True)
         if rest_report: print('releases (REST): ' + json.dumps(rest_report), flush=True)
 
-    def _mtime(n):
+    def _fetched_at(n):
         q = cache_path(n)
-        return q.stat().st_mtime if q.exists() else None
-    fr = PL.classify_freshness(cands, _mtime, time.time(), args.max_age_hours, args.max_stale_days)
+        if not q.exists(): return None
+        try: return json.loads(q.read_text(encoding='utf-8')).get('fetched_at')
+        except Exception: return None
+    fr = PL.classify_freshness(cands, _fetched_at, time.time(), args.max_age_hours, args.max_stale_days)
     guard_ok, n_bad, frac = PL.guard(len(cands), fr, args.max_not_fresh)
     fstats = PL.freshness_stats(fr, args.max_stale_days)
     print('freshness: fresh=%d stale_reused=%d stale_expired=%d missing=%d (not fresh %.1f%%)' % (

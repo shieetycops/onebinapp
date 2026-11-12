@@ -18,7 +18,8 @@ permissions:
 
 env:
   PYTHONUTF8: '1'
-  GH_TOKEN: ${{ secrets.CATALOG_GH_TOKEN }}   # a personal token: the built-in GITHUB_TOKEN is limited to 1,000 requests/hour per repository
+# CATALOG_GH_TOKEN is a personal token (the built-in GITHUB_TOKEN is limited to 1,000 requests/hour per repository).
+# It is passed ONLY to the Python steps below, never to npm / wrangler.
 
 jobs:
   build-deploy:
@@ -37,6 +38,8 @@ jobs:
           cache-dependency-path: site/package-lock.json
 
       - name: Check the secret is present (the value is never printed)
+        env:
+          GH_TOKEN: ${{ secrets.CATALOG_GH_TOKEN }}
         run: |
           test -n "$GH_TOKEN" || { echo "CATALOG_GH_TOKEN secret is missing"; exit 1; }
 
@@ -47,7 +50,7 @@ jobs:
           path: |
             data/catalog_cache
             data/catalog_cache_ai
-          key: catalog-cache-${{ github.run_id }}
+          key: catalog-cache-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: catalog-cache-
 
       - name: Refresh komi data (candidate source)
@@ -60,15 +63,23 @@ jobs:
         run: sha256sum -c data/round3/hashes.txt
 
       - name: Discover new desktop apps
+        env:
+          GH_TOKEN: ${{ secrets.CATALOG_GH_TOKEN }}
         run: python -I scripts/catalog/discover.py --max-new 150
 
       - name: 'Build desktop catalog (exit 4 means too many repos are not fresh, nothing is deployed)'
+        env:
+          GH_TOKEN: ${{ secrets.CATALOG_GH_TOKEN }}
         run: python -I scripts/catalog/build_catalog.py
 
       - name: Build AI catalog
+        env:
+          GH_TOKEN: ${{ secrets.CATALOG_GH_TOKEN }}
         run: python -I scripts/catalog/build_ai.py
 
       - name: AI usage data (plugin components) and AI rebuild from cache
+        env:
+          GH_TOKEN: ${{ secrets.CATALOG_GH_TOKEN }}
         run: |
           python -I scripts/catalog/usage_fetch.py
           python -I scripts/catalog/build_ai.py --offline --no-changelog
@@ -88,7 +99,7 @@ jobs:
           path: |
             data/catalog_cache
             data/catalog_cache_ai
-          key: catalog-cache-${{ github.run_id }}
+          key: catalog-cache-${{ github.run_id }}-${{ github.run_attempt }}
 
       - name: Build the static site
         working-directory: site
