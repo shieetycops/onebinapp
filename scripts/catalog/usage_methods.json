@@ -1,0 +1,257 @@
+{
+ "claude-code": {
+  "mcp": {
+   "after": {
+    "steps": [
+     "Jalankan `claude mcp list`. Server harus muncul dengan status Connected.",
+     "Di dalam sesi Claude Code, ketik /mcp untuk melihat server dan statusnya."
+    ],
+    "source_url": "https://code.claude.com/docs/en/mcp"
+   },
+   "uninstall": {
+    "steps": [
+     "claude mcp remove {name}"
+    ],
+    "source_url": "https://code.claude.com/docs/en/mcp",
+    "needs": [
+     "name"
+    ]
+   },
+   "settings": {
+    "steps": [
+     "Isi nilai lewat flag --env pada perintah pasang, mis. `claude mcp add --env NAMA=NILAI ...`.",
+     "Atau di .mcp.json (proyek) pada bidang env, mis. \"env\": {\"NAMA\": \"${NAMA}\"}."
+    ],
+    "source_url": "https://code.claude.com/docs/en/mcp",
+    "config_file": "~/.claude.json (cakupan local dan user) atau .mcp.json (proyek). Path per sistem operasi tidak terdokumentasi."
+   }
+  },
+  "skill": {
+   "after": {
+    "steps": [
+     "Ketik / lalu cari nama skill.",
+     "Jika folder ~/.claude/skills/ baru dibuat saat sesi sudah berjalan, jalankan /reload-skills."
+    ],
+    "source_url": "https://code.claude.com/docs/en/skills"
+   },
+   "uninstall": {
+    "steps": [
+     "Hapus folder skill dari ~/.claude/skills/ (atau .claude/skills/ di proyek)."
+    ],
+    "source_url": "https://code.claude.com/docs/en/skills",
+    "inferred": true
+   }
+  },
+  "plugin": {
+   "after": {
+    "steps": [
+     "Buka /plugin lalu tab Installed, atau jalankan `claude plugin list`.",
+     "Jika muncul \"Reload needed\", jalankan /reload-plugins.",
+     "Skill dari plugin dipanggil sebagai /nama-plugin:nama-skill."
+    ],
+    "source_url": "https://code.claude.com/docs/en/discover-plugins"
+   },
+   "uninstall": {
+    "steps": [
+     "claude plugin uninstall {cc_plugin}@{cc_marketplace}",
+     "Bila marketplace tidak dipakai lagi: claude plugin marketplace remove {cc_marketplace}"
+    ],
+    "source_url": "https://code.claude.com/docs/en/discover-plugins",
+    "needs": [
+     "cc_plugin",
+     "cc_marketplace"
+    ]
+   }
+  }
+ },
+ "claude-desktop": {
+  "mcp": {
+   "after": {
+    "steps": [
+     "Keluar sepenuhnya dari Claude Desktop lalu buka lagi.",
+     "Cek ikon \"Add files, connectors, and more\" lalu Connectors.",
+     "Log (Windows): %APPDATA%\\Claude\\logs\\mcp*.log"
+    ],
+    "source_url": "https://modelcontextprotocol.io/docs/develop/connect-local-servers"
+   },
+   "uninstall": {
+    "steps": [
+     "Hapus entri {name} dari claude_desktop_config.json, lalu keluar sepenuhnya dan buka lagi Claude Desktop.",
+     "Untuk connector jauh: Customize di sidebar, buka Connectors, lalu putuskan."
+    ],
+    "source_url": "https://code.claude.com/docs/en/desktop",
+    "needs": [
+     "name"
+    ],
+    "inferred": true
+   },
+   "settings": {
+    "steps": [
+     "Taruh nilai di blok env pada server itu di claude_desktop_config.json, lalu keluar sepenuhnya dan buka lagi Claude Desktop."
+    ],
+    "source_url": "https://modelcontextprotocol.io/docs/develop/connect-local-servers",
+    "config_file": "claude_desktop_config.json (path per sistem operasi ada di bagian Cara pasang)"
+   }
+  }
+ },
+ "cursor": {
+  "mcp": {
+   "after": {
+    "steps": [
+     "Buka Customize di sidebar Cursor untuk melihat dan mengaktifkan server MCP.",
+     "Log: panel Output, pilih \"MCP Logs\".",
+     "Setelah mengubah file config, restart Cursor."
+    ],
+    "source_url": "https://cursor.com/docs/context/mcp"
+   },
+   "uninstall": {
+    "steps": [
+     "Hapus server dari Customize di sidebar Cursor."
+    ],
+    "source_url": "https://cursor.com/docs/context/mcp"
+   },
+   "settings": {
+    "steps": [
+     "Isi di bidang env pada mcp.json. Cursor mendukung bentuk \"API_KEY\": \"${env:API_KEY}\"."
+    ],
+    "source_url": "https://cursor.com/docs/context/mcp",
+    "config_file": ".cursor/mcp.json (proyek) atau ~/.cursor/mcp.json (global). Path per sistem operasi tidak terdokumentasi."
+   }
+  },
+  "skill": {
+   "after": {
+    "steps": [
+     "Buka Customize di sidebar, lalu Skills.",
+     "Ketik / di chat untuk memanggil skill secara manual."
+    ],
+    "source_url": "https://cursor.com/docs/skills"
+   }
+  }
+ },
+ "vscode": {
+  "mcp": {
+   "after": {
+    "steps": [
+     "Command Palette: \"MCP: List Servers\", pilih server, lalu Show Output.",
+     "Atau di Chat: Open Customizations lalu MCP Servers.",
+     "Server yang berjalan belum menjamin tool-nya tersedia di sesi chat saat ini."
+    ],
+    "source_url": "https://code.visualstudio.com/docs/agents/run/manage-mcp-servers"
+   },
+   "uninstall": {
+    "steps": [
+     "Buka menu server lalu pilih Uninstall bila tersedia.",
+     "Jika tidak ada: hapus hanya entri {name} dari mcp.json, bukan seluruh file."
+    ],
+    "source_url": "https://code.visualstudio.com/docs/agents/run/manage-mcp-servers",
+    "needs": [
+     "name"
+    ]
+   },
+   "settings": {
+    "steps": [
+     "Pakai bidang env. ${input:id} meminta nilai saat server pertama kali jalan; ${env:NAMA} membaca variabel lingkungan."
+    ],
+    "source_url": "https://code.visualstudio.com/docs/copilot/reference/mcp-configuration",
+    "config_file": ".vscode/mcp.json (workspace) atau mcp.json profil pengguna. Path per sistem operasi tidak terdokumentasi."
+   }
+  },
+  "skill": {
+   "after": {
+    "steps": [
+     "Command Palette: \"Chat: Open Customizations\", lalu Skills.",
+     "Atau ketik / di chat baru."
+    ],
+    "source_url": "https://code.visualstudio.com/docs/copilot/customization/agent-skills"
+   }
+  },
+  "plugin": {
+   "after": {
+    "steps": [
+     "Buka editor Agent Customizations lalu Plugins. Pastikan plugin terdaftar dan aktif.",
+     "Mulai sesi chat baru lalu cek."
+    ],
+    "source_url": "https://code.visualstudio.com/docs/copilot/customization/agent-plugins"
+   },
+   "uninstall": {
+    "steps": [
+     "Plugins, buka detail plugin, lalu Uninstall (atau Disable bila hanya ingin menonaktifkan)."
+    ],
+    "source_url": "https://code.visualstudio.com/docs/copilot/customization/agent-plugins"
+   }
+  }
+ },
+ "codex": {
+  "mcp": {
+   "after": {
+    "steps": [
+     "Jalankan `codex mcp list`.",
+     "Di TUI codex, ketik /mcp untuk melihat server yang aktif.",
+     "Aplikasi desktop: simpan server lalu pilih Restart. Ekstensi IDE: Restart extension."
+    ],
+    "source_url": "https://learn.chatgpt.com/docs/extend/mcp?surface=cli"
+   },
+   "uninstall": {
+    "steps": [
+     "codex mcp remove {name}"
+    ],
+    "source_url": "https://learn.chatgpt.com/docs/extend/mcp?surface=cli",
+    "needs": [
+     "name"
+    ],
+    "note": "Perintah ini tertera di `codex mcp --help`; halaman dokumentasi MCP tidak membahasnya."
+   },
+   "settings": {
+    "steps": [
+     "Pakai `--env NAMA=NILAI` pada `codex mcp add`, atau tabel [mcp_servers.{name}.env] di config.toml. `env_vars = [\"NAMA\"]` meneruskan variabel dari lingkungan lokal."
+    ],
+    "source_url": "https://learn.chatgpt.com/docs/extend/mcp?surface=cli",
+    "config_file": "~/.codex/config.toml (atau .codex/config.toml untuk proyek tepercaya)",
+    "needs": [
+     "name"
+    ]
+   }
+  },
+  "skill": {
+   "after": {
+    "steps": [
+     "Di Codex CLI atau ekstensi IDE, ketik $ atau /skills untuk menyebut skill.",
+     "Codex juga bisa memilih skill sendiri bila tugas cocok dengan description-nya."
+    ],
+    "source_url": "https://learn.chatgpt.com/docs/build-skills",
+    "note": "Dokumentasi tidak menyebut /skills sebagai daftar skill terpasang."
+   },
+   "uninstall": {
+    "steps": [
+     "Untuk menonaktifkan: tambahkan [[skills.config]] di ~/.codex/config.toml dengan name = \"{skill_name}\" dan enabled = false, lalu restart Codex.",
+     "Menghapus folder skill: tidak ada di dokumentasi."
+    ],
+    "source_url": "https://learn.chatgpt.com/docs/build-skills",
+    "needs": [
+     "skill_name"
+    ]
+   }
+  },
+  "plugin": {
+   "after": {
+    "steps": [
+     "Di Codex CLI ketik /plugins untuk membuka plugin browser. Plugin terpasang bisa dinyalakan atau dimatikan dengan Space.",
+     "Mulai sesi baru sebelum memakai skill atau tool bawaan plugin."
+    ],
+    "source_url": "https://learn.chatgpt.com/docs/plugins"
+   },
+   "uninstall": {
+    "steps": [
+     "codex plugin remove {cx_plugin}@{cx_marketplace}",
+     "codex plugin marketplace remove {cx_marketplace}"
+    ],
+    "source_url": "https://learn.chatgpt.com/docs/plugins",
+    "needs": [
+     "cx_plugin",
+     "cx_marketplace"
+    ],
+    "note": "Kedua perintah tertera di `codex plugin --help`; halaman dokumentasi hanya menyebut Uninstall plugin di plugin browser."
+   }
+  }
+ }
+}

@@ -1,0 +1,8682 @@
+{
+ "microsoft/vscode": {
+  "tag": "1.145.3",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "clash-verge-rev/clash-verge-rev": {
+  "tag": "v2.5.10",
+  "n_assets": 23,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Clash.Verge_2.5.10_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Clash.Verge_2.5.10_arm64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Clash.Verge_2.5.10_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Clash.Verge_2.5.10_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Clash.Verge_2.5.10_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "Clash.Verge_2.5.10_arm64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "farion1231/cc-switch": {
+  "tag": "v4.0.29",
+  "n_assets": 23,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "CC-Switch-v4.0.29-Windows.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "CC-Switch-v4.0.29-Windows-arm64.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "CC-Switch-v4.0.29-macOS.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "CC-Switch-v4.0.29-macOS.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "CC-Switch-v4.0.29-Linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "CC-Switch-v4.0.29-Linux-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "microsoft/PowerToys": {
+  "tag": "v0.102.3101",
+  "n_assets": 7,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "PowerToysSetup-0.102.3101.0-x64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "PowerToysSetup-0.102.3101.0-arm64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "nexu-io/open-design": {
+  "tag": "open-design-v0.27.1",
+  "n_assets": 6,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "open-design-0.27.1-win-x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "open-design-0.27.1-mac-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "open-design-0.27.1-mac-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "ChatGPTNextWeb/NextChat": {
+  "tag": "v2.16.1",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "tw93/Mole": {
+  "tag": "V1.71.0",
+  "n_assets": 7,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "binaries-darwin-arm64.tar.gz",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "binaries-darwin-amd64.tar.gz",
+    "kind": "zip",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "toeverything/AFFiNE": {
+  "tag": "v0.27.4",
+  "n_assets": 18,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "affine-0.27.4-stable-windows-x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "windows-arm64": {
+    "asset": "affine-0.27.4-stable-windows-arm64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "affine-0.27.4-stable-macos-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "affine-0.27.4-stable-macos-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "affine-0.27.4-stable-linux-x64.appimage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "jgraph/drawio-desktop": {
+  "tag": "v32.6.10",
+  "n_assets": 29,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "draw.io-32.6.10-windows-installer.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "draw.io-arm64-32.6.10-windows-arm64-installer.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "draw.io-arm64-32.6.10.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "draw.io-x64-32.6.10.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "drawio-x86_64-32.6.10.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "drawio-arm64-32.6.10.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "marktext/marktext": {
+  "tag": "v0.23.0",
+  "n_assets": 29,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "marktext-win-x64-0.23.0-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "marktext-win-arm64-0.23.0-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "marktext-mac-arm64-0.23.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "marktext-mac-x64-0.23.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "marktext-linux-0.23.0.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "marktext-linux-arm64-0.23.0.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "agalwood/Motrix": {
+  "tag": "v2.4.1",
+  "n_assets": 46,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Motrix-Setup-2.4.1.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Motrix-Setup-2.4.1-arm64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Motrix-2.4.1-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Motrix-2.4.1-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Motrix-2.4.1-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Motrix-2.4.1-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "laurent22/joplin": {
+  "tag": "v3.7.22",
+  "n_assets": 20,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Joplin-Setup-3.7.22.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Joplin-3.7.22-arm64.DMG",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Joplin-3.7.22.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Joplin-3.7.22.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Joplin-3.7.22.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "lyswhut/lx-music-desktop": {
+  "tag": "v2.12.6",
+  "n_assets": 25,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "lx-music-desktop-v2.12.6-win7_x64-Setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "lx-music-desktop-v2.12.6-arm64-Setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "lx-music-desktop-2.12.6-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "lx-music-desktop-2.12.6-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "lx-music-desktop_2.12.6_x64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "lx-music-desktop_2.12.6_arm64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "lencx/ChatGPT": {
+  "tag": "v1.1.0",
+  "n_assets": 12,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "ChatGPT_1.1.0_windows_x86_64.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "ChatGPT_1.1.0_macos_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "ChatGPT_1.1.0_macos_x86_64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "ChatGPT_1.1.0_linux_x86_64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "upscayl/upscayl": {
+  "tag": "v2.15.0",
+  "n_assets": 14,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "upscayl-2.15.0-win.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "upscayl-2.15.0-mac.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "upscayl-2.15.0-mac.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "upscayl-2.15.0-linux.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "upscayl-2.15.0-linux.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "team-spotube/spotube": {
+  "tag": "v6.0.0",
+  "n_assets": 12,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Spotube-windows-x86_64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Spotube-macos-apple-silicon.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Spotube-macos-apple-silicon.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Spotube-linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Spotube-linux-aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "hiroi-sora/Umi-OCR": {
+  "tag": "v2.1.5",
+  "n_assets": 3,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Umi-OCR_Paddle_v2.1.5.7z.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "linux-x64": {
+    "asset": "Umi-OCR_Linux_Paddle_2.1.5.tar.xz",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "Umi-OCR_Linux_Paddle_2.1.5.tar.xz",
+    "kind": "zip",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": false,
+   "linux": true
+  }
+ },
+ "janhq/jan": {
+  "tag": "v0.8.8",
+  "n_assets": 11,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Jan_0.8.8_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Jan_0.8.8_arm64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Jan_0.8.8_universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Jan_0.8.8_universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Jan_0.8.8_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "tinyhumansai/openhuman": {
+  "tag": "v0.64.15",
+  "n_assets": 21,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "OpenHuman_0.64.15_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "OpenHuman_0.64.15_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "OpenHuman_0.64.15_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "OpenHuman_0.64.15_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "OpenHuman_0.64.15_aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "ShareX/ShareX": {
+  "tag": "v22.4.0",
+  "n_assets": 2,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "ShareX-22.4.0-setup-x64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "TriliumNext/Trilium": {
+  "tag": "v0.107.0",
+  "n_assets": 20,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "TriliumNotes-v0.107.0-windows-x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "windows-arm64": {
+    "asset": "TriliumNotes-v0.107.0-windows-arm64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "TriliumNotes-v0.107.0-macos-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "TriliumNotes-v0.107.0-macos-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "TriliumNotes-v0.107.0-linux-x64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "TriliumNotes-v0.107.0-linux-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "DayuanJiang/next-ai-draw-io": {
+  "tag": "v0.5.1",
+  "n_assets": 19,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Next.AI.Draw.io.Setup.0.5.1.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Next-AI-Draw.io-0.5.1-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Next-AI-Draw.io-0.5.1.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "next-ai-draw-io_0.5.1_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "Next-AI-Draw.io-0.5.1-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "webadderallorg/Recordly": {
+  "tag": "v1.4.0",
+  "n_assets": 15,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Recordly-windows-x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "Recordly-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Recordly-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Recordly-linux-x64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "anywhere-labs/dsh-desktop": {
+  "tag": "v2.0.22-next",
+  "n_assets": 10,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "DSH-NEXT-2.0.22-next-x64-Setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "DSH-NEXT-2.0.22-next-universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "DSH-NEXT-2.0.22-next-universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "DSH-NEXT-2.0.22-next-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "DSH-NEXT-2.0.22-next-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "MonitorControl/MonitorControl": {
+  "tag": "v4.4.0",
+  "n_assets": 1,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "MonitorControl.4.4.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "MonitorControl.4.4.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "pear-devs/pear-desktop": {
+  "tag": "v3.12.0",
+  "n_assets": 30,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "YouTube-Music-Web-Setup-3.12.0.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "YouTube-Music-3.12.0-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "YouTube-Music-3.12.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "youtube-music_3.12.0_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "YouTube-Music-3.12.0-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "Fincept-Corporation/FinceptTerminal": {
+  "tag": "v4.5.2",
+  "n_assets": 7,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "FinceptTerminal-4.5.2-windows-x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "FinceptTerminal-4.5.2-macos-arm64-setup.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "FinceptTerminal-4.5.2-linux-x64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "qier222/YesPlayMusic": {
+  "tag": "v0.4.11",
+  "n_assets": 20,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "YesPlayMusic-Setup-0.4.11.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "YesPlayMusic-mac-0.4.11-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "YesPlayMusic-mac-0.4.11-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "yesplaymusic_0.4.11_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "yesplaymusic_0.4.11_arm64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "DevToys-app/DevToys": {
+  "tag": "v1.0.13.0",
+  "n_assets": 1,
+  "prerelease": false,
+  "cells": {},
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  },
+  "cause": "assets_but_no_desktop_installer"
+ },
+ "flameshot-org/flameshot": {
+  "tag": "v15.0.0",
+  "n_assets": 32,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Flameshot-15.0.0-win64.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Flameshot-15.0.0-macos-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Flameshot-15.0.0-macos-intel.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "flameshot-v15.0.0+git0.f4f2e4e-artifact-appimage-x86_64.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "flameshot-v15.0.0+git0.f4f2e4e-artifact-debian-13-arm64.zip",
+    "kind": "zip",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "jordanbaird/Ice": {
+  "tag": "0.11.12",
+  "n_assets": 1,
+  "prerelease": false,
+  "cells": {},
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  },
+  "cause": "assets_but_no_desktop_installer"
+ },
+ "Anuken/Mindustry": {
+  "tag": "v160.7",
+  "n_assets": 4,
+  "prerelease": false,
+  "cells": {},
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  },
+  "cause": "assets_but_no_desktop_installer"
+ },
+ "yikart/AiToEarn": {
+  "tag": "v2.5.0",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "BeyondDimension/SteamTools": {
+  "tag": "3.2.0",
+  "n_assets": 5,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Steam++_v3.2.0_win_x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "Steam++_v3.2.0_macos.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Steam++_v3.2.0_macos.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Steam++_v3.2.0_linux_x64.tgz",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "Steam++_v3.2.0_linux_arm64.tgz",
+    "kind": "zip",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "Molunerfinn/PicGo": {
+  "tag": "v3.0.3",
+  "n_assets": 19,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "PicGo-3.0.3-x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "windows-arm64": {
+    "asset": "PicGo-3.0.3-arm64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "PicGo-3.0.3-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "PicGo-3.0.3-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "PicGo-3.0.3-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "PicGo-3.0.3-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "oldj/SwitchHosts": {
+  "tag": "v5.0.3",
+  "n_assets": 33,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "SwitchHosts-5.0.3-windows-x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "SwitchHosts-5.0.3-windows-arm64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "SwitchHosts-5.0.3-mac-aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "SwitchHosts-5.0.3-mac-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "SwitchHosts-5.0.3-linux-amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "SwitchHosts-5.0.3-linux-aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "mihomo-party-org/clash-party": {
+  "tag": "v2.0.4",
+  "n_assets": 81,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "clash-party-win7-2.0.4-x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "clash-party-windows-2.0.4-arm64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "clash-party-catalina-2.0.4-arm64.pkg",
+    "kind": "pkg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "clash-party-catalina-2.0.4-x64.pkg",
+    "kind": "pkg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "clash-party-linux-2.0.4-amd64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "clash-party-linux-2.0.4-arm64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "Swordfish90/cool-retro-term": {
+  "tag": "2.0.0-beta2",
+  "n_assets": 2,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "cool-retro-term-2.0.0-beta2.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "cool-retro-term-2.0.0-beta2.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "cool-retro-term-2.0.0-beta2.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "cool-retro-term-2.0.0-beta2.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "readest/readest": {
+  "tag": "v0.12.20",
+  "n_assets": 35,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Readest_0.12.20_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Readest_0.12.20_arm64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Readest_0.12.20_universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Readest_0.12.20_universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Readest_0.12.20_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Readest_0.12.20_aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "KnifeLemon/Filee": {
+  "tag": "v2.4.0",
+  "n_assets": 18,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Filee-2.4.0-win-Setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Filee-2.4.0-osx-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Filee-2.4.0-osx-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Filee-2.4.0-linux-x64.tar.gz",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "Filee-2.4.0-linux-arm64.tar.gz",
+    "kind": "zip",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "responsively-org/responsively-app": {
+  "tag": "v1.18.0",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "docmirror/dev-sidecar": {
+  "tag": "v2.3.5",
+  "n_assets": 35,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "DevSidecar-2.3.5-windows-x86_64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "windows-arm64": {
+    "asset": "DevSidecar-2.3.5-windows-arm64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "DevSidecar-2.3.5-macos-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "DevSidecar-2.3.5-macos-x86_64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "DevSidecar-2.3.5-linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "DevSidecar-2.3.5-linux-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "CapSoftware/Cap": {
+  "tag": "cap-v0.6.2",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "ayangweb/BongoCat": {
+  "tag": "v2.4.1",
+  "n_assets": 9,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "BongoCat_2.4.1_x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "BongoCat-2.4.1-aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "BongoCat-2.4.1-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "beekeeper-studio/beekeeper-studio": {
+  "tag": "v6.2.2",
+  "n_assets": 32,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Beekeeper-Studio-Setup-6.2.2.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Beekeeper-Studio-Setup-6.2.2-arm64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Beekeeper-Studio-6.2.2-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Beekeeper-Studio-6.2.2.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "beekeeper-studio_6.2.2_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "Beekeeper-Studio-6.2.2-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "winfunc/opcode": {
+  "tag": "v0.2.0",
+  "n_assets": 12,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "opcode_v0.2.0_macos_universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "opcode_v0.2.0_macos_universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "opcode_v0.2.0_linux_x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "desktop/desktop": {
+  "tag": "release-3.6.10",
+  "n_assets": 7,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "GitHubDesktopSetup-x64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "gitbutlerapp/gitbutler": {
+  "tag": "release/0.23.3",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "pavlobu/deskreen": {
+  "tag": "v3.2.16",
+  "n_assets": 27,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "deskreen-ce-3.2.16-x64.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "deskreen-ce-3.2.16-arm64.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "deskreen-ce-3.2.16-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "deskreen-ce-3.2.16-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "deskreen-ce-3.2.16-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "deskreen-ce-3.2.16-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "lively-community/lively": {
+  "tag": "v2.2.1.0",
+  "n_assets": 4,
+  "prerelease": false,
+  "cells": {},
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  },
+  "cause": "assets_but_no_desktop_installer"
+ },
+ "mountain-loop/yaak": {
+  "tag": "v2026.9.1",
+  "n_assets": 31,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Yaak_2026.9.1_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Yaak_2026.9.1_arm64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Yaak_2026.9.1_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Yaak_2026.9.1_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "yaak_2026.9.1_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "yaak_2026.9.1_aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "moonlight-stream/moonlight-qt": {
+  "tag": "v6.2.0",
+  "n_assets": 7,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "MoonlightSetup-6.2.0.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Moonlight-6.2.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Moonlight-6.2.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Moonlight-6.2.0-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "wulkano/Kap": {
+  "tag": "v3.6.0",
+  "n_assets": 9,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "Kap-3.6.0-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Kap-3.6.0-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "amir1376/ab-download-manager": {
+  "tag": "v1.11.4",
+  "n_assets": 22,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "ABDownloadManager_1.11.4_windows_x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "windows-arm64": {
+    "asset": "ABDownloadManager_1.11.4_windows_arm64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "ABDownloadManager_1.11.4_mac_arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "ABDownloadManager_1.11.4_mac_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "ABDownloadManager_1.11.4_linux_x64.tar.gz",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "ABDownloadManager_1.11.4_linux_arm64.tar.gz",
+    "kind": "zip",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "nukeop/nuclear": {
+  "tag": "player@1.54.2",
+  "n_assets": 19,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Nuclear_1.54.2_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Nuclear_1.54.2_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Nuclear_1.54.2_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Nuclear_1.54.2_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "louis-e/arnis": {
+  "tag": "v3.4.0",
+  "n_assets": 4,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "arnis-windows.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "arnis-mac-universal.tar.gz",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "arnis-mac-universal.tar.gz",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-x64": {
+    "asset": "arnis-linux-appimage.tar.gz",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "arnis-linux-appimage.tar.gz",
+    "kind": "zip",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "eythaann/Seelen-UI": {
+  "tag": "v2.8.10",
+  "n_assets": 7,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Seelen.UI_2.8.10_x64-setup-fixed.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Seelen.UI_2.8.10_arm64-setup-fixed.exe",
+    "kind": "exe-installer",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "dataelement/dsh-desktop": {
+  "tag": "v0.13.2",
+  "n_assets": 10,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "dsh-desktop-windows-x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "dsh-desktop-mac-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "dsh-desktop-mac-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "Foundry376/Mailspring": {
+  "tag": "1.26.2",
+  "n_assets": 9,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "MailspringSetup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Mailspring-AppleSilicon.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "Mailspring-AppleSilicon.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-x64": {
+    "asset": "mailspring-1.26.2-amd64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "mailspring-1.26.2-arm64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "winapps-org/winapps": {
+  "cause": "404_no_release"
+ },
+ "Flow-Launcher/Flow.Launcher": {
+  "tag": "v2.1.4",
+  "n_assets": 4,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Flow-Launcher-Setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "electerm/electerm": {
+  "tag": "v5.10.0",
+  "n_assets": 51,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "electerm-5.10.0-win-x64-installer.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "electerm-5.10.0-win-arm64-installer.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "electerm-5.10.0-mac-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "electerm-5.10.0-mac-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "electerm-5.10.0-linux-x86_64-legacy.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "electerm-5.10.0-linux-arm64-legacy.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "infinitered/reactotron": {
+  "tag": "reactotron-react-native@5.3.1",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "musescore/MuseScore": {
+  "tag": "v4.7.6",
+  "n_assets": 8,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "MuseScore-Studio-4.7.6.261022093-x86_64.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "MuseScore-Studio-4.7.6.261022093.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "MuseScore-Studio-4.7.6.261022093.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "MuseScore-Studio-4.7.6.261022093-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "MuseScore-Studio-4.7.6.261022093-aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "NanmiCoder/cc-haha": {
+  "tag": "v0.7.8",
+  "n_assets": 19,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Claude-Code-Haha-0.7.8-Windows-x64-Setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Claude-Code-Haha-0.7.8-Windows-arm64-Setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Claude-Code-Haha-0.7.8-macOS-arm64-update.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "Claude-Code-Haha-0.7.8-macOS-x64-update.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-x64": {
+    "asset": "Claude-Code-Haha-0.7.8-Linux-x64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Claude-Code-Haha-0.7.8-Linux-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "d2phap/ImageGlass": {
+  "tag": "10.0.6.906",
+  "n_assets": 9,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "ImageGlass_10.0.6.906_win-x64.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "ImageGlass_10.0.6.906_win-arm64.msix",
+    "kind": "msix",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "ImageGlass_10.0.6.906_mac-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "ImageGlass_10.0.6.906_linux-x64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "streetwriters/notesnook": {
+  "tag": "v3.4.13",
+  "n_assets": 25,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "notesnook_win_x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "windows-arm64": {
+    "asset": "notesnook_win_arm64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "notesnook_mac_arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "notesnook_mac_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "notesnook_linux_x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "notesnook_linux_arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "dail8859/NotepadNext": {
+  "tag": "v0.15",
+  "n_assets": 7,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "NotepadNext-v0.15-win64.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "windows-arm64": {
+    "asset": "NotepadNext-v0.15-Installer-arm64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "NotepadNext-v0.15-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "NotepadNext-v0.15-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "NotepadNext-v0.15-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "Hunlongyu/ZY-Player": {
+  "tag": "v2.8.8",
+  "n_assets": 11,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "ZY-Player-Setup-2.8.8.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "ZY-Player-2.8.8.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "ZY-Player-2.8.8.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "zy_2.8.8_amd64.snap",
+    "kind": "snap",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "ZY-Player-2.8.8.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "Zettlr/Zettlr": {
+  "tag": "v4.9.0",
+  "n_assets": 10,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Zettlr-4.9.0-x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "Zettlr-4.9.0-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Zettlr-4.9.0-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Zettlr-4.9.0-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Zettlr-4.9.0-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "divamgupta/diffusionbee-stable-diffusion-ui": {
+  "tag": "2.5.3",
+  "n_assets": 2,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "DiffusionBee_MPS_arm64-2.5.3.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "DiffusionBee_MPS_Intel-2.5.3.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "libnyanpasu/clash-nyanpasu": {
+  "tag": "v2.0.1",
+  "n_assets": 38,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Clash.Nyanpasu_2.0.1_fixed-webview-x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Clash.Nyanpasu_2.0.1_arm64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Clash.Nyanpasu_2.0.1_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Clash.Nyanpasu_2.0.1_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Clash.Nyanpasu_2.0.1_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Clash.Nyanpasu_2.0.1_arm64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "mapeditor/tiled": {
+  "tag": "v1.12.2",
+  "n_assets": 5,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Tiled-1.12.2_Windows-10+_x86_64.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Tiled-1.12.2_macOS-10.13-12.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "Tiled-1.12.2_macOS-10.13-12.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-x64": {
+    "asset": "Tiled-1.12.2_Linux_x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "keeweb/keeweb": {
+  "tag": "v1.18.7",
+  "n_assets": 16,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "KeeWeb-1.18.7.win.x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "windows-arm64": {
+    "asset": "KeeWeb-1.18.7.win.arm64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "KeeWeb-1.18.7.mac.arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "KeeWeb-1.18.7.mac.x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "KeeWeb-1.18.7.linux.x64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "KeeWeb-1.18.7.linux.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "codexu/note-gen": {
+  "tag": "note-gen-v0.39.2",
+  "n_assets": 16,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "NoteGen_0.39.2_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "NoteGen_0.39.2_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "NoteGen_0.39.2_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "NoteGen_0.39.2_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "elkowar/eww": {
+  "tag": "v0.6.0",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "thaw-app/Thaw": {
+  "tag": "2.1.0",
+  "n_assets": 10,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "Thaw.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Thaw.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "Heroic-Games-Launcher/HeroicGamesLauncher": {
+  "tag": "v2.22.4",
+  "n_assets": 28,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Heroic-2.22.4-Setup-x64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Heroic-2.22.4-Setup-arm64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Heroic-2.22.4-macOS-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Heroic-2.22.4-macOS-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Heroic-2.22.4-linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Heroic-2.22.4-linux-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "Alexays/Waybar": {
+  "tag": "0.16.0",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "mrkai77/Loop": {
+  "tag": "1.4.2",
+  "n_assets": 1,
+  "prerelease": false,
+  "cells": {},
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  },
+  "cause": "assets_but_no_desktop_installer"
+ },
+ "flxzt/rnote": {
+  "tag": "v0.14.2",
+  "n_assets": 3,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "rnote-win-installer-0.14.2-x86_64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "qutebrowser/qutebrowser": {
+  "tag": "v3.7.0",
+  "n_assets": 6,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "qutebrowser-3.7.0-amd64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "qutebrowser-3.7.0-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "qutebrowser-3.7.0-x86_64.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "luin/medis": {
+  "tag": "0.6.1",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "listen1/listen1_desktop": {
+  "tag": "v2.33.0",
+  "n_assets": 23,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "listen1_2.33.0_win_x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "windows-arm64": {
+    "asset": "listen1_2.33.0_win_arm64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "listen1_2.33.0_mac_arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "listen1_2.33.0_mac_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "listen1_2.33.0_linux_x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "holaboss-ai/holaOS": {
+  "tag": "latest",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "Shabinder/SpotiFlyer": {
+  "tag": "v3.6.4",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "nexmoe/VidBee": {
+  "tag": "v2.3.0",
+  "n_assets": 18,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "vidbee-2.3.0-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "vidbee-2.3.0-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "vidbee-2.3.0-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "vidbee_2.3.0_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "vidbee-2.3.0.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "PrismLauncher/PrismLauncher": {
+  "tag": "11.1.1",
+  "n_assets": 21,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "PrismLauncher-Windows-MinGW-w64-Setup-11.1.1.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "PrismLauncher-Windows-MinGW-arm64-Setup-11.1.1.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "PrismLauncher-macOS-11.1.1.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "PrismLauncher-macOS-11.1.1.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "PrismLauncher-Linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "PrismLauncher-Linux-aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "XiaoYouChR/Ghost-Downloader-3": {
+  "tag": "v4.5.1",
+  "n_assets": 17,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Ghost-Downloader-v4.5.1-Windows-x86_64-Setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Ghost-Downloader-v4.5.1-Windows-arm64-Setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Ghost-Downloader-v4.5.1-macOS-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Ghost-Downloader-v4.5.1-macOS-x86_64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Ghost-Downloader-v4.5.1-Linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Ghost-Downloader-v4.5.1-Linux-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "CyberTimon/RapidRAW": {
+  "tag": "v1.6.9",
+  "n_assets": 32,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "01_RapidRAW_v1.6.9_windows_x64.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "01_RapidRAW_v1.6.9_windows-11-arm_arm64.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "02_RapidRAW_v1.6.9_macos-15_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "02_RapidRAW_v1.6.9_macos-15-intel_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "03_RapidRAW_v1.6.9_ubuntu-22.04_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "03_RapidRAW_v1.6.9_ubuntu-22.04-arm_aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "filecxx/FileCentipede": {
+  "tag": "2.9",
+  "n_assets": 4,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "filecxx_2.9_win_x64.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-x64": {
+    "asset": "filecxx_2.9_linux_x64.zip",
+    "kind": "zip",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": false,
+   "linux": true
+  }
+ },
+ "popcorntime/popcorntime": {
+  "cause": "404_no_release"
+ },
+ "aandrew-me/ytDownloader": {
+  "tag": "v4.0.1",
+  "n_assets": 19,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "YTDownloader_Win.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "YTDownloader_Mac_arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "YTDownloader_Mac_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "YTDownloader_Linux.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "YTDownloader_Linux.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "vicinaehq/vicinae": {
+  "tag": "v0.30.0",
+  "n_assets": 6,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "vicinae-x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Vicinae.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Vicinae.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Vicinae-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Vicinae-aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "reactide/reactide": {
+  "tag": "v3.0-beta",
+  "n_assets": 2,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "Reactide-3.0.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Reactide-3.0.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Reactide.3.0.0.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Reactide.3.0.0.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "wwmm/easyeffects": {
+  "cause": "404_no_release"
+ },
+ "jhen0409/react-native-debugger": {
+  "tag": "v0.14.0",
+  "n_assets": 9,
+  "prerelease": false,
+  "cells": {},
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  },
+  "cause": "assets_but_no_desktop_installer"
+ },
+ "lutris/lutris": {
+  "tag": "v0.5.22",
+  "n_assets": 1,
+  "prerelease": false,
+  "cells": {
+   "linux-x64": {
+    "asset": "lutris_0.5.22_all.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "lutris_0.5.22_all.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": true
+  }
+ },
+ "hackjutsu/Lepton": {
+  "tag": "v2.0.0",
+  "n_assets": 21,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Lepton-2.0.0-win-x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "Lepton-2.0.0-mac-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Lepton-2.0.0-mac-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Lepton-2.0.0-linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "zhouxiaoka/autoclip": {
+  "tag": "v1.5.8",
+  "n_assets": 10,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "AutoClip.Desktop_1.5.8_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "AutoClip.Desktop_1.5.8_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "getgridea/gridea": {
+  "tag": "v0.9.3",
+  "n_assets": 6,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Gridea.Setup.0.9.3.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Gridea-0.9.3.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Gridea-0.9.3.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "gridea_0.9.3_amd64.snap",
+    "kind": "snap",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "Gridea-0.9.3.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "crmne/spotifast": {
+  "tag": "v0.17.1",
+  "n_assets": 21,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "spotifast-v0.17.1-x86_64-pc-windows-msvc.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "spotifast-v0.17.1-aarch64-pc-windows-msvc.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "spotifast-v0.17.1-macos-universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "spotifast-v0.17.1-macos-universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "spotifast-0.17.1-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "spotifast-0.17.1-aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "devhubapp/devhub": {
+  "tag": "v0.102.0",
+  "n_assets": 10,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "DevHub-Setup-0.102.0.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "DevHub-0.102.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "DevHub-0.102.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "DevHub-0.102.0.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "DevHub-0.102.0.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "webtorrent/webtorrent-desktop": {
+  "tag": "v0.24.0",
+  "n_assets": 12,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "WebTorrentSetup-v0.24.0.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "WebTorrent-v0.24.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "WebTorrent-v0.24.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "webtorrent-desktop_0.24.0_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "webtorrent-desktop_0.24.0_arm64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "ronitsingh10/FineTune": {
+  "tag": "v1.9.0",
+  "n_assets": 1,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "FineTune.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "FineTune.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "evolus/pencil": {
+  "tag": "v4.0.0",
+  "n_assets": 7,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Pencil-4.0.0.ga.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "Pencil-4.0.0-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Pencil-4.0.0-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Pencil_4.0.0.ga_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "fastrepl/anarlog": {
+  "tag": "desktop_v1.4.34",
+  "n_assets": 14,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "anarlog-windows-x86_64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "anarlog-macos-aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "anarlog-macos-x86_64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "anarlog-linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "anarlog-linux-aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "yang991178/fluent-reader": {
+  "tag": "v1.3.2",
+  "n_assets": 4,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Fluent.Reader.Setup.1.3.2.x64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Fluent.Reader.1.3.2.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Fluent.Reader.1.3.2.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Fluent.Reader.1.3.2.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Fluent.Reader.1.3.2.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "makecindy/cindy": {
+  "tag": "v0.1.130",
+  "n_assets": 10,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "cindy-0.1.130-win32-x64-cn.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "cindy-0.1.130-darwin-arm64-cn.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "cindy-0.1.130-darwin-x64-cn.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "cindy-0.1.130-linux-x64-cn.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "cindy-0.1.130-linux-arm64-cn.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "open-pencil/open-pencil": {
+  "tag": "v0.16.0",
+  "n_assets": 23,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "OpenPencil_0.16.0_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "OpenPencil_0.16.0_arm64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "OpenPencil_0.16.0_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "OpenPencil_0.16.0_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "OpenPencil_0.16.0_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "jely2002/youtube-dl-gui": {
+  "tag": "app-v3.2.1",
+  "n_assets": 25,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Open.Video.Downloader_3.2.1_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Open.Video.Downloader_3.2.1_arm64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Open.Video.Downloader_3.2.1_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Open.Video.Downloader_3.2.1_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Open.Video.Downloader_3.2.1_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Open.Video.Downloader_3.2.1_aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "HarnessMD/munder-difflin": {
+  "tag": "v0.5.5",
+  "n_assets": 12,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Munder-Difflin-0.5.5-win-x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Munder-Difflin-0.5.5-mac-universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Munder-Difflin-0.5.5-mac-universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Munder-Difflin-0.5.5-linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "crynta/terax-ai": {
+  "tag": "v0.9.0",
+  "n_assets": 17,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Terax_0.9.0_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Terax_0.9.0_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Terax_0.9.0_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Terax_0.9.0_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "wealthfolio/wealthfolio": {
+  "tag": "v3.12.0",
+  "n_assets": 41,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Wealthfolio_3.12.0_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Wealthfolio_3.12.0_arm64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Wealthfolio_3.12.0_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Wealthfolio_3.12.0_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Wealthfolio_3.12.0_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Wealthfolio_3.12.0_aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "spyder-ide/spyder": {
+  "tag": "v6.1.8",
+  "n_assets": 6,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Spyder-Windows-x86_64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "Spyder-macOS-arm64.pkg",
+    "kind": "pkg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Spyder-macOS-x86_64.pkg",
+    "kind": "pkg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "mediago-dev/mediago": {
+  "tag": "v3.5.0",
+  "n_assets": 11,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "mediago-community-setup-win32-x64-3.5.0.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "mediago-community-setup-darwin-arm64-3.5.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "mediago-community-setup-darwin-x64-3.5.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "mediago-community-setup-linux-amd64-3.5.0.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "oguzhaninan/Stacer": {
+  "tag": "v1.1.0",
+  "n_assets": 3,
+  "prerelease": false,
+  "cells": {
+   "linux-x64": {
+    "asset": "Stacer-1.1.0-x64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": true
+  }
+ },
+ "xanderfrangos/twinkle-tray": {
+  "tag": "v1.17.2",
+  "n_assets": 1,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Twinkle.Tray.v1.17.2.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "OutlineFoundation/outline-apps": {
+  "tag": "v1.10.1",
+  "n_assets": 2,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Outline-Client.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "linux-x64": {
+    "asset": "Outline-Client.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Outline-Client.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": false,
+   "linux": true
+  }
+ },
+ "galaxy-s10/billd-desk": {
+  "cause": "404_no_release"
+ },
+ "olive-editor/olive": {
+  "cause": "404_no_release"
+ },
+ "maotoumao/MusicFreeDesktop": {
+  "tag": "v0.0.8",
+  "n_assets": 7,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "MusicFree-0.0.8-win32-x64-legacy-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "MusicFree-0.0.8-darwin-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "MusicFree-0.0.8-darwin-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "MusicFree-0.0.8-linux-amd64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "Hiram-Wong/zyfun": {
+  "tag": "v3.4.7",
+  "n_assets": 14,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "zyfun-win-3.4.7-x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "zyfun-win-3.4.7-arm64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "zyfun-mac-3.4.7-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "zyfun-mac-3.4.7-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "zyfun-linux-3.4.7-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "zyfun-linux-3.4.7-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "LykosAI/StabilityMatrix": {
+  "tag": "v2.16.5",
+  "n_assets": 3,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "StabilityMatrix-win-x64.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "StabilityMatrix-macos-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "StabilityMatrix-linux-x64.zip",
+    "kind": "zip",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "sveinbjornt/Sloth": {
+  "tag": "3.6",
+  "n_assets": 2,
+  "prerelease": false,
+  "cells": {},
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  },
+  "cause": "assets_but_no_desktop_installer"
+ },
+ "johnfactotum/foliate": {
+  "tag": "3.3.0",
+  "n_assets": 3,
+  "prerelease": false,
+  "cells": {
+   "linux-x64": {
+    "asset": "foliate_3.3.0_all.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "foliate_3.3.0_all.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": true
+  }
+ },
+ "dice2o/BingGPT": {
+  "tag": "v0.3.7",
+  "n_assets": 10,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "BingGPT-0.3.7-win32-x64-Setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "BingGPT-0.3.7-win32-arm64-Setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "BingGPT-0.3.7-darwin-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "BingGPT-0.3.7-darwin-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "BingGPT-0.3.7-linux-x64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "BingGPT-0.3.7-linux-arm64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "coteditor/CotEditor": {
+  "tag": "7.1.3",
+  "n_assets": 1,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "CotEditor_7.1.3.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "CotEditor_7.1.3.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "lightningpixel/modly": {
+  "tag": "v0.4.3",
+  "n_assets": 6,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Modly-Setup-0.4.3.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Modly-0.4.3-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Modly-0.4.3.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Modly-0.4.3.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "sindresorhus/Gifski": {
+  "tag": "v3.0.6",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "cerebroapp/cerebro": {
+  "tag": "v0.11.0",
+  "n_assets": 12,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Cerebro-Setup-0.11.0.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Cerebro-0.11.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Cerebro-0.11.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "cerebro_0.11.0_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "Cerebro-0.11.0.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "opengeos/GeoLibre": {
+  "tag": "v3.7.0",
+  "n_assets": 24,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "GeoLibre.Desktop_3.7.0_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "GeoLibre.Desktop_3.7.0_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "GeoLibre.Desktop_3.7.0_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "GeoLibre.Desktop_3.7.0_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "felixrieseberg/macintosh.js": {
+  "tag": "v1.2.0",
+  "n_assets": 12,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "macintosh.js-darwin-arm64-1.2.0.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "macintosh.js-darwin-x64-1.2.0.zip",
+    "kind": "zip",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "l0ng-ai/openidea": {
+  "tag": "v0.1.41",
+  "n_assets": 58,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "OpenIDEA_0.1.41_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "OpenIDEA_0.1.41_arm64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "OpenIDEA_0.1.41_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "OpenIDEA_0.1.41_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "OpenIDEA_0.1.41_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "OpenIDEA_0.1.41_aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "OpenCoworkAI/open-codesign": {
+  "tag": "v0.3.0",
+  "n_assets": 13,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "open-codesign-0.3.0-x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "open-codesign-0.3.0-arm64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "open-codesign-0.3.0-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "open-codesign-0.3.0-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "open-codesign-0.3.0-x64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-": {
+  "tag": "v4.7.1",
+  "n_assets": 9,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Google.Play.Music.Desktop.Player.Setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Google.Play.Music.Desktop.Player.OSX.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "Google.Play.Music.Desktop.Player.OSX.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-x64": {
+    "asset": "google-play-music-desktop-player_4.7.1_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "podman-desktop/podman-desktop": {
+  "tag": "v1.30.5",
+  "n_assets": 45,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "podman-desktop-1.30.5-setup-x64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "podman-desktop-1.30.5-setup-arm64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "podman-desktop-1.30.5-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "podman-desktop-1.30.5-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "podman-desktop-1.30.5.flatpak",
+    "kind": "flatpak",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "podman-desktop-1.30.5.flatpak",
+    "kind": "flatpak",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "thewh1teagle/vibe": {
+  "tag": "v3.3.0",
+  "n_assets": 17,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "vibe_3.3.0_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "vibe_3.3.0_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "vibe_3.3.0_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "vibe_3.3.0_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "vibe_3.3.0_arm64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "Suwayomi/Suwayomi-Server": {
+  "tag": "v2.4.2366",
+  "n_assets": 10,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Suwayomi-Server-v2.4.2366-windows-x64.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Suwayomi-Server-v2.4.2366-macOS-arm64.tar.gz",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "Suwayomi-Server-v2.4.2366-macOS-x64.tar.gz",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-x64": {
+    "asset": "Suwayomi-Server-v2.4.2366-linux-x64.tar.gz",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "Suwayomi-Server-v2.4.2366-appimage.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "albertlauncher/albert": {
+  "tag": "v35.2.0",
+  "n_assets": 6,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "Albert-v35.2.0-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Albert-v35.2.0-x86_64.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "vastsa/PI-Desktop": {
+  "tag": "v0.22.0",
+  "n_assets": 28,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "PI-Desktop-Setup-0.22.0.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "PI-Desktop-0.22.0-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "PI-Desktop-0.22.0-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "PI-Desktop-0.22.0-linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "PI-Desktop-0.22.0-linux-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "HuLaSpark/HuLa": {
+  "tag": "v3.0.9",
+  "n_assets": 15,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "HuLa_3.0.9_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "HuLa_3.0.9_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "HuLa_3.0.9_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "HuLa_3.0.9_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "electron/fiddle": {
+  "tag": "v0.39.0",
+  "n_assets": 15,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "electron-fiddle-0.39.0-win32-x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Electron.Fiddle-darwin-arm64-0.39.0.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "Electron.Fiddle-darwin-x64-0.39.0.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-x64": {
+    "asset": "Electron.Fiddle-0.39.0-x64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Electron.Fiddle-0.39.0-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "visualfc/liteide": {
+  "tag": "x38.4",
+  "n_assets": 2,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "liteidex38.4.macos-arm64-qt5.15.19.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "liteidex38.4-macos-qt5.15.16.zip",
+    "kind": "zip",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "mullvad/mullvadvpn-app": {
+  "tag": "android/2026.12",
+  "n_assets": 2,
+  "prerelease": false,
+  "cells": {},
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  },
+  "cause": "assets_but_no_desktop_installer"
+ },
+ "momenbasel/PureMac": {
+  "tag": "v3.2.0",
+  "n_assets": 2,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "PureMac-3.2.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "PureMac-3.2.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "4gray/iptvnator": {
+  "tag": "v0.25.0",
+  "n_assets": 30,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "iptvnator-0.25.0-windows-x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "iptvnator-0.25.0-mac-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "iptvnator-0.25.0-mac-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "iptvnator-0.25.0-linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "iptvnator-0.25.0-linux-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "ganeshrvel/openmtp": {
+  "tag": "v3.3.0",
+  "n_assets": 5,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "openmtp-3.3.0-mac-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "openmtp-3.3.0-mac-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "gaozhangmin/boxplayer": {
+  "tag": "v5.0.42",
+  "n_assets": 20,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "boxplayer-5.0.42-win-x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "boxplayer-5.0.42-mac-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "boxplayer-5.0.42-mac-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "boxplayer-5.0.42-linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "boxplayer-5.0.42-linux-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "EcoPasteHub/EcoPaste": {
+  "tag": "v1.1.0",
+  "n_assets": 11,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "EcoPaste_1.1.0_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "EcoPaste_1.1.0_arm64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "EcoPaste_1.1.0_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "EcoPaste_1.1.0_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "bleachbit/bleachbit": {
+  "tag": "v6.0.6",
+  "n_assets": 46,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "BleachBit-6.0.6-setup-English.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "BleachBit-6.0.6-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "bleachbit_6.0.6-0_all_debian12.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": false,
+   "linux": true
+  }
+ },
+ "xushengfeng/eSearch": {
+  "tag": "15.7.1",
+  "n_assets": 16,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "eSearch-15.7.1-win32-x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "windows-arm64": {
+    "asset": "eSearch-15.7.1-win32-arm64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "eSearch-15.7.1-darwin-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "eSearch-15.7.1-darwin-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "eSearch-15.7.1-linux-x64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "eSearch-15.7.1-linux-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "sindresorhus/caprine": {
+  "tag": "v2.61.0",
+  "n_assets": 15,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Caprine-Setup-2.61.0.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Caprine-2.61.0-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Caprine-2.61.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "caprine_2.61.0_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "Caprine-2.61.0.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "EutropicAI/Final2x": {
+  "tag": "v4.1.0",
+  "n_assets": 7,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Final2x-windows-x64-unpacked.7z",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "Final2x-macos-arm64-dmg.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Final2x-linux-pip-x64-AppImage.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "GetPublii/Publii": {
+  "tag": "v.0.48.3-build-17587",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "mixxxdj/mixxx": {
+  "tag": "2.5.6",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "dbgate/dbgate": {
+  "tag": "v7.3.4",
+  "n_assets": 64,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "dbgate-7.3.4-win_x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "windows-arm64": {
+    "asset": "dbgate-7.3.4-win_arm64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "dbgate-7.3.4-mac_arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "dbgate-7.3.4-mac_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "dbgate-7.3.4-linux_x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "dbgate-7.3.4-linux_arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "Serial-Studio/Serial-Studio": {
+  "tag": "v4.2.1",
+  "n_assets": 9,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Serial-Studio-Pro-4.2.1-Windows.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Serial-Studio-Pro-4.2.1-macOS.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Serial-Studio-Pro-4.2.1-macOS.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Serial-Studio-Pro-4.2.1-Linux-x64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Serial-Studio-Pro-4.2.1-Linux-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "binaricat/Netcatty": {
+  "tag": "v1.1.90",
+  "n_assets": 25,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Netcatty-1.1.90-win-x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "Netcatty-1.1.90-mac-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Netcatty-1.1.90-mac-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Netcatty-1.1.90-linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Netcatty-1.1.90-linux-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "milanvarady/Applite": {
+  "tag": "v1.4.2",
+  "n_assets": 1,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "Applite.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Applite.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "MoeKoeMusic/MoeKoeMusic": {
+  "tag": "v1.7.2",
+  "n_assets": 15,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "MoeKoe_Music_Setup_v1.7.2-x64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "MoeKoe_Music_v1.7.2-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "MoeKoe_Music_v1.7.2-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "Louis-CFM/coucou": {
+  "tag": "v0.5.8",
+  "n_assets": 1,
+  "prerelease": false,
+  "cells": {},
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  },
+  "cause": "assets_but_no_desktop_installer"
+ },
+ "massCodeIO/massCode": {
+  "tag": "v6.3.1",
+  "n_assets": 15,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "massCode-6.3.1-x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "massCode-6.3.1-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "massCode-6.3.1.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "massCode-6.3.1.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "massCode-6.3.1.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "InterceptSuite/ProxyBridge": {
+  "tag": "v4.1.2_MacOS",
+  "n_assets": 1,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "ProxyBridge-v4.1.2-Universal-Installer.pkg",
+    "kind": "pkg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "ProxyBridge-v4.1.2-Universal-Installer.pkg",
+    "kind": "pkg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "Beingpax/VoiceInk": {
+  "tag": "v2.27",
+  "n_assets": 1,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "VoiceInk.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "VoiceInk.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "LaoFeng-mouse/flyingmouse-format": {
+  "tag": "v0.8.3",
+  "n_assets": 4,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "FlyingMouse-Format-Setup-0.8.3-x64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "luckjiawei/frpc-desktop": {
+  "tag": "v1.2.7",
+  "n_assets": 26,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Frpc-Desktop-Setup-1.2.7.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Frpc-Desktop-1.2.7-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Frpc-Desktop-1.2.7-universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Frpc-Desktop_1.2.7_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "Frpc-Desktop-1.2.7-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "nightly-labs/openbot": {
+  "tag": "v0.67.1",
+  "n_assets": 31,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "OpenBot-0.67.1-x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "OpenBot-0.67.1-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "OpenBot-0.67.1-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "OpenBot-0.67.1-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "OpenBot-0.67.1-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "getopenscreen/openscreen": {
+  "tag": "v2.2.2",
+  "n_assets": 16,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Openscreen.Setup.2.2.2-x64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Openscreen.Setup.2.2.2-arm64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Openscreen-Mac-arm64-2.2.2.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "Openscreen-Mac-x64-2.2.2.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-x64": {
+    "asset": "Openscreen-Linux-2.2.2.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Openscreen-Linux-2.2.2.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "pawelsalawa/letos": {
+  "tag": "4.0.4",
+  "n_assets": 10,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Letos-4.0.4-windows-x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Letos-4.0.4-windows-arm64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "letos-4.0.4-macos-universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "letos-4.0.4-macos-universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Letos-4.0.4-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Letos-4.0.4-aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "aleksey-hoffman/sigma-file-manager": {
+  "tag": "v2.2.0",
+  "n_assets": 5,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Sigma-File-Manager-2.2.0-windows-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Sigma-File-Manager-2.2.0-linux.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Sigma-File-Manager-2.2.0-linux.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": false,
+   "linux": true
+  }
+ },
+ "purocean/yn": {
+  "tag": "v3.93.1",
+  "n_assets": 21,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Yank-Note-win-x64-3.93.1.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "Yank-Note-mac-arm64-3.93.1.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Yank-Note-mac-x64-3.93.1.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Yank-Note-linux-x86_64-3.93.1.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Yank-Note-linux-arm64-3.93.1.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "ytmdesktop/ytmdesktop": {
+  "tag": "v2.1.0",
+  "n_assets": 9,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "YouTube.Music.Desktop.App-2.1.0.Setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "YouTube.Music.Desktop.App-darwin-arm64-2.1.0.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "YouTube.Music.Desktop.App-darwin-x64-2.1.0.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-x64": {
+    "asset": "youtube-music-desktop-app_2.1.0_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "youtube-music-desktop-app_2.1.0_arm64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "rullerzhou-afk/clawd-on-desk": {
+  "tag": "v1.6.0",
+  "n_assets": 13,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Clawd-on-Desk-Setup-1.6.0-x64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Clawd-on-Desk-Setup-1.6.0-arm64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Clawd-on-Desk-1.6.0-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Clawd-on-Desk-1.6.0-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Clawd-on-Desk-1.6.0-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "hovancik/stretchly": {
+  "tag": "v1.22.1",
+  "n_assets": 27,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Stretchly-Setup-1.22.1.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Stretchly-1.22.1-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Stretchly-1.22.1.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Stretchly_1.22.1_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "Stretchly-1.22.1-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "kando-menu/kando": {
+  "tag": "v3.0.1",
+  "n_assets": 16,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Kando-3.0.1.Setup-x64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Kando-3.0.1.Setup-arm64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Kando-3.0.1-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Kando-3.0.1-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Kando-3.0.1-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Kando-3.0.1-aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "ipfs/ipfs-desktop": {
+  "tag": "v0.50.1",
+  "n_assets": 15,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "ipfs-desktop-setup-0.50.1-win-x64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "ipfs-desktop-0.50.1-mac.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "ipfs-desktop-0.50.1-mac.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "ipfs-desktop-0.50.1-linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "LibreCAD/LibreCAD": {
+  "tag": "v2.2.1.6",
+  "n_assets": 11,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "LibreCAD-v2.2.1.6-win64-msvc.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "LibreCAD-v2.2.1.6-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "LibreCAD-v2.2.1.6.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "LibreCAD-v2.2.1.6-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "LibreCAD-v2.2.1.6-aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "op7418/CodePilot": {
+  "tag": "v0.67.17",
+  "n_assets": 20,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "CodePilot.Setup.0.67.17.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "CodePilot-0.67.17-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "CodePilot-0.67.17-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "CodePilot-0.67.17-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "CodePilot-0.67.17-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "truelockmc/streambert": {
+  "tag": "2.7.0",
+  "n_assets": 6,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Streambert.Setup.2.7.0.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Streambert-2.7.0-universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Streambert-2.7.0-universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "streambert_2.7.0_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "Streambert-2.7.0.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "netless-io/flat": {
+  "tag": "v2.3.6",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "ThinkInAIXYZ/deepchat": {
+  "tag": "v1.1.3",
+  "n_assets": 19,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "DeepChat-1.1.3-windows-x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "windows-arm64": {
+    "asset": "DeepChat-1.1.3-windows-arm64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "DeepChat-1.1.3-mac-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "DeepChat-1.1.3-mac-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "DeepChat-1.1.3-linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "DeepChat-1.1.3-linux-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "KunAgent/Kun": {
+  "tag": "v0.4.5",
+  "n_assets": 16,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Kun-0.4.5-win-x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "Kun-0.4.5-mac-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Kun-0.4.5-mac-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Kun-0.4.5-linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Kun-0.4.5-linux-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "ARahim3/DigUp": {
+  "tag": "v0.6.2",
+  "n_assets": 1,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "DigUp-0.6.2.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "DigUp-0.6.2.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "Sylinko/Everywhere": {
+  "tag": "v0.8.2",
+  "n_assets": 4,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Everywhere-Windows-x64-Setup-v0.8.2.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Everywhere-macOS-arm64-v0.8.2.pkg",
+    "kind": "pkg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Everywhere-macOS-x64-v0.8.2.pkg",
+    "kind": "pkg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "JannisX11/blockbench": {
+  "tag": "v5.2.2",
+  "n_assets": 21,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Blockbench_x64_5.2.2.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "windows-arm64": {
+    "asset": "Blockbench_arm64_5.2.2.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "Blockbench_arm64_5.2.2.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Blockbench_x64_5.2.2.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Blockbench_5.2.2.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Blockbench_5.2.2.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "netease-youdao/LobsterAI": {
+  "tag": "2026.11.6",
+  "n_assets": 4,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "LobsterAI--win-x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "LobsterAI--mac-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "LobsterAI--mac-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "smol-ai/GodMode": {
+  "tag": "v1.0.0-beta.10",
+  "n_assets": 8,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "GodMode.Setup.1.0.0-beta.10.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "GodMode-1.0.0-beta.10-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "GodMode-1.0.0-beta.10-universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "GodMode-1.0.0-beta.10.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "GodMode-1.0.0-beta.10-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "1Remote/1Remote": {
+  "tag": "1.3.1",
+  "n_assets": 6,
+  "prerelease": false,
+  "cells": {},
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  },
+  "cause": "assets_but_no_desktop_installer"
+ },
+ "shuakami/qq-chat-exporter": {
+  "tag": "v6.4.3",
+  "n_assets": 6,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "NapCat-QCE-Windows-x64-v6.4.3.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "NapCat-QCE-macOS-arm64-v6.4.3.tar.gz",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-x64": {
+    "asset": "NapCat-QCE-Linux-x64-v6.4.3.tar.gz",
+    "kind": "zip",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "YILS-LIN/short-video-factory": {
+  "tag": "v1.4.0",
+  "n_assets": 3,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "short-video-factory-1.4.0-win-x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "short-video-factory-1.4.0-mac-universal-installer.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "short-video-factory-1.4.0-mac-universal-installer.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "short-video-factory-1.4.0-linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "LokerL/tts-vue": {
+  "tag": "1.9.15",
+  "n_assets": 2,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "tts-vue-windows-latest.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "tts-vue-macos-latest.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "tts-vue-macos-latest.zip",
+    "kind": "zip",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "pdfarranger/pdfarranger": {
+  "tag": "1.14.0",
+  "n_assets": 2,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "pdfarranger-1.14.0-windows-installer.msi",
+    "kind": "msi",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "pbek/QOwnNotes": {
+  "tag": "v26.11.7",
+  "n_assets": 17,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "QOwnNotes.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "QOwnNotes.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "QOwnNotes.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "QOwnNotes-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "microsoft/skill-recorder": {
+  "tag": "v0.8.0",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "kimlimjustin/xplorer": {
+  "cause": "404_no_release"
+ },
+ "caamer20/Telegram-Drive": {
+  "tag": "v4.1.4",
+  "n_assets": 22,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Telegram.Drive_4.1.4_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Telegram.Drive_4.1.4_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Telegram.Drive_4.1.4_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Telegram.Drive_4.1.4_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "anmolkapil/plexo": {
+  "tag": "v1.0.0-rc.15",
+  "n_assets": 20,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "plexo-1.0.0-rc.15-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "plexo-1.0.0-rc.15-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "plexo-1.0.0-rc.15-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "plexo-1.0.0-rc.15-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "plexo-1.0.0-rc.15-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "Achilng/floral-notepaper": {
+  "tag": "v1.2.0",
+  "n_assets": 10,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "floral-notepaper_1.2.0_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "floral-notepaper_1.2.0_aarch64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "floral-notepaper_1.2.0_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "floral-notepaper_1.2.0_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "floral-notepaper_1.2.0_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "Splode/pomotroid": {
+  "tag": "v1.7.1",
+  "n_assets": 10,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Pomotroid_1.7.1_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Pomotroid_1.7.1_universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Pomotroid_1.7.1_universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Pomotroid_1.7.1_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "liriliri/aya": {
+  "tag": "v1.14.2",
+  "n_assets": 4,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "AYA-1.14.2-win-x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "AYA-1.14.2-mac-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "AYA-1.14.2-mac-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "AYA-1.14.2-linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "volcengine/MineContext": {
+  "tag": "v0.1.8",
+  "n_assets": 4,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "MineContext-0.1.8-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "MineContext-0.1.8.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "MineContext-0.1.8.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "OpenSelena/omniget": {
+  "tag": "v0.15.1",
+  "n_assets": 31,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "OmniGet_0.15.1_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "OmniGet_0.15.1_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "OmniGet_0.15.1_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "OmniGet_0.15.1_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "OmniGet_0.15.1_aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "aipoch/open-science": {
+  "tag": "v1.2.1",
+  "n_assets": 31,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "aipoch-open-science-1.2.1-win-x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "aipoch-open-science-1.2.1-mac-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "aipoch-open-science-1.2.1-mac-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "aipoch-open-science-1.2.1-linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "aipoch-open-science-1.2.1-linux-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "harry0703/MangoDisk": {
+  "tag": "v1.2.3",
+  "n_assets": 9,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "MangoDisk-1.2.3-windows-cli.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "MangoDisk-1.2.3-macos.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "MangoDisk-1.2.3-macos.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "MangoDisk-1.2.3-linux-x64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "MangoDisk-1.2.3-linux-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "hql287/Manta": {
+  "tag": "v1.1.4",
+  "n_assets": 12,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Manta.Setup.1.1.4.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Manta-1.1.4.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Manta-1.1.4.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Manta-1.1.4-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "TabularisDB/tabularis": {
+  "tag": "v0.32.0",
+  "n_assets": 19,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "tabularis_0.32.0_winget_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "tabularis_0.32.0_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "tabularis_0.32.0_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "tabularis_0.32.0_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "altair-graphql/altair": {
+  "tag": "v8.5.11",
+  "n_assets": 17,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "altair_8.5.11_x64_win.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "altair_8.5.11_arm64_mac.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "altair_8.5.11_x64_mac.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "altair_8.5.11_x86_64_linux.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "altair_8.5.11_arm64_linux.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "gitify-app/gitify": {
+  "tag": "v8.1.0",
+  "n_assets": 12,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Gitify-Setup-8.1.0.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Gitify-8.1.0-universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Gitify-8.1.0-universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "gitify_8.1.0_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "Gitify-8.1.0.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "RamonUnch/AltSnap": {
+  "tag": "1.68",
+  "n_assets": 6,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "AltSnap1.68-x64-inst.exe",
+    "kind": "exe-installer",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "spieglt/FlyingCarpet": {
+  "tag": "v10.0.0",
+  "n_assets": 10,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "FlyingCarpet_10.0.0_x64_en-US.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "macOS_FlyingCarpet_10.0.4.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "macOS_FlyingCarpet_10.0.4.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-x64": {
+    "asset": "linux_FlyingCarpet_10.0.5_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "tagspaces/tagspaces": {
+  "tag": "v6.14.3",
+  "n_assets": 17,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "tagspaces-win-x64-6.14.3.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "windows-arm64": {
+    "asset": "tagspaces-win-arm64-6.14.3.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "tagspaces-mac-arm64-6.14.3.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "tagspaces-mac-x64-6.14.3.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "tagspaces-linux-x86_64-6.14.3.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "tagspaces-linux-arm64-6.14.3.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "TomBadash/Mouser": {
+  "tag": "v3.7.3",
+  "n_assets": 5,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Mouser-Windows.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "Mouser-macOS-intel.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "Mouser-macOS-intel.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-x64": {
+    "asset": "Mouser-Linux.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "Mouser-Linux.zip",
+    "kind": "zip",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "akiraux/Akira": {
+  "tag": "v0.0.16",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "Librum-Reader/Librum": {
+  "tag": "v.0.12.2",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "Soundnode/soundnode-app": {
+  "tag": "7.0.0",
+  "n_assets": 3,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Soundnode-win32-x64.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "Soundnode-darwin-x64.tar.xz",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-x64": {
+    "asset": "Soundnode-linux-x64.tar.xz",
+    "kind": "zip",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "dmMaze/BallonsTranslator": {
+  "tag": "v1.5.21",
+  "n_assets": 1,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Ballonstranslator_win_minium.zip",
+    "kind": "zip",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "opentrack/opentrack": {
+  "tag": "opentrack-2026.1.0",
+  "n_assets": 3,
+  "prerelease": false,
+  "cells": {},
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  },
+  "cause": "assets_but_no_desktop_installer"
+ },
+ "ddddxxx/LyricsX": {
+  "tag": "v1.6.3",
+  "n_assets": 1,
+  "prerelease": false,
+  "cells": {},
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  },
+  "cause": "assets_but_no_desktop_installer"
+ },
+ "IsmaelMartinez/teams-for-linux": {
+  "tag": "v2.28.0",
+  "n_assets": 22,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "teams-for-linux-Setup-2.28.0.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "teams-for-linux-2.28.0-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "teams-for-linux-2.28.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "teams-for-linux_2.28.0_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "teams-for-linux-2.28.0-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "transformerlab/transformerlab-app": {
+  "tag": "v0.40.1",
+  "n_assets": 2,
+  "prerelease": false,
+  "cells": {},
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  },
+  "cause": "assets_but_no_desktop_installer"
+ },
+ "colanode/colanode": {
+  "tag": "v0.4.7",
+  "n_assets": 7,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Colanode-0.4.7.Setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Colanode-0.4.7-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Colanode-0.4.7-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "KDAB/hotspot": {
+  "tag": "v1.6.0",
+  "n_assets": 8,
+  "prerelease": false,
+  "cells": {
+   "linux-x64": {
+    "asset": "hotspot-v1.6.0-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": true
+  }
+ },
+ "productdevbook/port-killer": {
+  "tag": "v3.4.0",
+  "n_assets": 4,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "PortKiller-v3.4.0-windows-x64.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "windows-arm64": {
+    "asset": "PortKiller-v3.4.0-windows-arm64.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "PortKiller-v3.4.0-macos.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "PortKiller-v3.4.0-macos.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "PortKiller-v3.4.0-linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "totec448-spec/chat-on-steroids": {
+  "tag": "v2.1.51",
+  "n_assets": 15,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Chat-On-Steroids-Setup-x64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Chat-On-Steroids-Setup-arm64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Chat-On-Steroids-macOS-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Chat-On-Steroids-macOS-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Chat-On-Steroids-Linux-x64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Chat-On-Steroids-Linux-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "martin-olivier/airgorah": {
+  "tag": "v0.9.0",
+  "n_assets": 6,
+  "prerelease": false,
+  "cells": {
+   "linux-x64": {
+    "asset": "airgorah_0.9.0_x86_64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "airgorah_0.9.0_aarch64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": true
+  }
+ },
+ "mavlink/qgroundcontrol": {
+  "tag": "v5.1.5",
+  "n_assets": 6,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "QGroundControl-installer-AMD64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "QGroundControl-installer-ARM64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "QGroundControl.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "QGroundControl.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "QGroundControl-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "QGroundControl-aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "NaoTu/DesktopNaotu": {
+  "tag": "v3.2.3",
+  "n_assets": 4,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "DesktopNaotu-win32-x64.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "DesktopNaotu-darwin-x64.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-x64": {
+    "asset": "DesktopNaotu-linux-x64.zip",
+    "kind": "zip",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "t1m0thyj/WinDynamicDesktop": {
+  "tag": "v5.7.0",
+  "n_assets": 7,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "WinDynamicDesktop_5.7.0_x64_Setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "WinDynamicDesktop_5.7.0_arm64_Setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "hbons/SparkleShare": {
+  "tag": "3.38.1",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "TechUnRestricted/WinDiskWriter": {
+  "tag": "v1.3",
+  "n_assets": 3,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "WinDiskWriter.1.3.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "WinDiskWriter.v1.3_Tahoe_26.0+.Apple_Silicon.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "WinDiskWriter.v1.3_Tahoe_26.0+.Apple_Silicon.zip",
+    "kind": "zip",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "codeforreal1/compressO": {
+  "tag": "4.1.0",
+  "n_assets": 14,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "CompressO_4.1.0_x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "CompressO_4.1.0_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "CompressO_4.1.0_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "CompressO_4.1.0_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "streamlabs/desktop": {
+  "cause": "404_no_release"
+ },
+ "deepnight/ldtk": {
+  "tag": "v1.5.3",
+  "n_assets": 5,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "LDtk-1.5.3-installer.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "mac-distribution.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "mac-distribution.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-x64": {
+    "asset": "ubuntu-distribution.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "ubuntu-distribution.zip",
+    "kind": "zip",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "EpicenterHQ/epicenter": {
+  "tag": "v7.11.0",
+  "n_assets": 14,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Whispering_7.11.0_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Whispering_7.11.0_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Whispering_7.11.0_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "tangshimin/MuJing": {
+  "tag": "v2.12.3",
+  "n_assets": 4,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "MuJing-2.12.3.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "MuJing-2.12.3-aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "MuJing-2.12.3-x86_64.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "harmonoid/harmonoid": {
+  "tag": "v0.3.37",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "sqlectron/sqlectron": {
+  "tag": "v1.39.0",
+  "n_assets": 16,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "sqlectron-Setup-1.39.0.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "sqlectron-1.39.0-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "sqlectron-1.39.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "sqlectron_1.39.0_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "vaibhavpandeyvpz/apkstudio": {
+  "tag": "v6.3.0",
+  "n_assets": 3,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "ApkStudio-Windows-x64.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "ApkStudio-macOS-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "ApkStudio-v6.3.0-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "buresdv/Cork": {
+  "tag": "v2.1.2",
+  "n_assets": 1,
+  "prerelease": false,
+  "cells": {},
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  },
+  "cause": "assets_but_no_desktop_installer"
+ },
+ "meetfranz/franz": {
+  "tag": "v5.11.0",
+  "n_assets": 15,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Franz-Setup-5.11.0.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Franz-5.11.0-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Franz-5.11.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "franz_5.11.0_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "Franz-5.11.0.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "oliverschwendener/ueli": {
+  "tag": "v9.29.1",
+  "n_assets": 25,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Ueli-Setup-9.29.1.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Ueli-9.29.1-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Ueli-9.29.1.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "ueli_9.29.1_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "Ueli-9.29.1-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "zhukunpenglinyutong/desktop-cc-gui": {
+  "tag": "v1.2.2",
+  "n_assets": 13,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "CC.GUI_1.2.2_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "ccgui_1.2.2_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "ccgui_1.2.2_x86_64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "CC.GUI_1.2.2_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "kdzwinel/betwixt": {
+  "tag": "1.6.1",
+  "n_assets": 5,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Betwixt-win32-x64.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "Betwixt-darwin-x64.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-x64": {
+    "asset": "Betwixt-linux-x64.zip",
+    "kind": "zip",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "Ulauncher/Ulauncher": {
+  "tag": "5.16.3",
+  "n_assets": 2,
+  "prerelease": false,
+  "cells": {
+   "linux-x64": {
+    "asset": "ulauncher_5.16.3_all.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "ulauncher_5.16.3_all.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": true
+  }
+ },
+ "graphif/project-graph": {
+  "tag": "v4.3.6",
+  "n_assets": 9,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Project.Graph_4.3.6_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Project.Graph_4.3.6_universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Project.Graph_4.3.6_universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Project.Graph_4.3.6_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "meowtec/imgo": {
+  "tag": "v1.1.0",
+  "n_assets": 14,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "imgo_1.1.0_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "imgo_1.1.0_arm64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "imgo_1.1.0_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "imgo_1.1.0_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "imgo_1.1.0_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "imgo_1.1.0_aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "Dimillian/CodexMonitor": {
+  "tag": "v0.7.67",
+  "n_assets": 15,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Codex.Monitor_0.7.67_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "CodexMonitor_0.7.67_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Codex.Monitor_0.7.67_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Codex.Monitor_0.7.67_aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "julyx10/lap": {
+  "tag": "v0.3.3",
+  "n_assets": 15,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Lap_0.3.3_x64_en-US.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Lap_0.3.3_arm64_en-US.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Lap_0.3.3_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Lap_0.3.3_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Lap_0.3.3_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Lap_0.3.3_aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "ocsjs/ocsjs": {
+  "tag": "5.4.0",
+  "n_assets": 6,
+  "prerelease": false,
+  "cells": {},
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  },
+  "cause": "assets_but_no_desktop_installer"
+ },
+ "clementine-player/Clementine": {
+  "tag": "1.4.5",
+  "n_assets": 40,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "ClementineSetup-1.4.5.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "clementine-1.4.5.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "clementine-1.4.5.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "clementine_1.4.5.bookworm_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "clementine_1.4.5.bookworm_arm64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "f/textream": {
+  "tag": "v1.7.1",
+  "n_assets": 2,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "Textream-macos15.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Textream-macos15.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "nuttyartist/notes": {
+  "tag": "v2.3.1",
+  "n_assets": 14,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Notes_2.3.1-Qt5.15.2-x64-Windows-Portable.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "Notes.2.3.1.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Notes_2.3.1-Qt5.15.2-x86_64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Notes_2.3.1-Qt5.15.2-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "pulsar-edit/pulsar": {
+  "tag": "v1.133.1",
+  "n_assets": 17,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Windows.Pulsar.Setup.1.133.1.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Silicon.Mac.Pulsar-1.133.1-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Intel.Mac.Pulsar-1.133.1.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Linux.pulsar_1.133.1_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "ARM.Linux.Pulsar-1.133.1-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "SimonAKing/scrcpy-gui": {
+  "tag": "v2.5.0",
+  "n_assets": 16,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Scrcpy.GUI-2.5.0-win-x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "Scrcpy.GUI-2.5.0-mac-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Scrcpy.GUI-2.5.0-mac-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Scrcpy.GUI-2.5.0-linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "kksimp/Mac.apk": {
+  "tag": "v1.0.2379",
+  "n_assets": 7,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "macapk.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "macapk.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "PintaProject/Pinta": {
+  "tag": "3.1.2",
+  "n_assets": 8,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Pinta-x86_64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "windows-arm64": {
+    "asset": "Pinta-arm64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "Pinta-macos-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Pinta-macos-x86_64.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "lencx/nofwl": {
+  "tag": "v0.1.0",
+  "n_assets": 12,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "NoFWL_0.1.0_windows_x86_64.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "NoFWL_0.1.0_macos_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "NoFWL_0.1.0_macos_x86_64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "NoFWL_0.1.0_linux_x86_64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "Open-Less/openless": {
+  "tag": "v2.0.1-tauri",
+  "n_assets": 32,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "OpenLess_2.0.1+build.20261016_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "OpenLess_2.0.1+build.20261016_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "OpenLess_2.0.1+build.20261016_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "strawberrymusicplayer/strawberry": {
+  "tag": "1.2.31",
+  "n_assets": 37,
+  "prerelease": false,
+  "cells": {
+   "linux-x64": {
+    "asset": "strawberry-dbgsym_1.2.31-bookworm_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": true
+  }
+ },
+ "matt1398/claude-devtools": {
+  "tag": "v0.5.0",
+  "n_assets": 17,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "claude-devtools-Setup-0.5.0-x64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "claude-devtools-0.5.0-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "claude-devtools-0.5.0-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "claude-devtools-0.5.0-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "crmne/zapfast": {
+  "tag": "v0.21.1",
+  "n_assets": 18,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "zapfast-v0.21.1-x86_64-pc-windows-msvc.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "zapfast-v0.21.1-aarch64-pc-windows-msvc.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "zapfast-v0.21.1-macos-universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "zapfast-v0.21.1-macos-universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "zapfast-0.21.1-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "zapfast-0.21.1-aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "nextcloud/desktop": {
+  "tag": "v35.0.3",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "ilysenko/codex-desktop-linux": {
+  "cause": "404_no_release"
+ },
+ "SpriteOvO/AirPodsDesktop": {
+  "tag": "v0.6.1",
+  "n_assets": 3,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "AirPodsDesktop-0.6.1-win64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "InukaAsith/TwinDesk": {
+  "tag": "v3.0.0",
+  "n_assets": 10,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "TwinDesk-Setup-3.0.0.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "TwinDesk-Setup-3.0.0-arm64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "TwinDesk-3.0.0-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "TwinDesk-3.0.0-x64_Intel.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "tutti-os/tutti": {
+  "tag": "v0.2.33",
+  "n_assets": 18,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Tutti-0.2.33-win-x64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "Tutti-0.2.33-mac-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Tutti-0.2.33-mac-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "autokey/autokey": {
+  "tag": "v0.96.0",
+  "n_assets": 3,
+  "prerelease": false,
+  "cells": {
+   "linux-x64": {
+    "asset": "autokey-common_0.96.0_all.deb",
+    "kind": "deb",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "autokey-common_0.96.0_all.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": true
+  }
+ },
+ "hoowhoami/EchoMusic": {
+  "tag": "v2.3.2",
+  "n_assets": 20,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "EchoMusic-2.3.2-Windows-Setup-x64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "EchoMusic-2.3.2-Windows-Setup-arm64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "EchoMusic-2.3.2-macOS-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "EchoMusic-2.3.2-macOS-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "EchoMusic-2.3.2-linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "EchoMusic-2.3.2-linux-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "shinyflvre/Mate-Engine": {
+  "tag": "Public-Release-X3.3.0",
+  "n_assets": 1,
+  "prerelease": false,
+  "cells": {},
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  },
+  "cause": "assets_but_no_desktop_installer"
+ },
+ "nilbuild/pennywise": {
+  "tag": "v0.8.0",
+  "n_assets": 15,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "pennywise-setup-0.8.0.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Pennywise-0.8.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Pennywise-0.8.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "pennywise-0.8.0-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "golutra/golutra": {
+  "tag": "v0.3.4",
+  "n_assets": 26,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "golutra_windows_x86_64.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "golutra_windows_aarch64.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "golutra_darwin_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "golutra_darwin_x86_64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "golutra_linux_x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "golutra_linux_aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "Shrey113/Android-Dex": {
+  "tag": "Android-Dex-v.1.5",
+  "n_assets": 7,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Android_Dex_Windows_x64.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "windows-arm64": {
+    "asset": "Android_Dex_Windows_ARM64.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "Android_Dex_macOS.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "Android_Dex_macOS.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-x64": {
+    "asset": "Android_Dex_Linux_x64.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-arm64": {
+    "asset": "Android_Dex_Linux_ARM64.zip",
+    "kind": "zip",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "AmintaCCCP/GithubStarsManager": {
+  "tag": "v0.9.0",
+  "n_assets": 4,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "GitHub.Stars.Manager.Setup.0.9.0.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "GitHub.Stars.Manager-0.9.0-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "GitHub.Stars.Manager-0.9.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "GitHub.Stars.Manager-0.9.0.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "GitHub.Stars.Manager-0.9.0.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "Kuingsmile/PicList": {
+  "tag": "v3.6.1",
+  "n_assets": 27,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "PicList-Setup-3.6.1-x64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "PicList-Setup-3.6.1-arm64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "PicList-3.6.1-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "PicList-3.6.1-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "PicList-3.6.1-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "PicList-3.6.1-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "christianloopp/komorebi": {
+  "tag": "v2.1",
+  "n_assets": 1,
+  "prerelease": false,
+  "cells": {
+   "linux-x64": {
+    "asset": "komorebi-2.1-64-bit.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": true
+  }
+ },
+ "Folkbench/folkbench": {
+  "cause": "404_no_release"
+ },
+ "Ruben2776/PicView": {
+  "tag": "5.2.2",
+  "n_assets": 6,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Setup-PicView-v5.2.2-win-x64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Setup-PicView-v5.2.2-win-arm64.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "PicView-5.2.2-macOS-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "PicView-5.2.2-macOS-x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "jurplel/qView": {
+  "tag": "7.1",
+  "n_assets": 10,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "qView-7.1-win64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "windows-arm64": {
+    "asset": "qView-7.1-winarm64.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "qView-7.1-legacy.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "qView-7.1-legacy.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "qView-7.1-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "gee1k/uPic": {
+  "tag": "v0.21.1",
+  "n_assets": 1,
+  "prerelease": false,
+  "cells": {},
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  },
+  "cause": "assets_but_no_desktop_installer"
+ },
+ "oblador/hush": {
+  "tag": "v1.0",
+  "n_assets": 1,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "Hush.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Hush.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "gqrx-sdr/gqrx": {
+  "tag": "v2.17.7",
+  "n_assets": 4,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Gqrx-2.17.7-Windows.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "Gqrx-2.17.7-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Gqrx-2.17.7-x86_64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Gqrx-2.17.7-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "PurpleDoubleD/locally-uncensored": {
+  "tag": "v3.0.10",
+  "n_assets": 25,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Locally.Uncensored_3.0.10_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "LU_3.0.10_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Locally.Uncensored_3.0.10_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "thtbee/nectarlink": {
+  "tag": "v0.1.5",
+  "n_assets": 9,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Nectarlink-0.1.5-x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Nectarlink-0.1.5-arm64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Nectarlink-0.1.5-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": false,
+   "linux": true
+  }
+ },
+ "Dailin521/codex-provider-sync": {
+  "tag": "v1.0.4",
+  "n_assets": 10,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "CodexProviderSync-1.0.4-windows-x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client": {
+  "tag": "v1.1.0",
+  "n_assets": 12,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Google-Assistant-Setup-1.1.0.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Google-Assistant-1.1.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Google-Assistant-1.1.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Google-Assistant-Setup-1.1.0-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "AChep/keyguard-app": {
+  "tag": "r20261109",
+  "n_assets": 21,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Keyguard-3.8.0.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Keyguard-3.8.0-aarch64.msi",
+    "kind": "msi",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Keyguard-3.8.0-apple.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Keyguard-3.8.0-apple.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Keyguard-3.8.0-linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Keyguard-3.8.0-linux-aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "dsh-tauri/deepseek-harness-desktop": {
+  "tag": "v0.31.4",
+  "n_assets": 19,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Deepseek.Harness.Desktop_0.31.4_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Deepseek.Harness.Desktop_0.31.4_arm64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Deepseek.Harness.Desktop_0.31.4_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Deepseek.Harness.Desktop_0.31.4_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Deepseek.Harness.Desktop_0.31.4_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Deepseek.Harness.Desktop_0.31.4_aarch64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "shiyutim/tickets": {
+  "tag": "v0.6.1",
+  "n_assets": 8,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "tickets_0.6.1_x64-setup.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "tickets_0.6.1_aarch64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "tickets_0.6.1_x64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "tickets_0.6.1_amd64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "BilibiliVideoDownload/BilibiliVideoDownload": {
+  "tag": "v3.3.3",
+  "n_assets": 3,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "BilibiliVideoDownload.Setup.3.3.3.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "BilibiliVideoDownload-3.3.3.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "BilibiliVideoDownload-3.3.3.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "BilibiliVideoDownload-3.3.3.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "BilibiliVideoDownload-3.3.3.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "Legcord/Legcord": {
+  "tag": "v1.3.1",
+  "n_assets": 33,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Legcord-1.3.1-win-x64.appx",
+    "kind": "appx",
+    "strict": true
+   },
+   "windows-arm64": {
+    "asset": "Legcord-1.3.1-win-arm64.appx",
+    "kind": "appx",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Legcord-1.3.1-mac-universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Legcord-1.3.1-mac-universal.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "Legcord-1.3.1-linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "Legcord-1.3.1-linux-arm64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "lbryio/lbry-desktop": {
+  "tag": "v0.53.9",
+  "n_assets": 12,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "LBRY_0.53.9.exe",
+    "kind": "exe-ambiguous",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "LBRY_0.53.9.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "LBRY_0.53.9.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "LBRY_0.53.9.AppImage",
+    "kind": "appimage",
+    "strict": true
+   },
+   "linux-arm64": {
+    "asset": "LBRY_0.53.9.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "antonycourtney/tad": {
+  "tag": "v0.14.0",
+  "n_assets": 16,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Tad-Setup-0.14.0.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Tad-0.14.0-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "Tad-0.14.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "tad_0.14.0_amd64.deb",
+    "kind": "deb",
+    "strict": false
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "mortbopet/Ripes": {
+  "tag": "v2.3.1",
+  "n_assets": 3,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Ripes-v2.3.1-win-x86_64.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-arm64": {
+    "asset": "Ripes-v2.3.1-mac-universal2.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "macos-x64": {
+    "asset": "Ripes-v2.3.1-mac-universal2.zip",
+    "kind": "zip",
+    "strict": false
+   },
+   "linux-x64": {
+    "asset": "Ripes-v2.3.1-linux-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "sveinbjornt/Platypus": {
+  "tag": "v5.5.0",
+  "n_assets": 2,
+  "prerelease": false,
+  "cells": {},
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  },
+  "cause": "assets_but_no_desktop_installer"
+ },
+ "epasveer/seer": {
+  "tag": "v2.8",
+  "n_assets": 0,
+  "prerelease": false,
+  "cells": {},
+  "cause": "zero_assets_source_only",
+  "any_os": {
+   "windows": false,
+   "macos": false,
+   "linux": false
+  }
+ },
+ "React-Proto/react-proto": {
+  "tag": "v1.0.0",
+  "n_assets": 5,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "React-Proto.Web.Setup.1.0.0.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "React-Proto-1.0.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "React-Proto-1.0.0.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "linux-x64": {
+    "asset": "react-proto-1.0.0-x86_64.AppImage",
+    "kind": "appimage",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": true
+  }
+ },
+ "henryboldi/felony": {
+  "cause": "404_no_release"
+ },
+ "lxf746/any-auto-register": {
+  "tag": "v1.0.23",
+  "n_assets": 3,
+  "prerelease": false,
+  "cells": {
+   "windows-x64": {
+    "asset": "Any.Auto.Register.Setup.1.0.23.exe",
+    "kind": "exe-installer",
+    "strict": true
+   },
+   "macos-arm64": {
+    "asset": "Any.Auto.Register-1.0.23-arm64.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": true,
+   "macos": true,
+   "linux": false
+  }
+ },
+ "Kruszoneq/macUSB": {
+  "tag": "v2.6",
+  "n_assets": 1,
+  "prerelease": false,
+  "cells": {
+   "macos-arm64": {
+    "asset": "macUSB.2.6.dmg",
+    "kind": "dmg",
+    "strict": true
+   },
+   "macos-x64": {
+    "asset": "macUSB.2.6.dmg",
+    "kind": "dmg",
+    "strict": true
+   }
+  },
+  "any_os": {
+   "windows": false,
+   "macos": true,
+   "linux": false
+  }
+ }
+}

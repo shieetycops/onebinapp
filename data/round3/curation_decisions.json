@@ -1,0 +1,2409 @@
+{
+"lachydotmcg/capri-desktop": {
+"curated": true,
+"why": [],
+"stars": 531,
+"release_http": 200,
+"n_strict_assets": 3,
+"source": "komi"
+},
+"zenangst/Syncalicious": {
+"curated": true,
+"why": [],
+"stars": 444,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"dewzor/claude-desktop-fedora": {
+"curated": true,
+"why": [],
+"stars": 223,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"Cerzi/videoswarm": {
+"curated": true,
+"why": [],
+"stars": 105,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "komi"
+},
+"nickzman/symboliclinker": {
+"curated": false,
+"why": [
+"C4a:plugin"
+],
+"stars": 916,
+"source": "cask"
+},
+"OpenNewsLabs/autoEdit_2": {
+"curated": true,
+"why": [],
+"stars": 456,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"pauljoda/Crest": {
+"curated": true,
+"why": [],
+"stars": 1236,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"Buernia/Tiejili": {
+"curated": true,
+"why": [],
+"stars": 738,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"NOVA-TECH-KIT/nova-island": {
+"curated": true,
+"why": [],
+"stars": 129,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "gh_search"
+},
+"plainhub/plain-app": {
+"curated": true,
+"why": [],
+"stars": 7178,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "komi"
+},
+"facebook/flipper": {
+"curated": false,
+"why": [
+"C1"
+],
+"stars": 13442,
+"source": "cask"
+},
+"btsouth/toolport": {
+"curated": true,
+"why": [],
+"stars": 238,
+"release_http": 200,
+"n_strict_assets": 4,
+"source": "gh_search"
+},
+"Tunnelblick/Tunnelblick": {
+"curated": true,
+"why": [],
+"stars": 3304,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"RipMeApp/ripme": {
+"curated": true,
+"why": [],
+"stars": 4145,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"multizenteam/multizen-browser": {
+"curated": true,
+"why": [],
+"stars": 204,
+"release_http": 200,
+"n_strict_assets": 4,
+"source": "gh_search"
+},
+"Rem0o/FanControl.Releases": {
+"curated": true,
+"why": [],
+"stars": 21395,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "komi"
+},
+"modstart-lib/focusany": {
+"curated": true,
+"why": [],
+"stars": 203,
+"release_http": 200,
+"n_strict_assets": 6,
+"source": "cask"
+},
+"WangQrkkk/PaperQuay": {
+"curated": true,
+"why": [],
+"stars": 326,
+"release_http": 200,
+"n_strict_assets": 5,
+"source": "gh_search"
+},
+"Mygod/VPNHotspot": {
+"curated": true,
+"why": [],
+"stars": 6675,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "komi"
+},
+"amieso/electron-releases": {
+"curated": false,
+"why": [
+"C2",
+"C3"
+],
+"stars": 0,
+"source": "cask"
+},
+"KejPi/AbracaDABra": {
+"curated": true,
+"why": [],
+"stars": 185,
+"release_http": 200,
+"n_strict_assets": 4,
+"source": "gh_search"
+},
+"wangzhishou/OneBox": {
+"curated": true,
+"why": [],
+"stars": 1154,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "komi"
+},
+"decred/decrediton": {
+"curated": true,
+"why": [],
+"stars": 189,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"baizeteam/baize-toolbox": {
+"curated": true,
+"why": [],
+"stars": 109,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "gh_search"
+},
+"Punshnut/macos-launchy": {
+"curated": true,
+"why": [],
+"stars": 205,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"sekey/sekey": {
+"curated": true,
+"why": [],
+"stars": 2519,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "cask"
+},
+"xiajingren/xhznl-todo-list": {
+"curated": true,
+"why": [],
+"stars": 318,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "gh_search"
+},
+"SunshineStream/Sunshine": {
+"curated": true,
+"why": [],
+"stars": 43263,
+"release_http": 200,
+"n_strict_assets": 7,
+"source": "komi"
+},
+"RhysSullivan/executor": {
+"curated": true,
+"why": [],
+"stars": 4387,
+"release_http": 200,
+"n_strict_assets": 3,
+"source": "cask"
+},
+"itsVicOC/bilibili-downloader": {
+"curated": true,
+"why": [],
+"stars": 158,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "gh_search"
+},
+"andrew-waters/orchard": {
+"curated": true,
+"why": [],
+"stars": 1757,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "komi"
+},
+"leminlimez/Nugget": {
+"curated": true,
+"why": [],
+"stars": 7437,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "cask"
+},
+"n457/Uncolored": {
+"curated": true,
+"why": [],
+"stars": 776,
+"release_http": 200,
+"n_strict_assets": 3,
+"source": "gh_search"
+},
+"deniscerri/ytdlnis": {
+"curated": true,
+"why": [],
+"stars": 11081,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "komi"
+},
+"salesforcecli/cli": {
+"curated": false,
+"why": [
+"C4b"
+],
+"stars": 188,
+"source": "cask"
+},
+"Lan-ce-lot/pythorch-text-classification": {
+"curated": true,
+"why": [],
+"stars": 174,
+"release_http": 404,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"thisnick/agent-wechat": {
+"curated": true,
+"why": [],
+"stars": 282,
+"release_http": 200,
+"n_strict_assets": 5,
+"source": "komi"
+},
+"hholtmann/smcFanControl": {
+"curated": true,
+"why": [],
+"stars": 2517,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"aredden/electron-G14Control": {
+"curated": true,
+"why": [],
+"stars": 206,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "gh_search"
+},
+"bitwarden/clients": {
+"curated": false,
+"why": [
+"C4a:extension"
+],
+"stars": 14208,
+"source": "komi"
+},
+"tobeycarman/QLNetcdf": {
+"curated": false,
+"why": [
+"C2",
+"C4a:plugin"
+],
+"stars": 13,
+"source": "cask"
+},
+"luyuhuang/DWords2": {
+"curated": true,
+"why": [],
+"stars": 140,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "gh_search"
+},
+"NanKillBro/glassy-music-nankill": {
+"curated": false,
+"why": [
+"C4a:extension"
+],
+"stars": 354,
+"source": "komi"
+},
+"FrigadeHQ/yap": {
+"curated": false,
+"why": [
+"C4a:framework"
+],
+"stars": 473,
+"source": "cask"
+},
+"wszqkzqk/live-photo-conv": {
+"curated": false,
+"why": [
+"C4a:library"
+],
+"stars": 237,
+"source": "gh_search"
+},
+"Augani/dory": {
+"curated": true,
+"why": [],
+"stars": 1637,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "komi"
+},
+"storytold/figcraft": {
+"curated": true,
+"why": [],
+"stars": 4820,
+"release_http": 200,
+"n_strict_assets": 5,
+"source": "cask"
+},
+"Netflix-Skunkworks/stethoscope-app": {
+"curated": true,
+"why": [],
+"stars": 464,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"alipay/SoloPi": {
+"curated": true,
+"why": [],
+"stars": 6366,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"MagerValp/AutoDMG": {
+"curated": false,
+"why": [
+"C1"
+],
+"stars": 1229,
+"source": "cask"
+},
+"otsaloma/gaupol": {
+"curated": true,
+"why": [],
+"stars": 279,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"xmannv/xkey": {
+"curated": true,
+"why": [],
+"stars": 551,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"bytedance/UI-TARS-desktop": {
+"curated": false,
+"why": [
+"C1"
+],
+"stars": 39596,
+"source": "cask"
+},
+"nicepkg/deskmakeover": {
+"curated": true,
+"why": [],
+"stars": 189,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "gh_search"
+},
+"SailfishBrowser/macOS": {
+"curated": false,
+"why": [
+"C2"
+],
+"stars": 52,
+"source": "komi"
+},
+"Celve/Peninsula": {
+"curated": true,
+"why": [],
+"stars": 459,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"alex8088/electron-toolkit": {
+"curated": true,
+"why": [],
+"stars": 215,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"520coding/confuse": {
+"curated": false,
+"why": [
+"C4a:sdk"
+],
+"stars": 2096,
+"source": "komi"
+},
+"sprout2000/elephicon": {
+"curated": true,
+"why": [],
+"stars": 160,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "cask"
+},
+"acheronfail/xi-electron": {
+"curated": true,
+"why": [],
+"stars": 345,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "gh_search"
+},
+"mpvnet-player/mpv.net": {
+"curated": true,
+"why": [],
+"stars": 5555,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"jorio/Bugdom": {
+"curated": true,
+"why": [],
+"stars": 514,
+"release_http": 200,
+"n_strict_assets": 3,
+"source": "cask"
+},
+"mahuifa/QMDemo": {
+"curated": false,
+"why": [
+"C4a:demo"
+],
+"stars": 592,
+"source": "gh_search"
+},
+"AutoHotkey/AutoHotkey": {
+"curated": true,
+"why": [],
+"stars": 13465,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"macmade/Diagnostics": {
+"curated": true,
+"why": [],
+"stars": 213,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"aehyok/video2blog": {
+"curated": true,
+"why": [],
+"stars": 339,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "gh_search"
+},
+"rekkyrosso/ampcast": {
+"curated": true,
+"why": [],
+"stars": 395,
+"release_http": 200,
+"n_strict_assets": 5,
+"source": "komi"
+},
+"sn4k3/UVtools": {
+"curated": true,
+"why": [],
+"stars": 1654,
+"release_http": 200,
+"n_strict_assets": 4,
+"source": "cask"
+},
+"setvisible/ArrowDL": {
+"curated": true,
+"why": [],
+"stars": 853,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "gh_search"
+},
+"MeanEYE/Sunflower": {
+"curated": true,
+"why": [],
+"stars": 451,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "komi"
+},
+"osxfuse/osxfuse": {
+"curated": true,
+"why": [],
+"stars": 9880,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "cask"
+},
+"giusmarci/openwhisp": {
+"curated": true,
+"why": [],
+"stars": 152,
+"release_http": 404,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"xerj-org/xerj": {
+"curated": false,
+"why": [
+"C4b"
+],
+"stars": 18827,
+"source": "komi"
+},
+"steveseguin/social_stream": {
+"curated": true,
+"why": [],
+"stars": 1177,
+"release_http": 200,
+"n_strict_assets": 5,
+"source": "cask"
+},
+"simonkrauter/NiGui": {
+"curated": true,
+"why": [],
+"stars": 786,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"signalapp/Signal-Android": {
+"curated": true,
+"why": [],
+"stars": 29608,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "komi"
+},
+"nab138/iloader": {
+"curated": true,
+"why": [],
+"stars": 4769,
+"release_http": 200,
+"n_strict_assets": 5,
+"source": "cask"
+},
+"jetli/rust-yew-realworld-example-app": {
+"curated": false,
+"why": [
+"C4a:example"
+],
+"stars": 885,
+"source": "gh_search"
+},
+"koharu-rs/koharu": {
+"curated": true,
+"why": [],
+"stars": 6636,
+"release_http": 200,
+"n_strict_assets": 5,
+"source": "komi"
+},
+"ciromattia/kcc": {
+"curated": true,
+"why": [],
+"stars": 6018,
+"release_http": 200,
+"n_strict_assets": 11,
+"source": "cask"
+},
+"sindresorhus/electron-serve": {
+"curated": true,
+"why": [],
+"stars": 486,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"BloopAI/vibe-kanban": {
+"curated": true,
+"why": [],
+"stars": 28651,
+"release_http": 200,
+"n_strict_assets": 12,
+"source": "komi"
+},
+"sybil-solutions/local-studio": {
+"curated": true,
+"why": [],
+"stars": 1845,
+"release_http": 200,
+"n_strict_assets": 11,
+"source": "cask"
+},
+"44886/Exeify": {
+"curated": true,
+"why": [],
+"stars": 203,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "gh_search"
+},
+"Vita3K/Vita3K": {
+"curated": true,
+"why": [],
+"stars": 5959,
+"release_http": 200,
+"n_strict_assets": 4,
+"source": "komi"
+},
+"runelite/launcher": {
+"curated": false,
+"why": [
+"C2"
+],
+"stars": 86,
+"source": "cask"
+},
+"TsaiKoga/it-tools": {
+"curated": true,
+"why": [],
+"stars": 121,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "gh_search"
+},
+"zellij-org/zellij": {
+"curated": true,
+"why": [],
+"stars": 36001,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "komi"
+},
+"epicenter-os/epicenter": {
+"curated": true,
+"why": [],
+"stars": 4839,
+"release_http": 200,
+"n_strict_assets": 4,
+"source": "cask"
+},
+"OyadotAI/oya-browser": {
+"curated": true,
+"why": [],
+"stars": 349,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "gh_search"
+},
+"openclaw/Peekaboo": {
+"curated": true,
+"why": [],
+"stars": 5471,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"bardsoftware/ganttproject": {
+"curated": true,
+"why": [],
+"stars": 1121,
+"release_http": 200,
+"n_strict_assets": 5,
+"source": "cask"
+},
+"JJJJSTIYYYY/alira": {
+"curated": true,
+"why": [],
+"stars": 310,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"realm/SwiftLint": {
+"curated": false,
+"why": [
+"C4a:linter"
+],
+"stars": 19787,
+"source": "komi"
+},
+"silnrsi/font-gentium": {
+"curated": true,
+"why": [],
+"stars": 116,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"MediaHarbor/mediaharbor": {
+"curated": true,
+"why": [],
+"stars": 248,
+"release_http": 200,
+"n_strict_assets": 5,
+"source": "gh_search"
+},
+"zoolapp/aime": {
+"curated": true,
+"why": [],
+"stars": 260,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"sunner/ChatALL": {
+"curated": false,
+"why": [
+"C1"
+],
+"stars": 16510,
+"source": "cask"
+},
+"Hxy1992/MapDownload": {
+"curated": true,
+"why": [],
+"stars": 415,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "gh_search"
+},
+"DDDuoDuo/EndfieldHUD": {
+"curated": true,
+"why": [],
+"stars": 178,
+"release_http": 200,
+"n_strict_assets": 3,
+"source": "komi"
+},
+"abulka/pynsource": {
+"curated": true,
+"why": [],
+"stars": 305,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"dunkbing/typeview": {
+"curated": true,
+"why": [],
+"stars": 138,
+"release_http": 200,
+"n_strict_assets": 4,
+"source": "gh_search"
+},
+"pdone/FreeControl": {
+"curated": true,
+"why": [],
+"stars": 2504,
+"release_http": 200,
+"n_strict_assets": 5,
+"source": "komi"
+},
+"1000ch/whale": {
+"curated": true,
+"why": [],
+"stars": 284,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "cask"
+},
+"DanWatkins/Terrain3D": {
+"curated": true,
+"why": [],
+"stars": 170,
+"release_http": 404,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"SkyD666/PodAura": {
+"curated": true,
+"why": [],
+"stars": 1275,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"mozilla/mozregression": {
+"curated": true,
+"why": [],
+"stars": 189,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "cask"
+},
+"zedxxx/rccextended": {
+"curated": false,
+"why": [
+"C4a:compiler"
+],
+"stars": 120,
+"source": "gh_search"
+},
+"antonmedv/fx": {
+"curated": false,
+"why": [
+"C4b"
+],
+"stars": 20713,
+"source": "komi"
+},
+"source-foundry/Hack": {
+"curated": true,
+"why": [],
+"stars": 17388,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"pmbstyle/Alice": {
+"curated": true,
+"why": [],
+"stars": 328,
+"release_http": 200,
+"n_strict_assets": 3,
+"source": "gh_search"
+},
+"UniversalMediaServer/UniversalMediaServer": {
+"curated": true,
+"why": [],
+"stars": 2669,
+"release_http": 200,
+"n_strict_assets": 6,
+"source": "komi"
+},
+"blaise-io/acelink": {
+"curated": true,
+"why": [],
+"stars": 898,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "cask"
+},
+"yuxino/Mimi": {
+"curated": true,
+"why": [],
+"stars": 846,
+"release_http": 200,
+"n_strict_assets": 5,
+"source": "gh_search"
+},
+"cocojojo5213/Dev-Janitor": {
+"curated": true,
+"why": [],
+"stars": 871,
+"release_http": 200,
+"n_strict_assets": 7,
+"source": "komi"
+},
+"scosman/Biscotti": {
+"curated": true,
+"why": [],
+"stars": 437,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "cask"
+},
+"hellozee/blender-toolbox-qt": {
+"curated": true,
+"why": [],
+"stars": 124,
+"release_http": 404,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"ptrinh/viettelex": {
+"curated": false,
+"why": [
+"C2"
+],
+"stars": 98,
+"source": "komi"
+},
+"googlefonts/alumni-sans-collegiate": {
+"curated": false,
+"why": [
+"C1",
+"C2",
+"C3"
+],
+"stars": 1,
+"source": "cask"
+},
+"lxndrblz/forensicsim": {
+"curated": true,
+"why": [],
+"stars": 124,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"isToThyMoon/lightty": {
+"curated": false,
+"why": [
+"C2",
+"C3"
+],
+"stars": 93,
+"source": "komi"
+},
+"lxgw/LxgwNeoXiHei": {
+"curated": true,
+"why": [],
+"stars": 2737,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"Blave-TW/blave-agent": {
+"curated": true,
+"why": [],
+"stars": 341,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "gh_search"
+},
+"superhighfives/pika": {
+"curated": true,
+"why": [],
+"stars": 2615,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"lnxbil/quicklook-pfm": {
+"curated": false,
+"why": [
+"C2",
+"C4a:plugin"
+],
+"stars": 32,
+"source": "cask"
+},
+"onlyet/BetaVideoMonitorClient": {
+"curated": true,
+"why": [],
+"stars": 140,
+"release_http": 404,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"QL-Win/QuickLook": {
+"curated": true,
+"why": [],
+"stars": 25729,
+"release_http": 200,
+"n_strict_assets": 3,
+"source": "komi"
+},
+"kliment/Printrun": {
+"curated": true,
+"why": [],
+"stars": 2642,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"3529/fish-book": {
+"curated": true,
+"why": [],
+"stars": 106,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "gh_search"
+},
+"Z-Siqi/Clash-for-Windows_Chinese": {
+"curated": true,
+"why": [],
+"stars": 28650,
+"release_http": 200,
+"n_strict_assets": 3,
+"source": "komi"
+},
+"Psiphon-Inc/conduit": {
+"curated": true,
+"why": [],
+"stars": 255,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "cask"
+},
+"marcomq/tauri-plugin-python": {
+"curated": false,
+"why": [
+"C4a:backend,plugin"
+],
+"stars": 163,
+"source": "gh_search"
+},
+"PowerShell/PowerShell": {
+"curated": false,
+"why": [
+"C4b"
+],
+"stars": 56105,
+"source": "komi"
+},
+"IBM/mac-ibm-notifications": {
+"curated": true,
+"why": [],
+"stars": 345,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"mvdicarlo/postybirb": {
+"curated": true,
+"why": [],
+"stars": 414,
+"release_http": 200,
+"n_strict_assets": 4,
+"source": "gh_search"
+},
+"lightgbm-org/LightGBM": {
+"curated": false,
+"why": [
+"C4a:framework"
+],
+"stars": 18966,
+"source": "komi"
+},
+"draios/sysdig-inspect": {
+"curated": true,
+"why": [],
+"stars": 1012,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"texmacs/texmacs": {
+"curated": true,
+"why": [],
+"stars": 659,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"5rahim/seanime": {
+"curated": false,
+"why": [
+"C4a:library"
+],
+"stars": 4319,
+"source": "komi"
+},
+"Lakr233/FlowDown": {
+"curated": true,
+"why": [],
+"stars": 1241,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"qqqqqf-q/Arkloop": {
+"curated": true,
+"why": [],
+"stars": 376,
+"release_http": 200,
+"n_strict_assets": 4,
+"source": "gh_search"
+},
+"Geoxor/Amethyst": {
+"curated": true,
+"why": [],
+"stars": 320,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "komi"
+},
+"lxgw/LxgwWenkaiGB-Lite": {
+"curated": false,
+"why": [
+"C2"
+],
+"stars": 57,
+"source": "cask"
+},
+"Kilian/fromscratch": {
+"curated": true,
+"why": [],
+"stars": 736,
+"release_http": 200,
+"n_strict_assets": 3,
+"source": "gh_search"
+},
+"coder/coder": {
+"curated": true,
+"why": [],
+"stars": 17363,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"aliyun/oss-browser": {
+"curated": true,
+"why": [],
+"stars": 3621,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"lettier/lambda-lantern": {
+"curated": true,
+"why": [],
+"stars": 168,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "gh_search"
+},
+"InfinityLoop1308/PipePipe": {
+"curated": true,
+"why": [],
+"stars": 7225,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "komi"
+},
+"uswds/public-sans": {
+"curated": true,
+"why": [],
+"stars": 4757,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"joyanhui/ikuai-bypass": {
+"curated": true,
+"why": [],
+"stars": 722,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "gh_search"
+},
+"Eugeny/tabby": {
+"curated": true,
+"why": [],
+"stars": 75387,
+"release_http": 200,
+"n_strict_assets": 7,
+"source": "komi"
+},
+"realm/realm-studio": {
+"curated": true,
+"why": [],
+"stars": 348,
+"release_http": 200,
+"n_strict_assets": 4,
+"source": "cask"
+},
+"Coding-Meet/News-KMP-App": {
+"curated": true,
+"why": [],
+"stars": 216,
+"release_http": 404,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"GitJournal/GitJournal": {
+"curated": true,
+"why": [],
+"stars": 4245,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "komi"
+},
+"h3poteto/whalebird-desktop": {
+"curated": true,
+"why": [],
+"stars": 933,
+"release_http": 200,
+"n_strict_assets": 3,
+"source": "cask"
+},
+"ahkohd/tauri-macos-spotlight-example": {
+"curated": false,
+"why": [
+"C4a:example,template"
+],
+"stars": 296,
+"source": "gh_search"
+},
+"dash-chat/dash-chat": {
+"curated": false,
+"why": [
+"C2"
+],
+"stars": 57,
+"source": "komi"
+},
+"gpodder/gpodder": {
+"curated": true,
+"why": [],
+"stars": 1455,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "cask"
+},
+"aydiler/md-viewer": {
+"curated": true,
+"why": [],
+"stars": 130,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"flick9000/winscript": {
+"curated": true,
+"why": [],
+"stars": 2996,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "komi"
+},
+"lidarr/Lidarr": {
+"curated": true,
+"why": [],
+"stars": 5820,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "cask"
+},
+"ccnokes/electron-tutorials": {
+"curated": false,
+"why": [
+"C4a:tutorial"
+],
+"stars": 194,
+"source": "gh_search"
+},
+"BigPizzaV3/CodexPlusPlus": {
+"curated": true,
+"why": [],
+"stars": 33049,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "komi"
+},
+"jasperapp/jasper": {
+"curated": true,
+"why": [],
+"stars": 1330,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"Narmis-E/onedark-wallpapers": {
+"curated": false,
+"why": [
+"C4a:theme"
+],
+"stars": 569,
+"source": "gh_search"
+},
+"847850277/postman-gpui": {
+"curated": true,
+"why": [],
+"stars": 102,
+"release_http": 200,
+"n_strict_assets": 3,
+"source": "komi"
+},
+"kaochenlong/spectra-app": {
+"curated": false,
+"why": [
+"C4b"
+],
+"stars": 771,
+"source": "cask"
+},
+"risa-labs-inc/BossConsole": {
+"curated": true,
+"why": [],
+"stars": 816,
+"release_http": 200,
+"n_strict_assets": 3,
+"source": "gh_search"
+},
+"utmapp/UTM": {
+"curated": true,
+"why": [],
+"stars": 36836,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"michaelvillar/timer-app": {
+"curated": true,
+"why": [],
+"stars": 2720,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"gtk-rs/gir": {
+"curated": true,
+"why": [],
+"stars": 277,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"mifi/lossless-cut": {
+"curated": true,
+"why": [],
+"stars": 45920,
+"release_http": 200,
+"n_strict_assets": 6,
+"source": "komi"
+},
+"iconic/open-iconic": {
+"curated": true,
+"why": [],
+"stars": 3581,
+"release_http": 404,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"rhx/SwiftGtk": {
+"curated": true,
+"why": [],
+"stars": 356,
+"release_http": 404,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"peteonrails/voxtype": {
+"curated": true,
+"why": [],
+"stars": 1774,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"stashpad/sp-desktop-release": {
+"curated": false,
+"why": [
+"C2"
+],
+"stars": 1,
+"source": "cask"
+},
+"CheshireMew/PuppetLoom": {
+"curated": false,
+"why": [
+"C3"
+],
+"stars": 260,
+"source": "gh_search"
+},
+"tw93/Pake": {
+"curated": true,
+"why": [],
+"stars": 63228,
+"release_http": 200,
+"n_strict_assets": 48,
+"source": "komi"
+},
+"OpenShot/openshot-qt": {
+"curated": true,
+"why": [],
+"stars": 6767,
+"release_http": 200,
+"n_strict_assets": 4,
+"source": "cask"
+},
+"wodewone/keepForMac": {
+"curated": true,
+"why": [],
+"stars": 155,
+"release_http": 404,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"mkiol/dsnote": {
+"curated": true,
+"why": [],
+"stars": 1713,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "komi"
+},
+"SAP/SapMachine": {
+"curated": true,
+"why": [],
+"stars": 630,
+"release_http": 200,
+"n_strict_assets": 4,
+"source": "cask"
+},
+"PacktPublishing/Qt-5-and-OpenCV-4-Computer-Vision-Projects": {
+"curated": true,
+"why": [],
+"stars": 231,
+"release_http": 404,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"langflow-ai/langflow": {
+"curated": true,
+"why": [],
+"stars": 156526,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "komi"
+},
+"adam7/delugia-code": {
+"curated": true,
+"why": [],
+"stars": 565,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"HerikLyma/CPPWebFramework": {
+"curated": false,
+"why": [
+"C4a:framework"
+],
+"stars": 459,
+"source": "gh_search"
+},
+"pinokiocomputer/pinokio": {
+"curated": true,
+"why": [],
+"stars": 8388,
+"release_http": 200,
+"n_strict_assets": 5,
+"source": "komi"
+},
+"pyzo/pyzo": {
+"curated": true,
+"why": [],
+"stars": 321,
+"release_http": 200,
+"n_strict_assets": 3,
+"source": "cask"
+},
+"vycdev/Kromacut": {
+"curated": true,
+"why": [],
+"stars": 320,
+"release_http": 200,
+"n_strict_assets": 5,
+"source": "gh_search"
+},
+"enfein/mieru": {
+"curated": true,
+"why": [],
+"stars": 2686,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "komi"
+},
+"theleagueof/blackout": {
+"curated": true,
+"why": [],
+"stars": 148,
+"release_http": 404,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"Jmiao11/bili-music": {
+"curated": true,
+"why": [],
+"stars": 233,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "gh_search"
+},
+"ikarus23/MifareClassicTool": {
+"curated": true,
+"why": [],
+"stars": 6544,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "komi"
+},
+"quentinlesceller/macmediakeyforwarder": {
+"curated": false,
+"why": [
+"C1"
+],
+"stars": 339,
+"source": "cask"
+},
+"runta-dev/errand": {
+"curated": true,
+"why": [],
+"stars": 143,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "gh_search"
+},
+"AntonyCorbett/OnlyM": {
+"curated": true,
+"why": [],
+"stars": 200,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"lamquangminh/EVKey": {
+"curated": true,
+"why": [],
+"stars": 308,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "cask"
+},
+"spoutn1k/mcmap": {
+"curated": true,
+"why": [],
+"stars": 337,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"N64Recomp/N64Recomp": {
+"curated": true,
+"why": [],
+"stars": 8383,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"teras/Jubler": {
+"curated": true,
+"why": [],
+"stars": 187,
+"release_http": 200,
+"n_strict_assets": 5,
+"source": "cask"
+},
+"sindresorhus/electron-better-ipc": {
+"curated": true,
+"why": [],
+"stars": 748,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"Mouseww/anything-analyzer": {
+"curated": true,
+"why": [],
+"stars": 3856,
+"release_http": 200,
+"n_strict_assets": 4,
+"source": "komi"
+},
+"kritzikratzi/Oscilloscope": {
+"curated": true,
+"why": [],
+"stars": 628,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "cask"
+},
+"DRAZY/deemix-remastered": {
+"curated": true,
+"why": [],
+"stars": 130,
+"release_http": 200,
+"n_strict_assets": 8,
+"source": "gh_search"
+},
+"vesoft-inc/nebula": {
+"curated": true,
+"why": [],
+"stars": 12467,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "komi"
+},
+"Newspicel/sdrmm": {
+"curated": true,
+"why": [],
+"stars": 371,
+"release_http": 200,
+"n_strict_assets": 7,
+"source": "cask"
+},
+"electron/get": {
+"curated": true,
+"why": [],
+"stars": 368,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"AfalpHy/sylvakru": {
+"curated": true,
+"why": [],
+"stars": 611,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "komi"
+},
+"yattee/yattee": {
+"curated": true,
+"why": [],
+"stars": 3802,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"meetqy/rao-pics": {
+"curated": true,
+"why": [],
+"stars": 795,
+"release_http": 200,
+"n_strict_assets": 3,
+"source": "gh_search"
+},
+"OpenRA/OpenRA": {
+"curated": true,
+"why": [],
+"stars": 17774,
+"release_http": 200,
+"n_strict_assets": 6,
+"source": "komi"
+},
+"cormullion/juliamono": {
+"curated": true,
+"why": [],
+"stars": 1705,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"jsuarezruiz/forms-gtk-progress": {
+"curated": false,
+"why": [
+"C4a:backend"
+],
+"stars": 193,
+"source": "gh_search"
+},
+"open-ani/animeko": {
+"curated": true,
+"why": [],
+"stars": 21679,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "komi"
+},
+"HenriWahl/Nagstamon": {
+"curated": true,
+"why": [],
+"stars": 468,
+"release_http": 200,
+"n_strict_assets": 4,
+"source": "cask"
+},
+"wangyuou/QVision": {
+"curated": true,
+"why": [],
+"stars": 112,
+"release_http": 404,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"jpillora/chisel": {
+"curated": true,
+"why": [],
+"stars": 16761,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "komi"
+},
+"NicolasConstant/sengi": {
+"curated": true,
+"why": [],
+"stars": 565,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"semlanik/qtprotobuf": {
+"curated": false,
+"why": [
+"C4a:framework"
+],
+"stars": 177,
+"source": "gh_search"
+},
+"naggie/dstask": {
+"curated": false,
+"why": [
+"C4b"
+],
+"stars": 1221,
+"source": "komi"
+},
+"CatharsisFonts/Cormorant": {
+"curated": true,
+"why": [],
+"stars": 645,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"Ubpa/RenderLab": {
+"curated": true,
+"why": [],
+"stars": 800,
+"release_http": 404,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"BCUninstaller/Bulk-Crap-Uninstaller": {
+"curated": true,
+"why": [],
+"stars": 22400,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"objective-see/OverSight": {
+"curated": true,
+"why": [],
+"stars": 696,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"bitwarden/directory-connector": {
+"curated": true,
+"why": [],
+"stars": 321,
+"release_http": 200,
+"n_strict_assets": 5,
+"source": "gh_search"
+},
+"supabitapp/supacode": {
+"curated": true,
+"why": [],
+"stars": 2400,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"napari/napari": {
+"curated": true,
+"why": [],
+"stars": 2800,
+"release_http": 200,
+"n_strict_assets": 6,
+"source": "cask"
+},
+"guark/guark": {
+"curated": false,
+"why": [
+"C4a:awesome,framework"
+],
+"stars": 758,
+"source": "gh_search"
+},
+"digimezzo/dopamine-windows": {
+"curated": true,
+"why": [],
+"stars": 2055,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"robotsquidward/unclack-releases": {
+"curated": false,
+"why": [
+"C2"
+],
+"stars": 0,
+"source": "cask"
+},
+"KenKaiii/gg-framework": {
+"curated": false,
+"why": [
+"C4a:framework"
+],
+"stars": 281,
+"source": "gh_search"
+},
+"lemonade-sdk/lemonade": {
+"curated": true,
+"why": [],
+"stars": 6181,
+"release_http": 200,
+"n_strict_assets": 3,
+"source": "komi"
+},
+"heptameta/project-meta": {
+"curated": false,
+"why": [
+"C3"
+],
+"stars": 117,
+"source": "cask"
+},
+"hiitiger/goverlay": {
+"curated": true,
+"why": [],
+"stars": 920,
+"release_http": 404,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"hect0x7/JMComic-APK": {
+"curated": true,
+"why": [],
+"stars": 6869,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "komi"
+},
+"dortania/OpenCore-Legacy-Patcher": {
+"curated": true,
+"why": [],
+"stars": 18942,
+"release_http": 200,
+"n_strict_assets": 3,
+"source": "cask"
+},
+"fridzema/oxide-dock": {
+"curated": false,
+"why": [
+"C4a:boilerplate,starter,template"
+],
+"stars": 105,
+"source": "gh_search"
+},
+"icsharpcode/ILSpy": {
+"curated": true,
+"why": [],
+"stars": 27037,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "komi"
+},
+"DistroAV/DistroAV": {
+"curated": true,
+"why": [],
+"stars": 4616,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "cask"
+},
+"ibuilder/massing": {
+"curated": true,
+"why": [],
+"stars": 135,
+"release_http": 200,
+"n_strict_assets": 4,
+"source": "gh_search"
+},
+"SteveTheKiller/KillerPDF": {
+"curated": true,
+"why": [],
+"stars": 4351,
+"release_http": 200,
+"n_strict_assets": 3,
+"source": "komi"
+},
+"jakob/TableTool": {
+"curated": true,
+"why": [],
+"stars": 1391,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"bwendell/gemini-desktop": {
+"curated": true,
+"why": [],
+"stars": 360,
+"release_http": 200,
+"n_strict_assets": 5,
+"source": "gh_search"
+},
+"koala73/worldmonitor": {
+"curated": true,
+"why": [],
+"stars": 90477,
+"release_http": 200,
+"n_strict_assets": 6,
+"source": "komi"
+},
+"andrewn/brew-services-menubar": {
+"curated": true,
+"why": [],
+"stars": 358,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"Floxu1/UAC-SNI-Spoofer-Windows": {
+"curated": true,
+"why": [],
+"stars": 526,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"opentofu/opentofu": {
+"curated": true,
+"why": [],
+"stars": 30798,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "komi"
+},
+"mdbergmann/Eloquent": {
+"curated": true,
+"why": [],
+"stars": 127,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"LYH105/iCloudEmail-Lite": {
+"curated": true,
+"why": [],
+"stars": 107,
+"release_http": 200,
+"n_strict_assets": 3,
+"source": "gh_search"
+},
+"dunkbing/dearsql": {
+"curated": true,
+"why": [],
+"stars": 190,
+"release_http": 200,
+"n_strict_assets": 4,
+"source": "komi"
+},
+"1zilc/fishing-funds": {
+"curated": false,
+"why": [
+"C1"
+],
+"stars": 1176,
+"source": "cask"
+},
+"fredakilla/spkgen": {
+"curated": true,
+"why": [],
+"stars": 190,
+"release_http": 404,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"qunqin24/Pulse": {
+"curated": true,
+"why": [],
+"stars": 633,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"thealpa/SaneSideButtons": {
+"curated": true,
+"why": [],
+"stars": 742,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "cask"
+},
+"AerialWindows/Aerial": {
+"curated": true,
+"why": [],
+"stars": 864,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "gh_search"
+},
+"dlunch/wie": {
+"curated": true,
+"why": [],
+"stars": 210,
+"release_http": 200,
+"n_strict_assets": 7,
+"source": "komi"
+},
+"psmokotnin/osm": {
+"curated": true,
+"why": [],
+"stars": 389,
+"release_http": 200,
+"n_strict_assets": 4,
+"source": "cask"
+},
+"KestrelRadarSensors/dockingpanes": {
+"curated": false,
+"why": [
+"C4a:framework,library"
+],
+"stars": 102,
+"source": "gh_search"
+},
+"Ray-lea/Argus": {
+"curated": true,
+"why": [],
+"stars": 1305,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "komi"
+},
+"OpenChemistry/avogadrolibs": {
+"curated": true,
+"why": [],
+"stars": 705,
+"release_http": 200,
+"n_strict_assets": 8,
+"source": "cask"
+},
+"mihnea-radulescu/imagefanreloaded": {
+"curated": true,
+"why": [],
+"stars": 163,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"newhinton/Round-Sync": {
+"curated": false,
+"why": [
+"C1"
+],
+"stars": 2426,
+"source": "komi"
+},
+"tvrenamer/tvrenamer": {
+"curated": true,
+"why": [],
+"stars": 156,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "cask"
+},
+"danielclough/fireside-chat": {
+"curated": true,
+"why": [],
+"stars": 144,
+"release_http": 404,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"Kuddev/pebrel": {
+"curated": true,
+"why": [],
+"stars": 3753,
+"release_http": 200,
+"n_strict_assets": 5,
+"source": "komi"
+},
+"pot-app/pot-desktop": {
+"curated": false,
+"why": [
+"C1"
+],
+"stars": 19336,
+"source": "cask"
+},
+"elibroftw/modern-desktop-app-template": {
+"curated": false,
+"why": [
+"C4a:boilerplate,template"
+],
+"stars": 371,
+"source": "gh_search"
+},
+"cheat2001/angkorgit": {
+"curated": true,
+"why": [],
+"stars": 165,
+"release_http": 200,
+"n_strict_assets": 4,
+"source": "komi"
+},
+"trueroad/HaranoAjiFonts": {
+"curated": true,
+"why": [],
+"stars": 179,
+"release_http": 404,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"maddox/kart": {
+"curated": true,
+"why": [],
+"stars": 369,
+"release_http": 404,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"thaw-app/Floe": {
+"curated": true,
+"why": [],
+"stars": 196,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"objective-see/DylibHijackScanner": {
+"curated": true,
+"why": [],
+"stars": 127,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"mmvanheusden/SteamDepotDownloaderGUI": {
+"curated": true,
+"why": [],
+"stars": 586,
+"release_http": 200,
+"n_strict_assets": 4,
+"source": "gh_search"
+},
+"waydabber/BetterDisplay": {
+"curated": true,
+"why": [],
+"stars": 34497,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"dannagle/PacketSender": {
+"curated": true,
+"why": [],
+"stars": 2687,
+"release_http": 200,
+"n_strict_assets": 3,
+"source": "cask"
+},
+"MirrorX-Desktop/MirrorX": {
+"curated": true,
+"why": [],
+"stars": 830,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "gh_search"
+},
+"pch/rawmakase": {
+"curated": true,
+"why": [],
+"stars": 1664,
+"release_http": 200,
+"n_strict_assets": 6,
+"source": "komi"
+},
+"operasoftware/operachromiumdriver": {
+"curated": true,
+"why": [],
+"stars": 267,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"cluster1900/apexo-code": {
+"curated": true,
+"why": [],
+"stars": 304,
+"release_http": 200,
+"n_strict_assets": 3,
+"source": "gh_search"
+},
+"opencv/opencv": {
+"curated": false,
+"why": [
+"C4a:library"
+],
+"stars": 91532,
+"source": "komi"
+},
+"artisan-roaster-scope/artisan": {
+"curated": true,
+"why": [],
+"stars": 1243,
+"release_http": 200,
+"n_strict_assets": 4,
+"source": "cask"
+},
+"open-indy/Koa11y": {
+"curated": true,
+"why": [],
+"stars": 441,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"firerpa/lamda": {
+"curated": true,
+"why": [],
+"stars": 8724,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"sanderland/katrain": {
+"curated": true,
+"why": [],
+"stars": 2546,
+"release_http": 200,
+"n_strict_assets": 3,
+"source": "cask"
+},
+"yhirose/react-typescript-electron-sample-with-create-react-app-and-electron-builder": {
+"curated": true,
+"why": [],
+"stars": 473,
+"release_http": 404,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"Commit-Plus/commit-plus": {
+"curated": true,
+"why": [],
+"stars": 155,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "komi"
+},
+"raine/Lolgato": {
+"curated": true,
+"why": [],
+"stars": 140,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "cask"
+},
+"giladreich/QtDirect3D": {
+"curated": true,
+"why": [],
+"stars": 163,
+"release_http": 404,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"screwys/Rufin": {
+"curated": true,
+"why": [],
+"stars": 258,
+"release_http": 200,
+"n_strict_assets": 3,
+"source": "komi"
+},
+"mattDavo/Yippy": {
+"curated": true,
+"why": [],
+"stars": 400,
+"release_http": 200,
+"n_strict_assets": 1,
+"source": "cask"
+},
+"akameco/PixivDeck": {
+"curated": true,
+"why": [],
+"stars": 449,
+"release_http": 200,
+"n_strict_assets": 2,
+"source": "gh_search"
+},
+"OuterTune/OuterTune": {
+"curated": true,
+"why": [],
+"stars": 5449,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "komi"
+},
+"jlord/git-it-electron": {
+"curated": true,
+"why": [],
+"stars": 4889,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"flaviotordini/musique": {
+"curated": true,
+"why": [],
+"stars": 147,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"okou-ai/okou": {
+"curated": true,
+"why": [],
+"stars": 1162,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "komi"
+},
+"melonDS-emu/melonDS": {
+"curated": true,
+"why": [],
+"stars": 5198,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"ruppysuppy/SmartsApp": {
+"curated": true,
+"why": [],
+"stars": 117,
+"release_http": 404,
+"n_strict_assets": 0,
+"source": "gh_search"
+},
+"Talus-Network/nexus-sdk": {
+"curated": false,
+"why": [
+"C4a:sdk",
+"C4b"
+],
+"stars": 179,
+"source": "komi"
+},
+"FreeTubeApp/FreeTube": {
+"curated": true,
+"why": [],
+"stars": 22412,
+"release_http": 404,
+"n_strict_assets": 0,
+"source": "cask"
+},
+"elementary/calendar": {
+"curated": true,
+"why": [],
+"stars": 137,
+"release_http": 200,
+"n_strict_assets": 0,
+"source": "gh_search"
+}
+}

@@ -1,0 +1,790 @@
+{
+ "basis": {
+  "OS": {
+   "isi file": 31,
+   "kesepakatan dua pelabel": 65,
+   "tidak terselesaikan": 4
+  },
+  "arch": {
+   "isi file": 20,
+   "kesepakatan dua pelabel": 71,
+   "tidak terselesaikan": 9
+  },
+  "type": {
+   "kesepakatan dua pelabel": 91,
+   "tidak terselesaikan": 9
+  }
+ },
+ "columns": {
+  "OS": {
+   "accuracy_strict_unresolved_wrong": 0.91,
+   "accuracy_unresolved_excluded": 0.9479166666666666,
+   "n_resolved": 96,
+   "accuracy_file_content_rows": 0.967741935483871,
+   "n_file_content_rows": 31,
+   "classes": {
+    "android": {
+     "tp": 1,
+     "fp_strict": 1,
+     "fp_excl": 0,
+     "fn": 0,
+     "precision_strict": 0.5,
+     "precision_excl": 1.0,
+     "recall": 1.0
+    },
+    "linux": {
+     "tp": 23,
+     "fp_strict": 1,
+     "fp_excl": 0,
+     "fn": 2,
+     "precision_strict": 0.9583333333333334,
+     "precision_excl": 1.0,
+     "recall": 0.92
+    },
+    "macos": {
+     "tp": 18,
+     "fp_strict": 0,
+     "fp_excl": 0,
+     "fn": 3,
+     "precision_strict": 1.0,
+     "precision_excl": 1.0,
+     "recall": 0.8571428571428571
+    },
+    "unknown": {
+     "tp": 36,
+     "fp_strict": 6,
+     "fp_excl": 4,
+     "fn": 0,
+     "precision_strict": 0.8571428571428571,
+     "precision_excl": 0.9,
+     "recall": 1.0
+    },
+    "windows": {
+     "tp": 13,
+     "fp_strict": 1,
+     "fp_excl": 1,
+     "fn": 0,
+     "precision_strict": 0.9285714285714286,
+     "precision_excl": 0.9285714285714286,
+     "recall": 1.0
+    }
+   }
+  },
+  "arch": {
+   "accuracy_strict_unresolved_wrong": 0.81,
+   "accuracy_unresolved_excluded": 0.8901098901098901,
+   "n_resolved": 91,
+   "accuracy_file_content_rows": 0.85,
+   "n_file_content_rows": 20,
+   "classes": {
+    "arm32": {
+     "tp": 0,
+     "fp_strict": 1,
+     "fp_excl": 1,
+     "fn": 1,
+     "precision_strict": 0.0,
+     "precision_excl": 0.0,
+     "recall": 0.0
+    },
+    "arm64": {
+     "tp": 16,
+     "fp_strict": 3,
+     "fp_excl": 0,
+     "fn": 2,
+     "precision_strict": 0.8421052631578947,
+     "precision_excl": 1.0,
+     "recall": 0.8888888888888888
+    },
+    "other(armv7l)": {
+     "tp": 0,
+     "fp_strict": 0,
+     "fp_excl": 0,
+     "fn": 1,
+     "precision_strict": null,
+     "precision_excl": null,
+     "recall": 0.0
+    },
+    "universal": {
+     "tp": 2,
+     "fp_strict": 0,
+     "fp_excl": 0,
+     "fn": 0,
+     "precision_strict": 1.0,
+     "precision_excl": 1.0,
+     "recall": 1.0
+    },
+    "unknown": {
+     "tp": 44,
+     "fp_strict": 13,
+     "fp_excl": 9,
+     "fn": 0,
+     "precision_strict": 0.7719298245614035,
+     "precision_excl": 0.8301886792452831,
+     "recall": 1.0
+    },
+    "x64": {
+     "tp": 17,
+     "fp_strict": 1,
+     "fp_excl": 0,
+     "fn": 6,
+     "precision_strict": 0.9444444444444444,
+     "precision_excl": 1.0,
+     "recall": 0.7391304347826086
+    },
+    "x86": {
+     "tp": 2,
+     "fp_strict": 1,
+     "fp_excl": 0,
+     "fn": 0,
+     "precision_strict": 0.6666666666666666,
+     "precision_excl": 1.0,
+     "recall": 1.0
+    }
+   }
+  },
+  "type": {
+   "accuracy_strict_unresolved_wrong": 0.84,
+   "accuracy_unresolved_excluded": 0.9230769230769231,
+   "n_resolved": 91,
+   "accuracy_file_content_rows": null,
+   "n_file_content_rows": 0,
+   "classes": {
+    "ambiguous": {
+     "tp": 0,
+     "fp_strict": 5,
+     "fp_excl": 0,
+     "fn": 0,
+     "precision_strict": 0.0,
+     "precision_excl": null,
+     "recall": null
+    },
+    "installer": {
+     "tp": 41,
+     "fp_strict": 2,
+     "fp_excl": 1,
+     "fn": 0,
+     "precision_strict": 0.9534883720930233,
+     "precision_excl": 0.9761904761904762,
+     "recall": 1.0
+    },
+    "not_installer": {
+     "tp": 34,
+     "fp_strict": 8,
+     "fp_excl": 6,
+     "fn": 1,
+     "precision_strict": 0.8095238095238095,
+     "precision_excl": 0.85,
+     "recall": 0.9714285714285714
+    },
+    "portable": {
+     "tp": 9,
+     "fp_strict": 1,
+     "fp_excl": 0,
+     "fn": 6,
+     "precision_strict": 0.9,
+     "precision_excl": 1.0,
+     "recall": 0.6
+    }
+   }
+  }
+ },
+ "labelers_vs_content": {
+  "OS": {
+   "n": 31,
+   "labeler_a_match": 30,
+   "labeler_b_match": 30
+  },
+  "arch": {
+   "n": 20,
+   "labeler_a_match": 16,
+   "labeler_b_match": 16
+  }
+ },
+ "labeler_agreement": {
+  "OS": 99,
+  "arch": 100,
+  "type": 99
+ },
+ "confidence_counts": {
+  "a": {
+   "yakin": 90,
+   "ragu": 10
+  },
+  "b": {
+   "yakin": 85,
+   "ragu": 15
+  }
+ },
+ "gate_OS": {
+  "numbers": {
+   "strict_unresolved_wrong_n100": 0.91,
+   "excluding_unresolved_n96": 0.9479166666666666,
+   "file_content_rows_n31": 0.967741935483871,
+   "precision_strict_windows": 0.9285714285714286,
+   "recall_windows": 1.0,
+   "precision_strict_macos": 1.0,
+   "recall_macos": 0.8571428571428571,
+   "precision_strict_linux": 0.9583333333333334,
+   "recall_linux": 0.92
+  },
+  "strictest": [
+   "recall_macos",
+   0.8571428571428571
+  ],
+  "passes_95": false
+ },
+ "wrong": [
+  {
+   "col": "arch",
+   "id": 6,
+   "repo": "TabularisDB/tabularis",
+   "asset": "tabularis_0.32.0_x64-portable.zip",
+   "gold": "x64",
+   "basis": "kesepakatan dua pelabel",
+   "pred": "unknown",
+   "unproducible": false
+  },
+  {
+   "col": "type",
+   "id": 6,
+   "repo": "TabularisDB/tabularis",
+   "asset": "tabularis_0.32.0_x64-portable.zip",
+   "gold": "portable",
+   "basis": "kesepakatan dua pelabel",
+   "pred": "not_installer",
+   "unproducible": false
+  },
+  {
+   "col": "OS",
+   "id": 7,
+   "repo": "libnyanpasu/clash-nyanpasu",
+   "asset": "Clash.Nyanpasu.x86_64.app.tar.gz",
+   "gold": "macos",
+   "basis": "kesepakatan dua pelabel",
+   "pred": "unknown",
+   "unproducible": false
+  },
+  {
+   "col": "arch",
+   "id": 7,
+   "repo": "libnyanpasu/clash-nyanpasu",
+   "asset": "Clash.Nyanpasu.x86_64.app.tar.gz",
+   "gold": "x64",
+   "basis": "kesepakatan dua pelabel",
+   "pred": "unknown",
+   "unproducible": false
+  },
+  {
+   "col": "type",
+   "id": 7,
+   "repo": "libnyanpasu/clash-nyanpasu",
+   "asset": "Clash.Nyanpasu.x86_64.app.tar.gz",
+   "gold": "portable",
+   "basis": "kesepakatan dua pelabel",
+   "pred": "not_installer",
+   "unproducible": false
+  },
+  {
+   "col": "OS",
+   "id": 17,
+   "repo": "jhen0409/react-native-debugger",
+   "asset": "rn-debugger-linux-x64.zip",
+   "gold": "linux",
+   "basis": "kesepakatan dua pelabel",
+   "pred": "unknown",
+   "unproducible": false
+  },
+  {
+   "col": "arch",
+   "id": 17,
+   "repo": "jhen0409/react-native-debugger",
+   "asset": "rn-debugger-linux-x64.zip",
+   "gold": "x64",
+   "basis": "kesepakatan dua pelabel",
+   "pred": "unknown",
+   "unproducible": false
+  },
+  {
+   "col": "type",
+   "id": 17,
+   "repo": "jhen0409/react-native-debugger",
+   "asset": "rn-debugger-linux-x64.zip",
+   "gold": "portable",
+   "basis": "kesepakatan dua pelabel",
+   "pred": "not_installer",
+   "unproducible": false
+  },
+  {
+   "col": "arch",
+   "id": 29,
+   "repo": "Open-Less/openless",
+   "asset": "OpenLess_2.0.1+build.20261016_armeabi-v7a.apk",
+   "gold": "arm32",
+   "basis": "kesepakatan dua pelabel",
+   "pred": "unknown",
+   "unproducible": false
+  },
+  {
+   "col": "OS",
+   "id": 38,
+   "repo": "InukaAsith/TwinDesk",
+   "asset": "TwinDesk-3.0.0-amd64.deb",
+   "gold": "linux",
+   "basis": "isi file",
+   "pred": "windows",
+   "unproducible": false
+  },
+  {
+   "col": "OS",
+   "id": 49,
+   "repo": "jhen0409/react-native-debugger",
+   "asset": "rn-debugger-macos-x64.zip",
+   "gold": "macos",
+   "basis": "kesepakatan dua pelabel",
+   "pred": "unknown",
+   "unproducible": false
+  },
+  {
+   "col": "arch",
+   "id": 49,
+   "repo": "jhen0409/react-native-debugger",
+   "asset": "rn-debugger-macos-x64.zip",
+   "gold": "x64",
+   "basis": "kesepakatan dua pelabel",
+   "pred": "unknown",
+   "unproducible": false
+  },
+  {
+   "col": "type",
+   "id": 49,
+   "repo": "jhen0409/react-native-debugger",
+   "asset": "rn-debugger-macos-x64.zip",
+   "gold": "portable",
+   "basis": "kesepakatan dua pelabel",
+   "pred": "not_installer",
+   "unproducible": false
+  },
+  {
+   "col": "type",
+   "id": 50,
+   "repo": "strawberrymusicplayer/strawberry",
+   "asset": "strawberry-dbgsym_1.2.31-trixie_amd64.deb",
+   "gold": "not_installer",
+   "basis": "kesepakatan dua pelabel",
+   "pred": "installer",
+   "unproducible": false
+  },
+  {
+   "col": "arch",
+   "id": 52,
+   "repo": "electerm/electerm",
+   "asset": "electerm-5.10.0-linux-armv7l-legacy.rpm",
+   "gold": "other(armv7l)",
+   "basis": "isi file",
+   "pred": "arm32",
+   "unproducible": true
+  },
+  {
+   "col": "arch",
+   "id": 59,
+   "repo": "truelockmc/streambert",
+   "asset": "Streambert-2.7.0.AppImage",
+   "gold": "x64",
+   "basis": "isi file",
+   "pred": "unknown",
+   "unproducible": false
+  },
+  {
+   "col": "arch",
+   "id": 61,
+   "repo": "oliverschwendener/ueli",
+   "asset": "ueli-9.29.1-arm64.zip",
+   "gold": "arm64",
+   "basis": "kesepakatan dua pelabel",
+   "pred": "unknown",
+   "unproducible": false
+  },
+  {
+   "col": "type",
+   "id": 61,
+   "repo": "oliverschwendener/ueli",
+   "asset": "ueli-9.29.1-arm64.zip",
+   "gold": "portable",
+   "basis": "kesepakatan dua pelabel",
+   "pred": "not_installer",
+   "unproducible": false
+  },
+  {
+   "col": "OS",
+   "id": 66,
+   "repo": "libnyanpasu/clash-nyanpasu",
+   "asset": "Clash.Nyanpasu.aarch64.app.tar.gz",
+   "gold": "macos",
+   "basis": "kesepakatan dua pelabel",
+   "pred": "unknown",
+   "unproducible": false
+  },
+  {
+   "col": "arch",
+   "id": 66,
+   "repo": "libnyanpasu/clash-nyanpasu",
+   "asset": "Clash.Nyanpasu.aarch64.app.tar.gz",
+   "gold": "arm64",
+   "basis": "kesepakatan dua pelabel",
+   "pred": "unknown",
+   "unproducible": false
+  },
+  {
+   "col": "type",
+   "id": 66,
+   "repo": "libnyanpasu/clash-nyanpasu",
+   "asset": "Clash.Nyanpasu.aarch64.app.tar.gz",
+   "gold": "portable",
+   "basis": "kesepakatan dua pelabel",
+   "pred": "not_installer",
+   "unproducible": false
+  },
+  {
+   "col": "arch",
+   "id": 71,
+   "repo": "keeweb/keeweb",
+   "asset": "KeeWeb-1.18.7.linux.AppImage",
+   "gold": "x64",
+   "basis": "isi file",
+   "pred": "unknown",
+   "unproducible": false
+  }
+ ],
+ "unresolved": [
+  {
+   "col": "OS",
+   "id": 22,
+   "repo": "InukaAsith/TwinDesk",
+   "asset": "TwinDesk-3.0.0-full.apk",
+   "a": [
+    "android",
+    "ragu"
+   ],
+   "b": [
+    "android",
+    "ragu"
+   ],
+   "pred": "android"
+  },
+  {
+   "col": "arch",
+   "id": 22,
+   "repo": "InukaAsith/TwinDesk",
+   "asset": "TwinDesk-3.0.0-full.apk",
+   "a": [
+    "unknown",
+    "ragu"
+   ],
+   "b": [
+    "unknown",
+    "ragu"
+   ],
+   "pred": "unknown"
+  },
+  {
+   "col": "type",
+   "id": 22,
+   "repo": "InukaAsith/TwinDesk",
+   "asset": "TwinDesk-3.0.0-full.apk",
+   "a": [
+    "installer",
+    "ragu"
+   ],
+   "b": [
+    "installer",
+    "ragu"
+   ],
+   "pred": "installer"
+  },
+  {
+   "col": "arch",
+   "id": 24,
+   "repo": "amir1376/ab-download-manager",
+   "asset": "ABDownloadManager_1.11.4_windows_arm64.exe",
+   "a": [
+    "arm64",
+    "ragu"
+   ],
+   "b": [
+    "arm64",
+    "ragu"
+   ],
+   "pred": "arm64"
+  },
+  {
+   "col": "type",
+   "id": 24,
+   "repo": "amir1376/ab-download-manager",
+   "asset": "ABDownloadManager_1.11.4_windows_arm64.exe",
+   "a": [
+    "ambiguous",
+    "ragu"
+   ],
+   "b": [
+    "ambiguous",
+    "ragu"
+   ],
+   "pred": "ambiguous"
+  },
+  {
+   "col": "arch",
+   "id": 46,
+   "repo": "PintaProject/Pinta",
+   "asset": "Pinta-x86_64.exe",
+   "a": [
+    "x64",
+    "ragu"
+   ],
+   "b": [
+    "x64",
+    "ragu"
+   ],
+   "pred": "x64"
+  },
+  {
+   "col": "type",
+   "id": 46,
+   "repo": "PintaProject/Pinta",
+   "asset": "Pinta-x86_64.exe",
+   "a": [
+    "ambiguous",
+    "ragu"
+   ],
+   "b": [
+    "ambiguous",
+    "ragu"
+   ],
+   "pred": "ambiguous"
+  },
+  {
+   "col": "OS",
+   "id": 53,
+   "repo": "podman-desktop/podman-desktop",
+   "asset": "store-cache-pnpm-arm64.tgz",
+   "a": [
+    "unknown",
+    "ragu"
+   ],
+   "b": [
+    "unknown",
+    "ragu"
+   ],
+   "pred": "unknown"
+  },
+  {
+   "col": "arch",
+   "id": 53,
+   "repo": "podman-desktop/podman-desktop",
+   "asset": "store-cache-pnpm-arm64.tgz",
+   "a": [
+    "unknown",
+    "ragu"
+   ],
+   "b": [
+    "unknown",
+    "ragu"
+   ],
+   "pred": "unknown"
+  },
+  {
+   "col": "type",
+   "id": 53,
+   "repo": "podman-desktop/podman-desktop",
+   "asset": "store-cache-pnpm-arm64.tgz",
+   "a": [
+    "not_installer",
+    "ragu"
+   ],
+   "b": [
+    "not_installer",
+    "ragu"
+   ],
+   "pred": "not_installer"
+  },
+  {
+   "col": "OS",
+   "id": 65,
+   "repo": "electerm/electerm",
+   "asset": "electerm-5.10.0-linux-ppc64le.tar.gz",
+   "a": [
+    "linux",
+    "ragu"
+   ],
+   "b": [
+    "linux",
+    "ragu"
+   ],
+   "pred": "linux"
+  },
+  {
+   "col": "arch",
+   "id": 65,
+   "repo": "electerm/electerm",
+   "asset": "electerm-5.10.0-linux-ppc64le.tar.gz",
+   "a": [
+    "unknown",
+    "ragu"
+   ],
+   "b": [
+    "unknown",
+    "ragu"
+   ],
+   "pred": "unknown"
+  },
+  {
+   "col": "type",
+   "id": 65,
+   "repo": "electerm/electerm",
+   "asset": "electerm-5.10.0-linux-ppc64le.tar.gz",
+   "a": [
+    "portable",
+    "ragu"
+   ],
+   "b": [
+    "portable",
+    "ragu"
+   ],
+   "pred": "portable"
+  },
+  {
+   "col": "arch",
+   "id": 78,
+   "repo": "Molunerfinn/PicGo",
+   "asset": "PicGo-3.0.3-arm64.exe",
+   "a": [
+    "arm64",
+    "ragu"
+   ],
+   "b": [
+    "arm64",
+    "ragu"
+   ],
+   "pred": "arm64"
+  },
+  {
+   "col": "type",
+   "id": 78,
+   "repo": "Molunerfinn/PicGo",
+   "asset": "PicGo-3.0.3-arm64.exe",
+   "a": [
+    "ambiguous",
+    "ragu"
+   ],
+   "b": [
+    "ambiguous",
+    "ragu"
+   ],
+   "pred": "ambiguous"
+  },
+  {
+   "col": "OS",
+   "id": 82,
+   "repo": "opengeos/GeoLibre",
+   "asset": "geolibre-android.aab",
+   "a": [
+    "unknown",
+    "ragu"
+   ],
+   "b": [
+    "android",
+    "ragu"
+   ],
+   "pred": "unknown"
+  },
+  {
+   "col": "arch",
+   "id": 82,
+   "repo": "opengeos/GeoLibre",
+   "asset": "geolibre-android.aab",
+   "a": [
+    "unknown",
+    "ragu"
+   ],
+   "b": [
+    "unknown",
+    "ragu"
+   ],
+   "pred": "unknown"
+  },
+  {
+   "col": "type",
+   "id": 82,
+   "repo": "opengeos/GeoLibre",
+   "asset": "geolibre-android.aab",
+   "a": [
+    "not_installer",
+    "ragu"
+   ],
+   "b": [
+    "ambiguous",
+    "ragu"
+   ],
+   "pred": "not_installer"
+  },
+  {
+   "col": "arch",
+   "id": 85,
+   "repo": "SpriteOvO/AirPodsDesktop",
+   "asset": "AirPodsDesktop-0.6.1-win32-bridge.exe",
+   "a": [
+    "unknown",
+    "ragu"
+   ],
+   "b": [
+    "unknown",
+    "ragu"
+   ],
+   "pred": "x86"
+  },
+  {
+   "col": "type",
+   "id": 85,
+   "repo": "SpriteOvO/AirPodsDesktop",
+   "asset": "AirPodsDesktop-0.6.1-win32-bridge.exe",
+   "a": [
+    "ambiguous",
+    "ragu"
+   ],
+   "b": [
+    "ambiguous",
+    "ragu"
+   ],
+   "pred": "ambiguous"
+  },
+  {
+   "col": "arch",
+   "id": 93,
+   "repo": "TriliumNext/Trilium",
+   "asset": "TriliumNotes-v0.107.0-windows-arm64.exe",
+   "a": [
+    "arm64",
+    "ragu"
+   ],
+   "b": [
+    "arm64",
+    "ragu"
+   ],
+   "pred": "arm64"
+  },
+  {
+   "col": "type",
+   "id": 93,
+   "repo": "TriliumNext/Trilium",
+   "asset": "TriliumNotes-v0.107.0-windows-arm64.exe",
+   "a": [
+    "ambiguous",
+    "ragu"
+   ],
+   "b": [
+    "ambiguous",
+    "ragu"
+   ],
+   "pred": "ambiguous"
+  }
+ ]
+}

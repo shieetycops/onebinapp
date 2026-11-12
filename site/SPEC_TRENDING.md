@@ -1,0 +1,21 @@
+# Trending (part C), for BOTH sections (desktop apps and AI tools). Read SPEC.md and SPEC_AI.md ground rules first.
+
+## Decisions (from research in site/research/registry_trending.md)
+- Core signal = STAR growth from our own history snapshots. Downloads are recorded in snapshots but NOT used for trending: `downloads_total` sums only the fetched releases (max 15, max 8 for nine repos), so a release dropping out of the window makes the total fall. If download trends are wanted later, diff per release ID over releases both snapshots share (needs release IDs in snapshots; not done now).
+- Trendshift: NOT used. Its API is paid (Signal API) and its terms bar redistributing raw API data without written permission (https://trendshift.io/signal, https://trendshift.io/tos). Reported on /tentang. No Trendshift data in any output.
+- github.com/trending: no official API and no written permission for programmatic access (robots.txt asks to contact GitHub to crawl). The user asked for it, so implement it as an OPT-IN flag `--with-github-trending` (OFF by default; the default build never touches github.com/trending). When enabled: at most 2 requests per build (daily, weekly), identifying User-Agent, no retries beyond 1, parse tolerant; ANY failure => log and continue the build without it. Tell the user in the report that default is off and why.
+
+## Builder
+- Snapshots: desktop `data/history/snapshot-YYYY-MM-DD.json` and AI `data/history/ai-snapshot-YYYY-MM-DD.json` already hold stars (+downloads for desktop). Keep writing both on every full build (overwrite same day).
+- Compute per repo: d7 = stars_now - stars at the snapshot closest to 7 days ago (accept 6-9 days old), d30 likewise (27-33 days). Fewer than the required age of history => null, never 0. `ready` per section = at least one repo has d7 not null. Rank = by d7 desc (ties by d30, then stars); `trending.rank` for top 50 per section; badge `naik daun` = rank not null AND d7 >= max(5, 1% of stars). Before ready, sorting falls back to latest release (site already does).
+- Output: `trending.json` (desktop) and `trending-ai.json` with `{ready, generated_at, window_days:{d7,d30}, items:[{slug,d7,d30,rank}], sources_used:["stars_history", ("github_trending" if enabled)], github_trending:{enabled, ok, fetched_at, daily:[repo...], weekly:[repo...]}}`; cards carry `trending:{d7,d30,rank}` (already in schema).
+- github.com/trending repos NEVER go in automatically: write the repo names to `data/trending_candidates.txt` (+ source tag); then run the SAME curation as the section: desktop = scripts/catalog/curation.py rules + installer requirement (goes into the catalog as new entries with `sources` containing `github_trending`); AI = curation_ai rules R1-R8. Those that pass become new entries; those that fail are discarded and counted per reason in stats (`trending_candidates:{seen,added,rejected:{reason:n}}`). Never add them to data/round3 or to seen_repos.txt.
+- Tests with SYNTHETIC snapshots (write fixtures into a temp dir; builder must accept `--history-dir`): ready false with < 6 days; d7 correct with 7-day-old snapshot; d30 null when no 27-33 day snapshot; windows tolerance; rank order/ties; badge threshold; github_trending parser on a saved HTML fixture and failure => build continues and `ok:false`; candidate curation path (one passing, one failing) using fixtures/offline data.
+
+## Site
+- Home (/ and /ai): tab "Trending" (id: "Sedang naik") shown only when that section's `ready` is true; list sorted by rank; each card shows `naik daun` badge when rank != null. Separate data per section. Before ready: no tab, nothing misleading.
+- /tentang: list trending sources actually used (our star history; GitHub trending only if enabled and ok), say Trendshift is not used and why, say downloads are not used for trending and why.
+- Tests: fixtures with ready=true (tab appears, order by rank, badge on right cards, desktop and AI separate), ready=false (no tab), 360px phone viewport, i18n id/en. Keep all 60 existing tests passing (run build:test then npm test, one at a time; then final npm run build + node scripts/smoke-real.mjs).
+
+## Report
+Per section: ready?, snapshot dates available, number of badges, github_trending status (default off), candidates counts, test counts. Do NOT claim trending works on real data if history < 7 days; say it is ready=false.

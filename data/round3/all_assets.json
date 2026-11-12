@@ -1,0 +1,4583 @@
+[
+{
+"repo": "lachydotmcg/capri-desktop",
+"tag": "v0.8.9",
+"asset_name": "Capri-linux-x64.AppImage",
+"size": 59394552,
+"url": "https://github.com/lachydotmcg/capri-desktop/releases/download/v0.8.9/Capri-linux-x64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "lachydotmcg/capri-desktop",
+"tag": "v0.8.9",
+"asset_name": "Capri-Setup.exe",
+"size": 23302144,
+"url": "https://github.com/lachydotmcg/capri-desktop/releases/download/v0.8.9/Capri-Setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "lachydotmcg/capri-desktop",
+"tag": "v0.8.9",
+"asset_name": "Capri.exe",
+"size": 23302144,
+"url": "https://github.com/lachydotmcg/capri-desktop/releases/download/v0.8.9/Capri.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "Cerzi/videoswarm",
+"tag": "v0.6.0-rc.5",
+"asset_name": "VideoSwarm-0.6.0-rc.5-win-x64-Portable.exe",
+"size": 118569105,
+"url": "https://github.com/Cerzi/videoswarm/releases/download/v0.6.0-rc.5/VideoSwarm-0.6.0-rc.5-win-x64-Portable.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "Cerzi/videoswarm",
+"tag": "v0.6.0-rc.5",
+"asset_name": "VideoSwarm-0.6.0-rc.5-win-x64.exe",
+"size": 118811369,
+"url": "https://github.com/Cerzi/videoswarm/releases/download/v0.6.0-rc.5/VideoSwarm-0.6.0-rc.5-win-x64.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "pauljoda/Crest",
+"tag": "v0.9.1",
+"asset_name": "Installer-Crest-0.9.1-arm64.dmg",
+"size": 219741252,
+"url": "https://github.com/pauljoda/Crest/releases/download/v0.9.1/Installer-Crest-0.9.1-arm64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "NOVA-TECH-KIT/nova-island",
+"tag": "v1.8.6",
+"asset_name": "Nova-Island-Setup-1.8.6.exe",
+"size": 1181420,
+"url": "https://github.com/NOVA-TECH-KIT/nova-island/releases/download/v1.8.6/Nova-Island-Setup-1.8.6.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "btsouth/toolport",
+"tag": "v2.3.4",
+"asset_name": "Toolport_2.3.4_amd64.AppImage",
+"size": 170650104,
+"url": "https://github.com/btsouth/toolport/releases/download/v2.3.4/Toolport_2.3.4_amd64.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "btsouth/toolport",
+"tag": "v2.3.4",
+"asset_name": "Toolport_2.3.4_x64-setup.exe",
+"size": 78875768,
+"url": "https://github.com/btsouth/toolport/releases/download/v2.3.4/Toolport_2.3.4_x64-setup.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "btsouth/toolport",
+"tag": "v2.3.4",
+"asset_name": "Toolport_aarch64-apple-darwin.dmg",
+"size": 93186764,
+"url": "https://github.com/btsouth/toolport/releases/download/v2.3.4/Toolport_aarch64-apple-darwin.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "btsouth/toolport",
+"tag": "v2.3.4",
+"asset_name": "Toolport_x86_64-apple-darwin.dmg",
+"size": 96378791,
+"url": "https://github.com/btsouth/toolport/releases/download/v2.3.4/Toolport_x86_64-apple-darwin.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "Tunnelblick/Tunnelblick",
+"tag": "v10.0.3",
+"asset_name": "Tunnelblick_10.0.3_build_6610.dmg",
+"size": 29389258,
+"url": "https://github.com/Tunnelblick/Tunnelblick/releases/download/v10.0.3/Tunnelblick_10.0.3_build_6610.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "multizenteam/multizen-browser",
+"tag": "v0.4.2",
+"asset_name": "MultiZen-linux-x86_64.AppImage",
+"size": 133690069,
+"url": "https://github.com/multizenteam/multizen-browser/releases/download/v0.4.2/MultiZen-linux-x86_64.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "multizenteam/multizen-browser",
+"tag": "v0.4.2",
+"asset_name": "MultiZen-mac-arm64.dmg",
+"size": 126782586,
+"url": "https://github.com/multizenteam/multizen-browser/releases/download/v0.4.2/MultiZen-mac-arm64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "multizenteam/multizen-browser",
+"tag": "v0.4.2",
+"asset_name": "MultiZen-mac-x64.dmg",
+"size": 131736282,
+"url": "https://github.com/multizenteam/multizen-browser/releases/download/v0.4.2/MultiZen-mac-x64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "multizenteam/multizen-browser",
+"tag": "v0.4.2",
+"asset_name": "MultiZen-win-x64.exe",
+"size": 103724077,
+"url": "https://github.com/multizenteam/multizen-browser/releases/download/v0.4.2/MultiZen-win-x64.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "Rem0o/FanControl.Releases",
+"tag": "V285",
+"asset_name": "FanControl_285_net_10_0_Installer.exe",
+"size": 20894624,
+"url": "https://github.com/Rem0o/FanControl.Releases/releases/download/V285/FanControl_285_net_10_0_Installer.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "Rem0o/FanControl.Releases",
+"tag": "V285",
+"asset_name": "FanControl_285_net_4_8_Installer.exe",
+"size": 14390624,
+"url": "https://github.com/Rem0o/FanControl.Releases/releases/download/V285/FanControl_285_net_4_8_Installer.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "modstart-lib/focusany",
+"tag": "vsnapshot",
+"asset_name": "FocusAny-snapshot-linux-arm64.AppImage",
+"size": 178869028,
+"url": "https://github.com/modstart-lib/focusany/releases/download/vsnapshot/FocusAny-snapshot-linux-arm64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "modstart-lib/focusany",
+"tag": "vsnapshot",
+"asset_name": "FocusAny-snapshot-linux-x86_64.AppImage",
+"size": 182481664,
+"url": "https://github.com/modstart-lib/focusany/releases/download/vsnapshot/FocusAny-snapshot-linux-x86_64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "modstart-lib/focusany",
+"tag": "vsnapshot",
+"asset_name": "FocusAny-snapshot-mac-arm64.dmg",
+"size": 161074091,
+"url": "https://github.com/modstart-lib/focusany/releases/download/vsnapshot/FocusAny-snapshot-mac-arm64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "modstart-lib/focusany",
+"tag": "vsnapshot",
+"asset_name": "FocusAny-snapshot-mac-x64.dmg",
+"size": 168775199,
+"url": "https://github.com/modstart-lib/focusany/releases/download/vsnapshot/FocusAny-snapshot-mac-x64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "modstart-lib/focusany",
+"tag": "vsnapshot",
+"asset_name": "FocusAny-snapshot-win-setup-arm64.exe",
+"size": 120715780,
+"url": "https://github.com/modstart-lib/focusany/releases/download/vsnapshot/FocusAny-snapshot-win-setup-arm64.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "modstart-lib/focusany",
+"tag": "vsnapshot",
+"asset_name": "FocusAny-snapshot-win-setup-x64.exe",
+"size": 110466158,
+"url": "https://github.com/modstart-lib/focusany/releases/download/vsnapshot/FocusAny-snapshot-win-setup-x64.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "WangQrkkk/PaperQuay",
+"tag": "app-v0.1.25",
+"asset_name": "PaperQuay-0.1.25-linux-x86_64.AppImage",
+"size": 135478997,
+"url": "https://github.com/WangQrkkk/PaperQuay/releases/download/app-v0.1.25/PaperQuay-0.1.25-linux-x86_64.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "WangQrkkk/PaperQuay",
+"tag": "app-v0.1.25",
+"asset_name": "PaperQuay-0.1.25-mac-arm64.dmg",
+"size": 130384406,
+"url": "https://github.com/WangQrkkk/PaperQuay/releases/download/app-v0.1.25/PaperQuay-0.1.25-mac-arm64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "WangQrkkk/PaperQuay",
+"tag": "app-v0.1.25",
+"asset_name": "PaperQuay-0.1.25-mac-x64.dmg",
+"size": 137276278,
+"url": "https://github.com/WangQrkkk/PaperQuay/releases/download/app-v0.1.25/PaperQuay-0.1.25-mac-x64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "WangQrkkk/PaperQuay",
+"tag": "app-v0.1.25",
+"asset_name": "PaperQuay-0.1.25-win-x64.exe",
+"size": 110863371,
+"url": "https://github.com/WangQrkkk/PaperQuay/releases/download/app-v0.1.25/PaperQuay-0.1.25-win-x64.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "WangQrkkk/PaperQuay",
+"tag": "app-v0.1.25",
+"asset_name": "PaperQuay-0.1.25-win-x64.msi",
+"size": 122695680,
+"url": "https://github.com/WangQrkkk/PaperQuay/releases/download/app-v0.1.25/PaperQuay-0.1.25-win-x64.msi",
+"ext": "msi",
+"source": "gh_search"
+},
+{
+"repo": "KejPi/AbracaDABra",
+"tag": "v4.3.0",
+"asset_name": "AbracaDABra-v4.3.0-aarch64.AppImage",
+"size": 117481856,
+"url": "https://github.com/KejPi/AbracaDABra/releases/download/v4.3.0/AbracaDABra-v4.3.0-aarch64.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "KejPi/AbracaDABra",
+"tag": "v4.3.0",
+"asset_name": "AbracaDABra-v4.3.0-AppleSilicon.dmg",
+"size": 81581357,
+"url": "https://github.com/KejPi/AbracaDABra/releases/download/v4.3.0/AbracaDABra-v4.3.0-AppleSilicon.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "KejPi/AbracaDABra",
+"tag": "v4.3.0",
+"asset_name": "AbracaDABra-v4.3.0-Intel.dmg",
+"size": 81791517,
+"url": "https://github.com/KejPi/AbracaDABra/releases/download/v4.3.0/AbracaDABra-v4.3.0-Intel.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "KejPi/AbracaDABra",
+"tag": "v4.3.0",
+"asset_name": "AbracaDABra-v4.3.0-x86_64.AppImage",
+"size": 67799544,
+"url": "https://github.com/KejPi/AbracaDABra/releases/download/v4.3.0/AbracaDABra-v4.3.0-x86_64.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "baizeteam/baize-toolbox",
+"tag": "v1.0.0-beta1",
+"asset_name": "baize-toolbox-1.0.0-beta1-setup.exe",
+"size": 117668973,
+"url": "https://github.com/baizeteam/baize-toolbox/releases/download/v1.0.0-beta1/baize-toolbox-1.0.0-beta1-setup.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "Punshnut/macos-launchy",
+"tag": "v2026.9.0",
+"asset_name": "Launchy.dmg",
+"size": 9841559,
+"url": "https://github.com/Punshnut/macos-launchy/releases/download/v2026.9.0/Launchy.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "sekey/sekey",
+"tag": "0.1",
+"asset_name": "SeKey-0.1.pkg",
+"size": 3065141,
+"url": "https://github.com/sekey/sekey/releases/download/0.1/SeKey-0.1.pkg",
+"ext": "pkg",
+"source": "cask"
+},
+{
+"repo": "xiajingren/xhznl-todo-list",
+"tag": "v0.2.3",
+"asset_name": "xhznl-todo-list-Setup-0.2.3.exe",
+"size": 110057597,
+"url": "https://github.com/xiajingren/xhznl-todo-list/releases/download/v0.2.3/xhznl-todo-list-Setup-0.2.3.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "SunshineStream/Sunshine",
+"tag": "v2026.914.233613",
+"asset_name": "Sunshine-FreeBSD-15.1-amd64.pkg",
+"size": 11235311,
+"url": "https://github.com/SunshineStream/Sunshine/releases/download/v2026.914.233613/Sunshine-FreeBSD-15.1-amd64.pkg",
+"ext": "pkg",
+"source": "komi"
+},
+{
+"repo": "SunshineStream/Sunshine",
+"tag": "v2026.914.233613",
+"asset_name": "Sunshine-macOS-arm64.dmg",
+"size": 40375035,
+"url": "https://github.com/SunshineStream/Sunshine/releases/download/v2026.914.233613/Sunshine-macOS-arm64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "SunshineStream/Sunshine",
+"tag": "v2026.914.233613",
+"asset_name": "Sunshine-macOS-x86_64.dmg",
+"size": 43417393,
+"url": "https://github.com/SunshineStream/Sunshine/releases/download/v2026.914.233613/Sunshine-macOS-x86_64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "SunshineStream/Sunshine",
+"tag": "v2026.914.233613",
+"asset_name": "Sunshine-Windows-AMD64-installer.msi",
+"size": 33710080,
+"url": "https://github.com/SunshineStream/Sunshine/releases/download/v2026.914.233613/Sunshine-Windows-AMD64-installer.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "SunshineStream/Sunshine",
+"tag": "v2026.914.233613",
+"asset_name": "Sunshine-Windows-ARM64-installer.msi",
+"size": 24541615,
+"url": "https://github.com/SunshineStream/Sunshine/releases/download/v2026.914.233613/Sunshine-Windows-ARM64-installer.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "SunshineStream/Sunshine",
+"tag": "v2026.914.233613",
+"asset_name": "Sunshine_2026.914.233613_aarch64.AppImage",
+"size": 42301960,
+"url": "https://github.com/SunshineStream/Sunshine/releases/download/v2026.914.233613/Sunshine_2026.914.233613_aarch64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "SunshineStream/Sunshine",
+"tag": "v2026.914.233613",
+"asset_name": "Sunshine_2026.914.233613_x86_64.AppImage",
+"size": 43883000,
+"url": "https://github.com/SunshineStream/Sunshine/releases/download/v2026.914.233613/Sunshine_2026.914.233613_x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "RhysSullivan/executor",
+"tag": "v1.6.11",
+"asset_name": "executor-desktop-mac-arm64.dmg",
+"size": 214090037,
+"url": "https://github.com/UsefulSoftwareCo/executor/releases/download/v1.6.11/executor-desktop-mac-arm64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "RhysSullivan/executor",
+"tag": "v1.6.11",
+"asset_name": "executor-desktop-mac-x64.dmg",
+"size": 229307987,
+"url": "https://github.com/UsefulSoftwareCo/executor/releases/download/v1.6.11/executor-desktop-mac-x64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "RhysSullivan/executor",
+"tag": "v1.6.11",
+"asset_name": "executor-desktop-win-x64.exe",
+"size": 188178407,
+"url": "https://github.com/UsefulSoftwareCo/executor/releases/download/v1.6.11/executor-desktop-win-x64.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "itsVicOC/bilibili-downloader",
+"tag": "v0.8.10",
+"asset_name": "BilibiliDownloader-macOS-full-v0.8.10.dmg",
+"size": 81133239,
+"url": "https://github.com/itsVicOC/bilibili-downloader/releases/download/v0.8.10/BilibiliDownloader-macOS-full-v0.8.10.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "itsVicOC/bilibili-downloader",
+"tag": "v0.8.10",
+"asset_name": "BilibiliDownloader-Windows-full-v0.8.10-setup.exe",
+"size": 71475635,
+"url": "https://github.com/itsVicOC/bilibili-downloader/releases/download/v0.8.10/BilibiliDownloader-Windows-full-v0.8.10-setup.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "andrew-waters/orchard",
+"tag": "v2.7.1",
+"asset_name": "Orchard-2.7.1.dmg",
+"size": 32798236,
+"url": "https://github.com/andrew-waters/orchard/releases/download/v2.7.1/Orchard-2.7.1.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "andrew-waters/orchard",
+"tag": "v2.7.1",
+"asset_name": "Orchard.dmg",
+"size": 32798236,
+"url": "https://github.com/andrew-waters/orchard/releases/download/v2.7.1/Orchard.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "leminlimez/Nugget",
+"tag": "v7.4.1",
+"asset_name": "Nugget_macOS_arm.dmg",
+"size": 117612225,
+"url": "https://github.com/leminlimez/Nugget/releases/download/v7.4.1/Nugget_macOS_arm.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "leminlimez/Nugget",
+"tag": "v7.4.1",
+"asset_name": "Nugget_macOS_intel.dmg",
+"size": 110753279,
+"url": "https://github.com/leminlimez/Nugget/releases/download/v7.4.1/Nugget_macOS_intel.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "n457/Uncolored",
+"tag": "v.0.10.2",
+"asset_name": "Uncolored-v.0.10.2-linux-x64.AppImage",
+"size": 61145088,
+"url": "https://github.com/n457/Uncolored/releases/download/v.0.10.2/Uncolored-v.0.10.2-linux-x64.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "n457/Uncolored",
+"tag": "v.0.10.2",
+"asset_name": "Uncolored-v.0.10.2-osx-x64.dmg",
+"size": 49994479,
+"url": "https://github.com/n457/Uncolored/releases/download/v.0.10.2/Uncolored-v.0.10.2-osx-x64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "n457/Uncolored",
+"tag": "v.0.10.2",
+"asset_name": "Uncolored-v.0.10.2-win-x64-setup.exe",
+"size": 38033488,
+"url": "https://github.com/n457/Uncolored/releases/download/v.0.10.2/Uncolored-v.0.10.2-win-x64-setup.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "thisnick/agent-wechat",
+"tag": "v2.3.2",
+"asset_name": "AgentWechat-v2.3.2-macos-arm64.dmg",
+"size": 65467612,
+"url": "https://github.com/thisnick/agent-wechat/releases/download/v2.3.2/AgentWechat-v2.3.2-macos-arm64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "thisnick/agent-wechat",
+"tag": "v2.3.2",
+"asset_name": "AgentWechat-v2.3.2-windows-arm64-setup.exe",
+"size": 55991336,
+"url": "https://github.com/thisnick/agent-wechat/releases/download/v2.3.2/AgentWechat-v2.3.2-windows-arm64-setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "thisnick/agent-wechat",
+"tag": "v2.3.2",
+"asset_name": "AgentWechat-v2.3.2-windows-x64-setup.exe",
+"size": 57905688,
+"url": "https://github.com/thisnick/agent-wechat/releases/download/v2.3.2/AgentWechat-v2.3.2-windows-x64-setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "thisnick/agent-wechat",
+"tag": "v2.3.2",
+"asset_name": "wx-v2.3.2-win32-arm64.exe",
+"size": 31529472,
+"url": "https://github.com/thisnick/agent-wechat/releases/download/v2.3.2/wx-v2.3.2-win32-arm64.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "thisnick/agent-wechat",
+"tag": "v2.3.2",
+"asset_name": "wx-v2.3.2-win32-x64.exe",
+"size": 38399488,
+"url": "https://github.com/thisnick/agent-wechat/releases/download/v2.3.2/wx-v2.3.2-win32-x64.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "aredden/electron-G14Control",
+"tag": "v0.2.2",
+"asset_name": "G14ControlV2-Setup-0.2.2.exe",
+"size": 74586687,
+"url": "https://github.com/aredden/electron-G14Control/releases/download/v0.2.2/G14ControlV2-Setup-0.2.2.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "luyuhuang/DWords2",
+"tag": "v0.2.3",
+"asset_name": "DWords-0.2.3.dmg",
+"size": 115379566,
+"url": "https://github.com/luyuhuang/DWords2/releases/download/v0.2.3/DWords-0.2.3.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "luyuhuang/DWords2",
+"tag": "v0.2.3",
+"asset_name": "DWords.Setup.0.2.3.exe",
+"size": 94413952,
+"url": "https://github.com/luyuhuang/DWords2/releases/download/v0.2.3/DWords.Setup.0.2.3.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "Augani/dory",
+"tag": "v0.4.5",
+"asset_name": "Dory-0.4.5-arm64.dmg",
+"size": 238399578,
+"url": "https://github.com/Augani/dory/releases/download/v0.4.5/Dory-0.4.5-arm64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "Augani/dory",
+"tag": "v0.4.5",
+"asset_name": "Dory-0.4.5.dmg",
+"size": 238399578,
+"url": "https://github.com/Augani/dory/releases/download/v0.4.5/Dory-0.4.5.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "storytold/figcraft",
+"tag": "v0.17.0",
+"asset_name": "figcraft-0.17.0-linux-aarch64.AppImage",
+"size": 92617224,
+"url": "https://github.com/storytold/figcraft/releases/download/v0.17.0/figcraft-0.17.0-linux-aarch64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "storytold/figcraft",
+"tag": "v0.17.0",
+"asset_name": "figcraft-0.17.0-linux-x86_64.AppImage",
+"size": 95894008,
+"url": "https://github.com/storytold/figcraft/releases/download/v0.17.0/figcraft-0.17.0-linux-x86_64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "storytold/figcraft",
+"tag": "v0.17.0",
+"asset_name": "figcraft-0.17.0-macos-universal.dmg",
+"size": 111506288,
+"url": "https://github.com/storytold/figcraft/releases/download/v0.17.0/figcraft-0.17.0-macos-universal.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "storytold/figcraft",
+"tag": "v0.17.0",
+"asset_name": "figcraft-0.17.0-windows-arm64.msi",
+"size": 77492224,
+"url": "https://github.com/storytold/figcraft/releases/download/v0.17.0/figcraft-0.17.0-windows-arm64.msi",
+"ext": "msi",
+"source": "cask"
+},
+{
+"repo": "storytold/figcraft",
+"tag": "v0.17.0",
+"asset_name": "figcraft-0.17.0-windows-x64.msi",
+"size": 81276928,
+"url": "https://github.com/storytold/figcraft/releases/download/v0.17.0/figcraft-0.17.0-windows-x64.msi",
+"ext": "msi",
+"source": "cask"
+},
+{
+"repo": "alipay/SoloPi",
+"tag": "v1.0.4",
+"asset_name": "solopi-desktop-0.1.140-arm64.dmg",
+"size": 239904261,
+"url": "https://github.com/alipay/SoloPi/releases/download/v1.0.4/solopi-desktop-0.1.140-arm64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "xmannv/xkey",
+"tag": "v1.2.26-20261111",
+"asset_name": "XKey.dmg",
+"size": 11519733,
+"url": "https://github.com/xmannv/xkey/releases/download/v1.2.26-20261111/XKey.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "nicepkg/deskmakeover",
+"tag": "v0.1.1",
+"asset_name": "DeskMakeover_0.1.1_x64-setup.exe",
+"size": 15342248,
+"url": "https://github.com/nicepkg/deskmakeover/releases/download/v0.1.1/DeskMakeover_0.1.1_x64-setup.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "sprout2000/elephicon",
+"tag": "v4.3.1",
+"asset_name": "Elephicon-4.3.1-darwin-arm64.dmg",
+"size": 124638777,
+"url": "https://github.com/sprout2000/elephicon/releases/download/v4.3.1/Elephicon-4.3.1-darwin-arm64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "sprout2000/elephicon",
+"tag": "v4.3.1",
+"asset_name": "Elephicon-4.3.1-win32-x64-installer.exe",
+"size": 123613984,
+"url": "https://github.com/sprout2000/elephicon/releases/download/v4.3.1/Elephicon-4.3.1-win32-x64-installer.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "acheronfail/xi-electron",
+"tag": "v0.1.3",
+"asset_name": "Xi.Electron-0.1.3.dmg",
+"size": 74553449,
+"url": "https://github.com/acheronfail/xi-electron/releases/download/v0.1.3/Xi.Electron-0.1.3.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "mpvnet-player/mpv.net",
+"tag": "v7.1.2.0",
+"asset_name": "mpv.net-v7.1.2.0-setup-x64.exe",
+"size": 38021649,
+"url": "https://github.com/mpvnet-player/mpv.net/releases/download/v7.1.2.0/mpv.net-v7.1.2.0-setup-x64.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "jorio/Bugdom",
+"tag": "1.3.4",
+"asset_name": "Bugdom-1.3.4-linux-aarch64.AppImage",
+"size": 52851904,
+"url": "https://github.com/jorio/Bugdom/releases/download/1.3.4/Bugdom-1.3.4-linux-aarch64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "jorio/Bugdom",
+"tag": "1.3.4",
+"asset_name": "Bugdom-1.3.4-linux-x86_64.AppImage",
+"size": 53044416,
+"url": "https://github.com/jorio/Bugdom/releases/download/1.3.4/Bugdom-1.3.4-linux-x86_64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "jorio/Bugdom",
+"tag": "1.3.4",
+"asset_name": "Bugdom-1.3.4-mac.dmg",
+"size": 56385078,
+"url": "https://github.com/jorio/Bugdom/releases/download/1.3.4/Bugdom-1.3.4-mac.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "AutoHotkey/AutoHotkey",
+"tag": "v2.0.31",
+"asset_name": "AutoHotkey_2.0.31_setup.exe",
+"size": 3044864,
+"url": "https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.31/AutoHotkey_2.0.31_setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "aehyok/video2blog",
+"tag": "v0.0.36",
+"asset_name": "Video2Blog-Windows-0.0.36-Setup.exe",
+"size": 240268075,
+"url": "https://github.com/aehyok/video2blog/releases/download/v0.0.36/Video2Blog-Windows-0.0.36-Setup.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "rekkyrosso/ampcast",
+"tag": "v0.10.0",
+"asset_name": "ampcast-0.10.0-linux-arm64.AppImage",
+"size": 128882274,
+"url": "https://github.com/rekkyrosso/ampcast/releases/download/v0.10.0/ampcast-0.10.0-linux-arm64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "rekkyrosso/ampcast",
+"tag": "v0.10.0",
+"asset_name": "ampcast-0.10.0-linux-x86_64.AppImage",
+"size": 127576060,
+"url": "https://github.com/rekkyrosso/ampcast/releases/download/v0.10.0/ampcast-0.10.0-linux-x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "rekkyrosso/ampcast",
+"tag": "v0.10.0",
+"asset_name": "ampcast-0.10.0-mac-arm64.dmg",
+"size": 131854054,
+"url": "https://github.com/rekkyrosso/ampcast/releases/download/v0.10.0/ampcast-0.10.0-mac-arm64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "rekkyrosso/ampcast",
+"tag": "v0.10.0",
+"asset_name": "ampcast-0.10.0-mac-x64.dmg",
+"size": 138327493,
+"url": "https://github.com/rekkyrosso/ampcast/releases/download/v0.10.0/ampcast-0.10.0-mac-x64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "rekkyrosso/ampcast",
+"tag": "v0.10.0",
+"asset_name": "ampcast-0.10.0-win-x64.setup.exe",
+"size": 113418058,
+"url": "https://github.com/rekkyrosso/ampcast/releases/download/v0.10.0/ampcast-0.10.0-win-x64.setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "sn4k3/UVtools",
+"tag": "v7.1.2",
+"asset_name": "UVtools_linux-arm64_v7.1.2.AppImage",
+"size": 67557896,
+"url": "https://github.com/sn4k3/UVtools/releases/download/v7.1.2/UVtools_linux-arm64_v7.1.2.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "sn4k3/UVtools",
+"tag": "v7.1.2",
+"asset_name": "UVtools_linux-x64_v7.1.2.AppImage",
+"size": 84077048,
+"url": "https://github.com/sn4k3/UVtools/releases/download/v7.1.2/UVtools_linux-x64_v7.1.2.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "sn4k3/UVtools",
+"tag": "v7.1.2",
+"asset_name": "UVtools_win-arm64_v7.1.2.msi",
+"size": 83375369,
+"url": "https://github.com/sn4k3/UVtools/releases/download/v7.1.2/UVtools_win-arm64_v7.1.2.msi",
+"ext": "msi",
+"source": "cask"
+},
+{
+"repo": "sn4k3/UVtools",
+"tag": "v7.1.2",
+"asset_name": "UVtools_win-x64_v7.1.2.msi",
+"size": 107558279,
+"url": "https://github.com/sn4k3/UVtools/releases/download/v7.1.2/UVtools_win-x64_v7.1.2.msi",
+"ext": "msi",
+"source": "cask"
+},
+{
+"repo": "setvisible/ArrowDL",
+"tag": "v4.2.1",
+"asset_name": "ArrowDL_x64_Setup.exe",
+"size": 36856366,
+"url": "https://github.com/setvisible/ArrowDL/releases/download/v4.2.1/ArrowDL_x64_Setup.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "osxfuse/osxfuse",
+"tag": "macfuse-5.5.0",
+"asset_name": "macfuse-5.5.0.dmg",
+"size": 22946514,
+"url": "https://github.com/macfuse/macfuse/releases/download/macfuse-5.5.0/macfuse-5.5.0.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "steveseguin/social_stream",
+"tag": "v0.4.40",
+"asset_name": "socialstreamninja-portable.exe",
+"size": 344735648,
+"url": "https://github.com/steveseguin/social_stream/releases/download/v0.4.40/socialstreamninja-portable.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "steveseguin/social_stream",
+"tag": "v0.4.40",
+"asset_name": "socialstreamninja-setup-0.4.40.exe",
+"size": 346154872,
+"url": "https://github.com/steveseguin/social_stream/releases/download/v0.4.40/socialstreamninja-setup-0.4.40.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "steveseguin/social_stream",
+"tag": "v0.4.40",
+"asset_name": "socialstreamninja_linux_v0.4.40_x86_64.AppImage",
+"size": 443594760,
+"url": "https://github.com/steveseguin/social_stream/releases/download/v0.4.40/socialstreamninja_linux_v0.4.40_x86_64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "steveseguin/social_stream",
+"tag": "v0.4.40",
+"asset_name": "socialstreamninja_mac_v0.4.40_arm64.dmg",
+"size": 452582855,
+"url": "https://github.com/steveseguin/social_stream/releases/download/v0.4.40/socialstreamninja_mac_v0.4.40_arm64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "steveseguin/social_stream",
+"tag": "v0.4.40",
+"asset_name": "socialstreamninja_mac_v0.4.40_x64.dmg",
+"size": 462548147,
+"url": "https://github.com/steveseguin/social_stream/releases/download/v0.4.40/socialstreamninja_mac_v0.4.40_x64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "nab138/iloader",
+"tag": "v2.4.1",
+"asset_name": "iloader-darwin-universal.dmg",
+"size": 18758860,
+"url": "https://github.com/nab138/iloader/releases/download/v2.4.1/iloader-darwin-universal.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "nab138/iloader",
+"tag": "v2.4.1",
+"asset_name": "iloader-linux-aarch64.AppImage",
+"size": 86915592,
+"url": "https://github.com/nab138/iloader/releases/download/v2.4.1/iloader-linux-aarch64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "nab138/iloader",
+"tag": "v2.4.1",
+"asset_name": "iloader-linux-amd64.AppImage",
+"size": 88611320,
+"url": "https://github.com/nab138/iloader/releases/download/v2.4.1/iloader-linux-amd64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "nab138/iloader",
+"tag": "v2.4.1",
+"asset_name": "iloader-windows-x64.exe",
+"size": 6026098,
+"url": "https://github.com/nab138/iloader/releases/download/v2.4.1/iloader-windows-x64.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "nab138/iloader",
+"tag": "v2.4.1",
+"asset_name": "iloader-windows-x64.msi",
+"size": 8888320,
+"url": "https://github.com/nab138/iloader/releases/download/v2.4.1/iloader-windows-x64.msi",
+"ext": "msi",
+"source": "cask"
+},
+{
+"repo": "koharu-rs/koharu",
+"tag": "0.83.5",
+"asset_name": "koharu_0.83.5_aarch64.AppImage",
+"size": 165904176,
+"url": "https://github.com/koharu-rs/koharu/releases/download/0.83.5/koharu_0.83.5_aarch64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "koharu-rs/koharu",
+"tag": "0.83.5",
+"asset_name": "koharu_0.83.5_aarch64.dmg",
+"size": 189780084,
+"url": "https://github.com/koharu-rs/koharu/releases/download/0.83.5/koharu_0.83.5_aarch64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "koharu-rs/koharu",
+"tag": "0.83.5",
+"asset_name": "koharu_0.83.5_amd64.AppImage",
+"size": 168623063,
+"url": "https://github.com/koharu-rs/koharu/releases/download/0.83.5/koharu_0.83.5_amd64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "koharu-rs/koharu",
+"tag": "0.83.5",
+"asset_name": "koharu_0.83.5_x64-setup.exe",
+"size": 165880120,
+"url": "https://github.com/koharu-rs/koharu/releases/download/0.83.5/koharu_0.83.5_x64-setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "koharu-rs/koharu",
+"tag": "0.83.5",
+"asset_name": "koharu_0.83.5_x64_en-US.msi",
+"size": 219176960,
+"url": "https://github.com/koharu-rs/koharu/releases/download/0.83.5/koharu_0.83.5_x64_en-US.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "ciromattia/kcc",
+"tag": "v13.0.1",
+"asset_name": "KCC_13.0.1.exe",
+"size": 91593416,
+"url": "https://github.com/ciromattia/kcc/releases/download/v13.0.1/KCC_13.0.1.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "ciromattia/kcc",
+"tag": "v13.0.1",
+"asset_name": "KCC_ARM64_13.0.1.exe",
+"size": 70893768,
+"url": "https://github.com/ciromattia/kcc/releases/download/v13.0.1/KCC_ARM64_13.0.1.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "ciromattia/kcc",
+"tag": "v13.0.1",
+"asset_name": "kcc_linux-13.0.1-aarch64.AppImage",
+"size": 109634681,
+"url": "https://github.com/ciromattia/kcc/releases/download/v13.0.1/kcc_linux-13.0.1-aarch64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "ciromattia/kcc",
+"tag": "v13.0.1",
+"asset_name": "kcc_linux-13.0.1-x86_64.AppImage",
+"size": 113933438,
+"url": "https://github.com/ciromattia/kcc/releases/download/v13.0.1/kcc_linux-13.0.1-x86_64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "ciromattia/kcc",
+"tag": "v13.0.1",
+"asset_name": "kcc_macos_arm_13.0.1.dmg",
+"size": 77784270,
+"url": "https://github.com/ciromattia/kcc/releases/download/v13.0.1/kcc_macos_arm_13.0.1.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "ciromattia/kcc",
+"tag": "v13.0.1",
+"asset_name": "kcc_macos_i386_13.0.1.dmg",
+"size": 86067523,
+"url": "https://github.com/ciromattia/kcc/releases/download/v13.0.1/kcc_macos_i386_13.0.1.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "ciromattia/kcc",
+"tag": "v13.0.1",
+"asset_name": "kcc_win7_legacy_13.0.1.exe",
+"size": 71158720,
+"url": "https://github.com/ciromattia/kcc/releases/download/v13.0.1/kcc_win7_legacy_13.0.1.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "ciromattia/kcc",
+"tag": "v13.0.1",
+"asset_name": "tool_cli_c2e_13.0.1_AMD64.exe",
+"size": 91598960,
+"url": "https://github.com/ciromattia/kcc/releases/download/v13.0.1/tool_cli_c2e_13.0.1_AMD64.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "ciromattia/kcc",
+"tag": "v13.0.1",
+"asset_name": "tool_cli_c2e_13.0.1_ARM64.exe",
+"size": 70899512,
+"url": "https://github.com/ciromattia/kcc/releases/download/v13.0.1/tool_cli_c2e_13.0.1_ARM64.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "ciromattia/kcc",
+"tag": "v13.0.1",
+"asset_name": "tool_cli_c2p_13.0.1_AMD64.exe",
+"size": 91598760,
+"url": "https://github.com/ciromattia/kcc/releases/download/v13.0.1/tool_cli_c2p_13.0.1_AMD64.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "ciromattia/kcc",
+"tag": "v13.0.1",
+"asset_name": "tool_cli_c2p_13.0.1_ARM64.exe",
+"size": 70899800,
+"url": "https://github.com/ciromattia/kcc/releases/download/v13.0.1/tool_cli_c2p_13.0.1_ARM64.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "BloopAI/vibe-kanban",
+"tag": "v0.1.44-20260424091429",
+"asset_name": "Vibe-Kanban-0.1.43-aarch64.msi",
+"size": 53619200,
+"url": "https://github.com/BloopAI/vibe-kanban/releases/download/v0.1.44-20260424091429/Vibe-Kanban-0.1.43-aarch64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "BloopAI/vibe-kanban",
+"tag": "v0.1.44-20260424091429",
+"asset_name": "Vibe-Kanban-0.1.43-x86_64.msi",
+"size": 55677440,
+"url": "https://github.com/BloopAI/vibe-kanban/releases/download/v0.1.44-20260424091429/Vibe-Kanban-0.1.43-x86_64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "BloopAI/vibe-kanban",
+"tag": "v0.1.44-20260424091429",
+"asset_name": "Vibe-Kanban-0.1.44-aarch64.msi",
+"size": 53579776,
+"url": "https://github.com/BloopAI/vibe-kanban/releases/download/v0.1.44-20260424091429/Vibe-Kanban-0.1.44-aarch64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "BloopAI/vibe-kanban",
+"tag": "v0.1.44-20260424091429",
+"asset_name": "Vibe-Kanban-0.1.44-x86_64.msi",
+"size": 55616000,
+"url": "https://github.com/BloopAI/vibe-kanban/releases/download/v0.1.44-20260424091429/Vibe-Kanban-0.1.44-x86_64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "BloopAI/vibe-kanban",
+"tag": "v0.1.44-20260424091429",
+"asset_name": "Vibe.Kanban_0.1.43_arm64-setup.exe",
+"size": 36450540,
+"url": "https://github.com/BloopAI/vibe-kanban/releases/download/v0.1.44-20260424091429/Vibe.Kanban_0.1.43_arm64-setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "BloopAI/vibe-kanban",
+"tag": "v0.1.44-20260424091429",
+"asset_name": "Vibe.Kanban_0.1.43_x64-setup.exe",
+"size": 39023283,
+"url": "https://github.com/BloopAI/vibe-kanban/releases/download/v0.1.44-20260424091429/Vibe.Kanban_0.1.43_x64-setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "BloopAI/vibe-kanban",
+"tag": "v0.1.44-20260424091429",
+"asset_name": "Vibe.Kanban_0.1.44_aarch64.AppImage",
+"size": 121301512,
+"url": "https://github.com/BloopAI/vibe-kanban/releases/download/v0.1.44-20260424091429/Vibe.Kanban_0.1.44_aarch64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "BloopAI/vibe-kanban",
+"tag": "v0.1.44-20260424091429",
+"asset_name": "Vibe.Kanban_0.1.44_aarch64.dmg",
+"size": 51306861,
+"url": "https://github.com/BloopAI/vibe-kanban/releases/download/v0.1.44-20260424091429/Vibe.Kanban_0.1.44_aarch64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "BloopAI/vibe-kanban",
+"tag": "v0.1.44-20260424091429",
+"asset_name": "Vibe.Kanban_0.1.44_amd64.AppImage",
+"size": 124389880,
+"url": "https://github.com/BloopAI/vibe-kanban/releases/download/v0.1.44-20260424091429/Vibe.Kanban_0.1.44_amd64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "BloopAI/vibe-kanban",
+"tag": "v0.1.44-20260424091429",
+"asset_name": "Vibe.Kanban_0.1.44_arm64-setup.exe",
+"size": 36457425,
+"url": "https://github.com/BloopAI/vibe-kanban/releases/download/v0.1.44-20260424091429/Vibe.Kanban_0.1.44_arm64-setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "BloopAI/vibe-kanban",
+"tag": "v0.1.44-20260424091429",
+"asset_name": "Vibe.Kanban_0.1.44_x64-setup.exe",
+"size": 38882306,
+"url": "https://github.com/BloopAI/vibe-kanban/releases/download/v0.1.44-20260424091429/Vibe.Kanban_0.1.44_x64-setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "BloopAI/vibe-kanban",
+"tag": "v0.1.44-20260424091429",
+"asset_name": "Vibe.Kanban_0.1.44_x64.dmg",
+"size": 53075137,
+"url": "https://github.com/BloopAI/vibe-kanban/releases/download/v0.1.44-20260424091429/Vibe.Kanban_0.1.44_x64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "sybil-solutions/local-studio",
+"tag": "v3.0.3",
+"asset_name": "Local-Studio-3.0.3-arm64.AppImage",
+"size": 229617768,
+"url": "https://github.com/sybil-solutions/local-studio/releases/download/v3.0.3/Local-Studio-3.0.3-arm64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "sybil-solutions/local-studio",
+"tag": "v3.0.3",
+"asset_name": "Local-Studio-3.0.3-arm64.dmg",
+"size": 189844875,
+"url": "https://github.com/sybil-solutions/local-studio/releases/download/v3.0.3/Local-Studio-3.0.3-arm64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "sybil-solutions/local-studio",
+"tag": "v3.0.3",
+"asset_name": "Local-Studio-3.0.3-x64.dmg",
+"size": 201044506,
+"url": "https://github.com/sybil-solutions/local-studio/releases/download/v3.0.3/Local-Studio-3.0.3-x64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "sybil-solutions/local-studio",
+"tag": "v3.0.3",
+"asset_name": "Local-Studio-3.0.3-x64.exe",
+"size": 218211693,
+"url": "https://github.com/sybil-solutions/local-studio/releases/download/v3.0.3/Local-Studio-3.0.3-x64.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "sybil-solutions/local-studio",
+"tag": "v3.0.3",
+"asset_name": "Local-Studio-3.0.3-x86_64.AppImage",
+"size": 230078773,
+"url": "https://github.com/sybil-solutions/local-studio/releases/download/v3.0.3/Local-Studio-3.0.3-x86_64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "sybil-solutions/local-studio",
+"tag": "v3.0.3",
+"asset_name": "local-studio-controller-windows-x64.exe",
+"size": 98761216,
+"url": "https://github.com/sybil-solutions/local-studio/releases/download/v3.0.3/local-studio-controller-windows-x64.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "sybil-solutions/local-studio",
+"tag": "v3.0.3",
+"asset_name": "Local-Studio-linux-arm64.AppImage",
+"size": 229617768,
+"url": "https://github.com/sybil-solutions/local-studio/releases/download/v3.0.3/Local-Studio-linux-arm64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "sybil-solutions/local-studio",
+"tag": "v3.0.3",
+"asset_name": "Local-Studio-linux-x64.AppImage",
+"size": 230078773,
+"url": "https://github.com/sybil-solutions/local-studio/releases/download/v3.0.3/Local-Studio-linux-x64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "sybil-solutions/local-studio",
+"tag": "v3.0.3",
+"asset_name": "Local-Studio-mac-arm64.dmg",
+"size": 189844875,
+"url": "https://github.com/sybil-solutions/local-studio/releases/download/v3.0.3/Local-Studio-mac-arm64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "sybil-solutions/local-studio",
+"tag": "v3.0.3",
+"asset_name": "Local-Studio-mac-x64.dmg",
+"size": 201044506,
+"url": "https://github.com/sybil-solutions/local-studio/releases/download/v3.0.3/Local-Studio-mac-x64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "sybil-solutions/local-studio",
+"tag": "v3.0.3",
+"asset_name": "Local-Studio-win-x64.exe",
+"size": 218211693,
+"url": "https://github.com/sybil-solutions/local-studio/releases/download/v3.0.3/Local-Studio-win-x64.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "44886/Exeify",
+"tag": "v0.7.6",
+"asset_name": "exeify-v0.7.6-windows-x64.exe",
+"size": 2849280,
+"url": "https://github.com/44886/Exeify/releases/download/v0.7.6/exeify-v0.7.6-windows-x64.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "Vita3K/Vita3K",
+"tag": "continuous",
+"asset_name": "macos-arm64-latest.dmg",
+"size": 60608220,
+"url": "https://github.com/Vita3K/Vita3K/releases/download/continuous/macos-arm64-latest.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "Vita3K/Vita3K",
+"tag": "continuous",
+"asset_name": "macos-latest.dmg",
+"size": 62510400,
+"url": "https://github.com/Vita3K/Vita3K/releases/download/continuous/macos-latest.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "Vita3K/Vita3K",
+"tag": "continuous",
+"asset_name": "Vita3K-aarch64.AppImage",
+"size": 88443529,
+"url": "https://github.com/Vita3K/Vita3K/releases/download/continuous/Vita3K-aarch64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "Vita3K/Vita3K",
+"tag": "continuous",
+"asset_name": "Vita3K-x86_64.AppImage",
+"size": 89982211,
+"url": "https://github.com/Vita3K/Vita3K/releases/download/continuous/Vita3K-x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "TsaiKoga/it-tools",
+"tag": "v1.5.1",
+"asset_name": "IT-Tools-v1.5.1.dmg",
+"size": 79836439,
+"url": "https://github.com/TsaiKoga/it-tools/releases/download/v1.5.1/IT-Tools-v1.5.1.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "zellij-org/zellij",
+"tag": "v0.46.0",
+"asset_name": "zellij-no-web-x86_64-pc-windows-msvc-installer.msi",
+"size": 30150656,
+"url": "https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-no-web-x86_64-pc-windows-msvc-installer.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "zellij-org/zellij",
+"tag": "v0.46.0",
+"asset_name": "zellij-x86_64-pc-windows-msvc-installer.msi",
+"size": 32612352,
+"url": "https://github.com/zellij-org/zellij/releases/download/v0.46.0/zellij-x86_64-pc-windows-msvc-installer.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "epicenter-os/epicenter",
+"tag": "v7.11.0",
+"asset_name": "Whispering_7.11.0_aarch64.dmg",
+"size": 15606745,
+"url": "https://github.com/EpicenterHQ/epicenter/releases/download/v7.11.0/Whispering_7.11.0_aarch64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "epicenter-os/epicenter",
+"tag": "v7.11.0",
+"asset_name": "Whispering_7.11.0_amd64.AppImage",
+"size": 102181368,
+"url": "https://github.com/EpicenterHQ/epicenter/releases/download/v7.11.0/Whispering_7.11.0_amd64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "epicenter-os/epicenter",
+"tag": "v7.11.0",
+"asset_name": "Whispering_7.11.0_x64-setup.exe",
+"size": 13421289,
+"url": "https://github.com/EpicenterHQ/epicenter/releases/download/v7.11.0/Whispering_7.11.0_x64-setup.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "epicenter-os/epicenter",
+"tag": "v7.11.0",
+"asset_name": "Whispering_7.11.0_x64_en-US.msi",
+"size": 23764992,
+"url": "https://github.com/EpicenterHQ/epicenter/releases/download/v7.11.0/Whispering_7.11.0_x64_en-US.msi",
+"ext": "msi",
+"source": "cask"
+},
+{
+"repo": "OyadotAI/oya-browser",
+"tag": "v1.0.233",
+"asset_name": "Oya.Browser-1.0.233-universal.dmg",
+"size": 236487833,
+"url": "https://github.com/OyadotAI/oya-browser/releases/download/v1.0.233/Oya.Browser-1.0.233-universal.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "OyadotAI/oya-browser",
+"tag": "v1.0.233",
+"asset_name": "Oya.Browser-1.0.233-x64.exe",
+"size": 123963784,
+"url": "https://github.com/OyadotAI/oya-browser/releases/download/v1.0.233/Oya.Browser-1.0.233-x64.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "openclaw/Peekaboo",
+"tag": "v4.9.8",
+"asset_name": "Peekaboo-4.9.8.dmg",
+"size": 49191262,
+"url": "https://github.com/openclaw/Peekaboo/releases/download/v4.9.8/Peekaboo-4.9.8.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "bardsoftware/ganttproject",
+"tag": "ganttproject-3.3.3323",
+"asset_name": "ganttproject-3.3.3323-intel.dmg",
+"size": 146129461,
+"url": "https://github.com/bardsoftware/ganttproject/releases/download/ganttproject-3.3.3323/ganttproject-3.3.3323-intel.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "bardsoftware/ganttproject",
+"tag": "ganttproject-3.3.3323",
+"asset_name": "ganttproject-3.3.3323-silicon.dmg",
+"size": 142191251,
+"url": "https://github.com/bardsoftware/ganttproject/releases/download/ganttproject-3.3.3323/ganttproject-3.3.3323-silicon.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "bardsoftware/ganttproject",
+"tag": "ganttproject-3.3.3323",
+"asset_name": "ganttproject-3.3.3323.AppImage",
+"size": 184560120,
+"url": "https://github.com/bardsoftware/ganttproject/releases/download/ganttproject-3.3.3323/ganttproject-3.3.3323.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "bardsoftware/ganttproject",
+"tag": "ganttproject-3.3.3323",
+"asset_name": "ganttproject-3.3.3323.exe",
+"size": 143179289,
+"url": "https://github.com/bardsoftware/ganttproject/releases/download/ganttproject-3.3.3323/ganttproject-3.3.3323.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "bardsoftware/ganttproject",
+"tag": "ganttproject-3.3.3323",
+"asset_name": "ganttproject-3.3.3323.msi",
+"size": 144510023,
+"url": "https://github.com/bardsoftware/ganttproject/releases/download/ganttproject-3.3.3323/ganttproject-3.3.3323.msi",
+"ext": "msi",
+"source": "cask"
+},
+{
+"repo": "MediaHarbor/mediaharbor",
+"tag": "v3.0.0",
+"asset_name": "MediaHarbor_3.0.0_aarch64.dmg",
+"size": 14259849,
+"url": "https://github.com/MediaHarbor/mediaharbor/releases/download/v3.0.0/MediaHarbor_3.0.0_aarch64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "MediaHarbor/mediaharbor",
+"tag": "v3.0.0",
+"asset_name": "MediaHarbor_3.0.0_amd64.AppImage",
+"size": 94493176,
+"url": "https://github.com/MediaHarbor/mediaharbor/releases/download/v3.0.0/MediaHarbor_3.0.0_amd64.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "MediaHarbor/mediaharbor",
+"tag": "v3.0.0",
+"asset_name": "MediaHarbor_3.0.0_x64-setup.exe",
+"size": 12639331,
+"url": "https://github.com/MediaHarbor/mediaharbor/releases/download/v3.0.0/MediaHarbor_3.0.0_x64-setup.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "MediaHarbor/mediaharbor",
+"tag": "v3.0.0",
+"asset_name": "MediaHarbor_3.0.0_x64.dmg",
+"size": 15831662,
+"url": "https://github.com/MediaHarbor/mediaharbor/releases/download/v3.0.0/MediaHarbor_3.0.0_x64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "MediaHarbor/mediaharbor",
+"tag": "v3.0.0",
+"asset_name": "MediaHarbor_3.0.0_x64_en-US.msi",
+"size": 17731584,
+"url": "https://github.com/MediaHarbor/mediaharbor/releases/download/v3.0.0/MediaHarbor_3.0.0_x64_en-US.msi",
+"ext": "msi",
+"source": "gh_search"
+},
+{
+"repo": "zoolapp/aime",
+"tag": "v0.1.12",
+"asset_name": "AIME-0.1.12.pkg",
+"size": 36735871,
+"url": "https://github.com/zoolapp/aime/releases/download/v0.1.12/AIME-0.1.12.pkg",
+"ext": "pkg",
+"source": "komi"
+},
+{
+"repo": "Hxy1992/MapDownload",
+"tag": "v26.8.21-479",
+"asset_name": "map-download-Setup-26.8.21-479.exe",
+"size": 86308071,
+"url": "https://github.com/Hxy1992/MapDownload/releases/download/v26.8.21-479/map-download-Setup-26.8.21-479.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "DDDuoDuo/EndfieldHUD",
+"tag": "v1.3.1",
+"asset_name": "EndfieldHUD-1.3.1-build20-Installer.pkg",
+"size": 62268095,
+"url": "https://github.com/DDDuoDuo/EndfieldHUD/releases/download/v1.3.1/EndfieldHUD-1.3.1-build20-Installer.pkg",
+"ext": "pkg",
+"source": "komi"
+},
+{
+"repo": "DDDuoDuo/EndfieldHUD",
+"tag": "v1.3.1",
+"asset_name": "EndfieldHUD-1.3.1-build20-macOS.dmg",
+"size": 68686827,
+"url": "https://github.com/DDDuoDuo/EndfieldHUD/releases/download/v1.3.1/EndfieldHUD-1.3.1-build20-macOS.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "DDDuoDuo/EndfieldHUD",
+"tag": "v1.3.1",
+"asset_name": "EndfieldHUD-1.3.1-build21-windows-x64-setup.exe",
+"size": 44510464,
+"url": "https://github.com/DDDuoDuo/EndfieldHUD/releases/download/v1.3.1/EndfieldHUD-1.3.1-build21-windows-x64-setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "dunkbing/typeview",
+"tag": "app-v0.0.0",
+"asset_name": "TypeView_0.0.0_aarch64.dmg",
+"size": 2651254,
+"url": "https://github.com/dunkbing/typeview/releases/download/app-v0.0.0/TypeView_0.0.0_aarch64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "dunkbing/typeview",
+"tag": "app-v0.0.0",
+"asset_name": "TypeView_0.0.0_x64-setup.exe",
+"size": 1643863,
+"url": "https://github.com/dunkbing/typeview/releases/download/app-v0.0.0/TypeView_0.0.0_x64-setup.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "dunkbing/typeview",
+"tag": "app-v0.0.0",
+"asset_name": "TypeView_0.0.0_x64.dmg",
+"size": 2688710,
+"url": "https://github.com/dunkbing/typeview/releases/download/app-v0.0.0/TypeView_0.0.0_x64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "dunkbing/typeview",
+"tag": "app-v0.0.0",
+"asset_name": "TypeView_0.0.0_x64_en-US.msi",
+"size": 2621440,
+"url": "https://github.com/dunkbing/typeview/releases/download/app-v0.0.0/TypeView_0.0.0_x64_en-US.msi",
+"ext": "msi",
+"source": "gh_search"
+},
+{
+"repo": "pdone/FreeControl",
+"tag": "v2.5.1",
+"asset_name": "FreeControl_2.5.1_linux_amd64.AppImage",
+"size": 84548088,
+"url": "https://github.com/pdone/FreeControl/releases/download/v2.5.1/FreeControl_2.5.1_linux_amd64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "pdone/FreeControl",
+"tag": "v2.5.1",
+"asset_name": "FreeControl_2.5.1_macos_arm64.dmg",
+"size": 5857471,
+"url": "https://github.com/pdone/FreeControl/releases/download/v2.5.1/FreeControl_2.5.1_macos_arm64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "pdone/FreeControl",
+"tag": "v2.5.1",
+"asset_name": "FreeControl_2.5.1_macos_x64.dmg",
+"size": 5864907,
+"url": "https://github.com/pdone/FreeControl/releases/download/v2.5.1/FreeControl_2.5.1_macos_x64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "pdone/FreeControl",
+"tag": "v2.5.1",
+"asset_name": "FreeControl_2.5.1_windows_arm64.exe",
+"size": 5937664,
+"url": "https://github.com/pdone/FreeControl/releases/download/v2.5.1/FreeControl_2.5.1_windows_arm64.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "pdone/FreeControl",
+"tag": "v2.5.1",
+"asset_name": "FreeControl_2.5.1_windows_x64.exe",
+"size": 6559232,
+"url": "https://github.com/pdone/FreeControl/releases/download/v2.5.1/FreeControl_2.5.1_windows_x64.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "1000ch/whale",
+"tag": "v3.0.0",
+"asset_name": "Whale-3.0.0-arm64.dmg",
+"size": 114884658,
+"url": "https://github.com/1000ch/whale/releases/download/v3.0.0/Whale-3.0.0-arm64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "1000ch/whale",
+"tag": "v3.0.0",
+"asset_name": "Whale.Setup.3.0.0.exe",
+"size": 102353790,
+"url": "https://github.com/1000ch/whale/releases/download/v3.0.0/Whale.Setup.3.0.0.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "SkyD666/PodAura",
+"tag": "31",
+"asset_name": "PodAura_1.0.0_macOS_JVM_arm64_release_GitHub.dmg",
+"size": 123483637,
+"url": "https://github.com/SkyD666/PodAura/releases/download/31/PodAura_1.0.0_macOS_JVM_arm64_release_GitHub.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "mozilla/mozregression",
+"tag": "7.7.0",
+"asset_name": "mozregression-gui-signed.exe",
+"size": 39678832,
+"url": "https://github.com/mozilla/mozregression/releases/download/7.7.0/mozregression-gui-signed.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "mozilla/mozregression",
+"tag": "7.7.0",
+"asset_name": "mozregression-gui.dmg",
+"size": 86506174,
+"url": "https://github.com/mozilla/mozregression/releases/download/7.7.0/mozregression-gui.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "pmbstyle/Alice",
+"tag": "v1.5.0",
+"asset_name": "Alice-AI-App-Linux-1.5.0.AppImage",
+"size": 550535564,
+"url": "https://github.com/pmbstyle/Alice/releases/download/v1.5.0/Alice-AI-App-Linux-1.5.0.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "pmbstyle/Alice",
+"tag": "v1.5.0",
+"asset_name": "Alice-AI-App-Mac-1.5.0-Installer.dmg",
+"size": 1069656591,
+"url": "https://github.com/pmbstyle/Alice/releases/download/v1.5.0/Alice-AI-App-Mac-1.5.0-Installer.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "pmbstyle/Alice",
+"tag": "v1.5.0",
+"asset_name": "Alice-AI-App-Windows-1.5.0-Setup.exe",
+"size": 532831188,
+"url": "https://github.com/pmbstyle/Alice/releases/download/v1.5.0/Alice-AI-App-Windows-1.5.0-Setup.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "UniversalMediaServer/UniversalMediaServer",
+"tag": "15.9.0",
+"asset_name": "UMS-Linux-15.9.0-x86_64.AppImage",
+"size": 233421304,
+"url": "https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/15.9.0/UMS-Linux-15.9.0-x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "UniversalMediaServer/UniversalMediaServer",
+"tag": "15.9.0",
+"asset_name": "UMS-macOS-15.9.0-arm.dmg",
+"size": 222193743,
+"url": "https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/15.9.0/UMS-macOS-15.9.0-arm.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "UniversalMediaServer/UniversalMediaServer",
+"tag": "15.9.0",
+"asset_name": "UMS-macOS-15.9.0-pre10.15.dmg",
+"size": 233481446,
+"url": "https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/15.9.0/UMS-macOS-15.9.0-pre10.15.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "UniversalMediaServer/UniversalMediaServer",
+"tag": "15.9.0",
+"asset_name": "UMS-macOS-15.9.0-x86_64.dmg",
+"size": 228841286,
+"url": "https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/15.9.0/UMS-macOS-15.9.0-x86_64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "UniversalMediaServer/UniversalMediaServer",
+"tag": "15.9.0",
+"asset_name": "UMS-Windows-15.9.0-x86.exe",
+"size": 236669285,
+"url": "https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/15.9.0/UMS-Windows-15.9.0-x86.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "UniversalMediaServer/UniversalMediaServer",
+"tag": "15.9.0",
+"asset_name": "UMS-Windows-15.9.0-x86_64.exe",
+"size": 173497468,
+"url": "https://github.com/UniversalMediaServer/UniversalMediaServer/releases/download/15.9.0/UMS-Windows-15.9.0-x86_64.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "blaise-io/acelink",
+"tag": "2.1.0",
+"asset_name": "Ace.Link.2.1.0.dmg",
+"size": 4507668,
+"url": "https://github.com/blaise-io/acelink/releases/download/2.1.0/Ace.Link.2.1.0.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "yuxino/Mimi",
+"tag": "v1.6.17",
+"asset_name": "mimi_1.6.17_aarch64.dmg",
+"size": 7666410,
+"url": "https://github.com/yuxino/Mimi/releases/download/v1.6.17/mimi_1.6.17_aarch64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "yuxino/Mimi",
+"tag": "v1.6.17",
+"asset_name": "mimi_1.6.17_amd64.AppImage",
+"size": 85154296,
+"url": "https://github.com/yuxino/Mimi/releases/download/v1.6.17/mimi_1.6.17_amd64.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "yuxino/Mimi",
+"tag": "v1.6.17",
+"asset_name": "mimi_1.6.17_x64-setup.exe",
+"size": 4859636,
+"url": "https://github.com/yuxino/Mimi/releases/download/v1.6.17/mimi_1.6.17_x64-setup.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "yuxino/Mimi",
+"tag": "v1.6.17",
+"asset_name": "mimi_1.6.17_x64.dmg",
+"size": 8121676,
+"url": "https://github.com/yuxino/Mimi/releases/download/v1.6.17/mimi_1.6.17_x64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "yuxino/Mimi",
+"tag": "v1.6.17",
+"asset_name": "mimi_1.6.17_x64_en-US.msi",
+"size": 5361664,
+"url": "https://github.com/yuxino/Mimi/releases/download/v1.6.17/mimi_1.6.17_x64_en-US.msi",
+"ext": "msi",
+"source": "gh_search"
+},
+{
+"repo": "cocojojo5213/Dev-Janitor",
+"tag": "v2.5.1",
+"asset_name": "Dev.Janitor_2.5.1_aarch64.dmg",
+"size": 4311307,
+"url": "https://github.com/cocojojo5213/Dev-Janitor/releases/download/v2.5.1/Dev.Janitor_2.5.1_aarch64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "cocojojo5213/Dev-Janitor",
+"tag": "v2.5.1",
+"asset_name": "Dev.Janitor_2.5.1_amd64.AppImage",
+"size": 84023800,
+"url": "https://github.com/cocojojo5213/Dev-Janitor/releases/download/v2.5.1/Dev.Janitor_2.5.1_amd64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "cocojojo5213/Dev-Janitor",
+"tag": "v2.5.1",
+"asset_name": "Dev.Janitor_2.5.1_x64-setup.exe",
+"size": 2897983,
+"url": "https://github.com/cocojojo5213/Dev-Janitor/releases/download/v2.5.1/Dev.Janitor_2.5.1_x64-setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "cocojojo5213/Dev-Janitor",
+"tag": "v2.5.1",
+"asset_name": "Dev.Janitor_2.5.1_x64.dmg",
+"size": 4621827,
+"url": "https://github.com/cocojojo5213/Dev-Janitor/releases/download/v2.5.1/Dev.Janitor_2.5.1_x64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "cocojojo5213/Dev-Janitor",
+"tag": "v2.5.1",
+"asset_name": "Dev.Janitor_2.5.1_x64_en-US.msi",
+"size": 4030464,
+"url": "https://github.com/cocojojo5213/Dev-Janitor/releases/download/v2.5.1/Dev.Janitor_2.5.1_x64_en-US.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "cocojojo5213/Dev-Janitor",
+"tag": "v2.5.1",
+"asset_name": "Dev.Janitor_2.5.1_x64_ja-JP.msi",
+"size": 4030464,
+"url": "https://github.com/cocojojo5213/Dev-Janitor/releases/download/v2.5.1/Dev.Janitor_2.5.1_x64_ja-JP.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "cocojojo5213/Dev-Janitor",
+"tag": "v2.5.1",
+"asset_name": "Dev.Janitor_2.5.1_x64_zh-CN.msi",
+"size": 4026368,
+"url": "https://github.com/cocojojo5213/Dev-Janitor/releases/download/v2.5.1/Dev.Janitor_2.5.1_x64_zh-CN.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "scosman/Biscotti",
+"tag": "v1.0.0",
+"asset_name": "Biscotti.dmg",
+"size": 22892691,
+"url": "https://github.com/scosman/Biscotti/releases/download/v1.0.0/Biscotti.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "Blave-TW/blave-agent",
+"tag": "desktop-v0.1.52",
+"asset_name": "Blave-0.1.52-universal.dmg",
+"size": 273614144,
+"url": "https://github.com/Blave-TW/blave-agent/releases/download/desktop-v0.1.52/Blave-0.1.52-universal.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "Blave-TW/blave-agent",
+"tag": "desktop-v0.1.52",
+"asset_name": "Blave-Setup-0.1.52.exe",
+"size": 137823041,
+"url": "https://github.com/Blave-TW/blave-agent/releases/download/desktop-v0.1.52/Blave-Setup-0.1.52.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "superhighfives/pika",
+"tag": "2.0.2",
+"asset_name": "Pika-2.0.2.dmg",
+"size": 8509840,
+"url": "https://github.com/superhighfives/pika/releases/download/2.0.2/Pika-2.0.2.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "QL-Win/QuickLook",
+"tag": "4.5.0",
+"asset_name": "QuickLook-4.5.0.appx",
+"size": 136671507,
+"url": "https://github.com/QL-Win/QuickLook/releases/download/4.5.0/QuickLook-4.5.0.appx",
+"ext": "appx",
+"source": "komi"
+},
+{
+"repo": "QL-Win/QuickLook",
+"tag": "4.5.0",
+"asset_name": "QuickLook-4.5.0.exe",
+"size": 64748544,
+"url": "https://github.com/QL-Win/QuickLook/releases/download/4.5.0/QuickLook-4.5.0.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "QL-Win/QuickLook",
+"tag": "4.5.0",
+"asset_name": "QuickLook-4.5.0.msi",
+"size": 94425456,
+"url": "https://github.com/QL-Win/QuickLook/releases/download/4.5.0/QuickLook-4.5.0.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "3529/fish-book",
+"tag": "v1.0.0",
+"asset_name": "fish-book.Setup.1.0.0.exe",
+"size": 71620052,
+"url": "https://github.com/3529/fish-book/releases/download/v1.0.0/fish-book.Setup.1.0.0.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "Z-Siqi/Clash-for-Windows_Chinese",
+"tag": "0.20.39.5",
+"asset_name": "Clash.for.Windows.Setup_Opt-5.arm64.exe",
+"size": 154754025,
+"url": "https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/download/0.20.39.5/Clash.for.Windows.Setup_Opt-5.arm64.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "Z-Siqi/Clash-for-Windows_Chinese",
+"tag": "0.20.39.5",
+"asset_name": "Clash.for.Windows.Setup_Opt-5.exe",
+"size": 163053850,
+"url": "https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/download/0.20.39.5/Clash.for.Windows.Setup_Opt-5.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "Z-Siqi/Clash-for-Windows_Chinese",
+"tag": "0.20.39.5",
+"asset_name": "Setup_Opt-0.20.39.5.exe",
+"size": 163053850,
+"url": "https://github.com/Z-Siqi/Clash-for-Windows_Chinese/releases/download/0.20.39.5/Setup_Opt-0.20.39.5.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "Psiphon-Inc/conduit",
+"tag": "release-cli-2.1.0",
+"asset_name": "conduit-windows-amd64.exe",
+"size": 28978176,
+"url": "https://github.com/Psiphon-Inc/conduit/releases/download/release-cli-2.1.0/conduit-windows-amd64.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "mvdicarlo/postybirb",
+"tag": "v2.3.44",
+"asset_name": "PostyBirb-2.3.44.AppImage",
+"size": 93283050,
+"url": "https://github.com/mvdicarlo/postybirb/releases/download/v2.3.44/PostyBirb-2.3.44.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "mvdicarlo/postybirb",
+"tag": "v2.3.44",
+"asset_name": "PostyBirb-2.3.44.dmg",
+"size": 94086474,
+"url": "https://github.com/mvdicarlo/postybirb/releases/download/v2.3.44/PostyBirb-2.3.44.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "mvdicarlo/postybirb",
+"tag": "v2.3.44",
+"asset_name": "PostyBirb-2.3.44.exe",
+"size": 126929720,
+"url": "https://github.com/mvdicarlo/postybirb/releases/download/v2.3.44/PostyBirb-2.3.44.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "mvdicarlo/postybirb",
+"tag": "v2.3.44",
+"asset_name": "PostyBirb-Setup-2.3.44.exe",
+"size": 127133984,
+"url": "https://github.com/mvdicarlo/postybirb/releases/download/v2.3.44/PostyBirb-Setup-2.3.44.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "qqqqqf-q/Arkloop",
+"tag": "v26.5.21.2",
+"asset_name": "Arkloop-linux-x86_64.AppImage",
+"size": 174754458,
+"url": "https://github.com/qqqqqf-q/Arkloop/releases/download/v26.5.21.2/Arkloop-linux-x86_64.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "qqqqqf-q/Arkloop",
+"tag": "v26.5.21.2",
+"asset_name": "Arkloop-mac-arm64.dmg",
+"size": 169121107,
+"url": "https://github.com/qqqqqf-q/Arkloop/releases/download/v26.5.21.2/Arkloop-mac-arm64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "qqqqqf-q/Arkloop",
+"tag": "v26.5.21.2",
+"asset_name": "Arkloop-mac-x64.dmg",
+"size": 180246046,
+"url": "https://github.com/qqqqqf-q/Arkloop/releases/download/v26.5.21.2/Arkloop-mac-x64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "qqqqqf-q/Arkloop",
+"tag": "v26.5.21.2",
+"asset_name": "Arkloop-win-x64.exe",
+"size": 141021553,
+"url": "https://github.com/qqqqqf-q/Arkloop/releases/download/v26.5.21.2/Arkloop-win-x64.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "Kilian/fromscratch",
+"tag": "v1.4.3",
+"asset_name": "FromScratch-1.4.3.dmg",
+"size": 55126992,
+"url": "https://github.com/Kilian/fromscratch/releases/download/v1.4.3/FromScratch-1.4.3.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "Kilian/fromscratch",
+"tag": "v1.4.3",
+"asset_name": "FromScratch.1.4.3.AppImage",
+"size": 76963800,
+"url": "https://github.com/Kilian/fromscratch/releases/download/v1.4.3/FromScratch.1.4.3.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "Kilian/fromscratch",
+"tag": "v1.4.3",
+"asset_name": "FromScratch.Setup.1.4.3.exe",
+"size": 44145433,
+"url": "https://github.com/Kilian/fromscratch/releases/download/v1.4.3/FromScratch.Setup.1.4.3.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "coder/coder",
+"tag": "v2.38.7",
+"asset_name": "coder_2.38.7_windows_amd64_installer.exe",
+"size": 174055184,
+"url": "https://github.com/coder/coder/releases/download/v2.38.7/coder_2.38.7_windows_amd64_installer.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "lettier/lambda-lantern",
+"tag": "0.0.0.0",
+"asset_name": "lambda-lantern-0.0.0.0-ubuntu-16.04-x86.AppImage",
+"size": 60840152,
+"url": "https://github.com/lettier/lambda-lantern/releases/download/0.0.0.0/lambda-lantern-0.0.0.0-ubuntu-16.04-x86.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "lettier/lambda-lantern",
+"tag": "0.0.0.0",
+"asset_name": "lambda-lantern-0.0.0.0-x86.AppImage",
+"size": 63555800,
+"url": "https://github.com/lettier/lambda-lantern/releases/download/0.0.0.0/lambda-lantern-0.0.0.0-x86.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "joyanhui/ikuai-bypass",
+"tag": "ikuai-bypass-v4.4.110",
+"asset_name": "ikuai-bypass-gui-macos-aarch64.dmg",
+"size": 5429216,
+"url": "https://github.com/joyanhui/ikuai-bypass/releases/download/ikuai-bypass-v4.4.110/ikuai-bypass-gui-macos-aarch64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "joyanhui/ikuai-bypass",
+"tag": "ikuai-bypass-v4.4.110",
+"asset_name": "ikuai-bypass-gui-macos-x86_64.dmg",
+"size": 5601889,
+"url": "https://github.com/joyanhui/ikuai-bypass/releases/download/ikuai-bypass-v4.4.110/ikuai-bypass-gui-macos-x86_64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "Eugeny/tabby",
+"tag": "v1.0.238",
+"asset_name": "tabby-1.0.238-linux-arm64.AppImage",
+"size": 169287060,
+"url": "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-linux-arm64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "Eugeny/tabby",
+"tag": "v1.0.238",
+"asset_name": "tabby-1.0.238-linux-armv7l.AppImage",
+"size": 165589059,
+"url": "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-linux-armv7l.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "Eugeny/tabby",
+"tag": "v1.0.238",
+"asset_name": "tabby-1.0.238-linux-x64.AppImage",
+"size": 168153321,
+"url": "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-linux-x64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "Eugeny/tabby",
+"tag": "v1.0.238",
+"asset_name": "tabby-1.0.238-macos-arm64.dmg",
+"size": 162632008,
+"url": "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-macos-arm64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "Eugeny/tabby",
+"tag": "v1.0.238",
+"asset_name": "tabby-1.0.238-macos-x86_64.dmg",
+"size": 168689034,
+"url": "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-macos-x86_64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "Eugeny/tabby",
+"tag": "v1.0.238",
+"asset_name": "tabby-1.0.238-setup-arm64.exe",
+"size": 150590024,
+"url": "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-setup-arm64.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "Eugeny/tabby",
+"tag": "v1.0.238",
+"asset_name": "tabby-1.0.238-setup-x64.exe",
+"size": 169744184,
+"url": "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-setup-x64.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "realm/realm-studio",
+"tag": "v15.2.1",
+"asset_name": "Realm.Studio-15.2.1.AppImage",
+"size": 119330075,
+"url": "https://github.com/realm/realm-studio/releases/download/v15.2.1/Realm.Studio-15.2.1.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "realm/realm-studio",
+"tag": "v15.2.1",
+"asset_name": "Realm.Studio-15.2.1.dmg",
+"size": 114027467,
+"url": "https://github.com/realm/realm-studio/releases/download/v15.2.1/Realm.Studio-15.2.1.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "realm/realm-studio",
+"tag": "v15.2.1",
+"asset_name": "Realm.Studio.15.2.1.exe",
+"size": 85639181,
+"url": "https://github.com/realm/realm-studio/releases/download/v15.2.1/Realm.Studio.15.2.1.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "realm/realm-studio",
+"tag": "v15.2.1",
+"asset_name": "Realm.Studio.Setup.15.2.1.exe",
+"size": 85854648,
+"url": "https://github.com/realm/realm-studio/releases/download/v15.2.1/Realm.Studio.Setup.15.2.1.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "GitJournal/GitJournal",
+"tag": "v1.80.0",
+"asset_name": "GitJournal-linux-x86_64.AppImage",
+"size": 13128896,
+"url": "https://github.com/GitJournal/GitJournal/releases/download/v1.80.0/GitJournal-linux-x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "GitJournal/GitJournal",
+"tag": "v1.80.0",
+"asset_name": "GitJournal-osx.dmg",
+"size": 18240721,
+"url": "https://github.com/GitJournal/GitJournal/releases/download/v1.80.0/GitJournal-osx.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "h3poteto/whalebird-desktop",
+"tag": "v6.3.1",
+"asset_name": "Whalebird-6.3.1-linux-x86_64.AppImage",
+"size": 160895605,
+"url": "https://github.com/h3poteto/whalebird-desktop/releases/download/v6.3.1/Whalebird-6.3.1-linux-x86_64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "h3poteto/whalebird-desktop",
+"tag": "v6.3.1",
+"asset_name": "Whalebird-6.3.1-mac-universal.dmg",
+"size": 267369634,
+"url": "https://github.com/h3poteto/whalebird-desktop/releases/download/v6.3.1/Whalebird-6.3.1-mac-universal.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "h3poteto/whalebird-desktop",
+"tag": "v6.3.1",
+"asset_name": "Whalebird-6.3.1-win-x64.exe",
+"size": 145838535,
+"url": "https://github.com/h3poteto/whalebird-desktop/releases/download/v6.3.1/Whalebird-6.3.1-win-x64.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "gpodder/gpodder",
+"tag": "3.11.5",
+"asset_name": "windows-gpodder-3.11.5-installer.exe",
+"size": 35871209,
+"url": "https://github.com/gpodder/gpodder/releases/download/3.11.5/windows-gpodder-3.11.5-installer.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "gpodder/gpodder",
+"tag": "3.11.5",
+"asset_name": "windows-gpodder-3.11.5-portable.exe",
+"size": 35954673,
+"url": "https://github.com/gpodder/gpodder/releases/download/3.11.5/windows-gpodder-3.11.5-portable.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "flick9000/winscript",
+"tag": "v2.28.2",
+"asset_name": "winscript-installer.exe",
+"size": 5813768,
+"url": "https://github.com/flick9000/winscript/releases/download/v2.28.2/winscript-installer.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "flick9000/winscript",
+"tag": "v2.28.2",
+"asset_name": "winscript-portable.exe",
+"size": 13787944,
+"url": "https://github.com/flick9000/winscript/releases/download/v2.28.2/winscript-portable.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "lidarr/Lidarr",
+"tag": "v3.1.6.5079",
+"asset_name": "Lidarr.master.3.1.6.5079.windows-core-x64-installer.exe",
+"size": 76046981,
+"url": "https://github.com/Lidarr/Lidarr/releases/download/v3.1.6.5079/Lidarr.master.3.1.6.5079.windows-core-x64-installer.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "lidarr/Lidarr",
+"tag": "v3.1.6.5079",
+"asset_name": "Lidarr.master.3.1.6.5079.windows-core-x86-installer.exe",
+"size": 70211593,
+"url": "https://github.com/Lidarr/Lidarr/releases/download/v3.1.6.5079/Lidarr.master.3.1.6.5079.windows-core-x86-installer.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "BigPizzaV3/CodexPlusPlus",
+"tag": "v2.6.3",
+"asset_name": "CodexPlusPlus-2.6.3-macos-universal.dmg",
+"size": 108110885,
+"url": "https://github.com/BigPizzaV3/CodexPlusPlus/releases/download/v2.6.3/CodexPlusPlus-2.6.3-macos-universal.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "BigPizzaV3/CodexPlusPlus",
+"tag": "v2.6.3",
+"asset_name": "CodexPlusPlus-2.6.3-windows-x64-setup.exe",
+"size": 30605445,
+"url": "https://github.com/BigPizzaV3/CodexPlusPlus/releases/download/v2.6.3/CodexPlusPlus-2.6.3-windows-x64-setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "847850277/postman-gpui",
+"tag": "v0.1.3",
+"asset_name": "postman-gpui_0.1.3_x64-setup.exe",
+"size": 11854728,
+"url": "https://github.com/847850277/postman-gpui/releases/download/v0.1.3/postman-gpui_0.1.3_x64-setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "847850277/postman-gpui",
+"tag": "v0.1.3",
+"asset_name": "postman-gpui_0.1.3_x86_64.AppImage",
+"size": 26225144,
+"url": "https://github.com/847850277/postman-gpui/releases/download/v0.1.3/postman-gpui_0.1.3_x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "847850277/postman-gpui",
+"tag": "v0.1.3",
+"asset_name": "Postman.GPUI_0.1.3_universal.dmg",
+"size": 33059866,
+"url": "https://github.com/847850277/postman-gpui/releases/download/v0.1.3/Postman.GPUI_0.1.3_universal.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "risa-labs-inc/BossConsole",
+"tag": "v9.5.45",
+"asset_name": "BOSS-9.5.45-arm64.msi",
+"size": 200003584,
+"url": "https://github.com/risa-labs-inc/BossConsole/releases/download/v9.5.45/BOSS-9.5.45-arm64.msi",
+"ext": "msi",
+"source": "gh_search"
+},
+{
+"repo": "risa-labs-inc/BossConsole",
+"tag": "v9.5.45",
+"asset_name": "BOSS-9.5.45-Universal.dmg",
+"size": 222935128,
+"url": "https://github.com/risa-labs-inc/BossConsole/releases/download/v9.5.45/BOSS-9.5.45-Universal.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "risa-labs-inc/BossConsole",
+"tag": "v9.5.45",
+"asset_name": "BOSS-9.5.45.msi",
+"size": 230678528,
+"url": "https://github.com/risa-labs-inc/BossConsole/releases/download/v9.5.45/BOSS-9.5.45.msi",
+"ext": "msi",
+"source": "gh_search"
+},
+{
+"repo": "utmapp/UTM",
+"tag": "v5.0.8",
+"asset_name": "UTM.dmg",
+"size": 304304581,
+"url": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "mifi/lossless-cut",
+"tag": "v3.70.2",
+"asset_name": "LosslessCut-linux-x86_64.AppImage",
+"size": 221357823,
+"url": "https://github.com/mifi/lossless-cut/releases/download/v3.70.2/LosslessCut-linux-x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "mifi/lossless-cut",
+"tag": "v3.70.2",
+"asset_name": "LosslessCut-mac-arm64.dmg",
+"size": 165792537,
+"url": "https://github.com/mifi/lossless-cut/releases/download/v3.70.2/LosslessCut-mac-arm64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "mifi/lossless-cut",
+"tag": "v3.70.2",
+"asset_name": "LosslessCut-mac-universal-DONT-USE-THIS-FILE.pkg",
+"size": 302919928,
+"url": "https://github.com/mifi/lossless-cut/releases/download/v3.70.2/LosslessCut-mac-universal-DONT-USE-THIS-FILE.pkg",
+"ext": "pkg",
+"source": "komi"
+},
+{
+"repo": "mifi/lossless-cut",
+"tag": "v3.70.2",
+"asset_name": "LosslessCut-mac-x64.dmg",
+"size": 177945549,
+"url": "https://github.com/mifi/lossless-cut/releases/download/v3.70.2/LosslessCut-mac-x64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "mifi/lossless-cut",
+"tag": "v3.70.2",
+"asset_name": "LosslessCut-win-arm64-DONT-USE-THIS-FILE.appx",
+"size": 234807724,
+"url": "https://github.com/mifi/lossless-cut/releases/download/v3.70.2/LosslessCut-win-arm64-DONT-USE-THIS-FILE.appx",
+"ext": "appx",
+"source": "komi"
+},
+{
+"repo": "mifi/lossless-cut",
+"tag": "v3.70.2",
+"asset_name": "LosslessCut-win-x64-DONT-USE-THIS-FILE.appx",
+"size": 260713415,
+"url": "https://github.com/mifi/lossless-cut/releases/download/v3.70.2/LosslessCut-win-x64-DONT-USE-THIS-FILE.appx",
+"ext": "appx",
+"source": "komi"
+},
+{
+"repo": "peteonrails/voxtype",
+"tag": "v1.2.1",
+"asset_name": "voxtype-1.2.1-macos-universal.dmg",
+"size": 16771389,
+"url": "https://github.com/peteonrails/voxtype/releases/download/v1.2.1/voxtype-1.2.1-macos-universal.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "ChatGPT.dmg",
+"size": 9910581,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/ChatGPT.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "ChatGPT_x64.msi",
+"size": 3747840,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/ChatGPT_x64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "ChatGPT_x86_64.AppImage",
+"size": 80370168,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/ChatGPT_x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "DeepSeek.dmg",
+"size": 9811915,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/DeepSeek.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "DeepSeek_x64.msi",
+"size": 3661824,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/DeepSeek_x64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "DeepSeek_x86_64.AppImage",
+"size": 80284152,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/DeepSeek_x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "Excalidraw.dmg",
+"size": 8739192,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/Excalidraw.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "Excalidraw_x64.msi",
+"size": 3620864,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/Excalidraw_x64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "Excalidraw_x86_64.AppImage",
+"size": 80239096,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/Excalidraw_x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "Flomo.dmg",
+"size": 9481127,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/Flomo.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "Flomo_x64.msi",
+"size": 3698688,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/Flomo_x64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "Flomo_x86_64.AppImage",
+"size": 80333304,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/Flomo_x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "Gemini.dmg",
+"size": 9262242,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/Gemini.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "Gemini_x64.msi",
+"size": 3637248,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/Gemini_x64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "Gemini_x86_64.AppImage",
+"size": 80280056,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/Gemini_x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "Grok.dmg",
+"size": 11520950,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/Grok.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "Grok_x64.msi",
+"size": 3817472,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/Grok_x64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "Grok_x86_64.AppImage",
+"size": 80505336,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/Grok_x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "LiZhi.dmg",
+"size": 14116307,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/LiZhi.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "LiZhi_x64.msi",
+"size": 4038656,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/LiZhi_x64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "LiZhi_x86_64.AppImage",
+"size": 80927224,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/LiZhi_x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "Notion.dmg",
+"size": 9597004,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/Notion.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "Notion_x64.msi",
+"size": 3706880,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/Notion_x64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "Notion_x86_64.AppImage",
+"size": 80366072,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/Notion_x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "ProgramMusic.dmg",
+"size": 9262547,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/ProgramMusic.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "ProgramMusic_x64.msi",
+"size": 3686400,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/ProgramMusic_x64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "ProgramMusic_x86_64.AppImage",
+"size": 80308728,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/ProgramMusic_x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "Qwerty.dmg",
+"size": 12206283,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/Qwerty.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "Qwerty_x64.msi",
+"size": 3776512,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/Qwerty_x64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "Qwerty_x86_64.AppImage",
+"size": 80501240,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/Qwerty_x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "Twitter.dmg",
+"size": 8795396,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/Twitter.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "Twitter_x64.msi",
+"size": 3637248,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/Twitter_x64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "Twitter_x86_64.AppImage",
+"size": 80259576,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/Twitter_x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "WeChat.dmg",
+"size": 9716882,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/WeChat.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "WeChat_x64.msi",
+"size": 3686400,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/WeChat_x64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "WeChat_x86_64.AppImage",
+"size": 80325112,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/WeChat_x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "WeRead.dmg",
+"size": 8723288,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/WeRead.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "WeRead_x64.msi",
+"size": 3616768,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/WeRead_x64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "WeRead_x86_64.AppImage",
+"size": 80235000,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/WeRead_x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "XiaoHongShu.dmg",
+"size": 11889635,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/XiaoHongShu.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "XiaoHongShu_x64.msi",
+"size": 3731456,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/XiaoHongShu_x64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "XiaoHongShu_x86_64.AppImage",
+"size": 80431608,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/XiaoHongShu_x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "YouTube.dmg",
+"size": 8441557,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/YouTube.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "YouTubeMusic.dmg",
+"size": 15364108,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/YouTubeMusic.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "YouTubeMusic_x64.msi",
+"size": 3964928,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/YouTubeMusic_x64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "YouTubeMusic_x86_64.AppImage",
+"size": 80890360,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/YouTubeMusic_x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "YouTube_x64.msi",
+"size": 3575808,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/YouTube_x64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "tw93/Pake",
+"tag": "V3.18.0",
+"asset_name": "YouTube_x86_64.AppImage",
+"size": 80214520,
+"url": "https://github.com/tw93/Pake/releases/download/V3.18.0/YouTube_x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "OpenShot/openshot-qt",
+"tag": "v4.1.1",
+"asset_name": "OpenShot-v4.1.1-x86.exe",
+"size": 243824048,
+"url": "https://github.com/OpenShot/openshot-qt/releases/download/v4.1.1/OpenShot-v4.1.1-x86.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "OpenShot/openshot-qt",
+"tag": "v4.1.1",
+"asset_name": "OpenShot-v4.1.1-x86_64.AppImage",
+"size": 258921664,
+"url": "https://github.com/OpenShot/openshot-qt/releases/download/v4.1.1/OpenShot-v4.1.1-x86_64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "OpenShot/openshot-qt",
+"tag": "v4.1.1",
+"asset_name": "OpenShot-v4.1.1-x86_64.dmg",
+"size": 308547400,
+"url": "https://github.com/OpenShot/openshot-qt/releases/download/v4.1.1/OpenShot-v4.1.1-x86_64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "OpenShot/openshot-qt",
+"tag": "v4.1.1",
+"asset_name": "OpenShot-v4.1.1-x86_64.exe",
+"size": 248497059,
+"url": "https://github.com/OpenShot/openshot-qt/releases/download/v4.1.1/OpenShot-v4.1.1-x86_64.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "SAP/SapMachine",
+"tag": "sapmachine-27.0.1.0.3",
+"asset_name": "sapmachine-jdk-27.0.1.0.3_macos-aarch64_bin.dmg",
+"size": 135077964,
+"url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-27.0.1.0.3/sapmachine-jdk-27.0.1.0.3_macos-aarch64_bin.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "SAP/SapMachine",
+"tag": "sapmachine-27.0.1.0.3",
+"asset_name": "sapmachine-jdk-27.0.1.0.3_windows-x64_bin.msi",
+"size": 132354048,
+"url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-27.0.1.0.3/sapmachine-jdk-27.0.1.0.3_windows-x64_bin.msi",
+"ext": "msi",
+"source": "cask"
+},
+{
+"repo": "SAP/SapMachine",
+"tag": "sapmachine-27.0.1.0.3",
+"asset_name": "sapmachine-jre-27.0.1.0.3_macos-aarch64_bin.dmg",
+"size": 52877851,
+"url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-27.0.1.0.3/sapmachine-jre-27.0.1.0.3_macos-aarch64_bin.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "SAP/SapMachine",
+"tag": "sapmachine-27.0.1.0.3",
+"asset_name": "sapmachine-jre-27.0.1.0.3_windows-x64_bin.msi",
+"size": 47947776,
+"url": "https://github.com/SAP/SapMachine/releases/download/sapmachine-27.0.1.0.3/sapmachine-jre-27.0.1.0.3_windows-x64_bin.msi",
+"ext": "msi",
+"source": "cask"
+},
+{
+"repo": "pinokiocomputer/pinokio",
+"tag": "v8.3.7",
+"asset_name": "Pinokio-8.3.7-arm64.AppImage",
+"size": 168237331,
+"url": "https://github.com/pinokiocomputer/pinokio/releases/download/v8.3.7/Pinokio-8.3.7-arm64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "pinokiocomputer/pinokio",
+"tag": "v8.3.7",
+"asset_name": "Pinokio-8.3.7-arm64.dmg",
+"size": 162427772,
+"url": "https://github.com/pinokiocomputer/pinokio/releases/download/v8.3.7/Pinokio-8.3.7-arm64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "pinokiocomputer/pinokio",
+"tag": "v8.3.7",
+"asset_name": "Pinokio-8.3.7.AppImage",
+"size": 166354146,
+"url": "https://github.com/pinokiocomputer/pinokio/releases/download/v8.3.7/Pinokio-8.3.7.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "pinokiocomputer/pinokio",
+"tag": "v8.3.7",
+"asset_name": "Pinokio-8.3.7.dmg",
+"size": 169483590,
+"url": "https://github.com/pinokiocomputer/pinokio/releases/download/v8.3.7/Pinokio-8.3.7.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "pinokiocomputer/pinokio",
+"tag": "v8.3.7",
+"asset_name": "Pinokio.exe",
+"size": 155730736,
+"url": "https://github.com/pinokiocomputer/pinokio/releases/download/v8.3.7/Pinokio.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "pyzo/pyzo",
+"tag": "v4.22.0",
+"asset_name": "pyzo-4.22.0-macos_arm64.dmg",
+"size": 48107994,
+"url": "https://github.com/pyzo/pyzo/releases/download/v4.22.0/pyzo-4.22.0-macos_arm64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "pyzo/pyzo",
+"tag": "v4.22.0",
+"asset_name": "pyzo-4.22.0-macos_x86_64.dmg",
+"size": 52207060,
+"url": "https://github.com/pyzo/pyzo/releases/download/v4.22.0/pyzo-4.22.0-macos_x86_64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "pyzo/pyzo",
+"tag": "v4.22.0",
+"asset_name": "pyzo-4.22.0-win64.exe",
+"size": 38613468,
+"url": "https://github.com/pyzo/pyzo/releases/download/v4.22.0/pyzo-4.22.0-win64.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "vycdev/Kromacut",
+"tag": "v4.2.0",
+"asset_name": "Kromacut_4.2.0_aarch64.dmg",
+"size": 96436597,
+"url": "https://github.com/vycdev/Kromacut/releases/download/v4.2.0/Kromacut_4.2.0_aarch64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "vycdev/Kromacut",
+"tag": "v4.2.0",
+"asset_name": "Kromacut_4.2.0_amd64.AppImage",
+"size": 176761336,
+"url": "https://github.com/vycdev/Kromacut/releases/download/v4.2.0/Kromacut_4.2.0_amd64.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "vycdev/Kromacut",
+"tag": "v4.2.0",
+"asset_name": "Kromacut_4.2.0_windows_x64_offline-setup.exe",
+"size": 295303734,
+"url": "https://github.com/vycdev/Kromacut/releases/download/v4.2.0/Kromacut_4.2.0_windows_x64_offline-setup.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "vycdev/Kromacut",
+"tag": "v4.2.0",
+"asset_name": "Kromacut_4.2.0_x64-setup.exe",
+"size": 80131041,
+"url": "https://github.com/vycdev/Kromacut/releases/download/v4.2.0/Kromacut_4.2.0_x64-setup.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "vycdev/Kromacut",
+"tag": "v4.2.0",
+"asset_name": "Kromacut_4.2.0_x64.dmg",
+"size": 97247391,
+"url": "https://github.com/vycdev/Kromacut/releases/download/v4.2.0/Kromacut_4.2.0_x64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "Jmiao11/bili-music",
+"tag": "v1.0.0",
+"asset_name": "Bili-Music-v1.0.0-macos-arm64.dmg",
+"size": 13998249,
+"url": "https://github.com/Jmiao11/bili-music/releases/download/v1.0.0/Bili-Music-v1.0.0-macos-arm64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "Jmiao11/bili-music",
+"tag": "v1.0.0",
+"asset_name": "Bili-Music-v1.0.0-macos-x64.dmg",
+"size": 14615479,
+"url": "https://github.com/Jmiao11/bili-music/releases/download/v1.0.0/Bili-Music-v1.0.0-macos-x64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "runta-dev/errand",
+"tag": "v0.2.6",
+"asset_name": "Errand-0.2.6-arm64.dmg",
+"size": 102303672,
+"url": "https://github.com/runta-dev/errand/releases/download/v0.2.6/Errand-0.2.6-arm64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "AntonyCorbett/OnlyM",
+"tag": "2.4.0.3",
+"asset_name": "OnlyMSetup.exe",
+"size": 181350168,
+"url": "https://github.com/AntonyCorbett/OnlyM/releases/download/2.4.0.3/OnlyMSetup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "lamquangminh/EVKey",
+"tag": "Release",
+"asset_name": "evkau.exe",
+"size": 448760,
+"url": "https://github.com/lamquangminh/EVKey/releases/download/Release/evkau.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "N64Recomp/N64Recomp",
+"tag": "mod-tool-release",
+"asset_name": "RecompModTool.exe",
+"size": 871936,
+"url": "https://github.com/N64Recomp/N64Recomp/releases/download/mod-tool-release/RecompModTool.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "teras/Jubler",
+"tag": "v10.0.0",
+"asset_name": "Jubler-10.0.0-aarch64.AppImage",
+"size": 43380912,
+"url": "https://github.com/teras/Jubler/releases/download/v10.0.0/Jubler-10.0.0-aarch64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "teras/Jubler",
+"tag": "v10.0.0",
+"asset_name": "Jubler-10.0.0-arm64.dmg",
+"size": 43625610,
+"url": "https://github.com/teras/Jubler/releases/download/v10.0.0/Jubler-10.0.0-arm64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "teras/Jubler",
+"tag": "v10.0.0",
+"asset_name": "Jubler-10.0.0-x64.exe",
+"size": 39022032,
+"url": "https://github.com/teras/Jubler/releases/download/v10.0.0/Jubler-10.0.0-x64.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "teras/Jubler",
+"tag": "v10.0.0",
+"asset_name": "Jubler-10.0.0-x86_64.AppImage",
+"size": 43749720,
+"url": "https://github.com/teras/Jubler/releases/download/v10.0.0/Jubler-10.0.0-x86_64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "teras/Jubler",
+"tag": "v10.0.0",
+"asset_name": "Jubler-10.0.0-x86_64.dmg",
+"size": 45038154,
+"url": "https://github.com/teras/Jubler/releases/download/v10.0.0/Jubler-10.0.0-x86_64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "Mouseww/anything-analyzer",
+"tag": "v3.7.1",
+"asset_name": "Anything-Analyzer-3.7.1-arm64.dmg",
+"size": 130549815,
+"url": "https://github.com/Mouseww/anything-analyzer/releases/download/v3.7.1/Anything-Analyzer-3.7.1-arm64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "Mouseww/anything-analyzer",
+"tag": "v3.7.1",
+"asset_name": "Anything-Analyzer-3.7.1-x64.dmg",
+"size": 135000255,
+"url": "https://github.com/Mouseww/anything-analyzer/releases/download/v3.7.1/Anything-Analyzer-3.7.1-x64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "Mouseww/anything-analyzer",
+"tag": "v3.7.1",
+"asset_name": "Anything-Analyzer-3.7.1.AppImage",
+"size": 138397983,
+"url": "https://github.com/Mouseww/anything-analyzer/releases/download/v3.7.1/Anything-Analyzer-3.7.1.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "Mouseww/anything-analyzer",
+"tag": "v3.7.1",
+"asset_name": "Anything-Analyzer-Setup-3.7.1.exe",
+"size": 103730559,
+"url": "https://github.com/Mouseww/anything-analyzer/releases/download/v3.7.1/Anything-Analyzer-Setup-3.7.1.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "kritzikratzi/Oscilloscope",
+"tag": "1.1.0",
+"asset_name": "Oscilloscope-1.1.0-win64.msi",
+"size": 18178048,
+"url": "https://github.com/kritzikratzi/Oscilloscope/releases/download/1.1.0/Oscilloscope-1.1.0-win64.msi",
+"ext": "msi",
+"source": "cask"
+},
+{
+"repo": "DRAZY/deemix-remastered",
+"tag": "v2.6.6",
+"asset_name": "Deemix.Remastered-2.6.6-arm64.AppImage",
+"size": 139172024,
+"url": "https://github.com/DRAZY/deemix-remastered/releases/download/v2.6.6/Deemix.Remastered-2.6.6-arm64.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "DRAZY/deemix-remastered",
+"tag": "v2.6.6",
+"asset_name": "Deemix.Remastered-2.6.6-arm64.dmg",
+"size": 131575486,
+"url": "https://github.com/DRAZY/deemix-remastered/releases/download/v2.6.6/Deemix.Remastered-2.6.6-arm64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "DRAZY/deemix-remastered",
+"tag": "v2.6.6",
+"asset_name": "Deemix.Remastered-2.6.6-universal.dmg",
+"size": 230293046,
+"url": "https://github.com/DRAZY/deemix-remastered/releases/download/v2.6.6/Deemix.Remastered-2.6.6-universal.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "DRAZY/deemix-remastered",
+"tag": "v2.6.6",
+"asset_name": "Deemix.Remastered-2.6.6.AppImage",
+"size": 140700234,
+"url": "https://github.com/DRAZY/deemix-remastered/releases/download/v2.6.6/Deemix.Remastered-2.6.6.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "DRAZY/deemix-remastered",
+"tag": "v2.6.6",
+"asset_name": "Deemix.Remastered-Portable-2.6.6-arm64.exe",
+"size": 105444526,
+"url": "https://github.com/DRAZY/deemix-remastered/releases/download/v2.6.6/Deemix.Remastered-Portable-2.6.6-arm64.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "DRAZY/deemix-remastered",
+"tag": "v2.6.6",
+"asset_name": "Deemix.Remastered-Portable-2.6.6-x64.exe",
+"size": 109084808,
+"url": "https://github.com/DRAZY/deemix-remastered/releases/download/v2.6.6/Deemix.Remastered-Portable-2.6.6-x64.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "DRAZY/deemix-remastered",
+"tag": "v2.6.6",
+"asset_name": "Deemix.Remastered-Setup-2.6.6-arm64.exe",
+"size": 105673638,
+"url": "https://github.com/DRAZY/deemix-remastered/releases/download/v2.6.6/Deemix.Remastered-Setup-2.6.6-arm64.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "DRAZY/deemix-remastered",
+"tag": "v2.6.6",
+"asset_name": "Deemix.Remastered-Setup-2.6.6-x64.exe",
+"size": 109314498,
+"url": "https://github.com/DRAZY/deemix-remastered/releases/download/v2.6.6/Deemix.Remastered-Setup-2.6.6-x64.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "Newspicel/sdrmm",
+"tag": "v2.4.3",
+"asset_name": "sdrmm-app_2.4.3_aarch64.AppImage",
+"size": 119409160,
+"url": "https://github.com/Newspicel/sdrmm/releases/download/v2.4.3/sdrmm-app_2.4.3_aarch64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "Newspicel/sdrmm",
+"tag": "v2.4.3",
+"asset_name": "sdrmm-app_2.4.3_amd64.AppImage",
+"size": 124479992,
+"url": "https://github.com/Newspicel/sdrmm/releases/download/v2.4.3/sdrmm-app_2.4.3_amd64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "Newspicel/sdrmm",
+"tag": "v2.4.3",
+"asset_name": "SDRmm_2.4.3_aarch64.dmg",
+"size": 34264584,
+"url": "https://github.com/Newspicel/sdrmm/releases/download/v2.4.3/SDRmm_2.4.3_aarch64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "Newspicel/sdrmm",
+"tag": "v2.4.3",
+"asset_name": "SDRmm_2.4.3_arm64-setup.exe",
+"size": 23950608,
+"url": "https://github.com/Newspicel/sdrmm/releases/download/v2.4.3/SDRmm_2.4.3_arm64-setup.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "Newspicel/sdrmm",
+"tag": "v2.4.3",
+"asset_name": "SDRmm_2.4.3_x64-setup.exe",
+"size": 27990364,
+"url": "https://github.com/Newspicel/sdrmm/releases/download/v2.4.3/SDRmm_2.4.3_x64-setup.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "Newspicel/sdrmm",
+"tag": "v2.4.3",
+"asset_name": "SDRmm_2.4.3_x64.dmg",
+"size": 38000328,
+"url": "https://github.com/Newspicel/sdrmm/releases/download/v2.4.3/SDRmm_2.4.3_x64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "Newspicel/sdrmm",
+"tag": "v2.4.3",
+"asset_name": "SDRmm_2.4.3_x64_en-US.msi",
+"size": 39985152,
+"url": "https://github.com/Newspicel/sdrmm/releases/download/v2.4.3/SDRmm_2.4.3_x64_en-US.msi",
+"ext": "msi",
+"source": "cask"
+},
+{
+"repo": "meetqy/rao-pics",
+"tag": "v1.0.0-alpha.13",
+"asset_name": "Rao.Pics-1.0.0-alpha.13-arm64.dmg",
+"size": 106224455,
+"url": "https://github.com/meetqy/rao-pics/releases/download/v1.0.0-alpha.13/Rao.Pics-1.0.0-alpha.13-arm64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "meetqy/rao-pics",
+"tag": "v1.0.0-alpha.13",
+"asset_name": "Rao.Pics-1.0.0-alpha.13.dmg",
+"size": 110590709,
+"url": "https://github.com/meetqy/rao-pics/releases/download/v1.0.0-alpha.13/Rao.Pics-1.0.0-alpha.13.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "meetqy/rao-pics",
+"tag": "v1.0.0-alpha.13",
+"asset_name": "Rao.Pics.Setup.1.0.0-alpha.13.exe",
+"size": 84244592,
+"url": "https://github.com/meetqy/rao-pics/releases/download/v1.0.0-alpha.13/Rao.Pics.Setup.1.0.0-alpha.13.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "OpenRA/OpenRA",
+"tag": "release-20250330",
+"asset_name": "OpenRA-Dune-2000-x86_64.AppImage",
+"size": 47892984,
+"url": "https://github.com/OpenRA/OpenRA/releases/download/release-20250330/OpenRA-Dune-2000-x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "OpenRA/OpenRA",
+"tag": "release-20250330",
+"asset_name": "OpenRA-Red-Alert-x86_64.AppImage",
+"size": 44026360,
+"url": "https://github.com/OpenRA/OpenRA/releases/download/release-20250330/OpenRA-Red-Alert-x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "OpenRA/OpenRA",
+"tag": "release-20250330",
+"asset_name": "OpenRA-release-20250330-x64.exe",
+"size": 61266292,
+"url": "https://github.com/OpenRA/OpenRA/releases/download/release-20250330/OpenRA-release-20250330-x64.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "OpenRA/OpenRA",
+"tag": "release-20250330",
+"asset_name": "OpenRA-release-20250330-x86.exe",
+"size": 58528821,
+"url": "https://github.com/OpenRA/OpenRA/releases/download/release-20250330/OpenRA-release-20250330-x86.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "OpenRA/OpenRA",
+"tag": "release-20250330",
+"asset_name": "OpenRA-release-20250330.dmg",
+"size": 159559841,
+"url": "https://github.com/OpenRA/OpenRA/releases/download/release-20250330/OpenRA-release-20250330.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "OpenRA/OpenRA",
+"tag": "release-20250330",
+"asset_name": "OpenRA-Tiberian-Dawn-x86_64.AppImage",
+"size": 55323128,
+"url": "https://github.com/OpenRA/OpenRA/releases/download/release-20250330/OpenRA-Tiberian-Dawn-x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "open-ani/animeko",
+"tag": "v6.4.0",
+"asset_name": "ani-6.4.0-linux-x86_64.appimage",
+"size": 342665720,
+"url": "https://github.com/open-ani/animeko/releases/download/v6.4.0/ani-6.4.0-linux-x86_64.appimage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "open-ani/animeko",
+"tag": "v6.4.0",
+"asset_name": "ani-6.4.0-macos-aarch64.dmg",
+"size": 322230666,
+"url": "https://github.com/open-ani/animeko/releases/download/v6.4.0/ani-6.4.0-macos-aarch64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "HenriWahl/Nagstamon",
+"tag": "v3.18.2",
+"asset_name": "Nagstamon-3.18.2-ARM.dmg",
+"size": 187123958,
+"url": "https://github.com/HenriWahl/Nagstamon/releases/download/v3.18.2/Nagstamon-3.18.2-ARM.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "HenriWahl/Nagstamon",
+"tag": "v3.18.2",
+"asset_name": "Nagstamon-3.18.2-Intel.dmg",
+"size": 204829444,
+"url": "https://github.com/HenriWahl/Nagstamon/releases/download/v3.18.2/Nagstamon-3.18.2-Intel.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "HenriWahl/Nagstamon",
+"tag": "v3.18.2",
+"asset_name": "Nagstamon-3.18.2-win32_setup.exe",
+"size": 40030000,
+"url": "https://github.com/HenriWahl/Nagstamon/releases/download/v3.18.2/Nagstamon-3.18.2-win32_setup.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "HenriWahl/Nagstamon",
+"tag": "v3.18.2",
+"asset_name": "Nagstamon-3.18.2-win64_setup.exe",
+"size": 164739088,
+"url": "https://github.com/HenriWahl/Nagstamon/releases/download/v3.18.2/Nagstamon-3.18.2-win64_setup.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "BCUninstaller/Bulk-Crap-Uninstaller",
+"tag": "v6.3",
+"asset_name": "BCUninstaller_6.3.0_setup.exe",
+"size": 9430340,
+"url": "https://github.com/BCUninstaller/Bulk-Crap-Uninstaller/releases/download/v6.3/BCUninstaller_6.3.0_setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "bitwarden/directory-connector",
+"tag": "v2026.10.0",
+"asset_name": "Bitwarden-Connector-2026.10.0-arm64.dmg",
+"size": 258073503,
+"url": "https://github.com/bitwarden/directory-connector/releases/download/v2026.10.0/Bitwarden-Connector-2026.10.0-arm64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "bitwarden/directory-connector",
+"tag": "v2026.10.0",
+"asset_name": "Bitwarden-Connector-2026.10.0-x64.dmg",
+"size": 266951715,
+"url": "https://github.com/bitwarden/directory-connector/releases/download/v2026.10.0/Bitwarden-Connector-2026.10.0-x64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "bitwarden/directory-connector",
+"tag": "v2026.10.0",
+"asset_name": "Bitwarden-Connector-2026.10.0-x86_64.AppImage",
+"size": 360369568,
+"url": "https://github.com/bitwarden/directory-connector/releases/download/v2026.10.0/Bitwarden-Connector-2026.10.0-x86_64.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "bitwarden/directory-connector",
+"tag": "v2026.10.0",
+"asset_name": "Bitwarden-Connector-Installer-2026.10.0.exe",
+"size": 206407408,
+"url": "https://github.com/bitwarden/directory-connector/releases/download/v2026.10.0/Bitwarden-Connector-Installer-2026.10.0.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "bitwarden/directory-connector",
+"tag": "v2026.10.0",
+"asset_name": "Bitwarden-Connector-Portable-2026.10.0.exe",
+"size": 206178680,
+"url": "https://github.com/bitwarden/directory-connector/releases/download/v2026.10.0/Bitwarden-Connector-Portable-2026.10.0.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "supabitapp/supacode",
+"tag": "v0.11.7",
+"asset_name": "supacode.dmg",
+"size": 36483669,
+"url": "https://github.com/supabitapp/supacode/releases/download/v0.11.7/supacode.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "napari/napari",
+"tag": "v0.10.0",
+"asset_name": "napari-0.10.0-macOS-arm64.buggy.pkg",
+"size": 521585760,
+"url": "https://github.com/napari/napari/releases/download/v0.10.0/napari-0.10.0-macOS-arm64.buggy.pkg",
+"ext": "pkg",
+"source": "cask"
+},
+{
+"repo": "napari/napari",
+"tag": "v0.10.0",
+"asset_name": "napari-0.10.0-macOS-arm64.pkg",
+"size": 521624543,
+"url": "https://github.com/napari/napari/releases/download/v0.10.0/napari-0.10.0-macOS-arm64.pkg",
+"ext": "pkg",
+"source": "cask"
+},
+{
+"repo": "napari/napari",
+"tag": "v0.10.0",
+"asset_name": "napari-0.10.0-macOS-x86_64.buggy.pkg",
+"size": 531443656,
+"url": "https://github.com/napari/napari/releases/download/v0.10.0/napari-0.10.0-macOS-x86_64.buggy.pkg",
+"ext": "pkg",
+"source": "cask"
+},
+{
+"repo": "napari/napari",
+"tag": "v0.10.0",
+"asset_name": "napari-0.10.0-macOS-x86_64.pkg",
+"size": 531450921,
+"url": "https://github.com/napari/napari/releases/download/v0.10.0/napari-0.10.0-macOS-x86_64.pkg",
+"ext": "pkg",
+"source": "cask"
+},
+{
+"repo": "napari/napari",
+"tag": "v0.10.0",
+"asset_name": "napari-0.10.0-Windows-x86_64.buggy.exe",
+"size": 619958152,
+"url": "https://github.com/napari/napari/releases/download/v0.10.0/napari-0.10.0-Windows-x86_64.buggy.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "napari/napari",
+"tag": "v0.10.0",
+"asset_name": "napari-0.10.0-Windows-x86_64.exe",
+"size": 620155832,
+"url": "https://github.com/napari/napari/releases/download/v0.10.0/napari-0.10.0-Windows-x86_64.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "digimezzo/dopamine-windows",
+"tag": "v2.0.10.4000",
+"asset_name": "Dopamine.2.0.10.Release.msi",
+"size": 35409920,
+"url": "https://github.com/digimezzo/dopamine-windows/releases/download/v2.0.10.4000/Dopamine.2.0.10.Release.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "lemonade-sdk/lemonade",
+"tag": "v2026.45.3",
+"asset_name": "Lemonade-2026.45.3-Darwin.pkg",
+"size": 17068045,
+"url": "https://github.com/lemonade-sdk/lemonade/releases/download/v2026.45.3/Lemonade-2026.45.3-Darwin.pkg",
+"ext": "pkg",
+"source": "komi"
+},
+{
+"repo": "lemonade-sdk/lemonade",
+"tag": "v2026.45.3",
+"asset_name": "lemonade-server-minimal.msi",
+"size": 7999488,
+"url": "https://github.com/lemonade-sdk/lemonade/releases/download/v2026.45.3/lemonade-server-minimal.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "lemonade-sdk/lemonade",
+"tag": "v2026.45.3",
+"asset_name": "lemonade.msi",
+"size": 12185600,
+"url": "https://github.com/lemonade-sdk/lemonade/releases/download/v2026.45.3/lemonade.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "dortania/OpenCore-Legacy-Patcher",
+"tag": "2.5.1",
+"asset_name": "AutoPkg-Assets.pkg",
+"size": 738087731,
+"url": "https://github.com/dortania/OpenCore-Legacy-Patcher/releases/download/2.5.1/AutoPkg-Assets.pkg",
+"ext": "pkg",
+"source": "cask"
+},
+{
+"repo": "dortania/OpenCore-Legacy-Patcher",
+"tag": "2.5.1",
+"asset_name": "OpenCore-Patcher-Uninstaller.pkg",
+"size": 163966,
+"url": "https://github.com/dortania/OpenCore-Legacy-Patcher/releases/download/2.5.1/OpenCore-Patcher-Uninstaller.pkg",
+"ext": "pkg",
+"source": "cask"
+},
+{
+"repo": "dortania/OpenCore-Legacy-Patcher",
+"tag": "2.5.1",
+"asset_name": "OpenCore-Patcher.pkg",
+"size": 738123145,
+"url": "https://github.com/dortania/OpenCore-Legacy-Patcher/releases/download/2.5.1/OpenCore-Patcher.pkg",
+"ext": "pkg",
+"source": "cask"
+},
+{
+"repo": "icsharpcode/ILSpy",
+"tag": "v11.2",
+"asset_name": "ILSpy_Installer_11.2.0.10050-arm64.msi",
+"size": 17326080,
+"url": "https://github.com/icsharpcode/ILSpy/releases/download/v11.2/ILSpy_Installer_11.2.0.10050-arm64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "icsharpcode/ILSpy",
+"tag": "v11.2",
+"asset_name": "ILSpy_Installer_11.2.0.10050-x64.msi",
+"size": 18145280,
+"url": "https://github.com/icsharpcode/ILSpy/releases/download/v11.2/ILSpy_Installer_11.2.0.10050-x64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "DistroAV/DistroAV",
+"tag": "6.2.2",
+"asset_name": "distroav-6.2.2-macos-universal.pkg",
+"size": 2608434,
+"url": "https://github.com/DistroAV/DistroAV/releases/download/6.2.2/distroav-6.2.2-macos-universal.pkg",
+"ext": "pkg",
+"source": "cask"
+},
+{
+"repo": "DistroAV/DistroAV",
+"tag": "6.2.2",
+"asset_name": "distroav-6.2.2-windows-x64-Installer.exe",
+"size": 3329790,
+"url": "https://github.com/DistroAV/DistroAV/releases/download/6.2.2/distroav-6.2.2-windows-x64-Installer.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "ibuilder/massing",
+"tag": "v0.3.1133",
+"asset_name": "Massing_0.3.1133_aarch64.dmg",
+"size": 211965591,
+"url": "https://github.com/ibuilder/massing/releases/download/v0.3.1133/Massing_0.3.1133_aarch64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "ibuilder/massing",
+"tag": "v0.3.1133",
+"asset_name": "Massing_0.3.1133_amd64.AppImage",
+"size": 357292536,
+"url": "https://github.com/ibuilder/massing/releases/download/v0.3.1133/Massing_0.3.1133_amd64.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "ibuilder/massing",
+"tag": "v0.3.1133",
+"asset_name": "Massing_0.3.1133_x64-setup.exe",
+"size": 203465415,
+"url": "https://github.com/ibuilder/massing/releases/download/v0.3.1133/Massing_0.3.1133_x64-setup.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "ibuilder/massing",
+"tag": "v0.3.1133",
+"asset_name": "Massing_0.3.1133_x64_en-US.msi",
+"size": 205303808,
+"url": "https://github.com/ibuilder/massing/releases/download/v0.3.1133/Massing_0.3.1133_x64_en-US.msi",
+"ext": "msi",
+"source": "gh_search"
+},
+{
+"repo": "SteveTheKiller/KillerPDF",
+"tag": "v1.9.2",
+"asset_name": "KillerPDF-Portable.exe",
+"size": 97618944,
+"url": "https://github.com/SteveTheKiller/KillerPDF/releases/download/v1.9.2/KillerPDF-Portable.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "SteveTheKiller/KillerPDF",
+"tag": "v1.9.2",
+"asset_name": "KillerPDF-Store.exe",
+"size": 97619456,
+"url": "https://github.com/SteveTheKiller/KillerPDF/releases/download/v1.9.2/KillerPDF-Store.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "SteveTheKiller/KillerPDF",
+"tag": "v1.9.2",
+"asset_name": "KillerPDF.exe",
+"size": 34765312,
+"url": "https://github.com/SteveTheKiller/KillerPDF/releases/download/v1.9.2/KillerPDF.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "bwendell/gemini-desktop",
+"tag": "v0.12.1",
+"asset_name": "Gemini-Desktop-0.12.1-arm64-installer.exe",
+"size": 134379776,
+"url": "https://github.com/bwendell/gemini-desktop/releases/download/v0.12.1/Gemini-Desktop-0.12.1-arm64-installer.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "bwendell/gemini-desktop",
+"tag": "v0.12.1",
+"asset_name": "Gemini-Desktop-0.12.1-arm64.dmg",
+"size": 151591695,
+"url": "https://github.com/bwendell/gemini-desktop/releases/download/v0.12.1/Gemini-Desktop-0.12.1-arm64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "bwendell/gemini-desktop",
+"tag": "v0.12.1",
+"asset_name": "Gemini-Desktop-0.12.1-x64-installer.exe",
+"size": 370254272,
+"url": "https://github.com/bwendell/gemini-desktop/releases/download/v0.12.1/Gemini-Desktop-0.12.1-x64-installer.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "bwendell/gemini-desktop",
+"tag": "v0.12.1",
+"asset_name": "Gemini-Desktop-0.12.1-x64.dmg",
+"size": 157110473,
+"url": "https://github.com/bwendell/gemini-desktop/releases/download/v0.12.1/Gemini-Desktop-0.12.1-x64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "bwendell/gemini-desktop",
+"tag": "v0.12.1",
+"asset_name": "Gemini-Desktop-0.12.1-x86_64.AppImage",
+"size": 155273548,
+"url": "https://github.com/bwendell/gemini-desktop/releases/download/v0.12.1/Gemini-Desktop-0.12.1-x86_64.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "koala73/worldmonitor",
+"tag": "v2.11.8",
+"asset_name": "World.Monitor_2.11.8_aarch64.AppImage",
+"size": 223746568,
+"url": "https://github.com/koala73/worldmonitor/releases/download/v2.11.8/World.Monitor_2.11.8_aarch64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "koala73/worldmonitor",
+"tag": "v2.11.8",
+"asset_name": "World.Monitor_2.11.8_aarch64.dmg",
+"size": 69214270,
+"url": "https://github.com/koala73/worldmonitor/releases/download/v2.11.8/World.Monitor_2.11.8_aarch64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "koala73/worldmonitor",
+"tag": "v2.11.8",
+"asset_name": "World.Monitor_2.11.8_amd64.AppImage",
+"size": 232438264,
+"url": "https://github.com/koala73/worldmonitor/releases/download/v2.11.8/World.Monitor_2.11.8_amd64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "koala73/worldmonitor",
+"tag": "v2.11.8",
+"asset_name": "World.Monitor_2.11.8_x64-setup.exe",
+"size": 46732457,
+"url": "https://github.com/koala73/worldmonitor/releases/download/v2.11.8/World.Monitor_2.11.8_x64-setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "koala73/worldmonitor",
+"tag": "v2.11.8",
+"asset_name": "World.Monitor_2.11.8_x64.dmg",
+"size": 70561403,
+"url": "https://github.com/koala73/worldmonitor/releases/download/v2.11.8/World.Monitor_2.11.8_x64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "koala73/worldmonitor",
+"tag": "v2.11.8",
+"asset_name": "World.Monitor_2.11.8_x64_en-US.msi",
+"size": 64847837,
+"url": "https://github.com/koala73/worldmonitor/releases/download/v2.11.8/World.Monitor_2.11.8_x64_en-US.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "LYH105/iCloudEmail-Lite",
+"tag": "v0.2.1",
+"asset_name": "iCloud.Email.Manager-0.2.1-mac-arm64.dmg",
+"size": 142056956,
+"url": "https://github.com/LYH105/iCloudEmail-Lite/releases/download/v0.2.1/iCloud.Email.Manager-0.2.1-mac-arm64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "LYH105/iCloudEmail-Lite",
+"tag": "v0.2.1",
+"asset_name": "iCloud.Email.Manager-0.2.1-mac-x64.dmg",
+"size": 148335599,
+"url": "https://github.com/LYH105/iCloudEmail-Lite/releases/download/v0.2.1/iCloud.Email.Manager-0.2.1-mac-x64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "LYH105/iCloudEmail-Lite",
+"tag": "v0.2.1",
+"asset_name": "iCloud.Email.Manager-0.2.1-win-x64.exe",
+"size": 106914685,
+"url": "https://github.com/LYH105/iCloudEmail-Lite/releases/download/v0.2.1/iCloud.Email.Manager-0.2.1-win-x64.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "dunkbing/dearsql",
+"tag": "v0.7.6",
+"asset_name": "DearSQL-aarch64.AppImage",
+"size": 30222856,
+"url": "https://github.com/dunkbing/dearsql/releases/download/v0.7.6/DearSQL-aarch64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "dunkbing/dearsql",
+"tag": "v0.7.6",
+"asset_name": "DearSQL-x64.msi",
+"size": 17211392,
+"url": "https://github.com/dunkbing/dearsql/releases/download/v0.7.6/DearSQL-x64.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "dunkbing/dearsql",
+"tag": "v0.7.6",
+"asset_name": "DearSQL-x86_64.AppImage",
+"size": 31566328,
+"url": "https://github.com/dunkbing/dearsql/releases/download/v0.7.6/DearSQL-x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "dunkbing/dearsql",
+"tag": "v0.7.6",
+"asset_name": "DearSQL.dmg",
+"size": 20203481,
+"url": "https://github.com/dunkbing/dearsql/releases/download/v0.7.6/DearSQL.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "qunqin24/Pulse",
+"tag": "v1.13.0",
+"asset_name": "Pulse-1.13.0.dmg",
+"size": 17398889,
+"url": "https://github.com/qunqin24/Pulse/releases/download/v1.13.0/Pulse-1.13.0.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "thealpa/SaneSideButtons",
+"tag": "1.4.1",
+"asset_name": "SaneSideButtons.dmg",
+"size": 1432856,
+"url": "https://github.com/thealpa/SaneSideButtons/releases/download/1.4.1/SaneSideButtons.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "AerialWindows/Aerial",
+"tag": "v2.0.2",
+"asset_name": "Aerial-Setup.exe",
+"size": 288964412,
+"url": "https://github.com/AerialWindows/Aerial/releases/download/v2.0.2/Aerial-Setup.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "dlunch/wie",
+"tag": "v0.2.26",
+"asset_name": "wie-v0.2.26-linux-aarch64.AppImage",
+"size": 100616712,
+"url": "https://github.com/dlunch/wie/releases/download/v0.2.26/wie-v0.2.26-linux-aarch64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "dlunch/wie",
+"tag": "v0.2.26",
+"asset_name": "wie-v0.2.26-linux-x86_64.AppImage",
+"size": 103270904,
+"url": "https://github.com/dlunch/wie/releases/download/v0.2.26/wie-v0.2.26-linux-x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "dlunch/wie",
+"tag": "v0.2.26",
+"asset_name": "wie-v0.2.26-macos-universal-unsigned.dmg",
+"size": 43183460,
+"url": "https://github.com/dlunch/wie/releases/download/v0.2.26/wie-v0.2.26-macos-universal-unsigned.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "dlunch/wie",
+"tag": "v0.2.26",
+"asset_name": "wie-v0.2.26-windows-aarch64-unsigned-setup.exe",
+"size": 10884805,
+"url": "https://github.com/dlunch/wie/releases/download/v0.2.26/wie-v0.2.26-windows-aarch64-unsigned-setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "dlunch/wie",
+"tag": "v0.2.26",
+"asset_name": "wie-v0.2.26-windows-aarch64-unsigned.msi",
+"size": 18063360,
+"url": "https://github.com/dlunch/wie/releases/download/v0.2.26/wie-v0.2.26-windows-aarch64-unsigned.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "dlunch/wie",
+"tag": "v0.2.26",
+"asset_name": "wie-v0.2.26-windows-x86_64-unsigned-setup.exe",
+"size": 13354048,
+"url": "https://github.com/dlunch/wie/releases/download/v0.2.26/wie-v0.2.26-windows-x86_64-unsigned-setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "dlunch/wie",
+"tag": "v0.2.26",
+"asset_name": "wie-v0.2.26-windows-x86_64-unsigned.msi",
+"size": 20881408,
+"url": "https://github.com/dlunch/wie/releases/download/v0.2.26/wie-v0.2.26-windows-x86_64-unsigned.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "psmokotnin/osm",
+"tag": "v1.5.2",
+"asset_name": "OpenSoundMeter_arm.dmg",
+"size": 37188361,
+"url": "https://github.com/psmokotnin/osm/releases/download/v1.5.2/OpenSoundMeter_arm.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "psmokotnin/osm",
+"tag": "v1.5.2",
+"asset_name": "OpenSoundMeter_intel.dmg",
+"size": 37997661,
+"url": "https://github.com/psmokotnin/osm/releases/download/v1.5.2/OpenSoundMeter_intel.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "psmokotnin/osm",
+"tag": "v1.5.2",
+"asset_name": "Open_Sound_Meter-v1.5.2-x86_64.AppImage",
+"size": 110788296,
+"url": "https://github.com/psmokotnin/osm/releases/download/v1.5.2/Open_Sound_Meter-v1.5.2-x86_64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "psmokotnin/osm",
+"tag": "v1.5.2",
+"asset_name": "SetupOpenSoundMeter.exe",
+"size": 33633848,
+"url": "https://github.com/psmokotnin/osm/releases/download/v1.5.2/SetupOpenSoundMeter.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "Ray-lea/Argus",
+"tag": "v0.4.0",
+"asset_name": "Argus_0.4.0_x64-setup.exe",
+"size": 7223381,
+"url": "https://github.com/Ray-lea/Argus/releases/download/v0.4.0/Argus_0.4.0_x64-setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "Ray-lea/Argus",
+"tag": "v0.4.0",
+"asset_name": "Argus_0.4.0_x64.exe",
+"size": 24294912,
+"url": "https://github.com/Ray-lea/Argus/releases/download/v0.4.0/Argus_0.4.0_x64.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "OpenChemistry/avogadrolibs",
+"tag": "2.1.0",
+"asset_name": "Avogadro2-2.1.0-Darwin-arm64.dmg",
+"size": 96021909,
+"url": "https://github.com/OpenChemistry/avogadrolibs/releases/download/2.1.0/Avogadro2-2.1.0-Darwin-arm64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "OpenChemistry/avogadrolibs",
+"tag": "2.1.0",
+"asset_name": "Avogadro2-2.1.0-Darwin.dmg",
+"size": 101351048,
+"url": "https://github.com/OpenChemistry/avogadrolibs/releases/download/2.1.0/Avogadro2-2.1.0-Darwin.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "OpenChemistry/avogadrolibs",
+"tag": "2.1.0",
+"asset_name": "Avogadro2-2.1.0-win-arm.exe",
+"size": 108085552,
+"url": "https://github.com/OpenChemistry/avogadrolibs/releases/download/2.1.0/Avogadro2-2.1.0-win-arm.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "OpenChemistry/avogadrolibs",
+"tag": "2.1.0",
+"asset_name": "Avogadro2-2.1.0-win64.exe",
+"size": 120027776,
+"url": "https://github.com/OpenChemistry/avogadrolibs/releases/download/2.1.0/Avogadro2-2.1.0-win64.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "OpenChemistry/avogadrolibs",
+"tag": "2.1.0",
+"asset_name": "Avogadro2-aarch64.AppImage",
+"size": 113336704,
+"url": "https://github.com/OpenChemistry/avogadrolibs/releases/download/2.1.0/Avogadro2-aarch64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "OpenChemistry/avogadrolibs",
+"tag": "2.1.0",
+"asset_name": "Avogadro2-Diagnostic-2.1.0-win-arm.exe",
+"size": 144667624,
+"url": "https://github.com/OpenChemistry/avogadrolibs/releases/download/2.1.0/Avogadro2-Diagnostic-2.1.0-win-arm.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "OpenChemistry/avogadrolibs",
+"tag": "2.1.0",
+"asset_name": "Avogadro2-Diagnostic-2.1.0-win64.exe",
+"size": 158713312,
+"url": "https://github.com/OpenChemistry/avogadrolibs/releases/download/2.1.0/Avogadro2-Diagnostic-2.1.0-win64.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "OpenChemistry/avogadrolibs",
+"tag": "2.1.0",
+"asset_name": "Avogadro2-x86_64.AppImage",
+"size": 112665792,
+"url": "https://github.com/OpenChemistry/avogadrolibs/releases/download/2.1.0/Avogadro2-x86_64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "tvrenamer/tvrenamer",
+"tag": "v1.0",
+"asset_name": "TVRenamer-1.0-macos-aarch64.dmg",
+"size": 52794795,
+"url": "https://github.com/tvrenamer/tvrenamer/releases/download/v1.0/TVRenamer-1.0-macos-aarch64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "tvrenamer/tvrenamer",
+"tag": "v1.0",
+"asset_name": "TVRenamer-1.0-macos-x86_64.dmg",
+"size": 54281456,
+"url": "https://github.com/tvrenamer/tvrenamer/releases/download/v1.0/TVRenamer-1.0-macos-x86_64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "Kuddev/pebrel",
+"tag": "v2.4.0",
+"asset_name": "Pebrel-v2.4.0-linux-x64-preview.AppImage",
+"size": 43563512,
+"url": "https://github.com/Kuddev/pebrel/releases/download/v2.4.0/Pebrel-v2.4.0-linux-x64-preview.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "Kuddev/pebrel",
+"tag": "v2.4.0",
+"asset_name": "Pebrel-v2.4.0-macos-arm64-preview.dmg",
+"size": 44664586,
+"url": "https://github.com/Kuddev/pebrel/releases/download/v2.4.0/Pebrel-v2.4.0-macos-arm64-preview.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "Kuddev/pebrel",
+"tag": "v2.4.0",
+"asset_name": "Pebrel-v2.4.0-macos-x64-preview.dmg",
+"size": 47352100,
+"url": "https://github.com/Kuddev/pebrel/releases/download/v2.4.0/Pebrel-v2.4.0-macos-x64-preview.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "Kuddev/pebrel",
+"tag": "v2.4.0",
+"asset_name": "Pebrel-v2.4.0-windows-arm64-setup.exe",
+"size": 34605119,
+"url": "https://github.com/Kuddev/pebrel/releases/download/v2.4.0/Pebrel-v2.4.0-windows-arm64-setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "Kuddev/pebrel",
+"tag": "v2.4.0",
+"asset_name": "Pebrel-v2.4.0-windows-x64-setup.exe",
+"size": 36122056,
+"url": "https://github.com/Kuddev/pebrel/releases/download/v2.4.0/Pebrel-v2.4.0-windows-x64-setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "cheat2001/angkorgit",
+"tag": "v0.27.0",
+"asset_name": "AngKorGit_0.27.0_amd64.AppImage",
+"size": 87759352,
+"url": "https://github.com/cheat2001/angkorgit/releases/download/v0.27.0/AngKorGit_0.27.0_amd64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "cheat2001/angkorgit",
+"tag": "v0.27.0",
+"asset_name": "AngKorGit_0.27.0_universal.dmg",
+"size": 14373647,
+"url": "https://github.com/cheat2001/angkorgit/releases/download/v0.27.0/AngKorGit_0.27.0_universal.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "cheat2001/angkorgit",
+"tag": "v0.27.0",
+"asset_name": "AngKorGit_0.27.0_x64-setup.exe",
+"size": 5784368,
+"url": "https://github.com/cheat2001/angkorgit/releases/download/v0.27.0/AngKorGit_0.27.0_x64-setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "cheat2001/angkorgit",
+"tag": "v0.27.0",
+"asset_name": "AngKorGit_0.27.0_x64_en-US.msi",
+"size": 7942144,
+"url": "https://github.com/cheat2001/angkorgit/releases/download/v0.27.0/AngKorGit_0.27.0_x64_en-US.msi",
+"ext": "msi",
+"source": "komi"
+},
+{
+"repo": "thaw-app/Floe",
+"tag": "0.3.0",
+"asset_name": "Floe.dmg",
+"size": 80860638,
+"url": "https://github.com/thaw-app/Floe/releases/download/0.3.0/Floe.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "mmvanheusden/SteamDepotDownloaderGUI",
+"tag": "v3.2.1",
+"asset_name": "SteamDepotDownloaderGUI-Linux-v3.2.1-x64.AppImage",
+"size": 82397688,
+"url": "https://github.com/mmvanheusden/SteamDepotDownloaderGUI/releases/download/v3.2.1/SteamDepotDownloaderGUI-Linux-v3.2.1-x64.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "mmvanheusden/SteamDepotDownloaderGUI",
+"tag": "v3.2.1",
+"asset_name": "SteamDepotDownloaderGUI-macOS-v3.2.1-aarch64.dmg",
+"size": 4031106,
+"url": "https://github.com/mmvanheusden/SteamDepotDownloaderGUI/releases/download/v3.2.1/SteamDepotDownloaderGUI-macOS-v3.2.1-aarch64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "mmvanheusden/SteamDepotDownloaderGUI",
+"tag": "v3.2.1",
+"asset_name": "SteamDepotDownloaderGUI-macOS-v3.2.1-x64.dmg",
+"size": 4435964,
+"url": "https://github.com/mmvanheusden/SteamDepotDownloaderGUI/releases/download/v3.2.1/SteamDepotDownloaderGUI-macOS-v3.2.1-x64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "mmvanheusden/SteamDepotDownloaderGUI",
+"tag": "v3.2.1",
+"asset_name": "SteamDepotDownloaderGUI-Windows-v3.2.1-x64.exe",
+"size": 3087497,
+"url": "https://github.com/mmvanheusden/SteamDepotDownloaderGUI/releases/download/v3.2.1/SteamDepotDownloaderGUI-Windows-v3.2.1-x64.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "waydabber/BetterDisplay",
+"tag": "v5.2.1",
+"asset_name": "BetterDisplay-v5.2.1.dmg",
+"size": 30039229,
+"url": "https://github.com/waydabber/BetterDisplay/releases/download/v5.2.1/BetterDisplay-v5.2.1.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "dannagle/PacketSender",
+"tag": "v8.11.3",
+"asset_name": "PacketSender_v8.11.3.dmg",
+"size": 30480969,
+"url": "https://github.com/dannagle/PacketSender/releases/download/v8.11.3/PacketSender_v8.11.3.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "dannagle/PacketSender",
+"tag": "v8.11.3",
+"asset_name": "PacketSender_x64_v8.11.3.exe",
+"size": 27085024,
+"url": "https://github.com/dannagle/PacketSender/releases/download/v8.11.3/PacketSender_x64_v8.11.3.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "dannagle/PacketSender",
+"tag": "v8.11.3",
+"asset_name": "Packet_Sender-v8.11.3-x86_64.AppImage",
+"size": 28830200,
+"url": "https://github.com/dannagle/PacketSender/releases/download/v8.11.3/Packet_Sender-v8.11.3-x86_64.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "MirrorX-Desktop/MirrorX",
+"tag": "v0.1.5",
+"asset_name": "MirrorX_0.1.5_x64.dmg",
+"size": 34724603,
+"url": "https://github.com/MirrorX-Desktop/MirrorX/releases/download/v0.1.5/MirrorX_0.1.5_x64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "pch/rawmakase",
+"tag": "v0.4.12",
+"asset_name": "rawmakase-0.4.12-aarch64.AppImage",
+"size": 34380296,
+"url": "https://github.com/pch/rawmakase/releases/download/v0.4.12/rawmakase-0.4.12-aarch64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "pch/rawmakase",
+"tag": "v0.4.12",
+"asset_name": "rawmakase-0.4.12-x86_64.AppImage",
+"size": 35162616,
+"url": "https://github.com/pch/rawmakase/releases/download/v0.4.12/rawmakase-0.4.12-x86_64.AppImage",
+"ext": "appimage",
+"source": "komi"
+},
+{
+"repo": "pch/rawmakase",
+"tag": "v0.4.12",
+"asset_name": "rawmakase-v0.4.12-aarch64-pc-windows-msvc-setup.exe",
+"size": 20552902,
+"url": "https://github.com/pch/rawmakase/releases/download/v0.4.12/rawmakase-v0.4.12-aarch64-pc-windows-msvc-setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "pch/rawmakase",
+"tag": "v0.4.12",
+"asset_name": "rawmakase-v0.4.12-macos-arm64.dmg",
+"size": 39495824,
+"url": "https://github.com/pch/rawmakase/releases/download/v0.4.12/rawmakase-v0.4.12-macos-arm64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "pch/rawmakase",
+"tag": "v0.4.12",
+"asset_name": "rawmakase-v0.4.12-macos-x86_64.dmg",
+"size": 43828285,
+"url": "https://github.com/pch/rawmakase/releases/download/v0.4.12/rawmakase-v0.4.12-macos-x86_64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "pch/rawmakase",
+"tag": "v0.4.12",
+"asset_name": "rawmakase-v0.4.12-x86_64-pc-windows-msvc-setup.exe",
+"size": 22391773,
+"url": "https://github.com/pch/rawmakase/releases/download/v0.4.12/rawmakase-v0.4.12-x86_64-pc-windows-msvc-setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "cluster1900/apexo-code",
+"tag": "v1.2.1",
+"asset_name": "apexo-desktop-linux-x86_64.AppImage",
+"size": 165541892,
+"url": "https://github.com/cluster1900/apexo-code/releases/download/v1.2.1/apexo-desktop-linux-x86_64.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "cluster1900/apexo-code",
+"tag": "v1.2.1",
+"asset_name": "apexo-desktop-mac-arm64.dmg",
+"size": 155722230,
+"url": "https://github.com/cluster1900/apexo-code/releases/download/v1.2.1/apexo-desktop-mac-arm64.dmg",
+"ext": "dmg",
+"source": "gh_search"
+},
+{
+"repo": "cluster1900/apexo-code",
+"tag": "v1.2.1",
+"asset_name": "apexo-desktop-win-x64.exe",
+"size": 128363219,
+"url": "https://github.com/cluster1900/apexo-code/releases/download/v1.2.1/apexo-desktop-win-x64.exe",
+"ext": "exe",
+"source": "gh_search"
+},
+{
+"repo": "artisan-roaster-scope/artisan",
+"tag": "v5.0.0",
+"asset_name": "artisan-linux-5.0.0.AppImage",
+"size": 206652608,
+"url": "https://github.com/artisan-roaster-scope/artisan/releases/download/v5.0.0/artisan-linux-5.0.0.AppImage",
+"ext": "appimage",
+"source": "cask"
+},
+{
+"repo": "artisan-roaster-scope/artisan",
+"tag": "v5.0.0",
+"asset_name": "artisan-mac-arm-5.0.0.dmg",
+"size": 152378860,
+"url": "https://github.com/artisan-roaster-scope/artisan/releases/download/v5.0.0/artisan-mac-arm-5.0.0.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "artisan-roaster-scope/artisan",
+"tag": "v5.0.0",
+"asset_name": "artisan-mac-intel-5.0.0.dmg",
+"size": 189123923,
+"url": "https://github.com/artisan-roaster-scope/artisan/releases/download/v5.0.0/artisan-mac-intel-5.0.0.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "artisan-roaster-scope/artisan",
+"tag": "v5.0.0",
+"asset_name": "artisan-win-x64-5.0.0-setup.exe",
+"size": 153623296,
+"url": "https://github.com/artisan-roaster-scope/artisan/releases/download/v5.0.0/artisan-win-x64-5.0.0-setup.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "firerpa/lamda",
+"tag": "v10.9",
+"asset_name": "startmitm.exe",
+"size": 22463129,
+"url": "https://github.com/firerpa/lamda/releases/download/v10.9/startmitm.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "sanderland/katrain",
+"tag": "v1.20.0",
+"asset_name": "KaTrain-1.20.0-arm64.dmg",
+"size": 90675425,
+"url": "https://github.com/sanderland/katrain/releases/download/v1.20.0/KaTrain-1.20.0-arm64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "sanderland/katrain",
+"tag": "v1.20.0",
+"asset_name": "KaTrain-1.20.0-x86_64.dmg",
+"size": 89589838,
+"url": "https://github.com/sanderland/katrain/releases/download/v1.20.0/KaTrain-1.20.0-x86_64.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "sanderland/katrain",
+"tag": "v1.20.0",
+"asset_name": "KaTrain.exe",
+"size": 152060205,
+"url": "https://github.com/sanderland/katrain/releases/download/v1.20.0/KaTrain.exe",
+"ext": "exe",
+"source": "cask"
+},
+{
+"repo": "Commit-Plus/commit-plus",
+"tag": "v1.1.25",
+"asset_name": "Commit+-1.1.25-arm64.dmg",
+"size": 28460792,
+"url": "https://github.com/Commit-Plus/commit-plus/releases/download/v1.1.25/Commit%2B-1.1.25-arm64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "raine/Lolgato",
+"tag": "v1.7.3",
+"asset_name": "Lolgato.dmg",
+"size": 1201522,
+"url": "https://github.com/raine/Lolgato/releases/download/v1.7.3/Lolgato.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "screwys/Rufin",
+"tag": "v0.17.1",
+"asset_name": "Rufin-0.17.1-setup.exe",
+"size": 97368150,
+"url": "https://github.com/screwys/Rufin/releases/download/v0.17.1/Rufin-0.17.1-setup.exe",
+"ext": "exe",
+"source": "komi"
+},
+{
+"repo": "screwys/Rufin",
+"tag": "v0.17.1",
+"asset_name": "Rufin-macos-arm64.dmg",
+"size": 94919591,
+"url": "https://github.com/screwys/Rufin/releases/download/v0.17.1/Rufin-macos-arm64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "screwys/Rufin",
+"tag": "v0.17.1",
+"asset_name": "Rufin-macos-x86_64.dmg",
+"size": 108604808,
+"url": "https://github.com/screwys/Rufin/releases/download/v0.17.1/Rufin-macos-x86_64.dmg",
+"ext": "dmg",
+"source": "komi"
+},
+{
+"repo": "mattDavo/Yippy",
+"tag": "2.8.1",
+"asset_name": "Yippy.dmg",
+"size": 6105430,
+"url": "https://github.com/mattDavo/Yippy/releases/download/2.8.1/Yippy.dmg",
+"ext": "dmg",
+"source": "cask"
+},
+{
+"repo": "akameco/PixivDeck",
+"tag": "v1.4.0",
+"asset_name": "PixivDeck-1.4.0-x86_64.AppImage",
+"size": 50904426,
+"url": "https://github.com/akameco/PixivDeck/releases/download/v1.4.0/PixivDeck-1.4.0-x86_64.AppImage",
+"ext": "appimage",
+"source": "gh_search"
+},
+{
+"repo": "akameco/PixivDeck",
+"tag": "v1.4.0",
+"asset_name": "PixivDeck-1.4.0.dmg",
+"size": 51072590,
+"url": "https://github.com/akameco/PixivDeck/releases/download/v1.4.0/PixivDeck-1.4.0.dmg",
+"ext": "dmg",
+"source": "gh_search"
+}
+]

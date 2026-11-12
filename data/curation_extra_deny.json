@@ -1,0 +1,14 @@
+{
+ "pyqtgraph/pyqtgraph": "python library",
+ "saltyshiomix/nextron": "boilerplate/framework",
+ "pojala/electrino": "runtime",
+ "KittyKatt/screenFetch": "terminal script",
+ "rafaelmardojai/firefox-gnome-theme": "theme",
+ "hokein/electron-sample-apps": "samples",
+ "opensumi/core": "framework",
+ "alexflint/gallium": "framework",
+ "XuanchenLin/NanUI": "dev library",
+ "JetBrains/kotlinconf-app": "conference app (single-event)",
+ "therealaleph/MasterHttpRelayVPN-RUST": "relay/server tool",
+ "ravibpatel/AutoUpdater.NET": "dev library"
+}

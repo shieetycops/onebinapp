@@ -1,0 +1,218 @@
+{
+ "cells": {
+  "windows_x64": {
+   "qualifying_repos": 112,
+   "offered": 73,
+   "verified": 43,
+   "correct": 43,
+   "wrong": 0,
+   "unverified": 30,
+   "strict_correct": 43,
+   "exact_arch": 44,
+   "cov_num": 43,
+   "cov_den": 112,
+   "cov_den_unverified_only": 64,
+   "offered_any_repos": 73,
+   "wrong_cases": [],
+   "by_source": {
+    "komi": {
+     "offered": 28,
+     "verified": 20,
+     "correct": 20
+    },
+    "gh_search": {
+     "offered": 27,
+     "verified": 11,
+     "correct": 11
+    },
+    "cask": {
+     "offered": 18,
+     "verified": 12,
+     "correct": 12
+    }
+   },
+   "precision_verified": 1.0,
+   "precision_verified_wilson_lo": 0.9179874299767727,
+   "precision_strict_old": 0.589041095890411,
+   "precision_exact_arch": 0.6027397260273972,
+   "unverified_pct": 0.410958904109589,
+   "coverage_strict": 0.38392857142857145
+  },
+  "macos_arm64": {
+   "qualifying_repos": 117,
+   "offered": 99,
+   "verified": 65,
+   "correct": 65,
+   "wrong": 0,
+   "unverified": 34,
+   "strict_correct": 65,
+   "exact_arch": 65,
+   "cov_num": 65,
+   "cov_den": 117,
+   "cov_den_unverified_only": 41,
+   "offered_any_repos": 99,
+   "wrong_cases": [],
+   "by_source": {
+    "komi": {
+     "offered": 42,
+     "verified": 27,
+     "correct": 27
+    },
+    "gh_search": {
+     "offered": 30,
+     "verified": 22,
+     "correct": 22
+    },
+    "cask": {
+     "offered": 27,
+     "verified": 16,
+     "correct": 16
+    }
+   },
+   "precision_verified": 1.0,
+   "precision_verified_wilson_lo": 0.9441965323292892,
+   "precision_strict_old": 0.6565656565656566,
+   "precision_exact_arch": 0.6565656565656566,
+   "unverified_pct": 0.3434343434343434,
+   "coverage_strict": 0.5555555555555556
+  },
+  "macos_x64": {
+   "qualifying_repos": 117,
+   "offered": 85,
+   "verified": 51,
+   "correct": 51,
+   "wrong": 0,
+   "unverified": 34,
+   "strict_correct": 51,
+   "exact_arch": 51,
+   "cov_num": 51,
+   "cov_den": 104,
+   "cov_den_unverified_only": 47,
+   "offered_any_repos": 85,
+   "wrong_cases": [],
+   "by_source": {
+    "gh_search": {
+     "offered": 28,
+     "verified": 20,
+     "correct": 20
+    },
+    "komi": {
+     "offered": 33,
+     "verified": 18,
+     "correct": 18
+    },
+    "cask": {
+     "offered": 24,
+     "verified": 13,
+     "correct": 13
+    }
+   },
+   "precision_verified": 1.0,
+   "precision_verified_wilson_lo": 0.9299509861127317,
+   "precision_strict_old": 0.6,
+   "precision_exact_arch": 0.6,
+   "unverified_pct": 0.4,
+   "coverage_strict": 0.49038461538461536
+  },
+  "linux_x64": {
+   "qualifying_repos": 63,
+   "offered": 57,
+   "verified": 57,
+   "correct": 57,
+   "wrong": 0,
+   "unverified": 0,
+   "strict_correct": 57,
+   "exact_arch": 57,
+   "cov_num": 57,
+   "cov_den": 63,
+   "cov_den_unverified_only": 0,
+   "offered_any_repos": 57,
+   "wrong_cases": [],
+   "by_source": {
+    "komi": {
+     "offered": 21,
+     "verified": 21,
+     "correct": 21
+    },
+    "gh_search": {
+     "offered": 18,
+     "verified": 18,
+     "correct": 18
+    },
+    "cask": {
+     "offered": 18,
+     "verified": 18,
+     "correct": 18
+    }
+   },
+   "precision_verified": 1.0,
+   "precision_verified_wilson_lo": 0.936858991216536,
+   "precision_strict_old": 1.0,
+   "precision_exact_arch": 1.0,
+   "unverified_pct": 0.0,
+   "coverage_strict": 0.9047619047619048
+  }
+ },
+ "os": {
+  "windows": {
+   "strictest": [
+    "coverage_windows_x64",
+    0.38392857142857145
+   ],
+   "numbers": {
+    "precision_windows_x64": 1.0,
+    "coverage_windows_x64": 0.38392857142857145
+   },
+   "meets_targets": false,
+   "n_kecil_cells": [],
+   "qualifying_repos": 112,
+   "passes_before_sample": false,
+   "unverified_pct_by_cell": {
+    "windows_x64": 0.410958904109589
+   }
+  },
+  "macos": {
+   "strictest": [
+    "coverage_macos_x64",
+    0.49038461538461536
+   ],
+   "numbers": {
+    "precision_macos_arm64": 1.0,
+    "coverage_macos_arm64": 0.5555555555555556,
+    "precision_macos_x64": 1.0,
+    "coverage_macos_x64": 0.49038461538461536
+   },
+   "meets_targets": false,
+   "n_kecil_cells": [],
+   "qualifying_repos": 117,
+   "passes_before_sample": false,
+   "unverified_pct_by_cell": {
+    "macos_arm64": 0.3434343434343434,
+    "macos_x64": 0.4
+   }
+  },
+  "linux": {
+   "strictest": [
+    "coverage_linux_x64",
+    0.9047619047619048
+   ],
+   "numbers": {
+    "precision_linux_x64": 1.0,
+    "coverage_linux_x64": 0.9047619047619048
+   },
+   "meets_targets": true,
+   "n_kecil_cells": [],
+   "qualifying_repos": 63,
+   "passes_before_sample": true,
+   "unverified_pct_by_cell": {
+    "linux_x64": 0.0
+   }
+  }
+ },
+ "n_repos_curated": 246,
+ "n_assets": 509,
+ "sample": {
+  "population_n": 34,
+  "sample_n": 30
+ }
+}

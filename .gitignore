@@ -1,0 +1,53 @@
+# ---- secrets and local config (never commit)
+.gh_token
+*.token
+.env
+.env.*
+*.pem
+*.key
+.claude/settings.local.json
+*.bak
+*.INVALID*
+**/realinstall/
+**/usage_test/
+
+# ---- large raw data and caches (rebuilt by the builders / cloned fresh in CI)
+data/catalog_cache/
+data/catalog_cache_ai/
+data/catalog_test_out/
+data/ext/
+data/raw/
+data/raw_secondary/
+data/clean/
+data/evidence/
+data/labeler3/*
+!data/labeler3/input/
+data/labeler3/input/*
+!data/labeler3/input/labels_guide.txt
+data/round3/raw/
+data/round3/search_raw/
+data/round3/evidence/
+data/headers_experiment.txt
+data/all_assets.json
+data/repos_all_candidates.json
+data/repos_stage1.json
+data/fetch_log.json
+data/trending_candidates.txt
+third_party/
+
+# ---- generated site output (CI regenerates: site/public/data, out/)
+site/public/data/
+site/out/
+site/.next/
+site/node_modules/
+site/test-results/
+site/playwright-report/
+*.tsbuildinfo
+site/next-env.d.ts
+
+# ---- misc
+__pycache__/
+*.pyc
+*.tmp*
+.DS_Store
+Thumbs.db

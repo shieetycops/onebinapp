@@ -1,0 +1,665 @@
+{
+ "columns": {
+  "OS": {
+   "ours": {
+    "acc_strict": 0.91,
+    "acc_excl": 0.9479166666666666,
+    "n_resolved": 96,
+    "classes": {
+     "android": {
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "P": 0.5,
+      "R": 1.0
+     },
+     "linux": {
+      "tp": 23,
+      "fp": 1,
+      "fn": 2,
+      "P": 0.9583333333333334,
+      "R": 0.92
+     },
+     "macos": {
+      "tp": 18,
+      "fp": 0,
+      "fn": 3,
+      "P": 1.0,
+      "R": 0.8571428571428571
+     },
+     "unknown": {
+      "tp": 36,
+      "fp": 6,
+      "fn": 0,
+      "P": 0.8571428571428571,
+      "R": 1.0
+     },
+     "windows": {
+      "tp": 13,
+      "fp": 1,
+      "fn": 0,
+      "P": 0.9285714285714286,
+      "R": 1.0
+     }
+    }
+   },
+   "komi": {
+    "acc_strict": 0.83,
+    "acc_excl": 0.8645833333333334,
+    "n_resolved": 96,
+    "classes": {
+     "android": {
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "P": 0.5,
+      "R": 1.0
+     },
+     "linux": {
+      "tp": 21,
+      "fp": 0,
+      "fn": 4,
+      "P": 1.0,
+      "R": 0.84
+     },
+     "macos": {
+      "tp": 14,
+      "fp": 0,
+      "fn": 7,
+      "P": 1.0,
+      "R": 0.6666666666666666
+     },
+     "unknown": {
+      "tp": 36,
+      "fp": 16,
+      "fn": 0,
+      "P": 0.6923076923076923,
+      "R": 1.0
+     },
+     "windows": {
+      "tp": 11,
+      "fp": 0,
+      "fn": 2,
+      "P": 1.0,
+      "R": 0.8461538461538461
+     }
+    }
+   }
+  },
+  "arch": {
+   "ours": {
+    "acc_strict": 0.81,
+    "acc_excl": 0.8901098901098901,
+    "n_resolved": 91,
+    "classes": {
+     "arm32": {
+      "tp": 0,
+      "fp": 1,
+      "fn": 1,
+      "P": 0.0,
+      "R": 0.0
+     },
+     "arm64": {
+      "tp": 16,
+      "fp": 3,
+      "fn": 2,
+      "P": 0.8421052631578947,
+      "R": 0.8888888888888888
+     },
+     "other(armv7l)": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "P": null,
+      "R": 0.0
+     },
+     "universal": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "P": 1.0,
+      "R": 1.0
+     },
+     "unknown": {
+      "tp": 44,
+      "fp": 13,
+      "fn": 0,
+      "P": 0.7719298245614035,
+      "R": 1.0
+     },
+     "x64": {
+      "tp": 17,
+      "fp": 1,
+      "fn": 6,
+      "P": 0.9444444444444444,
+      "R": 0.7391304347826086
+     },
+     "x86": {
+      "tp": 2,
+      "fp": 1,
+      "fn": 0,
+      "P": 0.6666666666666666,
+      "R": 1.0
+     }
+    }
+   },
+   "komi": {
+    "acc_strict": 0.72,
+    "acc_excl": 0.7912087912087912,
+    "n_resolved": 91,
+    "classes": {
+     "arm32": {
+      "tp": 1,
+      "fp": 1,
+      "fn": 0,
+      "P": 0.5,
+      "R": 1.0
+     },
+     "arm64": {
+      "tp": 18,
+      "fp": 9,
+      "fn": 0,
+      "P": 0.6666666666666666,
+      "R": 1.0
+     },
+     "other(armv7l)": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "P": null,
+      "R": 0.0
+     },
+     "universal": {
+      "tp": 2,
+      "fp": 1,
+      "fn": 0,
+      "P": 0.6666666666666666,
+      "R": 1.0
+     },
+     "unknown": {
+      "tp": 28,
+      "fp": 5,
+      "fn": 16,
+      "P": 0.8484848484848485,
+      "R": 0.6363636363636364
+     },
+     "x64": {
+      "tp": 21,
+      "fp": 10,
+      "fn": 2,
+      "P": 0.6774193548387096,
+      "R": 0.9130434782608695
+     },
+     "x86": {
+      "tp": 2,
+      "fp": 2,
+      "fn": 0,
+      "P": 0.5,
+      "R": 1.0
+     }
+    }
+   }
+  },
+  "type": {
+   "ours": {
+    "acc_strict": 0.84,
+    "acc_excl": 0.9230769230769231,
+    "n_resolved": 91,
+    "classes": {
+     "ambiguous": {
+      "tp": 0,
+      "fp": 5,
+      "fn": 0,
+      "P": 0.0,
+      "R": null
+     },
+     "installer": {
+      "tp": 41,
+      "fp": 2,
+      "fn": 0,
+      "P": 0.9534883720930233,
+      "R": 1.0
+     },
+     "not_installer": {
+      "tp": 34,
+      "fp": 8,
+      "fn": 1,
+      "P": 0.8095238095238095,
+      "R": 0.9714285714285714
+     },
+     "portable": {
+      "tp": 9,
+      "fp": 1,
+      "fn": 6,
+      "P": 0.9,
+      "R": 0.6
+     }
+    }
+   },
+   "komi": {
+    "acc_strict": 0.74,
+    "acc_excl": 0.8131868131868132,
+    "n_resolved": 91,
+    "classes": {
+     "installer": {
+      "tp": 40,
+      "fp": 7,
+      "fn": 1,
+      "P": 0.851063829787234,
+      "R": 0.975609756097561
+     },
+     "not_installer": {
+      "tp": 34,
+      "fp": 19,
+      "fn": 1,
+      "P": 0.6415094339622641,
+      "R": 0.9714285714285714
+     },
+     "portable": {
+      "tp": 0,
+      "fp": 0,
+      "fn": 15,
+      "P": null,
+      "R": 0.0
+     }
+    }
+   }
+  }
+ },
+ "ours_right_komi_wrong": [
+  {
+   "col": "OS",
+   "id": 2,
+   "asset": "Suwayomi-Server-v2.4.2366-macOS-arm64.tar.gz",
+   "gold": "macos",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "macos",
+   "komi": "unknown"
+  },
+  {
+   "col": "OS",
+   "id": 10,
+   "asset": "Kando-win32-x64-3.0.1.zip",
+   "gold": "windows",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "windows",
+   "komi": "unknown"
+  },
+  {
+   "col": "OS",
+   "id": 48,
+   "asset": "macOS_FlyingCarpet_10.0.4.zip",
+   "gold": "macos",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "macos",
+   "komi": "unknown"
+  },
+  {
+   "col": "OS",
+   "id": 74,
+   "asset": "pi-host-0.22.0-linux-x64.tar.gz",
+   "gold": "linux",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "linux",
+   "komi": "unknown"
+  },
+  {
+   "col": "OS",
+   "id": 80,
+   "asset": "TriliumNotes-Server-v0.107.0-linux-x64.tar.xz",
+   "gold": "linux",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "linux",
+   "komi": "unknown"
+  },
+  {
+   "col": "OS",
+   "id": 81,
+   "asset": "NoFWL_0.1.0_macos_x86_64.app.tar.gz",
+   "gold": "macos",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "macos",
+   "komi": "unknown"
+  },
+  {
+   "col": "OS",
+   "id": 86,
+   "asset": "Betwixt-win32-ia32.zip",
+   "gold": "windows",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "windows",
+   "komi": "unknown"
+  },
+  {
+   "col": "OS",
+   "id": 90,
+   "asset": "Umi-OCR_Linux_Paddle_2.1.5.tar.xz",
+   "gold": "linux",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "linux",
+   "komi": "unknown"
+  },
+  {
+   "col": "OS",
+   "id": 97,
+   "asset": "Kap-3.6.0-mac.zip",
+   "gold": "macos",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "macos",
+   "komi": "unknown"
+  },
+  {
+   "col": "arch",
+   "id": 5,
+   "asset": "Readest_0.12.20_universal.app.tar.gz.sig",
+   "gold": "unknown",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "universal"
+  },
+  {
+   "col": "arch",
+   "id": 9,
+   "asset": "Readest_0.12.20_arm64-setup.exe.sig",
+   "gold": "unknown",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "arm64"
+  },
+  {
+   "col": "arch",
+   "id": 13,
+   "asset": "OpenBot-0.67.1-x64.dmg.blockmap",
+   "gold": "unknown",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "x64"
+  },
+  {
+   "col": "arch",
+   "id": 14,
+   "asset": "Wealthfolio_3.12.0_arm64-setup.nsis.zip.sig",
+   "gold": "unknown",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "arm64"
+  },
+  {
+   "col": "arch",
+   "id": 16,
+   "asset": "DeepChat-1.1.3-mac-x64.zip.blockmap",
+   "gold": "unknown",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "x64"
+  },
+  {
+   "col": "arch",
+   "id": 33,
+   "asset": "draw.io-x64-32.6.10.dmg.blockmap",
+   "gold": "unknown",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "x64"
+  },
+  {
+   "col": "arch",
+   "id": 35,
+   "asset": "dbgate-premium-7.3.4-win_x64.exe.blockmap",
+   "gold": "unknown",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "x64"
+  },
+  {
+   "col": "arch",
+   "id": 54,
+   "asset": "NoFWL_0.1.0_macos_x86_64.app.tar.gz.sig",
+   "gold": "unknown",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "x64"
+  },
+  {
+   "col": "arch",
+   "id": 58,
+   "asset": "mihomo-party-windows-2.0.4-ia32-portable.7z.sha256",
+   "gold": "unknown",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "x86"
+  },
+  {
+   "col": "arch",
+   "id": 68,
+   "asset": "Silicon.Mac.Pulsar-1.133.1-arm64-mac.zip.blockmap",
+   "gold": "unknown",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "arm64"
+  },
+  {
+   "col": "arch",
+   "id": 70,
+   "asset": "DeepChat-1.1.3-windows-arm64.exe.blockmap",
+   "gold": "unknown",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "arm64"
+  },
+  {
+   "col": "arch",
+   "id": 73,
+   "asset": "marktext-win-x64-0.23.0-setup.exe.blockmap",
+   "gold": "unknown",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "x64"
+  },
+  {
+   "col": "arch",
+   "id": 75,
+   "asset": "listen1_2.33.0_win_x64.exe.blockmap",
+   "gold": "unknown",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "x64"
+  },
+  {
+   "col": "arch",
+   "id": 76,
+   "asset": "Heroic-2.22.4-Setup-x64.exe.blockmap",
+   "gold": "unknown",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "x64"
+  },
+  {
+   "col": "arch",
+   "id": 79,
+   "asset": "draw.io-arm64-32.6.10-windows-arm64-installer.exe.blockmap",
+   "gold": "unknown",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "arm64"
+  },
+  {
+   "col": "arch",
+   "id": 92,
+   "asset": "Pomotroid_1.7.1_amd64.deb.asc",
+   "gold": "unknown",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "x64"
+  },
+  {
+   "col": "type",
+   "id": 2,
+   "asset": "Suwayomi-Server-v2.4.2366-macOS-arm64.tar.gz",
+   "gold": "portable",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "portable",
+   "komi": "not_installer"
+  },
+  {
+   "col": "type",
+   "id": 10,
+   "asset": "Kando-win32-x64-3.0.1.zip",
+   "gold": "portable",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "portable",
+   "komi": "not_installer"
+  },
+  {
+   "col": "type",
+   "id": 48,
+   "asset": "macOS_FlyingCarpet_10.0.4.zip",
+   "gold": "portable",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "portable",
+   "komi": "not_installer"
+  },
+  {
+   "col": "type",
+   "id": 56,
+   "asset": "iptvnator-0.25.0-linux-amd64.snap",
+   "gold": "installer",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "installer",
+   "komi": "not_installer"
+  },
+  {
+   "col": "type",
+   "id": 74,
+   "asset": "pi-host-0.22.0-linux-x64.tar.gz",
+   "gold": "portable",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "portable",
+   "komi": "not_installer"
+  },
+  {
+   "col": "type",
+   "id": 80,
+   "asset": "TriliumNotes-Server-v0.107.0-linux-x64.tar.xz",
+   "gold": "portable",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "portable",
+   "komi": "not_installer"
+  },
+  {
+   "col": "type",
+   "id": 81,
+   "asset": "NoFWL_0.1.0_macos_x86_64.app.tar.gz",
+   "gold": "portable",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "portable",
+   "komi": "not_installer"
+  },
+  {
+   "col": "type",
+   "id": 86,
+   "asset": "Betwixt-win32-ia32.zip",
+   "gold": "portable",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "portable",
+   "komi": "not_installer"
+  },
+  {
+   "col": "type",
+   "id": 90,
+   "asset": "Umi-OCR_Linux_Paddle_2.1.5.tar.xz",
+   "gold": "portable",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "portable",
+   "komi": "not_installer"
+  },
+  {
+   "col": "type",
+   "id": 97,
+   "asset": "Kap-3.6.0-mac.zip",
+   "gold": "portable",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "portable",
+   "komi": "not_installer"
+  }
+ ],
+ "komi_right_ours_wrong": [
+  {
+   "col": "OS",
+   "id": 38,
+   "asset": "TwinDesk-3.0.0-amd64.deb",
+   "gold": "linux",
+   "basis": "isi file",
+   "ours": "windows",
+   "komi": "linux"
+  },
+  {
+   "col": "arch",
+   "id": 6,
+   "asset": "tabularis_0.32.0_x64-portable.zip",
+   "gold": "x64",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "x64"
+  },
+  {
+   "col": "arch",
+   "id": 7,
+   "asset": "Clash.Nyanpasu.x86_64.app.tar.gz",
+   "gold": "x64",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "x64"
+  },
+  {
+   "col": "arch",
+   "id": 17,
+   "asset": "rn-debugger-linux-x64.zip",
+   "gold": "x64",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "x64"
+  },
+  {
+   "col": "arch",
+   "id": 29,
+   "asset": "OpenLess_2.0.1+build.20261016_armeabi-v7a.apk",
+   "gold": "arm32",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "arm32"
+  },
+  {
+   "col": "arch",
+   "id": 49,
+   "asset": "rn-debugger-macos-x64.zip",
+   "gold": "x64",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "x64"
+  },
+  {
+   "col": "arch",
+   "id": 61,
+   "asset": "ueli-9.29.1-arm64.zip",
+   "gold": "arm64",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "arm64"
+  },
+  {
+   "col": "arch",
+   "id": 66,
+   "asset": "Clash.Nyanpasu.aarch64.app.tar.gz",
+   "gold": "arm64",
+   "basis": "kesepakatan dua pelabel",
+   "ours": "unknown",
+   "komi": "arm64"
+  }
+ ],
+ "both_wrong": {
+  "OS": 4,
+  "arch": 3,
+  "type": 7
+ }
+}

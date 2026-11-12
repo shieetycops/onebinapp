@@ -1,0 +1,752 @@
+[
+ [
+  "clash-verge-rev/clash-verge-rev",
+  "clash-verge-rev",
+  "exact",
+  "ours=['Clash.Verge_2.5.10_aarch64.dmg', 'Clash.Verge_2.5.10_x64.dmg'] cask=Clash.Verge_2.5.10_aarch64.dmg"
+ ],
+ [
+  "farion1231/cc-switch",
+  "cc-switch",
+  "exact",
+  "ours=['CC-Switch-v4.0.29-macOS.dmg', 'CC-Switch-v4.0.29-macOS.dmg'] cask=CC-Switch-v4.0.29-macOS.dmg"
+ ],
+ [
+  "nexu-io/open-design",
+  "open-design",
+  "exact",
+  "ours=['open-design-0.27.1-mac-arm64.dmg', 'open-design-0.27.1-mac-x64.dmg'] cask=open-design-0.27.1-mac-arm64.dmg"
+ ],
+ [
+  "toeverything/AFFiNE",
+  "affine",
+  "mismatch",
+  "ours=['affine-0.27.4-stable-macos-arm64.dmg', 'affine-0.27.4-stable-macos-x64.dmg'] cask=affine-0.27.4-stable-macos-arm64.zip"
+ ],
+ [
+  "jgraph/drawio-desktop",
+  "drawio",
+  "exact",
+  "ours=['draw.io-arm64-32.6.10.dmg', 'draw.io-x64-32.6.10.dmg'] cask=draw.io-arm64-32.6.10.dmg"
+ ],
+ [
+  "marktext/marktext",
+  "mark-text",
+  "exact",
+  "ours=['marktext-mac-arm64-0.23.0.dmg', 'marktext-mac-x64-0.23.0.dmg'] cask=marktext-mac-arm64-0.23.0.dmg"
+ ],
+ [
+  "agalwood/Motrix",
+  "motrix",
+  "exact",
+  "ours=['Motrix-2.4.1-arm64.dmg', 'Motrix-2.4.1-x64.dmg'] cask=Motrix-2.4.1-arm64.dmg"
+ ],
+ [
+  "agalwood/Motrix",
+  "motrix@beta",
+  "same_type_diff_name",
+  "ours=['Motrix-2.4.1-arm64.dmg', 'Motrix-2.4.1-x64.dmg'] cask=Motrix-2.0.0-beta.52-arm64.dmg"
+ ],
+ [
+  "laurent22/joplin",
+  "joplin",
+  "exact",
+  "ours=['Joplin-3.7.22-arm64.DMG', 'Joplin-3.7.22.dmg'] cask=Joplin-3.7.22-arm64.DMG"
+ ],
+ [
+  "lyswhut/lx-music-desktop",
+  "lx-music",
+  "same_type_diff_name",
+  "ours=['lx-music-desktop-2.12.6-arm64.dmg', 'lx-music-desktop-2.12.6-x64.dmg'] cask=lx-music-desktop-2.12.2-arm64.dmg"
+ ],
+ [
+  "upscayl/upscayl",
+  "upscayl",
+  "exact",
+  "ours=['upscayl-2.15.0-mac.dmg', 'upscayl-2.15.0-mac.dmg'] cask=upscayl-2.15.0-mac.dmg"
+ ],
+ [
+  "janhq/jan",
+  "jan",
+  "mismatch",
+  "ours=['Jan_0.8.8_universal.dmg', 'Jan_0.8.8_universal.dmg'] cask=jan-mac-universal-0.8.8.zip"
+ ],
+ [
+  "tinyhumansai/openhuman",
+  "openhuman",
+  "exact",
+  "ours=['OpenHuman_0.64.15_aarch64.dmg', 'OpenHuman_0.64.15_x64.dmg'] cask=OpenHuman_0.64.15_aarch64.dmg"
+ ],
+ [
+  "TriliumNext/Trilium",
+  "trilium-notes",
+  "exact",
+  "ours=['TriliumNotes-v0.107.0-macos-arm64.dmg', 'TriliumNotes-v0.107.0-macos-x64.dmg'] cask=TriliumNotes-v0.107.0-macos-arm64.dmg"
+ ],
+ [
+  "webadderallorg/Recordly",
+  "recordly",
+  "exact",
+  "ours=['Recordly-arm64.dmg', 'Recordly-x64.dmg'] cask=Recordly-arm64.dmg"
+ ],
+ [
+  "MonitorControl/MonitorControl",
+  "monitorcontrol",
+  "exact",
+  "ours=['MonitorControl.4.4.0.dmg', 'MonitorControl.4.4.0.dmg'] cask=MonitorControl.4.4.0.dmg"
+ ],
+ [
+  "qier222/YesPlayMusic",
+  "yesplaymusic",
+  "same_type_diff_name",
+  "ours=['YesPlayMusic-mac-0.4.11-arm64.dmg', 'YesPlayMusic-mac-0.4.11-x64.dmg'] cask=YesPlayMusic-mac-0.4.10-arm64.dmg"
+ ],
+ [
+  "DevToys-app/DevToys",
+  "devtoys",
+  "OUR_LATEST_EMPTY",
+  "devtoys_osx_arm64.zip"
+ ],
+ [
+  "flameshot-org/flameshot",
+  "flameshot",
+  "exact",
+  "ours=['Flameshot-15.0.0-macos-arm64.dmg', 'Flameshot-15.0.0-macos-intel.dmg'] cask=Flameshot-15.0.0-macos-arm64.dmg"
+ ],
+ [
+  "jordanbaird/Ice",
+  "jordanbaird-ice@beta",
+  "OUR_LATEST_EMPTY",
+  "Ice.zip"
+ ],
+ [
+  "BeyondDimension/SteamTools",
+  "steam-plus-plus",
+  "same_type_diff_name",
+  "ours=['Steam++_v3.2.0_macos.dmg', 'Steam++_v3.2.0_macos.dmg'] cask=Steam++_v3.1.0_macos.dmg"
+ ],
+ [
+  "Molunerfinn/PicGo",
+  "picgo",
+  "exact",
+  "ours=['PicGo-3.0.3-arm64.dmg', 'PicGo-3.0.3-x64.dmg'] cask=PicGo-3.0.3-arm64.dmg"
+ ],
+ [
+  "oldj/SwitchHosts",
+  "switchhosts",
+  "exact",
+  "ours=['SwitchHosts-5.0.3-mac-aarch64.dmg', 'SwitchHosts-5.0.3-mac-x64.dmg'] cask=SwitchHosts-5.0.3-mac-aarch64.dmg"
+ ],
+ [
+  "mihomo-party-org/clash-party",
+  "clash-party",
+  "same_type_diff_name",
+  "ours=['clash-party-catalina-2.0.4-arm64.pkg', 'clash-party-catalina-2.0.4-x64.pkg'] cask=clash-party-macos-2.0.4-arm64.pkg"
+ ],
+ [
+  "Swordfish90/cool-retro-term",
+  "cool-retro-term",
+  "normalized",
+  "ours=['cool-retro-term-2.0.0-beta2.dmg', 'cool-retro-term-2.0.0-beta2.dmg'] cask=Cool-Retro-Term-1.2.0.dmg"
+ ],
+ [
+  "readest/readest",
+  "readest",
+  "exact",
+  "ours=['Readest_0.12.20_universal.dmg', 'Readest_0.12.20_universal.dmg'] cask=Readest_0.12.20_universal.dmg"
+ ],
+ [
+  "beekeeper-studio/beekeeper-studio",
+  "beekeeper-studio",
+  "exact",
+  "ours=['Beekeeper-Studio-6.2.2-arm64.dmg', 'Beekeeper-Studio-6.2.2.dmg'] cask=Beekeeper-Studio-6.2.2-arm64.dmg"
+ ],
+ [
+  "pavlobu/deskreen",
+  "deskreen",
+  "exact",
+  "ours=['deskreen-ce-3.2.16-arm64.dmg', 'deskreen-ce-3.2.16-x64.dmg'] cask=Deskreen-ce-3.2.16-arm64.dmg"
+ ],
+ [
+  "mountain-loop/yaak",
+  "yaak",
+  "exact",
+  "ours=['Yaak_2026.9.1_aarch64.dmg', 'Yaak_2026.9.1_x64.dmg'] cask=Yaak_2026.9.1_aarch64.dmg"
+ ],
+ [
+  "mountain-loop/yaak",
+  "yaak@beta",
+  "normalized",
+  "ours=['Yaak_2026.9.1_aarch64.dmg', 'Yaak_2026.9.1_x64.dmg'] cask=Yaak_2026.10.0-beta.2_aarch64.dmg"
+ ],
+ [
+  "moonlight-stream/moonlight-qt",
+  "moonlight",
+  "exact",
+  "ours=['Moonlight-6.2.0.dmg', 'Moonlight-6.2.0.dmg'] cask=Moonlight-6.2.0.dmg"
+ ],
+ [
+  "wulkano/Kap",
+  "kap",
+  "exact",
+  "ours=['Kap-3.6.0-arm64.dmg', 'Kap-3.6.0-x64.dmg'] cask=Kap-3.6.0-arm64.dmg"
+ ],
+ [
+  "nukeop/nuclear",
+  "nuclear",
+  "normalized",
+  "ours=['Nuclear_1.54.2_aarch64.dmg', 'Nuclear_1.54.2_x64.dmg'] cask=Nuclear_1.47.1_aarch64.dmg"
+ ],
+ [
+  "Foundry376/Mailspring",
+  "mailspring",
+  "exact",
+  "ours=['Mailspring-AppleSilicon.zip', 'Mailspring-AppleSilicon.zip'] cask=Mailspring-AppleSilicon.zip"
+ ],
+ [
+  "infinitered/reactotron",
+  "reactotron",
+  "OUR_LATEST_EMPTY",
+  "Reactotron-3.11.0-arm64-mac.zip"
+ ],
+ [
+  "musescore/MuseScore",
+  "musescore",
+  "exact",
+  "ours=['MuseScore-Studio-4.7.6.261022093.dmg', 'MuseScore-Studio-4.7.6.261022093.dmg'] cask=MuseScore-Studio-4.7.6.261022093.dmg"
+ ],
+ [
+  "streetwriters/notesnook",
+  "notesnook",
+  "exact",
+  "ours=['notesnook_mac_arm64.dmg', 'notesnook_mac_x64.dmg'] cask=notesnook_mac_arm64.dmg"
+ ],
+ [
+  "Hunlongyu/ZY-Player",
+  "zy-player",
+  "exact",
+  "ours=['ZY-Player-2.8.8.dmg', 'ZY-Player-2.8.8.dmg'] cask=ZY-Player-2.8.8.dmg"
+ ],
+ [
+  "Zettlr/Zettlr",
+  "zettlr",
+  "exact",
+  "ours=['Zettlr-4.9.0-arm64.dmg', 'Zettlr-4.9.0-x64.dmg'] cask=Zettlr-4.9.0-arm64.dmg"
+ ],
+ [
+  "divamgupta/diffusionbee-stable-diffusion-ui",
+  "diffusionbee",
+  "exact",
+  "ours=['DiffusionBee_MPS_arm64-2.5.3.dmg', 'DiffusionBee_MPS_Intel-2.5.3.dmg'] cask=DiffusionBee_MPS_arm64-2.5.3.dmg"
+ ],
+ [
+  "mapeditor/tiled",
+  "tiled",
+  "same_type_diff_name",
+  "ours=['Tiled-1.12.2_macOS-10.13-12.zip', 'Tiled-1.12.2_macOS-10.13-12.zip'] cask=Tiled-1.12.2_macOS-13+.zip"
+ ],
+ [
+  "keeweb/keeweb",
+  "keeweb",
+  "exact",
+  "ours=['KeeWeb-1.18.7.mac.arm64.dmg', 'KeeWeb-1.18.7.mac.x64.dmg'] cask=KeeWeb-1.18.7.mac.arm64.dmg"
+ ],
+ [
+  "thaw-app/Thaw",
+  "thaw",
+  "mismatch",
+  "ours=['Thaw.dmg', 'Thaw.dmg'] cask=Thaw_2.1.0.zip"
+ ],
+ [
+  "thaw-app/Thaw",
+  "thaw@beta",
+  "mismatch",
+  "ours=['Thaw.dmg', 'Thaw.dmg'] cask=Thaw_3.0.0-beta.6.zip"
+ ],
+ [
+  "Heroic-Games-Launcher/HeroicGamesLauncher",
+  "heroic",
+  "exact",
+  "ours=['Heroic-2.22.4-macOS-arm64.dmg', 'Heroic-2.22.4-macOS-x64.dmg'] cask=Heroic-2.22.4-macOS-arm64.dmg"
+ ],
+ [
+  "mrkai77/Loop",
+  "loop",
+  "OUR_LATEST_EMPTY",
+  "Loop.zip"
+ ],
+ [
+  "qutebrowser/qutebrowser",
+  "qutebrowser",
+  "exact",
+  "ours=['qutebrowser-3.7.0-arm64.dmg', 'qutebrowser-3.7.0-x86_64.dmg'] cask=qutebrowser-3.7.0-arm64.dmg"
+ ],
+ [
+  "listen1/listen1_desktop",
+  "listen1",
+  "exact",
+  "ours=['listen1_2.33.0_mac_arm64.dmg', 'listen1_2.33.0_mac_x64.dmg'] cask=Listen1_2.33.0_mac_arm64.dmg"
+ ],
+ [
+  "PrismLauncher/PrismLauncher",
+  "prismlauncher",
+  "mismatch",
+  "ours=['PrismLauncher-macOS-11.1.1.dmg', 'PrismLauncher-macOS-11.1.1.dmg'] cask=PrismLauncher-macOS-11.1.1.zip"
+ ],
+ [
+  "XiaoYouChR/Ghost-Downloader-3",
+  "ghost-downloader",
+  "exact",
+  "ours=['Ghost-Downloader-v4.5.1-macOS-arm64.dmg', 'Ghost-Downloader-v4.5.1-macOS-x86_64.dmg'] cask=Ghost-Downloader-v4.5.1-macOS-arm64.dmg"
+ ],
+ [
+  "vicinaehq/vicinae",
+  "vicinae",
+  "exact",
+  "ours=['Vicinae.dmg', 'Vicinae.dmg'] cask=Vicinae.dmg"
+ ],
+ [
+  "jhen0409/react-native-debugger",
+  "react-native-debugger",
+  "OUR_LATEST_EMPTY",
+  "rn-debugger-macos-universal.zip"
+ ],
+ [
+  "hackjutsu/Lepton",
+  "lepton",
+  "exact",
+  "ours=['Lepton-2.0.0-mac-arm64.dmg', 'Lepton-2.0.0-mac-x64.dmg'] cask=Lepton-2.0.0-mac-arm64.dmg"
+ ],
+ [
+  "getgridea/gridea",
+  "gridea",
+  "exact",
+  "ours=['Gridea-0.9.3.dmg', 'Gridea-0.9.3.dmg'] cask=Gridea-0.9.3.dmg"
+ ],
+ [
+  "webtorrent/webtorrent-desktop",
+  "webtorrent",
+  "exact",
+  "ours=['WebTorrent-v0.24.0.dmg', 'WebTorrent-v0.24.0.dmg'] cask=WebTorrent-v0.24.0.dmg"
+ ],
+ [
+  "ronitsingh10/FineTune",
+  "finetune",
+  "exact",
+  "ours=['FineTune.dmg', 'FineTune.dmg'] cask=FineTune.dmg"
+ ],
+ [
+  "fastrepl/anarlog",
+  "anarlog",
+  "exact",
+  "ours=['anarlog-macos-aarch64.dmg', 'anarlog-macos-x86_64.dmg'] cask=anarlog-macos-aarch64.dmg"
+ ],
+ [
+  "yang991178/fluent-reader",
+  "fluent-reader",
+  "exact",
+  "ours=['Fluent.Reader.1.3.2.dmg', 'Fluent.Reader.1.3.2.dmg'] cask=Fluent.Reader.1.3.2.dmg"
+ ],
+ [
+  "open-pencil/open-pencil",
+  "openpencil",
+  "mismatch",
+  "ours=['OpenPencil_0.16.0_aarch64.dmg', 'OpenPencil_0.16.0_x64.dmg'] cask=OpenPencil_aarch64.app.tar.gz"
+ ],
+ [
+  "jely2002/youtube-dl-gui",
+  "open-video-downloader",
+  "exact",
+  "ours=['Open.Video.Downloader_3.2.1_aarch64.dmg', 'Open.Video.Downloader_3.2.1_x64.dmg'] cask=Open.Video.Downloader_3.2.1_aarch64.dmg"
+ ],
+ [
+  "crynta/terax-ai",
+  "terax",
+  "exact",
+  "ours=['Terax_0.9.0_aarch64.dmg', 'Terax_0.9.0_x64.dmg'] cask=Terax_0.9.0_aarch64.dmg"
+ ],
+ [
+  "spyder-ide/spyder",
+  "spyder",
+  "exact",
+  "ours=['Spyder-macOS-arm64.pkg', 'Spyder-macOS-x86_64.pkg'] cask=Spyder-macOS-arm64.pkg"
+ ],
+ [
+  "olive-editor/olive",
+  "olive",
+  "OUR_LATEST_EMPTY",
+  "Olive-1e3cf53-macOS.zip"
+ ],
+ [
+  "LykosAI/StabilityMatrix",
+  "stability-matrix",
+  "exact",
+  "ours=['StabilityMatrix-macos-arm64.dmg'] cask=StabilityMatrix-macos-arm64.dmg"
+ ],
+ [
+  "coteditor/CotEditor",
+  "coteditor",
+  "exact",
+  "ours=['CotEditor_7.1.3.dmg', 'CotEditor_7.1.3.dmg'] cask=CotEditor_7.1.3.dmg"
+ ],
+ [
+  "cerebroapp/cerebro",
+  "cerebro",
+  "exact",
+  "ours=['Cerebro-0.11.0.dmg', 'Cerebro-0.11.0.dmg'] cask=cerebro-0.11.0.dmg"
+ ],
+ [
+  "opengeos/GeoLibre",
+  "geolibre",
+  "exact",
+  "ours=['GeoLibre.Desktop_3.7.0_aarch64.dmg', 'GeoLibre.Desktop_3.7.0_x64.dmg'] cask=GeoLibre.Desktop_3.7.0_aarch64.dmg"
+ ],
+ [
+  "felixrieseberg/macintosh.js",
+  "macintoshjs",
+  "exact",
+  "ours=['macintosh.js-darwin-arm64-1.2.0.zip', 'macintosh.js-darwin-x64-1.2.0.zip'] cask=macintosh.js-darwin-arm64-1.2.0.zip"
+ ],
+ [
+  "electron/fiddle",
+  "electron-fiddle",
+  "exact",
+  "ours=['Electron.Fiddle-darwin-arm64-0.39.0.zip', 'Electron.Fiddle-darwin-x64-0.39.0.zip'] cask=Electron.Fiddle-darwin-arm64-0.39.0.zip"
+ ],
+ [
+  "visualfc/liteide",
+  "liteide",
+  "exact",
+  "ours=['liteidex38.4.macos-arm64-qt5.15.19.zip', 'liteidex38.4-macos-qt5.15.16.zip'] cask=liteidex38.4-macos-qt5.15.16.zip"
+ ],
+ [
+  "momenbasel/PureMac",
+  "puremac",
+  "mismatch",
+  "ours=['PureMac-3.2.0.dmg', 'PureMac-3.2.0.dmg'] cask=PureMac-3.2.0.zip"
+ ],
+ [
+  "4gray/iptvnator",
+  "iptvnator",
+  "exact",
+  "ours=['iptvnator-0.25.0-mac-arm64.dmg', 'iptvnator-0.25.0-mac-x64.dmg'] cask=iptvnator-0.25.0-mac-arm64.dmg"
+ ],
+ [
+  "ganeshrvel/openmtp",
+  "openmtp",
+  "mismatch",
+  "ours=['openmtp-3.3.0-mac-arm64.dmg', 'openmtp-3.3.0-mac-x64.dmg'] cask=openmtp-3.3.0-mac-arm64.zip"
+ ],
+ [
+  "sindresorhus/caprine",
+  "caprine",
+  "exact",
+  "ours=['Caprine-2.61.0-arm64.dmg', 'Caprine-2.61.0.dmg'] cask=Caprine-2.61.0-arm64.dmg"
+ ],
+ [
+  "dbgate/dbgate",
+  "dbgate",
+  "same_type_diff_name",
+  "ours=['dbgate-7.3.4-mac_arm64.dmg', 'dbgate-7.3.4-mac_x64.dmg'] cask=dbgate-7.3.4-mac_universal.dmg"
+ ],
+ [
+  "Serial-Studio/Serial-Studio",
+  "serial-studio",
+  "exact",
+  "ours=['Serial-Studio-Pro-4.2.1-macOS.dmg', 'Serial-Studio-Pro-4.2.1-macOS.dmg'] cask=Serial-Studio-Pro-4.2.1-macOS.dmg"
+ ],
+ [
+  "milanvarady/Applite",
+  "applite",
+  "exact",
+  "ours=['Applite.dmg', 'Applite.dmg'] cask=Applite.dmg"
+ ],
+ [
+  "massCodeIO/massCode",
+  "masscode",
+  "exact",
+  "ours=['massCode-6.3.1-arm64.dmg', 'massCode-6.3.1.dmg'] cask=massCode-6.3.1-arm64.dmg"
+ ],
+ [
+  "InterceptSuite/ProxyBridge",
+  "proxybridge",
+  "exact",
+  "ours=['ProxyBridge-v4.1.2-Universal-Installer.pkg', 'ProxyBridge-v4.1.2-Universal-Installer.pkg'] cask=ProxyBridge-v4.1.2-Universal-Installer.pkg"
+ ],
+ [
+  "Beingpax/VoiceInk",
+  "voiceink",
+  "exact",
+  "ours=['VoiceInk.dmg', 'VoiceInk.dmg'] cask=VoiceInk.dmg"
+ ],
+ [
+  "getopenscreen/openscreen",
+  "openscreen",
+  "exact",
+  "ours=['Openscreen-Mac-arm64-2.2.2.zip', 'Openscreen-Mac-x64-2.2.2.zip'] cask=Openscreen-Mac-arm64-2.2.2.zip"
+ ],
+ [
+  "pawelsalawa/letos",
+  "letos",
+  "exact",
+  "ours=['letos-4.0.4-macos-universal.dmg', 'letos-4.0.4-macos-universal.dmg'] cask=letos-4.0.4-macos-universal.dmg"
+ ],
+ [
+  "ytmdesktop/ytmdesktop",
+  "ytmdesktop-youtube-music",
+  "same_type_diff_name",
+  "ours=['YouTube.Music.Desktop.App-darwin-arm64-2.1.0.zip', 'YouTube.Music.Desktop.App-darwin-x64-2.1.0.zip'] cask=YouTube.Music.Desktop.App-darwin-arm64-2.0.11.zip"
+ ],
+ [
+  "rullerzhou-afk/clawd-on-desk",
+  "clawd-on-desk",
+  "exact",
+  "ours=['Clawd-on-Desk-1.6.0-arm64.dmg', 'Clawd-on-Desk-1.6.0-x64.dmg'] cask=Clawd-on-Desk-1.6.0-arm64.dmg"
+ ],
+ [
+  "hovancik/stretchly",
+  "stretchly",
+  "exact",
+  "ours=['Stretchly-1.22.1-arm64.dmg', 'Stretchly-1.22.1.dmg'] cask=stretchly-1.22.1-arm64.dmg"
+ ],
+ [
+  "kando-menu/kando",
+  "kando",
+  "exact",
+  "ours=['Kando-3.0.1-arm64.dmg', 'Kando-3.0.1-x64.dmg'] cask=Kando-3.0.1-arm64.dmg"
+ ],
+ [
+  "ipfs/ipfs-desktop",
+  "ipfs-desktop",
+  "exact",
+  "ours=['ipfs-desktop-0.50.1-mac.dmg', 'ipfs-desktop-0.50.1-mac.dmg'] cask=ipfs-desktop-0.50.1-mac.dmg"
+ ],
+ [
+  "LibreCAD/LibreCAD",
+  "librecad",
+  "same_type_diff_name",
+  "ours=['LibreCAD-v2.2.1.6-arm64.dmg', 'LibreCAD-v2.2.1.6.dmg'] cask=LibreCAD-v2.2.1.5-arm64.dmg"
+ ],
+ [
+  "ThinkInAIXYZ/deepchat",
+  "deepchat",
+  "exact",
+  "ours=['DeepChat-1.1.3-mac-arm64.dmg', 'DeepChat-1.1.3-mac-x64.dmg'] cask=DeepChat-1.1.3-mac-arm64.dmg"
+ ],
+ [
+  "JannisX11/blockbench",
+  "blockbench",
+  "exact",
+  "ours=['Blockbench_arm64_5.2.2.dmg', 'Blockbench_x64_5.2.2.dmg'] cask=Blockbench_arm64_5.2.2.dmg"
+ ],
+ [
+  "pbek/QOwnNotes",
+  "qownnotes",
+  "exact",
+  "ours=['QOwnNotes.dmg', 'QOwnNotes.dmg'] cask=QOwnNotes.dmg"
+ ],
+ [
+  "Splode/pomotroid",
+  "pomotroid",
+  "exact",
+  "ours=['Pomotroid_1.7.1_universal.dmg', 'Pomotroid_1.7.1_universal.dmg'] cask=Pomotroid_1.7.1_universal.dmg"
+ ],
+ [
+  "liriliri/aya",
+  "aya",
+  "exact",
+  "ours=['AYA-1.14.2-mac-arm64.dmg', 'AYA-1.14.2-mac-x64.dmg'] cask=AYA-1.14.2-mac-arm64.dmg"
+ ],
+ [
+  "aipoch/open-science",
+  "open-science",
+  "same_type_diff_name",
+  "ours=['aipoch-open-science-1.2.1-mac-arm64.dmg', 'aipoch-open-science-1.2.1-mac-x64.dmg'] cask=aipoch-open-science-1.2.0-mac-arm64.dmg"
+ ],
+ [
+  "harry0703/MangoDisk",
+  "mangodisk",
+  "exact",
+  "ours=['MangoDisk-1.2.3-macos.dmg', 'MangoDisk-1.2.3-macos.dmg'] cask=MangoDisk-1.2.3-macos.dmg"
+ ],
+ [
+  "TabularisDB/tabularis",
+  "tabularis",
+  "exact",
+  "ours=['tabularis_0.32.0_aarch64.dmg', 'tabularis_0.32.0_x64.dmg'] cask=tabularis_0.32.0_aarch64.dmg"
+ ],
+ [
+  "TabularisDB/tabularis",
+  "tabularis@nightly",
+  "same_type_diff_name",
+  "ours=['tabularis_0.32.0_aarch64.dmg', 'tabularis_0.32.0_x64.dmg'] cask=tabularis_0.32.1-1_aarch64.dmg"
+ ],
+ [
+  "gitify-app/gitify",
+  "gitify",
+  "mismatch",
+  "ours=['Gitify-8.1.0-universal.dmg', 'Gitify-8.1.0-universal.dmg'] cask=Gitify-8.1.0-universal-mac.zip"
+ ],
+ [
+  "spieglt/FlyingCarpet",
+  "flying-carpet",
+  "exact",
+  "ours=['macOS_FlyingCarpet_10.0.4.zip', 'macOS_FlyingCarpet_10.0.4.zip'] cask=macOS_FlyingCarpet_10.0.4.zip"
+ ],
+ [
+  "tagspaces/tagspaces",
+  "tagspaces",
+  "exact",
+  "ours=['tagspaces-mac-arm64-6.14.3.dmg', 'tagspaces-mac-x64-6.14.3.dmg'] cask=tagspaces-mac-arm64-6.14.3.dmg"
+ ],
+ [
+  "ddddxxx/LyricsX",
+  "lyricsx",
+  "OUR_LATEST_EMPTY",
+  "LyricsX_1.6.3+2351.zip"
+ ],
+ [
+  "productdevbook/port-killer",
+  "portkiller",
+  "exact",
+  "ours=['PortKiller-v3.4.0-macos.dmg', 'PortKiller-v3.4.0-macos.dmg'] cask=PortKiller-v3.4.0-macos.dmg"
+ ],
+ [
+  "mavlink/qgroundcontrol",
+  "qgroundcontrol",
+  "exact",
+  "ours=['QGroundControl.dmg', 'QGroundControl.dmg'] cask=QGroundControl.dmg"
+ ],
+ [
+  "oliverschwendener/ueli",
+  "ueli",
+  "same_type_diff_name",
+  "ours=['Ueli-9.29.1-arm64.dmg', 'Ueli-9.29.1.dmg'] cask=Ueli-9.29.0-arm64.dmg"
+ ],
+ [
+  "kdzwinel/betwixt",
+  "betwixt",
+  "exact",
+  "ours=['Betwixt-darwin-x64.zip'] cask=Betwixt-darwin-x64.zip"
+ ],
+ [
+  "Dimillian/CodexMonitor",
+  "codexmonitor",
+  "mismatch",
+  "ours=['CodexMonitor_0.7.67_aarch64.dmg'] cask=CodexMonitor.app.tar.gz"
+ ],
+ [
+  "clementine-player/Clementine",
+  "clementine",
+  "exact",
+  "ours=['clementine-1.4.5.dmg', 'clementine-1.4.5.dmg'] cask=clementine-1.4.5.dmg"
+ ],
+ [
+  "f/textream",
+  "textream",
+  "same_type_diff_name",
+  "ours=['Textream-macos15.dmg', 'Textream-macos15.dmg'] cask=Textream.dmg"
+ ],
+ [
+  "nuttyartist/notes",
+  "notes-better",
+  "exact",
+  "ours=['Notes.2.3.1.dmg', 'Notes_2.3.1-Qt5.15.2-x86_64.dmg'] cask=Notes.2.3.1.dmg"
+ ],
+ [
+  "pulsar-edit/pulsar",
+  "pulsar",
+  "exact",
+  "ours=['Silicon.Mac.Pulsar-1.133.1-arm64.dmg', 'Intel.Mac.Pulsar-1.133.1.dmg'] cask=Silicon.Mac.Pulsar-1.133.1-arm64.dmg"
+ ],
+ [
+  "PintaProject/Pinta",
+  "pinta",
+  "exact",
+  "ours=['Pinta-macos-arm64.dmg', 'Pinta-macos-x86_64.dmg'] cask=Pinta-macos-arm64.dmg"
+ ],
+ [
+  "matt1398/claude-devtools",
+  "claude-devtools",
+  "exact",
+  "ours=['claude-devtools-0.5.0-arm64.dmg', 'claude-devtools-0.5.0-x64.dmg'] cask=claude-devtools-0.5.0-arm64.dmg"
+ ],
+ [
+  "tutti-os/tutti",
+  "tutti",
+  "exact",
+  "ours=['Tutti-0.2.33-mac-arm64.dmg', 'Tutti-0.2.33-mac-x64.dmg'] cask=Tutti-0.2.33-mac-arm64.dmg"
+ ],
+ [
+  "Kuingsmile/PicList",
+  "piclist",
+  "exact",
+  "ours=['PicList-3.6.1-arm64.dmg', 'PicList-3.6.1-x64.dmg'] cask=PicList-3.6.1-arm64.dmg"
+ ],
+ [
+  "Ruben2776/PicView",
+  "picview",
+  "exact",
+  "ours=['PicView-5.2.2-macOS-arm64.dmg', 'PicView-5.2.2-macOS-x64.dmg'] cask=PicView-5.2.2-macOS-arm64.dmg"
+ ],
+ [
+  "jurplel/qView",
+  "qview",
+  "same_type_diff_name",
+  "ours=['qView-7.1-legacy.dmg', 'qView-7.1-legacy.dmg'] cask=qView-7.1.dmg"
+ ],
+ [
+  "oblador/hush",
+  "hush",
+  "exact",
+  "ours=['Hush.dmg', 'Hush.dmg'] cask=Hush.dmg"
+ ],
+ [
+  "gqrx-sdr/gqrx",
+  "gqrx",
+  "exact",
+  "ours=['Gqrx-2.17.7-arm64.dmg', 'Gqrx-2.17.7-x86_64.dmg'] cask=Gqrx-2.17.7-arm64.dmg"
+ ],
+ [
+  "Melvin-Abraham/Google-Assistant-Unofficial-Desktop-Client",
+  "google-assistant",
+  "exact",
+  "ours=['Google-Assistant-1.1.0.dmg', 'Google-Assistant-1.1.0.dmg'] cask=Google-Assistant-1.1.0.dmg"
+ ],
+ [
+  "AChep/keyguard-app",
+  "keyguard",
+  "exact",
+  "ours=['Keyguard-3.8.0-apple.dmg', 'Keyguard-3.8.0-apple.dmg'] cask=Keyguard-3.8.0-apple.dmg"
+ ],
+ [
+  "Legcord/Legcord",
+  "legcord",
+  "exact",
+  "ours=['Legcord-1.3.1-mac-universal.dmg', 'Legcord-1.3.1-mac-universal.dmg'] cask=Legcord-1.3.1-mac-universal.dmg"
+ ],
+ [
+  "lbryio/lbry-desktop",
+  "lbry",
+  "exact",
+  "ours=['LBRY_0.53.9.dmg', 'LBRY_0.53.9.dmg'] cask=LBRY_0.53.9.dmg"
+ ],
+ [
+  "antonycourtney/tad",
+  "tad",
+  "exact",
+  "ours=['Tad-0.14.0-arm64.dmg', 'Tad-0.14.0.dmg'] cask=Tad-0.14.0-arm64.dmg"
+ ],
+ [
+  "React-Proto/react-proto",
+  "react-proto",
+  "exact",
+  "ours=['React-Proto-1.0.0.dmg', 'React-Proto-1.0.0.dmg'] cask=React-Proto-1.0.0.dmg"
+ ],
+ [
+  "Kruszoneq/macUSB",
+  "macusb",
+  "exact",
+  "ours=['macUSB.2.6.dmg', 'macUSB.2.6.dmg'] cask=macUSB.2.6.dmg"
+ ]
+]

@@ -1,0 +1,3902 @@
+[
+ {
+  "id": 0,
+  "repo": "kando-menu/kando",
+  "asset": "kando_3.0.1_arm64.deb",
+  "pred": [
+   "linux",
+   "arm64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "arm64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "isi file",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "0",
+   "os": "linux",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "0",
+   "os": "linux",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "linux",
+   "arm64"
+  ],
+  "fmt": "ar (deb)"
+ },
+ {
+  "id": 1,
+  "repo": "hovancik/stretchly",
+  "asset": "Stretchly_1.22.1_arm64.deb",
+  "pred": [
+   "linux",
+   "arm64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "arm64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "isi file",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "1",
+   "os": "linux",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "1",
+   "os": "linux",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "linux",
+   "arm64"
+  ],
+  "fmt": "ar (deb)"
+ },
+ {
+  "id": 2,
+  "repo": "Suwayomi/Suwayomi-Server",
+  "asset": "Suwayomi-Server-v2.4.2366-macOS-arm64.tar.gz",
+  "pred": [
+   "macos",
+   "arm64",
+   "portable"
+  ],
+  "gold": {
+   "OS": "macos",
+   "arch": "arm64",
+   "type": "portable"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "2",
+   "os": "macos",
+   "arch": "arm64",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "2",
+   "os": "macos",
+   "arch": "arm64",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "gzip"
+ },
+ {
+  "id": 3,
+  "repo": "meowtec/imgo",
+  "asset": "imgo_1.1.0_aarch64.AppImage",
+  "pred": [
+   "linux",
+   "arm64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "arm64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "isi file",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "3",
+   "os": "linux",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "3",
+   "os": "linux",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "linux",
+   "arm64"
+  ],
+  "fmt": "ELF"
+ },
+ {
+  "id": 4,
+  "repo": "t1m0thyj/WinDynamicDesktop",
+  "asset": "checksums.txt",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "4",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "4",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "text"
+ },
+ {
+  "id": 5,
+  "repo": "readest/readest",
+  "asset": "Readest_0.12.20_universal.app.tar.gz.sig",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "5",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "5",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "text"
+ },
+ {
+  "id": 6,
+  "repo": "TabularisDB/tabularis",
+  "asset": "tabularis_0.32.0_x64-portable.zip",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "x64",
+   "type": "portable"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "6",
+   "os": "unknown",
+   "arch": "x64",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "6",
+   "os": "unknown",
+   "arch": "x64",
+   "type": "portable",
+   "confidence": "ragu"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "ZIP"
+ },
+ {
+  "id": 7,
+  "repo": "libnyanpasu/clash-nyanpasu",
+  "asset": "Clash.Nyanpasu.x86_64.app.tar.gz",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "macos",
+   "arch": "x64",
+   "type": "portable"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "7",
+   "os": "macos",
+   "arch": "x64",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "7",
+   "os": "macos",
+   "arch": "x64",
+   "type": "portable",
+   "confidence": "ragu"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "gzip"
+ },
+ {
+  "id": 8,
+  "repo": "clementine-player/Clementine",
+  "asset": "ClementineSetup-1.4.5.exe",
+  "pred": [
+   "windows",
+   "unknown",
+   "installer"
+  ],
+  "gold": {
+   "OS": "windows",
+   "arch": "unknown",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "8",
+   "os": "windows",
+   "arch": "unknown",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "8",
+   "os": "windows",
+   "arch": "unknown",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "windows",
+   "x86"
+  ],
+  "fmt": "PE"
+ },
+ {
+  "id": 9,
+  "repo": "readest/readest",
+  "asset": "Readest_0.12.20_arm64-setup.exe.sig",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "9",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "9",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "text"
+ },
+ {
+  "id": 10,
+  "repo": "kando-menu/kando",
+  "asset": "Kando-win32-x64-3.0.1.zip",
+  "pred": [
+   "windows",
+   "x64",
+   "portable"
+  ],
+  "gold": {
+   "OS": "windows",
+   "arch": "x64",
+   "type": "portable"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "10",
+   "os": "windows",
+   "arch": "x64",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "10",
+   "os": "windows",
+   "arch": "x64",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "ZIP"
+ },
+ {
+  "id": 11,
+  "repo": "Ruben2776/PicView",
+  "asset": "PicView-5.2.2-macOS-arm64.dmg",
+  "pred": [
+   "macos",
+   "arm64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "macos",
+   "arch": "arm64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "11",
+   "os": "macos",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "11",
+   "os": "macos",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "unknown at file start"
+ },
+ {
+  "id": 12,
+  "repo": "KnifeLemon/Filee",
+  "asset": "Filee-2.4.0-osx-x64.dmg",
+  "pred": [
+   "macos",
+   "x64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "macos",
+   "arch": "x64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "12",
+   "os": "macos",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "12",
+   "os": "macos",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "unknown at file start"
+ },
+ {
+  "id": 13,
+  "repo": "nightly-labs/openbot",
+  "asset": "OpenBot-0.67.1-x64.dmg.blockmap",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "13",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "13",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "gzip"
+ },
+ {
+  "id": 14,
+  "repo": "wealthfolio/wealthfolio",
+  "asset": "Wealthfolio_3.12.0_arm64-setup.nsis.zip.sig",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "14",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "14",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "text"
+ },
+ {
+  "id": 15,
+  "repo": "hql287/Manta",
+  "asset": "Manta_1.1.4_amd64.deb",
+  "pred": [
+   "linux",
+   "x64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "x64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "isi file",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "15",
+   "os": "linux",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "15",
+   "os": "linux",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "linux",
+   "x64"
+  ],
+  "fmt": "ar (deb)"
+ },
+ {
+  "id": 16,
+  "repo": "ThinkInAIXYZ/deepchat",
+  "asset": "DeepChat-1.1.3-mac-x64.zip.blockmap",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "16",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "16",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "gzip"
+ },
+ {
+  "id": 17,
+  "repo": "jhen0409/react-native-debugger",
+  "asset": "rn-debugger-linux-x64.zip",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "x64",
+   "type": "portable"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "17",
+   "os": "linux",
+   "arch": "x64",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "17",
+   "os": "linux",
+   "arch": "x64",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "ZIP"
+ },
+ {
+  "id": 18,
+  "repo": "ayangweb/BongoCat",
+  "asset": "BongoCat-2.4.1-aarch64.dmg",
+  "pred": [
+   "macos",
+   "arm64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "macos",
+   "arch": "arm64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "18",
+   "os": "macos",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "18",
+   "os": "macos",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "xz"
+ },
+ {
+  "id": 19,
+  "repo": "vastsa/PI-Desktop",
+  "asset": "pi-desktop_0.22.0_amd64.deb",
+  "pred": [
+   "linux",
+   "x64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "x64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "isi file",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "19",
+   "os": "linux",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "19",
+   "os": "linux",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "linux",
+   "x64"
+  ],
+  "fmt": "ar (deb)"
+ },
+ {
+  "id": 20,
+  "repo": "hql287/Manta",
+  "asset": "Manta-1.1.4.dmg",
+  "pred": [
+   "macos",
+   "unknown",
+   "installer"
+  ],
+  "gold": {
+   "OS": "macos",
+   "arch": "unknown",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "20",
+   "os": "macos",
+   "arch": "unknown",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "20",
+   "os": "macos",
+   "arch": "unknown",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "unknown at file start"
+ },
+ {
+  "id": 21,
+  "repo": "hovancik/stretchly",
+  "asset": "latest.yml",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "21",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "21",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "text"
+ },
+ {
+  "id": 22,
+  "repo": "InukaAsith/TwinDesk",
+  "asset": "TwinDesk-3.0.0-full.apk",
+  "pred": [
+   "android",
+   "unknown",
+   "installer"
+  ],
+  "gold": {
+   "OS": "tidak terselesaikan",
+   "arch": "tidak terselesaikan",
+   "type": "tidak terselesaikan"
+  },
+  "basis": {
+   "OS": "tidak terselesaikan",
+   "arch": "tidak terselesaikan",
+   "type": "tidak terselesaikan"
+  },
+  "a": {
+   "id": "22",
+   "os": "android",
+   "arch": "unknown",
+   "type": "installer",
+   "confidence": "ragu"
+  },
+  "b": {
+   "id": "22",
+   "os": "android",
+   "arch": "unknown",
+   "type": "installer",
+   "confidence": "ragu"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "ZIP"
+ },
+ {
+  "id": 23,
+  "repo": "sveinbjornt/Platypus",
+  "asset": "platypus5.5.0.src.zip",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "23",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "23",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "ZIP"
+ },
+ {
+  "id": 24,
+  "repo": "amir1376/ab-download-manager",
+  "asset": "ABDownloadManager_1.11.4_windows_arm64.exe",
+  "pred": [
+   "windows",
+   "arm64",
+   "ambiguous"
+  ],
+  "gold": {
+   "OS": "windows",
+   "arch": "tidak terselesaikan",
+   "type": "tidak terselesaikan"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "tidak terselesaikan",
+   "type": "tidak terselesaikan"
+  },
+  "a": {
+   "id": "24",
+   "os": "windows",
+   "arch": "arm64",
+   "type": "ambiguous",
+   "confidence": "ragu"
+  },
+  "b": {
+   "id": "24",
+   "os": "windows",
+   "arch": "arm64",
+   "type": "ambiguous",
+   "confidence": "ragu"
+  },
+  "content": [
+   "windows",
+   "x86"
+  ],
+  "fmt": "PE"
+ },
+ {
+  "id": 25,
+  "repo": "OpenCoworkAI/open-codesign",
+  "asset": "SHA256SUMS.txt",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "25",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "25",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "text"
+ },
+ {
+  "id": 26,
+  "repo": "listen1/listen1_desktop",
+  "asset": "listen1_2.33.0_win.exe.blockmap",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "26",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "26",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "gzip"
+ },
+ {
+  "id": 27,
+  "repo": "tutti-os/tutti",
+  "asset": "alpha.yml",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "27",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "27",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "text"
+ },
+ {
+  "id": 28,
+  "repo": "Molunerfinn/PicGo",
+  "asset": "latest-mac.yml",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "28",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "28",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "text"
+ },
+ {
+  "id": 29,
+  "repo": "Open-Less/openless",
+  "asset": "OpenLess_2.0.1+build.20261016_armeabi-v7a.apk",
+  "pred": [
+   "android",
+   "unknown",
+   "installer"
+  ],
+  "gold": {
+   "OS": "android",
+   "arch": "arm32",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "29",
+   "os": "android",
+   "arch": "arm32",
+   "type": "installer",
+   "confidence": "ragu"
+  },
+  "b": {
+   "id": "29",
+   "os": "android",
+   "arch": "arm32",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "ZIP"
+ },
+ {
+  "id": 30,
+  "repo": "marktext/marktext",
+  "asset": "SHA256SUMS.txt",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "30",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "30",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "text"
+ },
+ {
+  "id": 31,
+  "repo": "Zettlr/Zettlr",
+  "asset": "SHA256SUMS.txt",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "31",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "31",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "text"
+ },
+ {
+  "id": 32,
+  "repo": "open-pencil/open-pencil",
+  "asset": "release-manifest.json",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "32",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "32",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "text"
+ },
+ {
+  "id": 33,
+  "repo": "jgraph/drawio-desktop",
+  "asset": "draw.io-x64-32.6.10.dmg.blockmap",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "33",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "33",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "gzip"
+ },
+ {
+  "id": 34,
+  "repo": "nilbuild/pennywise",
+  "asset": "pennywise_0.8.0_i386.deb",
+  "pred": [
+   "linux",
+   "x86",
+   "installer"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "x86",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "isi file",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "34",
+   "os": "linux",
+   "arch": "x86",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "34",
+   "os": "linux",
+   "arch": "x86",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "linux",
+   "x86"
+  ],
+  "fmt": "ar (deb)"
+ },
+ {
+  "id": 35,
+  "repo": "dbgate/dbgate",
+  "asset": "dbgate-premium-7.3.4-win_x64.exe.blockmap",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "35",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "35",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "gzip"
+ },
+ {
+  "id": 36,
+  "repo": "dbgate/dbgate",
+  "asset": "dbgate-premium-7.3.4-mac_x64.dmg",
+  "pred": [
+   "macos",
+   "x64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "macos",
+   "arch": "x64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "36",
+   "os": "macos",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "36",
+   "os": "macos",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "unknown at file start"
+ },
+ {
+  "id": 37,
+  "repo": "aipoch/open-science",
+  "asset": "open-science-cli_1.2.1_arm64.deb",
+  "pred": [
+   "linux",
+   "arm64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "arm64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "isi file",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "37",
+   "os": "linux",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "37",
+   "os": "linux",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "linux",
+   "arm64"
+  ],
+  "fmt": "ar (deb)"
+ },
+ {
+  "id": 38,
+  "repo": "InukaAsith/TwinDesk",
+  "asset": "TwinDesk-3.0.0-amd64.deb",
+  "pred": [
+   "windows",
+   "x64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "x64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "isi file",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "38",
+   "os": "linux",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "38",
+   "os": "linux",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "linux",
+   "x64"
+  ],
+  "fmt": "ar (deb)"
+ },
+ {
+  "id": 39,
+  "repo": "sqlectron/sqlectron",
+  "asset": "sqlectron-1.39.0-arm64.dmg",
+  "pred": [
+   "macos",
+   "arm64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "macos",
+   "arch": "arm64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "39",
+   "os": "macos",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "39",
+   "os": "macos",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "unknown at file start"
+ },
+ {
+  "id": 40,
+  "repo": "podman-desktop/podman-desktop",
+  "asset": "podman-desktop-1.30.5-setup-arm64.exe",
+  "pred": [
+   "windows",
+   "arm64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "windows",
+   "arch": "arm64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "40",
+   "os": "windows",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "40",
+   "os": "windows",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "windows",
+   "x86"
+  ],
+  "fmt": "PE"
+ },
+ {
+  "id": 41,
+  "repo": "IsmaelMartinez/teams-for-linux",
+  "asset": "teams-for-linux-2.28.0-arm64.AppImage",
+  "pred": [
+   "linux",
+   "arm64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "arm64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "isi file",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "41",
+   "os": "linux",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "41",
+   "os": "linux",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "linux",
+   "arm64"
+  ],
+  "fmt": "ELF"
+ },
+ {
+  "id": 42,
+  "repo": "harry0703/MangoDisk",
+  "asset": "MangoDisk-1.2.3-linux-x64.deb",
+  "pred": [
+   "linux",
+   "x64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "x64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "isi file",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "42",
+   "os": "linux",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "42",
+   "os": "linux",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "linux",
+   "x64"
+  ],
+  "fmt": "ar (deb)"
+ },
+ {
+  "id": 43,
+  "repo": "totec448-spec/chat-on-steroids",
+  "asset": "Chat-On-Steroids-Linux-arm64.AppImage",
+  "pred": [
+   "linux",
+   "arm64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "arm64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "isi file",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "43",
+   "os": "linux",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "43",
+   "os": "linux",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "linux",
+   "arm64"
+  ],
+  "fmt": "ELF"
+ },
+ {
+  "id": 44,
+  "repo": "dail8859/NotepadNext",
+  "asset": "NotepadNext-v0.15-Installer.exe",
+  "pred": [
+   "windows",
+   "unknown",
+   "installer"
+  ],
+  "gold": {
+   "OS": "windows",
+   "arch": "unknown",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "44",
+   "os": "windows",
+   "arch": "unknown",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "44",
+   "os": "windows",
+   "arch": "unknown",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "windows",
+   "x86"
+  ],
+  "fmt": "PE"
+ },
+ {
+  "id": 45,
+  "repo": "LibreCAD/LibreCAD",
+  "asset": "LICENSE",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "45",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "45",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "text"
+ },
+ {
+  "id": 46,
+  "repo": "PintaProject/Pinta",
+  "asset": "Pinta-x86_64.exe",
+  "pred": [
+   "windows",
+   "x64",
+   "ambiguous"
+  ],
+  "gold": {
+   "OS": "windows",
+   "arch": "tidak terselesaikan",
+   "type": "tidak terselesaikan"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "tidak terselesaikan",
+   "type": "tidak terselesaikan"
+  },
+  "a": {
+   "id": "46",
+   "os": "windows",
+   "arch": "x64",
+   "type": "ambiguous",
+   "confidence": "ragu"
+  },
+  "b": {
+   "id": "46",
+   "os": "windows",
+   "arch": "x64",
+   "type": "ambiguous",
+   "confidence": "ragu"
+  },
+  "content": [
+   "windows",
+   "x86"
+  ],
+  "fmt": "PE"
+ },
+ {
+  "id": 47,
+  "repo": "hoowhoami/EchoMusic",
+  "asset": "EchoMusic-2.3.2-Windows-Setup-x64.exe",
+  "pred": [
+   "windows",
+   "x64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "windows",
+   "arch": "x64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "47",
+   "os": "windows",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "47",
+   "os": "windows",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "windows",
+   "x86"
+  ],
+  "fmt": "PE"
+ },
+ {
+  "id": 48,
+  "repo": "spieglt/FlyingCarpet",
+  "asset": "macOS_FlyingCarpet_10.0.4.zip",
+  "pred": [
+   "macos",
+   "unknown",
+   "portable"
+  ],
+  "gold": {
+   "OS": "macos",
+   "arch": "unknown",
+   "type": "portable"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "48",
+   "os": "macos",
+   "arch": "unknown",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "48",
+   "os": "macos",
+   "arch": "unknown",
+   "type": "portable",
+   "confidence": "ragu"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "ZIP"
+ },
+ {
+  "id": 49,
+  "repo": "jhen0409/react-native-debugger",
+  "asset": "rn-debugger-macos-x64.zip",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "macos",
+   "arch": "x64",
+   "type": "portable"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "49",
+   "os": "macos",
+   "arch": "x64",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "49",
+   "os": "macos",
+   "arch": "x64",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "ZIP"
+ },
+ {
+  "id": 50,
+  "repo": "strawberrymusicplayer/strawberry",
+  "asset": "strawberry-dbgsym_1.2.31-trixie_amd64.deb",
+  "pred": [
+   "linux",
+   "x64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "x64",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "isi file",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "50",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "50",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "linux",
+   "x64"
+  ],
+  "fmt": "ar (deb)"
+ },
+ {
+  "id": 51,
+  "repo": "albertlauncher/albert",
+  "asset": "Albert-v35.2.0-arm64.dmg",
+  "pred": [
+   "macos",
+   "arm64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "macos",
+   "arch": "arm64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "51",
+   "os": "macos",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "51",
+   "os": "macos",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "unknown at file start"
+ },
+ {
+  "id": 52,
+  "repo": "electerm/electerm",
+  "asset": "electerm-5.10.0-linux-armv7l-legacy.rpm",
+  "pred": [
+   "linux",
+   "arm32",
+   "installer"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "other(armv7l)",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "isi file",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "52",
+   "os": "linux",
+   "arch": "arm32",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "52",
+   "os": "linux",
+   "arch": "arm32",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "linux",
+   "other(armv7l)"
+  ],
+  "fmt": "RPM"
+ },
+ {
+  "id": 53,
+  "repo": "podman-desktop/podman-desktop",
+  "asset": "store-cache-pnpm-arm64.tgz",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "tidak terselesaikan",
+   "arch": "tidak terselesaikan",
+   "type": "tidak terselesaikan"
+  },
+  "basis": {
+   "OS": "tidak terselesaikan",
+   "arch": "tidak terselesaikan",
+   "type": "tidak terselesaikan"
+  },
+  "a": {
+   "id": "53",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "ragu"
+  },
+  "b": {
+   "id": "53",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "ragu"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "gzip"
+ },
+ {
+  "id": 54,
+  "repo": "lencx/nofwl",
+  "asset": "NoFWL_0.1.0_macos_x86_64.app.tar.gz.sig",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "54",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "54",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "text"
+ },
+ {
+  "id": 55,
+  "repo": "PurpleDoubleD/locally-uncensored",
+  "asset": "locally-uncensored-3.0.10-voice-python.cdx.json",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "55",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "55",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "text"
+ },
+ {
+  "id": 56,
+  "repo": "4gray/iptvnator",
+  "asset": "iptvnator-0.25.0-linux-amd64.snap",
+  "pred": [
+   "linux",
+   "x64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "x64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "56",
+   "os": "linux",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "56",
+   "os": "linux",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "squashfs"
+ },
+ {
+  "id": 57,
+  "repo": "oldj/SwitchHosts",
+  "asset": "SwitchHosts-5.0.3-mac-universal.dmg",
+  "pred": [
+   "macos",
+   "universal",
+   "installer"
+  ],
+  "gold": {
+   "OS": "macos",
+   "arch": "universal",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "57",
+   "os": "macos",
+   "arch": "universal",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "57",
+   "os": "macos",
+   "arch": "universal",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "unknown at file start"
+ },
+ {
+  "id": 58,
+  "repo": "mihomo-party-org/clash-party",
+  "asset": "mihomo-party-windows-2.0.4-ia32-portable.7z.sha256",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "58",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "58",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "text"
+ },
+ {
+  "id": 59,
+  "repo": "truelockmc/streambert",
+  "asset": "Streambert-2.7.0.AppImage",
+  "pred": [
+   "linux",
+   "unknown",
+   "installer"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "x64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "isi file",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "59",
+   "os": "linux",
+   "arch": "unknown",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "59",
+   "os": "linux",
+   "arch": "unknown",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "linux",
+   "x64"
+  ],
+  "fmt": "ELF"
+ },
+ {
+  "id": 60,
+  "repo": "Dimillian/CodexMonitor",
+  "asset": "latest.json",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "60",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "60",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "text"
+ },
+ {
+  "id": 61,
+  "repo": "oliverschwendener/ueli",
+  "asset": "ueli-9.29.1-arm64.zip",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "arm64",
+   "type": "portable"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "61",
+   "os": "unknown",
+   "arch": "arm64",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "61",
+   "os": "unknown",
+   "arch": "arm64",
+   "type": "portable",
+   "confidence": "ragu"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "ZIP"
+ },
+ {
+  "id": 62,
+  "repo": "ytmdesktop/ytmdesktop",
+  "asset": "youtube-music-desktop-app-2.1.0-1.arm64.rpm",
+  "pred": [
+   "linux",
+   "arm64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "arm64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "isi file",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "62",
+   "os": "linux",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "62",
+   "os": "linux",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "linux",
+   "arm64"
+  ],
+  "fmt": "RPM"
+ },
+ {
+  "id": 63,
+  "repo": "ytmdesktop/ytmdesktop",
+  "asset": "RELEASES",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "63",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "63",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "text"
+ },
+ {
+  "id": 64,
+  "repo": "thaw-app/Thaw",
+  "asset": "Thaw_2.1.0.cdx.json.sigstore.json",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "64",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "64",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "text"
+ },
+ {
+  "id": 65,
+  "repo": "electerm/electerm",
+  "asset": "electerm-5.10.0-linux-ppc64le.tar.gz",
+  "pred": [
+   "linux",
+   "unknown",
+   "portable"
+  ],
+  "gold": {
+   "OS": "tidak terselesaikan",
+   "arch": "tidak terselesaikan",
+   "type": "tidak terselesaikan"
+  },
+  "basis": {
+   "OS": "tidak terselesaikan",
+   "arch": "tidak terselesaikan",
+   "type": "tidak terselesaikan"
+  },
+  "a": {
+   "id": "65",
+   "os": "linux",
+   "arch": "unknown",
+   "type": "portable",
+   "confidence": "ragu"
+  },
+  "b": {
+   "id": "65",
+   "os": "linux",
+   "arch": "unknown",
+   "type": "portable",
+   "confidence": "ragu"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "gzip"
+ },
+ {
+  "id": 66,
+  "repo": "libnyanpasu/clash-nyanpasu",
+  "asset": "Clash.Nyanpasu.aarch64.app.tar.gz",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "macos",
+   "arch": "arm64",
+   "type": "portable"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "66",
+   "os": "macos",
+   "arch": "arm64",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "66",
+   "os": "macos",
+   "arch": "arm64",
+   "type": "portable",
+   "confidence": "ragu"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "gzip"
+ },
+ {
+  "id": 67,
+  "repo": "aipoch/open-science",
+  "asset": "aipoch-open-science-1.2.1-linux-arm64.AppImage",
+  "pred": [
+   "linux",
+   "arm64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "arm64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "isi file",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "67",
+   "os": "linux",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "67",
+   "os": "linux",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "linux",
+   "arm64"
+  ],
+  "fmt": "ELF"
+ },
+ {
+  "id": 68,
+  "repo": "pulsar-edit/pulsar",
+  "asset": "Silicon.Mac.Pulsar-1.133.1-arm64-mac.zip.blockmap",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "68",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "68",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "gzip"
+ },
+ {
+  "id": 69,
+  "repo": "thtbee/nectarlink",
+  "asset": "nectarlink_0.1.5_amd64.deb",
+  "pred": [
+   "linux",
+   "x64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "x64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "isi file",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "69",
+   "os": "linux",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "69",
+   "os": "linux",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "linux",
+   "x64"
+  ],
+  "fmt": "ar (deb)"
+ },
+ {
+  "id": 70,
+  "repo": "ThinkInAIXYZ/deepchat",
+  "asset": "DeepChat-1.1.3-windows-arm64.exe.blockmap",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "70",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "70",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "gzip"
+ },
+ {
+  "id": 71,
+  "repo": "keeweb/keeweb",
+  "asset": "KeeWeb-1.18.7.linux.AppImage",
+  "pred": [
+   "linux",
+   "unknown",
+   "installer"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "x64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "isi file",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "71",
+   "os": "linux",
+   "arch": "unknown",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "71",
+   "os": "linux",
+   "arch": "unknown",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "linux",
+   "x64"
+  ],
+  "fmt": "ELF"
+ },
+ {
+  "id": 72,
+  "repo": "strawberrymusicplayer/strawberry",
+  "asset": "strawberry_1.2.31-trixie_amd64.deb",
+  "pred": [
+   "linux",
+   "x64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "x64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "isi file",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "72",
+   "os": "linux",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "72",
+   "os": "linux",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "linux",
+   "x64"
+  ],
+  "fmt": "ar (deb)"
+ },
+ {
+  "id": 73,
+  "repo": "marktext/marktext",
+  "asset": "marktext-win-x64-0.23.0-setup.exe.blockmap",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "73",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "73",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "gzip"
+ },
+ {
+  "id": 74,
+  "repo": "vastsa/PI-Desktop",
+  "asset": "pi-host-0.22.0-linux-x64.tar.gz",
+  "pred": [
+   "linux",
+   "x64",
+   "portable"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "x64",
+   "type": "portable"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "74",
+   "os": "linux",
+   "arch": "x64",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "74",
+   "os": "linux",
+   "arch": "x64",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "gzip"
+ },
+ {
+  "id": 75,
+  "repo": "listen1/listen1_desktop",
+  "asset": "listen1_2.33.0_win_x64.exe.blockmap",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "75",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "75",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "gzip"
+ },
+ {
+  "id": 76,
+  "repo": "Heroic-Games-Launcher/HeroicGamesLauncher",
+  "asset": "Heroic-2.22.4-Setup-x64.exe.blockmap",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "76",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "76",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "gzip"
+ },
+ {
+  "id": 77,
+  "repo": "devhubapp/devhub",
+  "asset": "DevHub-0.102.0.dmg",
+  "pred": [
+   "macos",
+   "unknown",
+   "installer"
+  ],
+  "gold": {
+   "OS": "macos",
+   "arch": "unknown",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "77",
+   "os": "macos",
+   "arch": "unknown",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "77",
+   "os": "macos",
+   "arch": "unknown",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "unknown at file start"
+ },
+ {
+  "id": 78,
+  "repo": "Molunerfinn/PicGo",
+  "asset": "PicGo-3.0.3-arm64.exe",
+  "pred": [
+   "windows",
+   "arm64",
+   "ambiguous"
+  ],
+  "gold": {
+   "OS": "windows",
+   "arch": "tidak terselesaikan",
+   "type": "tidak terselesaikan"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "tidak terselesaikan",
+   "type": "tidak terselesaikan"
+  },
+  "a": {
+   "id": "78",
+   "os": "windows",
+   "arch": "arm64",
+   "type": "ambiguous",
+   "confidence": "ragu"
+  },
+  "b": {
+   "id": "78",
+   "os": "windows",
+   "arch": "arm64",
+   "type": "ambiguous",
+   "confidence": "ragu"
+  },
+  "content": [
+   "windows",
+   "x86"
+  ],
+  "fmt": "PE"
+ },
+ {
+  "id": 79,
+  "repo": "jgraph/drawio-desktop",
+  "asset": "draw.io-arm64-32.6.10-windows-arm64-installer.exe.blockmap",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "79",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "79",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "gzip"
+ },
+ {
+  "id": 80,
+  "repo": "TriliumNext/Trilium",
+  "asset": "TriliumNotes-Server-v0.107.0-linux-x64.tar.xz",
+  "pred": [
+   "linux",
+   "x64",
+   "portable"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "x64",
+   "type": "portable"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "80",
+   "os": "linux",
+   "arch": "x64",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "80",
+   "os": "linux",
+   "arch": "x64",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "xz"
+ },
+ {
+  "id": 81,
+  "repo": "lencx/nofwl",
+  "asset": "NoFWL_0.1.0_macos_x86_64.app.tar.gz",
+  "pred": [
+   "macos",
+   "x64",
+   "portable"
+  ],
+  "gold": {
+   "OS": "macos",
+   "arch": "x64",
+   "type": "portable"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "81",
+   "os": "macos",
+   "arch": "x64",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "81",
+   "os": "macos",
+   "arch": "x64",
+   "type": "portable",
+   "confidence": "ragu"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "gzip"
+ },
+ {
+  "id": 82,
+  "repo": "opengeos/GeoLibre",
+  "asset": "geolibre-android.aab",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "tidak terselesaikan",
+   "arch": "tidak terselesaikan",
+   "type": "tidak terselesaikan"
+  },
+  "basis": {
+   "OS": "tidak terselesaikan",
+   "arch": "tidak terselesaikan",
+   "type": "tidak terselesaikan"
+  },
+  "a": {
+   "id": "82",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "ragu"
+  },
+  "b": {
+   "id": "82",
+   "os": "android",
+   "arch": "unknown",
+   "type": "ambiguous",
+   "confidence": "ragu"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "ZIP"
+ },
+ {
+  "id": 83,
+  "repo": "momenbasel/PureMac",
+  "asset": "PureMac-3.2.0.dmg",
+  "pred": [
+   "macos",
+   "unknown",
+   "installer"
+  ],
+  "gold": {
+   "OS": "macos",
+   "arch": "unknown",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "83",
+   "os": "macos",
+   "arch": "unknown",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "83",
+   "os": "macos",
+   "arch": "unknown",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "unknown at file start"
+ },
+ {
+  "id": 84,
+  "repo": "Achilng/floral-notepaper",
+  "asset": "floral-notepaper_1.2.0_x64.dmg",
+  "pred": [
+   "macos",
+   "x64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "macos",
+   "arch": "x64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "84",
+   "os": "macos",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "84",
+   "os": "macos",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "unknown at file start"
+ },
+ {
+  "id": 85,
+  "repo": "SpriteOvO/AirPodsDesktop",
+  "asset": "AirPodsDesktop-0.6.1-win32-bridge.exe",
+  "pred": [
+   "windows",
+   "x86",
+   "ambiguous"
+  ],
+  "gold": {
+   "OS": "windows",
+   "arch": "tidak terselesaikan",
+   "type": "tidak terselesaikan"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "tidak terselesaikan",
+   "type": "tidak terselesaikan"
+  },
+  "a": {
+   "id": "85",
+   "os": "windows",
+   "arch": "unknown",
+   "type": "ambiguous",
+   "confidence": "ragu"
+  },
+  "b": {
+   "id": "85",
+   "os": "windows",
+   "arch": "unknown",
+   "type": "ambiguous",
+   "confidence": "ragu"
+  },
+  "content": [
+   "windows",
+   "x86"
+  ],
+  "fmt": "PE"
+ },
+ {
+  "id": 86,
+  "repo": "kdzwinel/betwixt",
+  "asset": "Betwixt-win32-ia32.zip",
+  "pred": [
+   "windows",
+   "x86",
+   "portable"
+  ],
+  "gold": {
+   "OS": "windows",
+   "arch": "x86",
+   "type": "portable"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "86",
+   "os": "windows",
+   "arch": "x86",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "86",
+   "os": "windows",
+   "arch": "x86",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "ZIP"
+ },
+ {
+  "id": 87,
+  "repo": "shiyutim/tickets",
+  "asset": "tickets_0.6.1_amd64.deb",
+  "pred": [
+   "linux",
+   "x64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "x64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "isi file",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "87",
+   "os": "linux",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "87",
+   "os": "linux",
+   "arch": "x64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "linux",
+   "x64"
+  ],
+  "fmt": "ar (deb)"
+ },
+ {
+  "id": 88,
+  "repo": "l0ng-ai/openidea",
+  "asset": "OpenIDEA_0.1.41_arm64-setup.exe",
+  "pred": [
+   "windows",
+   "arm64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "windows",
+   "arch": "arm64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "88",
+   "os": "windows",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "88",
+   "os": "windows",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "windows",
+   "x86"
+  ],
+  "fmt": "PE"
+ },
+ {
+  "id": 89,
+  "repo": "qier222/YesPlayMusic",
+  "asset": "latest.yml",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "89",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "89",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "text"
+ },
+ {
+  "id": 90,
+  "repo": "hiroi-sora/Umi-OCR",
+  "asset": "Umi-OCR_Linux_Paddle_2.1.5.tar.xz",
+  "pred": [
+   "linux",
+   "unknown",
+   "portable"
+  ],
+  "gold": {
+   "OS": "linux",
+   "arch": "unknown",
+   "type": "portable"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "90",
+   "os": "linux",
+   "arch": "unknown",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "90",
+   "os": "linux",
+   "arch": "unknown",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "xz"
+ },
+ {
+  "id": 91,
+  "repo": "HarnessMD/munder-difflin",
+  "asset": "SHA256SUMS.txt",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "91",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "91",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "text"
+ },
+ {
+  "id": 92,
+  "repo": "Splode/pomotroid",
+  "asset": "Pomotroid_1.7.1_amd64.deb.asc",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "92",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "92",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "text"
+ },
+ {
+  "id": 93,
+  "repo": "TriliumNext/Trilium",
+  "asset": "TriliumNotes-v0.107.0-windows-arm64.exe",
+  "pred": [
+   "windows",
+   "arm64",
+   "ambiguous"
+  ],
+  "gold": {
+   "OS": "windows",
+   "arch": "tidak terselesaikan",
+   "type": "tidak terselesaikan"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "tidak terselesaikan",
+   "type": "tidak terselesaikan"
+  },
+  "a": {
+   "id": "93",
+   "os": "windows",
+   "arch": "arm64",
+   "type": "ambiguous",
+   "confidence": "ragu"
+  },
+  "b": {
+   "id": "93",
+   "os": "windows",
+   "arch": "arm64",
+   "type": "ambiguous",
+   "confidence": "ragu"
+  },
+  "content": [
+   "windows",
+   "x86"
+  ],
+  "fmt": "PE"
+ },
+ {
+  "id": 94,
+  "repo": "LibreCAD/LibreCAD",
+  "asset": "LibreCAD-v2.2.1.6.dmg",
+  "pred": [
+   "macos",
+   "unknown",
+   "installer"
+  ],
+  "gold": {
+   "OS": "macos",
+   "arch": "unknown",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "94",
+   "os": "macos",
+   "arch": "unknown",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "94",
+   "os": "macos",
+   "arch": "unknown",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "unknown at file start"
+ },
+ {
+  "id": 95,
+  "repo": "laurent22/joplin",
+  "asset": "Joplin-3.7.22.AppImage.sha512",
+  "pred": [
+   "unknown",
+   "unknown",
+   "not_installer"
+  ],
+  "gold": {
+   "OS": "unknown",
+   "arch": "unknown",
+   "type": "not_installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "95",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "95",
+   "os": "unknown",
+   "arch": "unknown",
+   "type": "not_installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "text"
+ },
+ {
+  "id": 96,
+  "repo": "Heroic-Games-Launcher/HeroicGamesLauncher",
+  "asset": "Heroic-2.22.4-Setup-arm64.exe",
+  "pred": [
+   "windows",
+   "arm64",
+   "installer"
+  ],
+  "gold": {
+   "OS": "windows",
+   "arch": "arm64",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "isi file",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "96",
+   "os": "windows",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "96",
+   "os": "windows",
+   "arch": "arm64",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "windows",
+   "x86"
+  ],
+  "fmt": "PE"
+ },
+ {
+  "id": 97,
+  "repo": "wulkano/Kap",
+  "asset": "Kap-3.6.0-mac.zip",
+  "pred": [
+   "macos",
+   "unknown",
+   "portable"
+  ],
+  "gold": {
+   "OS": "macos",
+   "arch": "unknown",
+   "type": "portable"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "97",
+   "os": "macos",
+   "arch": "unknown",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "97",
+   "os": "macos",
+   "arch": "unknown",
+   "type": "portable",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "ZIP"
+ },
+ {
+  "id": 98,
+  "repo": "crmne/zapfast",
+  "asset": "zapfast-v0.21.1-macos-universal.dmg",
+  "pred": [
+   "macos",
+   "universal",
+   "installer"
+  ],
+  "gold": {
+   "OS": "macos",
+   "arch": "universal",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "98",
+   "os": "macos",
+   "arch": "universal",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "98",
+   "os": "macos",
+   "arch": "universal",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "unknown at file start"
+ },
+ {
+  "id": 99,
+  "repo": "cerebroapp/cerebro",
+  "asset": "Cerebro-0.11.0.dmg",
+  "pred": [
+   "macos",
+   "unknown",
+   "installer"
+  ],
+  "gold": {
+   "OS": "macos",
+   "arch": "unknown",
+   "type": "installer"
+  },
+  "basis": {
+   "OS": "kesepakatan dua pelabel",
+   "arch": "kesepakatan dua pelabel",
+   "type": "kesepakatan dua pelabel"
+  },
+  "a": {
+   "id": "99",
+   "os": "macos",
+   "arch": "unknown",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "b": {
+   "id": "99",
+   "os": "macos",
+   "arch": "unknown",
+   "type": "installer",
+   "confidence": "yakin"
+  },
+  "content": [
+   "tidak terbaca",
+   "tidak terbaca"
+  ],
+  "fmt": "unknown at file start"
+ }
+]

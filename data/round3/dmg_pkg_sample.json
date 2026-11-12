@@ -1,0 +1,247 @@
+{
+ "population_n": 34,
+ "sample_n": 30,
+ "seed": 20261120,
+ "items": [
+  {
+   "key": "GitJournal/GitJournal|GitJournal-osx.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/GitJournal/GitJournal/releases/download/v1.80.0/GitJournal-osx.dmg"
+  },
+  {
+   "key": "Kilian/fromscratch|FromScratch-1.4.3.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/Kilian/fromscratch/releases/download/v1.4.3/FromScratch-1.4.3.dmg"
+  },
+  {
+   "key": "OpenRA/OpenRA|OpenRA-release-20250330.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/OpenRA/OpenRA/releases/download/release-20250330/OpenRA-release-20250330.dmg"
+  },
+  {
+   "key": "Punshnut/macos-launchy|Launchy.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/Punshnut/macos-launchy/releases/download/v2026.9.0/Launchy.dmg"
+  },
+  {
+   "key": "TsaiKoga/it-tools|IT-Tools-v1.5.1.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/TsaiKoga/it-tools/releases/download/v1.5.1/IT-Tools-v1.5.1.dmg"
+  },
+  {
+   "key": "Tunnelblick/Tunnelblick|Tunnelblick_10.0.3_build_6610.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/Tunnelblick/Tunnelblick/releases/download/v10.0.3/Tunnelblick_10.0.3_build_6610.dmg"
+  },
+  {
+   "key": "acheronfail/xi-electron|Xi.Electron-0.1.3.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/acheronfail/xi-electron/releases/download/v0.1.3/Xi.Electron-0.1.3.dmg"
+  },
+  {
+   "key": "blaise-io/acelink|Ace.Link.2.1.0.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/blaise-io/acelink/releases/download/2.1.0/Ace.Link.2.1.0.dmg"
+  },
+  {
+   "key": "dannagle/PacketSender|PacketSender_v8.11.3.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/dannagle/PacketSender/releases/download/v8.11.3/PacketSender_v8.11.3.dmg"
+  },
+  {
+   "key": "dunkbing/dearsql|DearSQL.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/dunkbing/dearsql/releases/download/v0.7.6/DearSQL.dmg"
+  },
+  {
+   "key": "itsVicOC/bilibili-downloader|BilibiliDownloader-macOS-full-v0.8.10.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/itsVicOC/bilibili-downloader/releases/download/v0.8.10/BilibiliDownloader-macOS-full-v0.8.10.dmg"
+  },
+  {
+   "key": "lemonade-sdk/lemonade|Lemonade-2026.45.3-Darwin.pkg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/lemonade-sdk/lemonade/releases/download/v2026.45.3/Lemonade-2026.45.3-Darwin.pkg"
+  },
+  {
+   "key": "luyuhuang/DWords2|DWords-0.2.3.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/luyuhuang/DWords2/releases/download/v0.2.3/DWords-0.2.3.dmg"
+  },
+  {
+   "key": "mattDavo/Yippy|Yippy.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/mattDavo/Yippy/releases/download/2.8.1/Yippy.dmg"
+  },
+  {
+   "key": "mozilla/mozregression|mozregression-gui.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/mozilla/mozregression/releases/download/7.7.0/mozregression-gui.dmg"
+  },
+  {
+   "key": "mvdicarlo/postybirb|PostyBirb-2.3.44.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/mvdicarlo/postybirb/releases/download/v2.3.44/PostyBirb-2.3.44.dmg"
+  },
+  {
+   "key": "openclaw/Peekaboo|Peekaboo-4.9.8.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/openclaw/Peekaboo/releases/download/v4.9.8/Peekaboo-4.9.8.dmg"
+  },
+  {
+   "key": "osxfuse/osxfuse|macfuse-5.5.0.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/macfuse/macfuse/releases/download/macfuse-5.5.0/macfuse-5.5.0.dmg"
+  },
+  {
+   "key": "pmbstyle/Alice|Alice-AI-App-Mac-1.5.0-Installer.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/pmbstyle/Alice/releases/download/v1.5.0/Alice-AI-App-Mac-1.5.0-Installer.dmg"
+  },
+  {
+   "key": "qunqin24/Pulse|Pulse-1.13.0.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/qunqin24/Pulse/releases/download/v1.13.0/Pulse-1.13.0.dmg"
+  },
+  {
+   "key": "raine/Lolgato|Lolgato.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/raine/Lolgato/releases/download/v1.7.3/Lolgato.dmg"
+  },
+  {
+   "key": "realm/realm-studio|Realm.Studio-15.2.1.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/realm/realm-studio/releases/download/v15.2.1/Realm.Studio-15.2.1.dmg"
+  },
+  {
+   "key": "scosman/Biscotti|Biscotti.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/scosman/Biscotti/releases/download/v1.0.0/Biscotti.dmg"
+  },
+  {
+   "key": "sekey/sekey|SeKey-0.1.pkg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/sekey/sekey/releases/download/0.1/SeKey-0.1.pkg"
+  },
+  {
+   "key": "supabitapp/supacode|supacode.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/supabitapp/supacode/releases/download/v0.11.7/supacode.dmg"
+  },
+  {
+   "key": "superhighfives/pika|Pika-2.0.2.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/superhighfives/pika/releases/download/2.0.2/Pika-2.0.2.dmg"
+  },
+  {
+   "key": "thaw-app/Floe|Floe.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/thaw-app/Floe/releases/download/0.3.0/Floe.dmg"
+  },
+  {
+   "key": "thealpa/SaneSideButtons|SaneSideButtons.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/thealpa/SaneSideButtons/releases/download/1.4.1/SaneSideButtons.dmg"
+  },
+  {
+   "key": "utmapp/UTM|UTM.dmg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM.dmg"
+  },
+  {
+   "key": "zoolapp/aime|AIME-0.1.12.pkg",
+   "cells_offered": [
+    "arm64",
+    "x64"
+   ],
+   "url": "https://github.com/zoolapp/aime/releases/download/v0.1.12/AIME-0.1.12.pkg"
+  }
+ ]
+}

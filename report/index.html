@@ -1,0 +1,427 @@
+<title>Jembatan Rilis</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@600;700&display=swap">
+<style>
+/* Layout: satu kolom keputusan di atas, lalu delapan temuan sebagai lembar data; tiap angka diberi label asal (terukur / dikutip / asumsi). */
+:root{
+  --bg:#f5f6f8; --surface:#ffffff; --ink:#15202b; --muted:#5a6672; --line:#d9dee4;
+  --accent:#0b5cad; --accent-soft:#e3eefa;
+  --ok:#17794a; --ok-soft:#e1f3ea; --warn:#a15c00; --warn-soft:#fbeed8; --bad:#b3261e; --bad-soft:#fbe4e2;
+  --f-body:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --f-head:'Space Grotesk','Inter',system-ui,sans-serif;
+  --f-mono:'JetBrains Mono',ui-monospace,'Cascadia Mono',Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  color-scheme:dark;
+  --bg:#0f151b; --surface:#171f27; --ink:#e6ebf0; --muted:#94a1ae; --line:#2a3541;
+  --accent:#6aaef2; --accent-soft:#16283a;
+  --ok:#52c28a; --ok-soft:#14291f; --warn:#e3a84a; --warn-soft:#2d2210; --bad:#f08b84; --bad-soft:#321816;
+}}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#0f151b; --surface:#171f27; --ink:#e6ebf0; --muted:#94a1ae; --line:#2a3541;
+  --accent:#6aaef2; --accent-soft:#16283a;
+  --ok:#52c28a; --ok-soft:#14291f; --warn:#e3a84a; --warn-soft:#2d2210; --bad:#f08b84; --bad-soft:#321816;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.6 var(--f-body);padding-inline:max(16px,env(safe-area-inset-left,0px)) max(16px,env(safe-area-inset-right,0px))}
+main{max-width:920px;margin:0 auto;padding-block:40px 72px;display:flex;flex-direction:column;gap:40px}
+h1,h2,h3{font-family:var(--f-head);line-height:1.2;text-wrap:balance;margin:0}
+h1{font-size:2rem}
+h2{font-size:1.35rem;margin-bottom:4px}
+h3{font-size:1rem;font-family:var(--f-body);font-weight:600}
+p{margin:0;max-width:68ch}
+.eyebrow{font:600 .72rem var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.lede{font-size:1.05rem;color:var(--muted)}
+section{display:flex;flex-direction:column;gap:14px}
+.verdict{background:var(--surface);border:1px solid var(--line);border-left:6px solid var(--warn);border-radius:6px;padding:20px 22px;display:flex;flex-direction:column;gap:10px}
+.verdict strong.v{font:700 1.5rem var(--f-head)}
+.tag{display:inline-block;font:600 .66rem var(--f-mono);letter-spacing:.05em;text-transform:uppercase;padding:1px 7px;border-radius:3px;white-space:nowrap;vertical-align:1px}
+.t-m{background:var(--ok-soft);color:var(--ok)}
+.t-c{background:var(--accent-soft);color:var(--accent)}
+.t-a{background:var(--warn-soft);color:var(--warn);outline:1px dashed var(--warn);outline-offset:-1px}
+.t-p{background:var(--bad-soft);color:var(--bad)}
+.t-g{background:var(--accent-soft);color:var(--accent);outline:1px dotted var(--accent);outline-offset:-1px;white-space:normal}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:.88rem}
+th,td{text-align:left;padding:8px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:600 .72rem var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:var(--bg);white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td.n{font:500 .88rem var(--f-mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.bar{display:flex;align-items:center;gap:8px}
+.bar i{display:block;height:8px;border-radius:2px;background:var(--accent)}
+.bar i.l{background:var(--accent-soft);outline:1px solid var(--accent);outline-offset:-1px}
+ul{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;max-width:72ch}
+code{font:.85em var(--f-mono);background:var(--accent-soft);padding:1px 5px;border-radius:3px}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px;display:flex;flex-direction:column;gap:8px}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:.82rem;color:var(--muted)}
+.note{font-size:.84rem;color:var(--muted);max-width:72ch}
+footer{font-size:.84rem;color:var(--muted);border-top:1px solid var(--line);padding-top:16px;display:flex;flex-direction:column;gap:6px}
+a{color:var(--accent)}
+</style>
+
+<main>
+<header style="display:flex;flex-direction:column;gap:10px">
+  <span class="eyebrow">Uji kelayakan · 11 November 2026 · 300 repo, 3.586 asset</span>
+  <h1>Jembatan Rilis</h1>
+  <p class="lede">Tombol "Download" yang memberi installer yang benar untuk Windows, macOS, atau Linux, dibangun di atas GitHub Releases. Situs tidak menyimpan file.</p>
+  <div class="legend">
+    <span><span class="tag t-m">terukur</span> dihitung dari data yang diambil sesi ini</span>
+    <span><span class="tag t-c">dikutip</span> dari halaman resmi, URL tersedia</span>
+    <span><span class="tag t-a">asumsi</span> belum diperiksa</span>
+    <span><span class="tag t-g">kesepakatan agent, tanpa pemeriksaan manusia</span> dua model sepakat, tidak ada orang yang memeriksa</span>
+  </div>
+</header>
+
+<section class="verdict" aria-labelledby="vd">
+  <span class="eyebrow">Keputusan</span>
+  <strong class="v" id="vd">Tahan dulu: perbaiki classifier, uji ulang, baru pilot.</strong>
+  <p>Cakupannya mendukung idenya: 73,7% repo punya installer siap klik untuk Windows atau macOS, dan pilihan classifier cocok dengan manifest winget di 90,2% kasus Windows x64 (macOS vs Cask: 81,6%). Angka strict itu memasukkan tebakan arsitektur; dengan arsitektur tertulis di nama, mac x64 turun ke 41,7% dan Linux arm64 ke 24,3%. Tetapi syarat yang saya tetapkan sendiri, classifier OS ≥ 95%, tidak lolos pada angka paling ketat.</p>
+  <ul>
+    <li>Angka paling ketat untuk OS adalah recall macOS 85,7% (18 dari 21), dan seluruh 21 baris macOS acuannya hanya kesepakatan dua pelabel, tanpa satu pun berdasar isi file (DMG, zip, dan tar tidak terbaca dari awal file). Akurasi OS 91,0% bila baris tidak terselesaikan dihitung salah (n=100), 94,8% bila dikeluarkan (n=96), dan 96,8% hanya pada baris yang acuannya isi file (n=31, satu salah). Sebabnya ada di classifier dan bisa diperbaiki (lihat langkah 3), tetapi 100 asset ini sudah terlihat, jadi perbaikannya harus diuji pada sampel baru. <span class="tag t-m">terukur</span></li>
+    <li>Pembanding dan sampel bersih (lihat langkah 3, lanjutan): aturan Komi Store tidak lebih baik untuk tugas ini, classifier gabungan v2 naik ke OS 99,0% pada 100 baris dev tetapi hanya 91,7% pada 400 asset baru (sama dengan v1), dan gerbang OS tidak lolos pada ketiga classifier. Angka terendah yang dikunci adalah precision macOS strict 79,4%, artefak dari label "ragu" per baris; yang mengikat sebenarnya recall macOS 84,7% dan Linux 83,2%. Sebagian besar kesalahan datang dari binary CLI tanpa ekstensi yang tidak akan ditawarkan produk ini, jadi sampel tersebut belum menguji installer aplikasi desktop secara bersih. <span class="tag t-m">terukur</span></li>
+    <li>Sudah ada pesaing dengan tujuan mirip: Komi Store, dulu bernama GitHub Store <span class="tag t-c">dikutip</span>. Ia berupa aplikasi yang harus dipasang dulu. Bahwa jalur "klik di browser, tanpa aplikasi" masih kosong dan dicari orang awam adalah <span class="tag t-a">asumsi</span>, dan inilah yang diuji pada 5 pengguna.</li>
+    <li>Hanya 33,3% repo punya installer strict untuk ketiga OS. Produknya tidak bisa menjanjikan "selalu ada" untuk Linux.</li>
+  </ul>
+  <p><strong>Syarat lanjut:</strong> setelah classifier diperbaiki, semua angka OS (akurasi strict, akurasi tanpa baris tidak terselesaikan, akurasi isi-file saja, dan precision serta recall tiap kelas Windows, macOS, Linux) ≥ 95% pada sampel yang bersih dan lebih besar. Sampel bersih berarti asset dari repo yang belum pernah diambil, bukan undian baru dari asset yang dipakai menulis aturan. Sampel 400 asset yang sudah dipakai sekarang menjadi data dev. Sampel ketiga (sekitar 1.184 repo belum terlihat) perlu aturan cakupan dan kepercayaan pelabel per kolom yang ditetapkan sebelum penarikan. Ukurannya sekitar 60 baris acuan atau lebih per OS, karena dengan 21 baris satu kesalahan saja sudah menentukan lolos atau gagal. Lalu minimal 4 dari 5 pengguna awam berhasil memasang satu app tanpa bantuan.</p>
+</section>
+
+<section aria-labelledby="s1">
+  <span class="eyebrow">Langkah 1</span>
+  <h2 id="s1">Data yang dikumpulkan</h2>
+  <ul>
+    <li>Respons mentah <code>/releases/latest</code> dari 300 repo tersimpan apa adanya di <code>data/raw/</code>, lengkap dengan header dan log waktu. <span class="tag t-m">terukur</span></li>
+    <li>Aturan pemilihan ditulis sebelum melihat rilis: repo bertopik desktop (electron, tauri, qt, gtk, desktop-app dan sejenisnya), bintang &gt; 1.000, bukan fork, tidak diarsipkan, diurutkan menurut bintang. Daftar dibersihkan dengan 66 pengecualian manual (library, framework, build tool, tema, server) berdasarkan nama dan deskripsi saja. Daftarnya ada di <code>data/curation.json</code>. <span class="tag t-m">terukur</span></li>
+    <li>Sampel condong ke Electron/Tauri dan app AI. Banyak app arus utama yang dicari orang awam tidak ada di dalamnya. Pengelompokan manual juga bisa meleset: beberapa repo sisa mungkin bukan aplikasi. <span class="tag t-a">asumsi</span></li>
+    <li><code>/releases/latest</code> melewatkan prarilis, dan itu memengaruhi angka di bawah.</li>
+  </ul>
+</section>
+
+<section aria-labelledby="s2">
+  <span class="eyebrow">Langkah 2</span>
+  <h2 id="s2">Cakupan installer siap klik</h2>
+  <p>Strict: <code>.exe</code> installer, <code>.msi</code>, <code>.msix</code>, <code>.dmg</code>, <code>.pkg</code>, <code>.AppImage</code>. Loose menambah portable, zip, <code>.deb</code>, <code>.rpm</code>, flatpak, snap. Definisi ditetapkan sebelum angka dihitung (<code>data/definitions.md</code>). Persentase dari 300 repo. <span class="tag t-m">terukur</span></p>
+  <div class="tablewrap"><table>
+    <tr><th>OS / arsitektur</th><th>Strict</th><th>Strict, arch tertulis di nama</th><th>Loose</th><th>Sel loose lewat tebakan arch</th></tr>
+    <tr><td>Windows x64</td><td class="n"><div class="bar">51,3% <i style="width:51px"></i></div></td><td class="n">32,3%</td><td class="n"><div class="bar">72,3% <i class="l" style="width:72px"></i></div></td><td class="n">70 dari 217</td></tr>
+    <tr><td>Windows arm64</td><td class="n">18,0%</td><td class="n">18,0%</td><td class="n">23,7%</td><td class="n">0 dari 71</td></tr>
+    <tr><td>macOS arm64 (Apple Silicon)</td><td class="n"><div class="bar">65,3% <i style="width:65px"></i></div></td><td class="n">50,3%</td><td class="n"><div class="bar">72,0% <i class="l" style="width:72px"></i></div></td><td class="n">54 dari 216</td></tr>
+    <tr><td>macOS x64 (Intel)</td><td class="n">62,0%</td><td class="n">41,7%</td><td class="n">69,3%</td><td class="n">71 dari 208</td></tr>
+    <tr><td>Linux x64</td><td class="n"><div class="bar">44,3% <i style="width:44px"></i></div></td><td class="n">38,3%</td><td class="n"><div class="bar">65,0% <i class="l" style="width:65px"></i></div></td><td class="n">27 dari 195</td></tr>
+    <tr><td>Linux arm64</td><td class="n">33,0%</td><td class="n">24,3%</td><td class="n">42,3%</td><td class="n">36 dari 127</td></tr>
+    <tr><td><strong>Windows atau macOS</strong></td><td class="n"><strong>73,7%</strong></td><td class="n">–</td><td class="n">–</td><td class="n">–</td></tr>
+    <tr><td><strong>Ketiga OS</strong></td><td class="n"><strong>33,3%</strong></td><td class="n">–</td><td class="n">–</td><td class="n">–</td></tr>
+  </table></div>
+  <p class="note">Kolom "arch tertulis" mengecualikan installer yang namanya tidak menyebut arsitektur. Picker memakai installer tanpa arch sebagai cadangan (kecuali Windows arm64). Tebakan itu bisa salah: <code>.dmg</code> tanpa arch bisa hanya untuk Apple Silicon, <code>.AppImage</code> tanpa arch biasanya x64. Angka yang jujur untuk mac x64 dan Linux arm64 ada di kolom "arch tertulis". <span class="tag t-m">terukur</span></p>
+  <h3>Yang tidak punya installer, dan sebabnya</h3>
+  <div class="tablewrap"><table>
+    <tr><th>Kelompok</th><th>Repo</th><th>Setelah dicek 10 rilis terakhir</th></tr>
+    <tr><td>404, tak ada rilis non-prarilis</td><td class="n">10 (3,3%)</td><td>6 tanpa rilis sama sekali; 4 punya installer di rilis lain</td></tr>
+    <tr><td>Rilis ada, hanya source code</td><td class="n">23 (7,7%)</td><td>9 punya installer di rilis lain; 14 tidak</td></tr>
+    <tr><td>Asset ada, tapi bukan installer desktop</td><td class="n">18 (6,0%)</td><td>6 punya installer di rilis lain; 12 tidak</td></tr>
+  </table></div>
+  <p class="note">Dari 51 repo tanpa installer di <code>/latest</code>, 19 punya installer di rilis terbaru lainnya (tag prarilis atau monorepo). Jadi satu panggilan <code>/latest</code> kadang tidak cukup. Hanya 32 repo (10,7%) benar-benar tanpa installer. Sebagian dari itu mungkin menaruh installer di luar GitHub (<code>winget_off_github</code> dan <code>OFF_GITHUB</code> muncul di langkah 4).</p>
+  <p class="note">Batas ketidakpastian: pada 62 repo (20,7%) pilihan Windows hanya berupa <code>.exe</code> yang tidak bisa dipastikan setup atau portable dari namanya, atau zip portable. Angka Windows strict 51,3% mengabaikan semuanya, loose 72,3% menghitung semuanya.</p>
+</section>
+
+<section aria-labelledby="s3">
+  <span class="eyebrow">Langkah 3</span>
+  <h2 id="s3">Classifier nama asset</h2>
+  <p>Classifier memetakan nama asset ke (OS, arsitektur, tipe). Aturannya ada di <code>scripts/classifier.py</code>, ditulis dari asset di luar sampel evaluasi, dan tidak diubah selama evaluasi. Pemilih (picker) dipisah dan diuji di langkah 4. Evaluasi seluruhnya dikerjakan agent, tanpa label manusia.</p>
+  <div class="card" style="border-left:4px solid var(--bad)">
+    <h3>Gerbang OS ≥ 95% tidak lolos pada angka paling ketat</h3>
+    <p>Angka paling ketat adalah yang terendah dari semua ukuran OS di bawah: recall macOS 85,7% (18 dari 21), seluruhnya berdasar kesepakatan dua pelabel dan bukan isi file. Dua kegagalan akan menurunkannya ke 81%, satu kegagalan lebih sedikit menaikkannya ke 90%, jadi gerbang ini ditentukan oleh beberapa baris. Sampel: 100 asset dari 77 repo (seed tetap, maksimal 2 per repo).</p>
+  </div>
+  <div class="card">
+    <h3>Cara evaluasi</h3>
+    <ul>
+      <li><strong>Isi file.</strong> Request <code>Range</code> ke awal tiap asset (512 KB). Terbaca untuk 31 dari 100: PE 11, ELF (AppImage) 6, <code>.deb</code> 12, <code>.rpm</code> 2. Tidak terbaca dari awal file: <code>.dmg</code>, zip, tar.gz, tar.xz, apk, snap, dan file teks (checksum, yml, json, sig). Bukti mentah ada di <code>data/evidence/</code>.</li>
+      <li><strong>Aturan PE 32-bit.</strong> Header PE 32-bit tidak menunjukkan arsitektur target installer, karena penyetel NSIS dan WiX berupa program 32-bit. Ke-11 baris PE bermesin x86; 9 membawa penanda installer. Maka untuk PE, OS Windows tetap dipakai, tetapi arsitektur dari header hanya dipercaya jika 64-bit. Aturan ini ditetapkan dari bukti sebelum angka apa pun dihitung. Tanpa aturan ini, installer arm64 dan x64 akan terbaca x86 dan classifier dihukum untuk kesalahan pengukuran.</li>
+      <li><strong>Dua pelabel buta.</strong> <code>labeler-a</code> (opus) dan <code>labeler-b</code> (sonnet), hanya tools Read, hanya menerima nama asset dan panduan label. Mereka sepakat di 99 dari 100 baris untuk OS, 100 untuk arch, dan 99 untuk tipe. Dua model yang membaca panduan sama berbagi konvensi, jadi kesepakatan ini bukan konfirmasi independen.</li>
+      <li><strong>Putaran resmi.</strong> Putaran pertama memakai tipe agent pengganti karena <code>labeler-a</code> dan <code>labeler-b</code> belum terdaftar di sesi. Hasilnya diarsipkan di <code>data/labeler_*_run1.csv</code> dan tidak dipakai. Putaran resmi dipilih sebelum perbandingan apa pun dihitung.</li>
+      <li><strong>Label acuan.</strong> OS dan arch: isi file bila terbaca; selain itu label yang disepakati kedua pelabel, kecuali keduanya ragu atau berbeda, yang ditandai "tidak terselesaikan" dan dihitung salah untuk classifier. Tipe: hanya kesepakatan kedua pelabel, karena isi file tidak menentukan tipe.</li>
+    </ul>
+  </div>
+  <h3>Dasar label acuan per kolom (100 baris)</h3>
+  <div class="tablewrap"><table>
+    <tr><th>Kolom</th><th>Isi file</th><th>Kesepakatan dua pelabel</th><th>Tidak terselesaikan</th><th>Status</th></tr>
+    <tr><td>OS</td><td class="n">31</td><td class="n">65</td><td class="n">4</td><td><span class="tag t-m">terukur</span> (di baris isi file)</td></tr>
+    <tr><td>arch</td><td class="n">20</td><td class="n">71</td><td class="n">9</td><td><span class="tag t-m">terukur</span> (di baris isi file)</td></tr>
+    <tr><td>tipe</td><td class="n">0</td><td class="n">91</td><td class="n">9</td><td><span class="tag t-g">kesepakatan agent, tanpa pemeriksaan manusia</span></td></tr>
+  </table></div>
+  <p class="note">Hanya baris "isi file" yang benar-benar terukur. Baris kesepakatan dua pelabel adalah bukti yang lebih lemah, dan di baris itu classifier hanya bisa salah bila kedua model keliru dengan cara yang sama atau classifier sendiri keliru. Arch hanya 20 baris isi file karena 11 baris PE tidak dihitung dan DMG, zip, dan tar tidak terbaca.</p>
+  <h3>Akurasi per kolom</h3>
+  <div class="tablewrap"><table>
+    <tr><th>Kolom</th><th>Tidak terselesaikan = salah (n=100)</th><th>Tidak terselesaikan dikeluarkan</th><th>Baris isi file saja</th></tr>
+    <tr><td>OS <span class="tag t-m">terukur</span></td><td class="n">91,0%</td><td class="n">94,8% (n=96)</td><td class="n">96,8% (n=31)</td></tr>
+    <tr><td>arch <span class="tag t-m">terukur</span></td><td class="n">81,0%</td><td class="n">89,0% (n=91)</td><td class="n">85,0% (n=20)</td></tr>
+    <tr><td>tipe <span class="tag t-g">kesepakatan agent, tanpa pemeriksaan manusia</span></td><td class="n">84,0%</td><td class="n">92,3% (n=91)</td><td class="n">tidak ada</td></tr>
+  </table></div>
+  <h3>Precision dan recall per kelas</h3>
+  <div class="tablewrap"><table>
+    <tr><th>Kolom</th><th>Kelas</th><th>Precision (tidak terselesaikan = salah)</th><th>Precision (dikeluarkan)</th><th>Recall</th><th>Benar / salah (FN)</th></tr>
+    <tr><td>OS <span class="tag t-m">terukur</span></td><td>windows</td><td class="n">0,93</td><td class="n">0,93</td><td class="n">1,00</td><td class="n">13 / 0</td></tr>
+    <tr><td>OS</td><td>macos</td><td class="n">1,00</td><td class="n">1,00</td><td class="n"><strong>0,86</strong></td><td class="n">18 / 3</td></tr>
+    <tr><td>OS</td><td>linux</td><td class="n">0,96</td><td class="n">1,00</td><td class="n">0,92</td><td class="n">23 / 2</td></tr>
+    <tr><td>OS</td><td>android</td><td class="n">0,50</td><td class="n">1,00</td><td class="n">1,00</td><td class="n">1 / 0</td></tr>
+    <tr><td>OS</td><td>unknown</td><td class="n">0,86</td><td class="n">0,90</td><td class="n">1,00</td><td class="n">36 / 0</td></tr>
+    <tr><td>arch</td><td>x64</td><td class="n">0,94</td><td class="n">1,00</td><td class="n">0,74</td><td class="n">17 / 6</td></tr>
+    <tr><td>arch</td><td>arm64</td><td class="n">0,84</td><td class="n">1,00</td><td class="n">0,89</td><td class="n">16 / 2</td></tr>
+    <tr><td>arch</td><td>x86</td><td class="n">0,67</td><td class="n">1,00</td><td class="n">1,00</td><td class="n">2 / 0</td></tr>
+    <tr><td>arch</td><td>universal</td><td class="n">1,00</td><td class="n">1,00</td><td class="n">1,00</td><td class="n">2 / 0</td></tr>
+    <tr><td>arch</td><td>arm32</td><td class="n">0,00</td><td class="n">0,00</td><td class="n">0,00</td><td class="n">0 / 1</td></tr>
+    <tr><td>arch</td><td>unknown</td><td class="n">0,77</td><td class="n">0,83</td><td class="n">1,00</td><td class="n">44 / 0</td></tr>
+    <tr><td>tipe <span class="tag t-g">kesepakatan agent, tanpa pemeriksaan manusia</span></td><td>installer</td><td class="n">0,95</td><td class="n">0,98</td><td class="n">1,00</td><td class="n">41 / 0</td></tr>
+    <tr><td>tipe <span class="tag t-g">kesepakatan agent, tanpa pemeriksaan manusia</span></td><td>portable</td><td class="n">0,90</td><td class="n">1,00</td><td class="n">0,60</td><td class="n">9 / 6</td></tr>
+    <tr><td>tipe <span class="tag t-g">kesepakatan agent, tanpa pemeriksaan manusia</span></td><td>not_installer</td><td class="n">0,81</td><td class="n">0,85</td><td class="n">0,97</td><td class="n">34 / 1</td></tr>
+    <tr><td>tipe <span class="tag t-g">kesepakatan agent, tanpa pemeriksaan manusia</span></td><td>ambiguous</td><td class="n">0,00</td><td class="n">–</td><td class="n">–</td><td class="n">0 / 0</td></tr>
+  </table></div>
+  <p class="note">Semua baris OS dan arch di tabel ini berstatus <span class="tag t-m">terukur</span>; hanya baris yang acuannya isi file yang benar-benar diukur dari byte, sisanya kesepakatan dua pelabel. Dasar acuan per kelas OS (isi file + kesepakatan pelabel): windows 11 + 2, linux 20 + 5, macos 0 + 21, android 0 + 1, unknown 0 + 36. Tipe berstatus <span class="tag t-g">kesepakatan agent, tanpa pemeriksaan manusia</span>. Data per sel (acuan, dasar, prediksi) ada di <code>data/eval_result.json</code> dan <code>data/reference_labels.json</code>; byte mentah di <code>data/evidence/</code>.</p>
+  <h3>Semua kasus salah (22 sel pada 12 asset; 4 sel acuannya isi file, 18 kesepakatan pelabel)</h3>
+  <div class="tablewrap"><table>
+    <tr><th>Penyebab</th><th>Asset</th><th>Kolom salah</th></tr>
+    <tr><td>Zip tanpa kata OS di nama dianggap bukan installer</td><td>tabularis_0.32.0_x64-portable.zip; ueli-9.29.1-arm64.zip</td><td>arch, tipe</td></tr>
+    <tr><td><code>.app.tar.gz</code> tidak dikenali sebagai macOS</td><td>Clash.Nyanpasu.x86_64.app.tar.gz; Clash.Nyanpasu.aarch64.app.tar.gz</td><td>OS, arch, tipe (dua dari tiga kegagalan recall macOS)</td></tr>
+    <tr><td>Kata <code>debug</code> cocok dengan "debugger"</td><td>rn-debugger-linux-x64.zip; rn-debugger-macos-x64.zip</td><td>OS, arch, tipe (yang macOS adalah kegagalan recall ketiga)</td></tr>
+    <tr><td>Potongan <code>win</code> cocok dengan "TwinDesk"</td><td>TwinDesk-3.0.0-amd64.deb (isi file: Linux)</td><td>OS</td></tr>
+    <tr><td><code>armeabi-v7a</code> tidak dikenali</td><td>OpenLess_2.0.1+build.20261016_armeabi-v7a.apk</td><td>arch</td></tr>
+    <tr><td>Nama tidak memuat arsitektur; header ELF menunjukkan x64</td><td>Streambert-2.7.0.AppImage; KeeWeb-1.18.7.linux.AppImage</td><td>arch (acuan isi file)</td></tr>
+    <tr><td><code>dbgsym</code> dianggap installer</td><td>strawberry-dbgsym_1.2.31-trixie_amd64.deb</td><td>tipe</td></tr>
+    <tr><td>Kesalahan pembaca header saya: <code>armv7l</code> pada RPM tidak dipetakan ke arm32, jadi acuannya "other(armv7l)". Classifier menjawab arm32, yang benar.</td><td>electerm-5.10.0-linux-armv7l-legacy.rpm</td><td>arch (bukan kesalahan classifier)</td></tr>
+  </table></div>
+  <p class="note">Tanpa kasus armv7l, kesalahan classifier berjumlah 21 sel. Koreksi pemetaan armv7l saya laporkan tetapi tidak saya masukkan ke angka di atas, supaya angkanya tidak berubah setelah hasil terlihat.</p>
+  <h3>Baris tidak terselesaikan (9 baris, 22 sel)</h3>
+  <p class="note">Kedua pelabel sama-sama ragu pada ke-9 baris; pada satu baris (geolibre-android.aab) jawaban mereka juga berbeda. TwinDesk-3.0.0-full.apk; ABDownloadManager_1.11.4_windows_arm64.exe; Pinta-x86_64.exe; store-cache-pnpm-arm64.tgz; electerm-5.10.0-linux-ppc64le.tar.gz; PicGo-3.0.3-arm64.exe; geolibre-android.aab; AirPodsDesktop-0.6.1-win32-bridge.exe; TriliumNotes-v0.107.0-windows-arm64.exe. Lima di antaranya adalah <code>.exe</code> yang tidak bisa dipastikan setup atau portable dari nama saja. Pada sebagian besar baris ini jawaban classifier sama dengan jawaban kedua pelabel, tetapi tetap dihitung salah karena acuannya tidak pasti.</p>
+  <p class="note">Dampak pada langkah 2: kesalahan di atas (zip tanpa kata OS, <code>win</code> di dalam nama lain) juga memengaruhi angka cakupan. Arah dan besarnya belum diukur. <span class="tag t-a">asumsi</span> Dalam sampel ini kesalahan terbanyak adalah recall (asset desktop dianggap bukan installer), jadi cakupan cenderung terlalu rendah.</p>
+</section>
+
+<section aria-labelledby="s3b">
+  <span class="eyebrow">Langkah 3, lanjutan</span>
+  <h2 id="s3b">Pembanding Komi Store, classifier gabungan, sampel bersih</h2>
+  <p>Hasil bagian ini menjawab "apakah aturan Komi Store lebih baik dari punya kita, dan apakah gabungannya lolos gerbang". Jawabannya: aturan mereka tidak lebih baik untuk tugas ini, gabungannya membaik besar pada 100 baris yang sudah terlihat (dev) dan hampir tidak membaik pada 400 asset yang belum terlihat. Gerbang OS tetap tidak lolos, keputusan tetap "tahan dulu".</p>
+
+  <h3>Aturan pemilihan asset di Komi Store <span class="tag t-c">dikutip dari kode</span></h3>
+  <p class="note">Repo <code>komi-store/komi-store</code> commit <code>19eb744</code>, lisensi Apache-2.0. Semua path di bawah relatif terhadap <code>core/</code>. Satu file terbaca ulang langsung (AssetArchitectureMatcher, AssetPlatform, DesktopInstaller); sisanya dari laporan agent explorer.</p>
+  <div class="tablewrap"><table>
+    <tr><th>Aturan</th><th>Lokasi</th><th>Isi</th></tr>
+    <tr><td>OS dari ekstensi</td><td><code>domain/.../utils/AssetPlatform.kt:20-52</code></td><td><code>.exe .msi</code> Windows; <code>.dmg .pkg</code> macOS; <code>.deb .rpm .appimage .pkg.tar.zst .snap .flatpakref</code> Linux; <code>.apk</code> Android kecuali cocok tanda Alpine (baris 5-12); <code>.ipa</code> iOS; zip, tar, msix, appx tidak punya OS.</td></tr>
+    <tr><td>Arsitektur dari token nama</td><td><code>domain/.../utils/AssetArchitectureMatcher.kt:14-65</code></td><td>Nama diubah huruf kecil dan <code>_</code> jadi <code>-</code>. Urutan: universal, x86_64, arm64, x86, arm, asing (riscv, ppc, mips, dan lain-lain). Token dicocokkan per batas kata. Nama tanpa token apa pun dianggap universal (baris 63).</td></tr>
+    <tr><td>Daftar ekstensi yang boleh dipasang</td><td><code>data/.../DesktopInstaller.kt:74-102, 104-152</code></td><td>Windows <code>.msi .exe</code>; macOS <code>.dmg .pkg</code>; Linux <code>.appimage .deb .rpm .pkg.tar.zst</code>. Zip, tar, msix, appx, snap, flatpak tidak dipasang.</td></tr>
+    <tr><td>Peringkat</td><td><code>domain/.../utils/AssetSelector.kt:37-100</code></td><td>Ekstensi, lalu rasa rilis (debug turun, bukan dibuang), lalu arsitektur (universal 2, cocok persis 3, cadangan 1, asing 0), lalu varian perangkat (hanya apk), lalu ukuran terbesar, lalu nama.</td></tr>
+    <tr><td>Override macOS universal</td><td><code>DesktopInstaller.kt:371-380</code></td><td>Nama berisi <code>universal</code> atau <code>darwin</code> dianggap cocok untuk semua Mac, begitu juga <code>.dmg</code> atau <code>.pkg</code> tanpa token arsitektur. Token <code>x64</code> tidak ada di daftar pengecualian, jadi <code>app-x64.dmg</code> lolos di Mac mana pun. Ini aturan kecocokan saat memasang, tidak saya pakai.</td></tr>
+  </table></div>
+  <p class="note">Komi tidak punya kelas portable atau ambigu dan tidak memasang arsip, jadi zip dan tar yang saya sebut "portable" memang di luar tugasnya. Itu pilihan produk yang berbeda, bukan kesalahan mereka.</p>
+
+  <h3>Isi dan format <code>komi-store-backend-data</code> <span class="tag t-m">terukur</span></h3>
+  <ul>
+    <li>37 file JSON di <code>cached-data/</code>: feed (all, android, windows, macos, linux), most-popular, new-releases, trending, dan 5 topik masing-masing 4 platform. Total 3.820 catatan, 1.612 nama repo unik.</li>
+    <li>Tiap file: <code>category</code>, <code>platform</code>, <code>lastUpdated</code>, <code>totalCount</code>, <code>repositories</code>. Tiap repo membawa metadata (bintang, bahasa, topik, lisensi, <code>latestReleaseTag</code>, <code>downloadCount</code>), bendera <code>hasInstallersAndroid/Windows/Macos/Linux</code>, dan <code>platformReleases</code> (tag dan tanggal per platform). <strong>Tidak ada daftar asset dan tidak ada klasifikasi per file.</strong></li>
+    <li>Pembaruan: kategori harian 02:00 UTC lewat GitHub Actions, feed tiap 3 jam. Satu file (<code>most-popular/android.json</code>) tertinggal sekitar 12 hari pada hari saya membaca. Skrip pengisi basis data dan Meilisearch berjalan di VPS mereka, tidak ada di repo.</li>
+    <li>Logika pemilihan asset yang ada di sana hanya daftar ekstensi dan pembeda APK Alpine. Regex Alpine di backend (<code>linux|amd64|386</code>) lebih pendek dari yang di aplikasi (20 token), padahal komentarnya bilang sama persis.</li>
+  </ul>
+
+  <h3>Perbandingan pada 100 baris dev <span class="tag t-g">bukan untuk gerbang</span></h3>
+  <p class="note">Aturan v2 saya tulis setelah melihat baris-baris ini, jadi angkanya optimistis. "Komi as ported" menghitung arch untuk semua nama file, seperti fungsi aslinya. "Komi pipeline" mengikuti urutan mereka: arch hanya dihitung untuk ekstensi yang masuk daftar, selebihnya unknown.</p>
+  <div class="tablewrap"><table>
+    <tr><th>Kolom (tidak terselesaikan salah / dikeluarkan)</th><th>v1 (classifier.py)</th><th>Komi as ported</th><th>Komi pipeline</th><th>v2 gabungan</th></tr>
+    <tr><td>OS</td><td class="n">91,0% / 94,8%</td><td class="n">83,0% / 86,5%</td><td class="n">82,0% / 85,4%</td><td class="n">95,0% / 99,0%</td></tr>
+    <tr><td>arch</td><td class="n">81,0% / 89,0%</td><td class="n">72,0% / 79,1%</td><td class="n">75,0% / 82,4%</td><td class="n">87,0% / 95,6%</td></tr>
+    <tr><td>tipe</td><td class="n">84,0% / 92,3%</td><td class="n">74,0% / 81,3%</td><td class="n">74,0% / 81,3%</td><td class="n">91,0% / 100%</td></tr>
+  </table></div>
+  <p>Per kelas, di 100 baris dev, OS macOS: recall v1 0,86, Komi 0,67, v2 1,00. Linux: v1 0,92, Komi 0,84, v2 0,96. Windows: v1 1,00, Komi 0,85, v2 1,00. Precision Komi untuk Windows, macOS, dan Linux 1,00 karena ia hanya menjawab bila ekstensinya dikenal; kelas "unknown" miliknya jelek (precision 0,69). Tabel per kelas untuk arch dan tipe ada di <code>data/compare_four.json</code>.</p>
+  <h3>Kasus dev: Komi benar, kita salah, dan sebaliknya</h3>
+  <ul>
+    <li><strong>Komi benar, v1 salah (8 sel).</strong> <code>TwinDesk-3.0.0-amd64.deb</code> (OS, satu-satunya yang acuannya isi file): v1 mencocokkan <code>win</code> di dalam "TwinDesk". Tujuh sel arch (<code>ueli-9.29.1-arm64.zip</code>, <code>tabularis_0.32.0_x64-portable.zip</code>, dua <code>Clash.Nyanpasu.*.app.tar.gz</code>, dua <code>rn-debugger-*.zip</code>, <code>…armeabi-v7a.apk</code>) acuannya kesepakatan pelabel. Enam di antaranya bukan salah regex arch: v1 mengosongkan arch karena baris dianggap bukan installer. Hanya <code>armeabi-v7a</code> kekurangan token.</li>
+    <li><strong>v1 benar, Komi salah.</strong> Sembilan sel OS dan sepuluh sel tipe adalah zip dan tar bernama jelas (<code>Kap-3.6.0-mac.zip</code>, <code>pi-host-0.22.0-linux-x64.tar.gz</code>). Komi memang tidak menangani arsip. Enam belas sel arch berasal dari file <code>.sig</code>, <code>.blockmap</code>, <code>.asc</code>, <code>.sha256</code>: aslinya mereka tidak menghitung arch untuk file itu, jadi ini artefak portingan "as ported" dan hilang di varian pipeline.</li>
+  </ul>
+
+  <h3>Classifier gabungan (v2) <span class="tag t-g">keputusan pada tingkat aturan</span></h3>
+  <ul>
+    <li><strong>Diambil dari Komi:</strong> pencocokan token per batas kata (dipakai juga untuk kata kunci OS), alias yang hilang (<code>armeabi</code>, <code>armeabi-v7a</code>, <code>v7a</code>, <code>armel</code>, <code>i586</code>, <code>noarch</code>), dan urutan universal, x64, arm64, x86, arm.</li>
+    <li><strong>Tidak diambil:</strong> nama tanpa token dianggap universal, override <code>darwin</code>/<code>universal</code>, dan OS dari ekstensi saja.</li>
+    <li><strong>Dipertahankan dari kita:</strong> kelas portable, penyaring bukan-installer. Diperbaiki: <code>debug</code> hanya sebagai kata utuh, <code>dbgsym</code> ditolak, <code>.app.tar.gz</code> dikenali macOS, arsip tanpa kata OS tetapi bertoken arsitektur atau "portable" dihitung portable.</li>
+    <li>File: <code>scripts/classifier_v2.py</code>. <code>classifier.py</code> tidak diubah. Hash sha256 ketiga file dikunci di <code>data/classifier_hashes.txt</code> sebelum sampel bersih ditarik.</li>
+  </ul>
+
+  <h3>Sampel bersih: 400 asset yang belum pernah dilihat <span class="tag t-m">terukur</span></h3>
+  <p>Aturan penarikan ditulis lebih dulu di <code>data/clean/DRAW_RULE.md</code>. Sumbernya repo di <code>cached-data</code> Komi yang belum pernah masuk daftar kita (1.434 tersisa), 250 repo diundi dengan seed tetap, maksimal 3 asset per repo, tanpa kurasi aplikasi, tanpa memakai bendera <code>hasInstallers*</code>, tanpa stratifikasi. Hasil: 400 asset dari 182 repo. Isi file terbaca untuk 140 baris OS dan 118 baris arch. Dua pelabel buta memakai prosedur yang sama dengan putaran dev.</p>
+  <div class="tablewrap"><table>
+    <tr><th>Kolom</th><th>Isi file</th><th>Kesepakatan pelabel</th><th>Tidak terselesaikan</th><th>Kesepakatan mentah A dan B</th></tr>
+    <tr><td>OS <span class="tag t-m">terukur</span></td><td class="n">140</td><td class="n">220</td><td class="n">40</td><td class="n">387 dari 400</td></tr>
+    <tr><td>arch <span class="tag t-m">terukur</span></td><td class="n">118</td><td class="n">238</td><td class="n">44</td><td class="n">394 dari 400</td></tr>
+    <tr><td>tipe <span class="tag t-g">kesepakatan agent</span></td><td class="n">0</td><td class="n">330</td><td class="n">70</td><td class="n">370 dari 400</td></tr>
+  </table></div>
+  <div class="tablewrap"><table>
+    <tr><th>Kolom (tidak terselesaikan salah / dikeluarkan / hanya isi file)</th><th>v1</th><th>Komi as ported</th><th>Komi pipeline</th><th>v2</th></tr>
+    <tr><td>OS</td><td class="n">82,5% / 91,7% / 80,0%</td><td class="n">68,0% / 75,6% / 80,0%</td><td class="n">68,0% / 75,6% / 80,0%</td><td class="n">82,5% / 91,7% / 80,0%</td></tr>
+    <tr><td>arch</td><td class="n">77,2% / 86,8% / 69,5%</td><td class="n">71,3% / 80,1% / <strong>89,0%</strong></td><td class="n">65,5% / 73,6% / 69,5%</td><td class="n">78,7% / 88,5% / 69,5%</td></tr>
+    <tr><td>tipe</td><td class="n">81,5% / 98,8% / –</td><td class="n">62,0% / 75,2% / –</td><td class="n">62,0% / 75,2% / –</td><td class="n">82,0% / 99,4% / –</td></tr>
+  </table></div>
+  <p class="note">n = 400 / 360 (OS) / 140 (OS isi file); arch 400 / 356 / 118; tipe 400 / 330.</p>
+  <div class="card" style="border-left:4px solid var(--bad)">
+    <h3>Gerbang OS ≥ 95% tidak lolos untuk ketiganya</h3>
+    <p>Angka terendah yang sudah ditetapkan sebelumnya adalah precision macOS pada hitungan strict: 0,794 untuk v2 (50 benar dari 63 jawaban macOS). Angka ini artefak pengukuran: 13 dari 63 baris itu berlabel "tidak terselesaikan", dan 12 di antaranya adalah <code>.dmg</code> yang <em>kedua</em> pelabel beri macOS, tetapi keduanya menandai baris "ragu" (soal arsitektur, yang memang kosong). Saya menerapkan "ragu" per baris pada ketiga kolom, jadi label OS yang jelas ikut tidak terselesaikan. Pada baris terselesaikan precision macOS v2 adalah 1,000. Angka ini tetap saya laporkan karena itu definisi gerbang yang saya kunci sebelum melihat data.</p>
+    <p>Angka yang benar-benar mengikat: recall macOS v2 0,847 (50 dari 59), recall Linux 0,832, recall Windows 0,951, dan akurasi OS 91,7% pada baris terselesaikan. Dua yang pertama gagal dengan sendirinya. macOS punya 59 baris acuan, satu di bawah target sekitar 60.</p>
+  </div>
+  <h3>Apakah keuntungan v2 di data dev pindah ke sampel bersih?</h3>
+  <ul>
+    <li><strong>OS: tidak.</strong> v1 dan v2 sama-sama 330 benar dari 360. Dua selisihnya saling meniadakan: v2 benar pada <code>ChatGPT-MJ_universal.app.tar.gz</code> (perbaikan <code>.app.tar.gz</code>), tetapi v2 salah pada <code>copilot-linuxmusl-arm64.tar.gz</code> yang dulu benar di v1. Batas kata membuat <code>linux</code> tidak lagi cocok di dalam "linuxmusl", jadi ini regresi buatan v2. Ada satu bug lagi yang sejenis dengan <code>debug</code>/"debugger": <code>source</code> di daftar tolak masih cocok sebagai potongan kata, sehingga <code>sourcegit_2026.24.win-x64.zip</code> ditolak.</li>
+    <li><strong>arch: sedikit.</strong> v2 benar di 7 sel yang v1 salah, dan salah di 1 sel yang v1 benar. Pada baris isi file keduanya 69,5%.</li>
+    <li><strong>tipe:</strong> 99,4% vs 98,8% pada baris terselesaikan, selisih 2 baris.</li>
+    <li>Jadi kenaikan 0,95 di dev lebih banyak berasal dari aturan yang dibentuk oleh baris dev itu sendiri daripada dari perbaikan umum.</li>
+  </ul>
+  <h3>Mengapa sampel bersih gagal: pergeseran populasi, bukan hanya classifier</h3>
+  <ul>
+    <li><strong>27 dari 30 kesalahan OS v2</strong> adalah file tanpa installer klasik: binary CLI tanpa ekstensi (<code>officecli-linux-x64</code>, <code>kortix-darwin-arm64</code>, <code>ttyd.aarch64</code>), <code>.dll</code>, <code>.ko</code>, <code>.com</code>. Acuannya isi file (ELF, Mach-O, PE), OS-nya jelas, tetapi classifier menandainya bukan installer lalu mengosongkan OS. Produk ini tidak akan menawarkan file seperti itu kepada orang awam.</li>
+    <li>Penyebabnya aturan penarikan yang kami tetapkan: sampel bersih tidak melalui kurasi "apakah ini aplikasi desktop" seperti 300 repo awal. Itu pilihan yang dikunci sebelum penarikan, jadi gerbang tidak saya ubah setelah melihat hasil.</li>
+    <li>Dua hal ini harus dibaca bersama: <strong>hasil yang dikunci gagal</strong>, dan <strong>sampel ini tidak menunjukkan classifier gagal pada installer aplikasi desktop</strong>. Yang pertama menentukan keputusan, yang kedua menentukan apa yang perlu diuji berikutnya.</li>
+    <li>Komi lebih baik pada satu hal: arch pada baris isi file 89,0% vs 69,5%. Itu karena ia membaca token arsitektur dari binary tanpa ekstensi, sedangkan v1 dan v2 mengosongkan arch lewat penyaring bukan-installer. Ini pola "Komi benar, kita salah" yang sungguhan, dan sebabnya sama dengan kegagalan OS di atas.</li>
+  </ul>
+  <p class="note"><strong>Sampel ini sekarang menjadi data dev.</strong> Saya sudah memeriksa baris-barisnya satu per satu. Setiap v3 butuh sampel ketiga (sekitar 1.184 repo masih belum terlihat). Sebelum menarik, tetapkan dua hal: aturan cakupan (kurasi nama dan deskripsi, atau kelas tipe untuk binary telanjang) dan kepercayaan pelabel per kolom, bukan per baris.</p>
+
+  <h3>Kewajiban Apache-2.0 yang dicatat</h3>
+  <div class="tablewrap"><table>
+    <tr><th>Ketentuan</th><th>Status</th></tr>
+    <tr><td>4(a) salinan lisensi</td><td>Ada di <code>third_party/komi-store/LICENSE</code> (201 baris, teks standar, tanpa baris hak cipta terisi di lampiran).</td></tr>
+    <tr><td>4(b) pemberitahuan perubahan</td><td>Header <code>komi_classifier.py</code> dan <code>classifier_v2.py</code> menyebut repo, commit <code>19eb744…</code>, path file dan nomor baris, dan menyatakan "diterjemahkan dari Kotlin ke Python, label dipetakan ulang". Saya memperlakukannya sebagai karya turunan karena tidak bisa membuktikan sebaliknya.</td></tr>
+    <tr><td>4(c) pemberitahuan hak cipta</td><td>Tidak ada header hak cipta atau SPDX di file sumber yang dipakai, jadi tidak ada yang diteruskan.</td></tr>
+    <tr><td>4(d) NOTICE</td><td>Tidak ada file NOTICE di kedua repo.</td></tr>
+    <tr><td><code>komi-store-backend-data</code></td><td>Hanya nama repo dari <code>cached-data</code> (commit <code>e11dbea…</code>) yang dipakai sebagai kerangka sampel. Tidak ada kode atau berkas data yang didistribusikan ulang. Dicatat di <code>DRAW_RULE.md</code>.</td></tr>
+  </table></div>
+
+  <h3>Catatan keterbatasan</h3>
+  <ul>
+    <li>Kedua CSV pelabel pada sampel bersih saya salin tangan dari keluaran agent. Tidak ada pembanding otomatis terhadap keluaran asli (percobaan mengambilnya dari log agent gagal). Skrip evaluasi hanya memeriksa 400 baris, nilai sah, dan kolom confidence.</li>
+    <li>Bahwa pelabel hanya membaca dua file yang diizinkan didasarkan pada instruksi dan 3 pemakaian tool per pelabel, bukan diverifikasi. Pada putaran ini jalur file saya ganti lewat prompt karena definisi agent memuat jalur lama.</li>
+    <li>Kerangka sampel berasal dari pencarian Komi, jadi condong ke repo yang punya installer.</li>
+    <li>Reproduksi hasil dev: <code>eval_result.json</code> dan <code>reference_labels.json</code> dijalankan ulang setelah skrip 13 dan 14 diparameterkan, dan hash-nya tidak berubah.</li>
+  </ul>
+</section>
+
+<section aria-labelledby="s4">
+  <span class="eyebrow">Langkah 4</span>
+  <h2 id="s4">Kecocokan dengan winget-pkgs dan Homebrew Cask</h2>
+  <p>Aturan pemilih ditulis sebelum membuka data winget dan Cask. Versi dinormalkan sebelum dibandingkan. "Sama persis" artinya nama file sama setelah versi dinormalkan; "tipe sama" artinya ekstensi sama tapi varian beda (misalnya universal vs arm64). <span class="tag t-m">terukur</span></p>
+  <div class="tablewrap"><table>
+    <tr><th>Pembanding</th><th>Pasangan</th><th>Sama persis</th><th>Tipe sama, nama beda</th><th>Beda</th><th>Lain</th></tr>
+    <tr><td>winget, Windows x64</td><td class="n">82</td><td class="n"><strong>74 (90,2%)</strong></td><td class="n">5</td><td class="n">3</td><td>6 repo kosong di sisi kita, 4 pakai URL non-GitHub</td></tr>
+    <tr><td>winget, Windows arm64</td><td class="n">24</td><td class="n"><strong>22 (91,7%)</strong></td><td class="n">1</td><td class="n">1</td><td>–</td></tr>
+    <tr><td>Homebrew Cask, macOS (token stabil)</td><td class="n">114</td><td class="n"><strong>93 (81,6%)</strong></td><td class="n">12</td><td class="n">9</td><td>6 repo kosong di sisi kita</td></tr>
+  </table></div>
+  <p class="note">Token <code>@beta</code> dan <code>@nightly</code> (4 pasangan) dikeluarkan karena dibandingkan dengan rilis stabil yang bukan miliknya. URL di <code>cask.json</code> hanya untuk arsitektur bawaan; 1.524 dari 7.822 cask punya <code>variations</code> per arsitektur yang tidak saya baca. Pasangan macOS dianggap cocok jika salah satu pilihan arm64 atau x64 sama dengan URL Cask.</p>
+  <ul>
+    <li>Penyebab ketidakcocokan terbesar di macOS adalah pilihan tipe: Cask sering memilih <code>.zip</code>, pemilih memilih <code>.dmg</code>. Keduanya sah. Untuk pengguna awam <code>.dmg</code> lebih umum. Kalau "tipe sama" dihitung cocok, kecocokan macOS naik ke 92,1% (105 dari 114).</li>
+    <li>Sebagian lagi hanya karena Cask atau winget tertinggal satu versi (misalnya Motrix, lx-music).</li>
+    <li>Kasus yang benar-benar perlu aturan tambahan: beberapa varian build dalam satu rilis (<code>legacy</code>, <code>MinGW</code> vs <code>MSVC</code>, <code>fixed-webview</code>, <code>macOS-10.13-12</code> vs <code>13+</code>). Pemilih belum tahu varian mana yang cocok untuk sebuah komputer.</li>
+  </ul>
+  <p class="note">Cakupan perbandingan: 121 dari 300 repo ada di Cask dan 96 punya URL installer GitHub di winget. Angka winget adalah batas bawah, karena saya hanya memeriksa folder publisher yang namanya sama dengan pemilik repo GitHub (107 dari 294 pemilik; Microsoft dikecualikan karena ukurannya). Ini juga indikator seberapa arus utama sampelnya.</p>
+</section>
+
+<section aria-labelledby="s5">
+  <span class="eyebrow">Langkah 5</span>
+  <h2 id="s5">Tiga arsitektur dan header rate limit asli</h2>
+  <p>Percobaan memakai <code>upscayl/upscayl</code> pada <code>/releases/latest</code> (<code>data/headers_experiment.txt</code>).</p>
+  <div class="tablewrap"><table>
+    <tr><th>Pengukuran</th><th>Hasil</th></tr>
+    <tr><td>Batas tanpa token</td><td>60 per jam <span class="tag t-m">terukur</span></td></tr>
+    <tr><td>Batas dengan token</td><td>5.000 per jam <span class="tag t-m">terukur</span></td></tr>
+    <tr><td>CORS dari browser</td><td><code>Access-Control-Allow-Origin: *</code>; preflight <code>OPTIONS</code> menjawab 204 dan mengizinkan <code>If-None-Match</code> <span class="tag t-m">terukur</span></td></tr>
+    <tr><td>Cache</td><td><code>max-age=60</code>, publik tanpa token, privat dengan token <span class="tag t-m">terukur</span></td></tr>
+    <tr><td>Respons 304 (ETag)</td><td>Dengan token: tidak mengurangi kuota. Tanpa token: tetap mengurangi 1. Satu kali percobaan per kondisi (n=1). <span class="tag t-m">terukur</span> Dokumen rate limit GitHub tidak membahas 304, jadi tidak ada sumber tertulis yang mendukung atau membantahnya. <span class="tag t-c">dicek</span></td></tr>
+    <tr><td><code>GITHUB_TOKEN</code> di GitHub Actions</td><td>1.000 per jam per repo, lebih rendah dari PAT (5.000). Pekerjaan terjadwal di Actions memakai batas ini kecuali memakai PAT atau GitHub App. <span class="tag t-c">dikutip</span> <a href="https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api">docs.github.com</a></td></tr>
+    <tr><td><code>releases.atom</code></td><td>200 tanpa header rate limit, <code>max-age=0</code> <span class="tag t-m">terukur</span></td></tr>
+    <tr><td><code>github.com/o/r/releases/latest/download/NAMA</code></td><td>302 ke URL rilis; hanya berguna jika nama asset tidak memuat versi: 17,3% repo <span class="tag t-m">terukur</span></td></tr>
+  </table></div>
+  <p class="note">Catatan bukti: lalu lintas lewat proxy (<code>Server: fasthttp</code> pada sebagian respons), jadi "60 per jam" berlaku untuk alamat keluar proxy ini. Angka sisa kuota dari <code>/rate_limit</code> juga tidak konsisten dengan header respons pada percobaan berotentikasi. Saya memakai header respons sebagai bukti. Ulangi percobaan dari jaringan rumah sebelum membangun.</p>
+  <div class="cols">
+    <div class="card"><h3>A. API dari browser pengguna</h3>
+      <p>Biaya server nol. Kesegaran sampai 60 detik. Tiap kunjungan memakai kuota alamat IP pengguna: 60 per jam tanpa token, dibagi seluruh jaringan yang sama (kantor, kampus, warnet). Satu halaman app butuh 1 panggilan, lebih jika <code>/latest</code> tidak cukup (19 dari 51 kasus tanpa installer). Picker harus berjalan di browser. Kalau kuota habis, tombol mati tanpa cadangan.</p></div>
+    <div class="card"><h3>B. Katalog statis terjadwal</h3>
+      <p>Satu pekerjaan terjadwal membawa token dan menulis satu file JSON. 300 repo = 300 panggilan per jam (6% dari 5.000), dan 304 gratis dengan token, jadi ribuan repo muat. Katalog 300 app berukuran 57 KB <span class="tag t-m">terukur</span>; untuk 10.000 app sekitar 1,9 MB <span class="tag t-a">ekstrapolasi</span>. Kesegaran sama dengan jeda jadwal (misalnya 1 jam). GitHub Pages: situs maks. 1 GB, batas lunak 100 GB per bulan dan 10 build per jam (tidak berlaku bila dibangun dengan workflow Actions sendiri). Pages tidak boleh dipakai sebagai hosting gratis untuk bisnis daring atau layanan komersial, jadi untuk produk komersial pakai hosting statis lain. <span class="tag t-c">dikutip</span> <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits">docs.github.com</a></p></div>
+    <div class="card"><h3>C. Edge cache</h3>
+      <p>Satu fungsi edge memegang token, memanggil GitHub sesuai permintaan, dan menyimpan hasilnya selama 60 detik. Kesegaran paling baik, kuota tidak bergantung pada IP pengguna. Ada kode yang dijalankan dan token yang dijaga. Contoh tarif (Cloudflare Workers): paket gratis 100.000 permintaan per hari dan 10 ms CPU per pemanggilan, paket berbayar minimal US$5 per bulan, permintaan ke aset statis gratis dan tanpa batas. <span class="tag t-c">dikutip</span> <a href="https://developers.cloudflare.com/workers/platform/pricing/">developers.cloudflare.com</a>. Penyedia lain tidak diperiksa.</p></div>
+  </div>
+  <p><strong>Rekomendasi:</strong> B sebagai dasar. Tombol mengarah langsung ke URL rilis GitHub (file tidak lewat situs). Tambahkan A hanya sebagai penyegar opsional untuk satu app yang sedang dibuka, dengan <code>If-None-Match</code>. Pindah ke C hanya jika jeda jadwal terbukti terlalu lambat.</p>
+</section>
+
+<section aria-labelledby="s6">
+  <span class="eyebrow">Langkah 6</span>
+  <h2 id="s6">Dua cara "update" tanpa menyimpan data pengguna</h2>
+  <div class="cols">
+    <div class="card"><h3>1. Daftar app di browser sendiri</h3>
+      <p>Daftar "app saya" disimpan di <code>localStorage</code> perangkat pengguna. Saat halaman dibuka, ia membandingkan versi yang tercatat dengan katalog dan menandai yang lebih baru.</p>
+      <p><strong>Dikorbankan:</strong> tidak ada notifikasi, hanya terlihat saat halaman dibuka. Tidak sinkron antar perangkat. Hilang kalau data browser dihapus. Situs tidak tahu versi yang benar-benar terpasang, hanya yang diklik.</p></div>
+    <div class="card"><h3>2. Feed per app</h3>
+      <p>Setiap app punya tautan ke <code>releases.atom</code> GitHub, yang bisa dibaca pembaca RSS atau diteruskan ke email oleh layanan pihak pengguna. Tidak butuh akun di situs ini.</p>
+      <p><strong>Dikorbankan:</strong> orang awam jarang punya pembaca RSS. Feed tidak membedakan OS atau arsitektur, dan hanya memberi kabar, bukan pembaruan. Pengguna tetap mengunduh ulang.</p></div>
+  </div>
+  <p class="note">Tidak ada yang melakukan pembaruan otomatis di komputer pengguna. Itu butuh aplikasi terpasang, dan itulah jalur Komi Store, UniGetUI, dan sejenisnya.</p>
+</section>
+
+<section aria-labelledby="s7">
+  <span class="eyebrow">Langkah 7</span>
+  <h2 id="s7">Lapisan kepercayaan</h2>
+  <h3>Yang terukur dari data</h3>
+  <ul>
+    <li>91,5% asset (3.237 dari 3.538) membawa field <code>digest</code> sha256 dari GitHub, jadi verifikasi hash bisa otomatis. <span class="tag t-m">terukur</span></li>
+    <li>Attestation: dari 33 repo sampel yang punya digest, 4 (12%) punya attestation provenance. Sisanya menjawab 404. Sampelnya kecil. <span class="tag t-m">terukur</span></li>
+    <li>Hanya 40 dari 249 pilihan installer (16%) punya file checksum atau tanda tangan di rilis. <span class="tag t-m">terukur</span></li>
+  </ul>
+  <h3>Kriteria kurasi yang diusulkan</h3>
+  <ul>
+    <li>Masuk katalog hanya jika: ≥ 1.000 bintang, rilis dalam 12 bulan, asset diunggah oleh pemilik repo, bukan fork, ada digest, dan ada installer strict untuk minimal satu OS. <span class="tag t-a">asumsi</span></li>
+    <li>Label di kartu app: "digest cocok", "attestation ada", "tidak ditandatangani". Tidak ada klaim "aman". Teks resmi Komi Store juga menyatakan ia tidak memeriksa keamanan asset <span class="tag t-c">dikutip</span>, dan jembatan ini sebaiknya mengatakan hal yang sama.</li>
+    <li>Pemindaian: cari hash asset di layanan reputasi (misalnya VirusTotal) saat katalog dibangun. Kuota dan syarat layanan <span class="tag t-a">belum diperiksa</span>.</li>
+  </ul>
+  <h3>Teks panduan peringatan sistem</h3>
+  <p class="note">macOS: langkah <em>Open Anyway</em> di Privacy &amp; Security dikutip dari <a href="https://support.apple.com/en-us/102445">Apple</a>, yang juga memperingatkan bahwa software tanpa tanda tangan dan notarisasi bisa membahayakan data. <span class="tag t-c">dikutip</span> Windows: langkah <em>More info</em> lalu <em>Run anyway</em> berasal dari panduan pihak ketiga; dokumentasi Microsoft sendiri tidak saya temukan. SmartScreen memeriksa reputasi, bukan memindai malware. <span class="tag t-a">asumsi</span></p>
+  <div class="cols">
+    <div class="card"><h3>Windows SmartScreen</h3>
+      <p>"Windows menampilkan layar biru 'Windows protected your PC' karena installer ini belum banyak diunduh atau belum ditandatangani. Jika Anda mengunduh dari tombol resmi app ini, pilih <em>More info</em>, lalu <em>Run anyway</em>."</p></div>
+    <div class="card"><h3>macOS Gatekeeper</h3>
+      <p>"Jika Mac menolak membuka app, buka <em>System Settings → Privacy &amp; Security</em>, gulir ke bawah, lalu pilih <em>Open Anyway</em> untuk app tersebut. Hanya lakukan untuk app yang Anda unduh sendiri dari sumber resmi."</p></div>
+  </div>
+</section>
+
+<section aria-labelledby="s8">
+  <span class="eyebrow">Langkah 8</span>
+  <h2 id="s8">Kebijakan merek GitHub dan pesaing</h2>
+  <h3>Merek <span class="tag t-c">dikutip</span> dari <a href="https://brand.github.com/foundations/logo">brand.github.com/foundations/logo</a></h3>
+  <ul>
+    <li>Memakai merek dagang dan logo GitHub butuh izin tertulis. Dilarang menyiratkan GitHub adalah pembuat atau pendukung produk Anda.</li>
+    <li>Logo GitHub tidak boleh dijadikan logo produk, domain, atau akun sosial, dan tidak boleh diubah warna atau digabung dengan kata lain.</li>
+    <li>Halaman itu tidak punya aturan terpisah untuk nama produk yang memuat kata "GitHub". Pesaing yang memakai kata itu, kemudian berganti nama menjadi Komi Store, menunjukkan risikonya. Alasan penggantian nama itu <span class="tag t-a">tidak diperiksa</span>. Pakai nama netral dan tulis "tidak berafiliasi dengan GitHub".</li>
+  </ul>
+  <h3>Kenapa alat yang ada belum menyelesaikannya</h3>
+  <div class="tablewrap"><table>
+    <tr><th>Alat</th><th>Fakta</th><th>Kesenjangan untuk orang awam</th></tr>
+    <tr><td><a href="https://github.com/ImranR98/Obtainium">Obtainium</a></td><td>Aplikasi Android; memasang dan memperbarui dari halaman rilis GitHub dan sumber lain.</td><td>Hanya Android. Sebagian app perlu konfigurasi manual. Cara memilih file tidak dijelaskan.</td></tr>
+    <tr><td><a href="https://github.com/Devolutions/UniGetUI">UniGetUI</a></td><td>Antarmuka untuk winget, Scoop, Chocolatey, Homebrew, dan lainnya. Tidak menyimpan paket sendiri.</td><td>Harus dipasang dulu. Bergantung pada manajer paket yang ada. Peringatan antivirus bisa muncul karena pengguna sedikit.</td></tr>
+    <tr><td><a href="https://winstall.app/about">winstall.app</a></td><td>Mesin pencari di atas winget; pengguna menyalin perintah.</td><td>Hanya Windows dan butuh terminal, yang justru ingin dihindari.</td></tr>
+    <tr><td>Komi Store (dulu GitHub Store)</td><td>Toko aplikasi sumber terbuka untuk rilis GitHub, Codeberg, dan Forgejo. Android lewat APK, Windows lewat Scoop dan WinGet, macOS lewat Homebrew cask atau unduhan langsung. Cara memilih installer per OS tidak dijelaskan. Belum dinotarisasi di macOS.</td><td>Aplikasi yang harus dipasang dulu, jadi langkah pertamanya sendiri membutuhkan terminal atau peringatan sistem. Ini pesaing paling dekat. <span class="tag t-c">dikutip</span> dari <a href="https://github.com/OpenHub-Store/GitHub-Store">repo</a>, ringkasan pihak ketiga juga dibaca.</td></tr>
+  </table></div>
+  <h3>Nama kerja proyek</h3>
+  <p>Folder kerja memakai "githubfordummies". Nama itu memuat "GitHub" (butuh izin tertulis bila dipakai sebagai merek, lihat atas) dan "For Dummies". Sebuah direktori merek pihak ketiga mencatat FOR DUMMIES sebagai merek terdaftar milik John Wiley &amp; Sons; ini belum saya cek di USPTO. <span class="tag t-a">belum diverifikasi</span> Sebelum nama dipakai publik, ganti dengan nama netral dan periksa catatan USPTO.</p>
+  <p class="note">Halaman GitHub Store asli (<code>Rahul-Dev/GitHub-Store</code>) menjawab 404, jadi saya memakai halaman repo dan ringkasan pencarian di atas. Detail fitur bisa sudah berubah.</p>
+</section>
+
+<section aria-labelledby="s9">
+  <span class="eyebrow">Rencana uji</span>
+  <h2 id="s9">Lima pengguna awam</h2>
+  <div class="tablewrap"><table>
+    <tr><th>Bagian</th><th>Isi</th></tr>
+    <tr><td>Peserta</td><td>5 orang yang belum pernah memakai terminal atau mengunduh dari GitHub. Campur: 2 Windows, 2 macOS, 1 Linux atau Chromebook bila ada.</td></tr>
+    <tr><td>Tugas</td><td>"Pasang aplikasi pencatat ini di komputermu." Tanpa petunjuk. Prototipe: halaman statis dari katalog 20 app, bukan situs penuh.</td></tr>
+    <tr><td>Diukur</td><td>Berhasil memasang tanpa bantuan (ya/tidak); waktu sampai app terbuka; file yang diunduh benar untuk OS dan arsitekturnya; momen ragu atau salah klik, terutama saat SmartScreen atau Gatekeeper muncul.</td></tr>
+    <tr><td>Syarat lulus</td><td>≥ 4 dari 5 berhasil tanpa bantuan, dan 5 dari 5 mendapat file untuk OS yang benar. Angka ini <span class="tag t-a">asumsi</span>; sampel 5 orang hanya menangkap masalah besar.</td></tr>
+    <tr><td>Pembanding</td><td>Tugas yang sama dari halaman Releases GitHub untuk satu app, memakai peserta berbeda atau urutan terbalik, supaya terlihat apa yang diperbaiki jembatan.</td></tr>
+    <tr><td>Etika data</td><td>Catat dengan persetujuan (layar atau catatan tangan). Situs prototipe tidak mengumpulkan data.</td></tr>
+  </table></div>
+</section>
+
+<footer>
+  <strong>Yang belum selesai</strong>
+  <span>Evaluasi classifier dikerjakan agent tanpa pemeriksaan manusia; angka tipe adalah kesepakatan dua model. Pesaing dan kebijakan merek dibaca dari halaman publik dan satu pencarian, tanpa verifikasi dengan pihak terkait. Biaya hanya diperiksa untuk GitHub Pages dan satu penyedia edge. Data mentah dan skrip ada di <code>E:\githubfordummies\data</code> dan <code>scripts</code>.</span>
+</footer>
+</main>

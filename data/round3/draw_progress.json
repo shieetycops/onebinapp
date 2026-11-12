@@ -1,0 +1,32 @@
+{
+ "stopped_by": "rule",
+ "progress": [
+  {
+   "fetched": 100,
+   "curated": 81,
+   "qualifying": {
+    "windows": 40,
+    "macos": 41,
+    "linux": 22
+   }
+  },
+  {
+   "fetched": 200,
+   "curated": 161,
+   "qualifying": {
+    "windows": 77,
+    "macos": 77,
+    "linux": 42
+   }
+  },
+  {
+   "fetched": 300,
+   "curated": 246,
+   "qualifying": {
+    "windows": 112,
+    "macos": 117,
+    "linux": 63
+   }
+  }
+ ]
+}

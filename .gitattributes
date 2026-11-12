@@ -1,0 +1,8 @@
+# The builders refuse to run when the sha256 of the locked files changes, so git must never rewrite their line endings.
+* -text
+*.py -text
+scripts/picker_v3.py -text
+scripts/classifier_v3.py -text
+scripts/test_v3.py -text
+data/round3/* -text
+.claude/agents/*.md -text

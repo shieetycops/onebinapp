@@ -1,0 +1,3056 @@
+[
+{
+"id": 0,
+"repo": "lachydotmcg/capri-desktop",
+"asset_name": "Capri-linux-x64.AppImage",
+"chunk": 1
+},
+{
+"id": 1,
+"repo": "lachydotmcg/capri-desktop",
+"asset_name": "Capri-Setup.exe",
+"chunk": 1
+},
+{
+"id": 2,
+"repo": "lachydotmcg/capri-desktop",
+"asset_name": "Capri.exe",
+"chunk": 1
+},
+{
+"id": 3,
+"repo": "Cerzi/videoswarm",
+"asset_name": "VideoSwarm-0.6.0-rc.5-win-x64-Portable.exe",
+"chunk": 1
+},
+{
+"id": 4,
+"repo": "Cerzi/videoswarm",
+"asset_name": "VideoSwarm-0.6.0-rc.5-win-x64.exe",
+"chunk": 1
+},
+{
+"id": 5,
+"repo": "pauljoda/Crest",
+"asset_name": "Installer-Crest-0.9.1-arm64.dmg",
+"chunk": 1
+},
+{
+"id": 6,
+"repo": "NOVA-TECH-KIT/nova-island",
+"asset_name": "Nova-Island-Setup-1.8.6.exe",
+"chunk": 1
+},
+{
+"id": 7,
+"repo": "btsouth/toolport",
+"asset_name": "Toolport_2.3.4_amd64.AppImage",
+"chunk": 1
+},
+{
+"id": 8,
+"repo": "btsouth/toolport",
+"asset_name": "Toolport_2.3.4_x64-setup.exe",
+"chunk": 1
+},
+{
+"id": 9,
+"repo": "btsouth/toolport",
+"asset_name": "Toolport_aarch64-apple-darwin.dmg",
+"chunk": 1
+},
+{
+"id": 10,
+"repo": "btsouth/toolport",
+"asset_name": "Toolport_x86_64-apple-darwin.dmg",
+"chunk": 1
+},
+{
+"id": 11,
+"repo": "Tunnelblick/Tunnelblick",
+"asset_name": "Tunnelblick_10.0.3_build_6610.dmg",
+"chunk": 1
+},
+{
+"id": 12,
+"repo": "multizenteam/multizen-browser",
+"asset_name": "MultiZen-linux-x86_64.AppImage",
+"chunk": 1
+},
+{
+"id": 13,
+"repo": "multizenteam/multizen-browser",
+"asset_name": "MultiZen-mac-arm64.dmg",
+"chunk": 1
+},
+{
+"id": 14,
+"repo": "multizenteam/multizen-browser",
+"asset_name": "MultiZen-mac-x64.dmg",
+"chunk": 1
+},
+{
+"id": 15,
+"repo": "multizenteam/multizen-browser",
+"asset_name": "MultiZen-win-x64.exe",
+"chunk": 1
+},
+{
+"id": 16,
+"repo": "Rem0o/FanControl.Releases",
+"asset_name": "FanControl_285_net_10_0_Installer.exe",
+"chunk": 1
+},
+{
+"id": 17,
+"repo": "Rem0o/FanControl.Releases",
+"asset_name": "FanControl_285_net_4_8_Installer.exe",
+"chunk": 1
+},
+{
+"id": 18,
+"repo": "modstart-lib/focusany",
+"asset_name": "FocusAny-snapshot-linux-arm64.AppImage",
+"chunk": 1
+},
+{
+"id": 19,
+"repo": "modstart-lib/focusany",
+"asset_name": "FocusAny-snapshot-linux-x86_64.AppImage",
+"chunk": 1
+},
+{
+"id": 20,
+"repo": "modstart-lib/focusany",
+"asset_name": "FocusAny-snapshot-mac-arm64.dmg",
+"chunk": 1
+},
+{
+"id": 21,
+"repo": "modstart-lib/focusany",
+"asset_name": "FocusAny-snapshot-mac-x64.dmg",
+"chunk": 1
+},
+{
+"id": 22,
+"repo": "modstart-lib/focusany",
+"asset_name": "FocusAny-snapshot-win-setup-arm64.exe",
+"chunk": 1
+},
+{
+"id": 23,
+"repo": "modstart-lib/focusany",
+"asset_name": "FocusAny-snapshot-win-setup-x64.exe",
+"chunk": 1
+},
+{
+"id": 24,
+"repo": "WangQrkkk/PaperQuay",
+"asset_name": "PaperQuay-0.1.25-linux-x86_64.AppImage",
+"chunk": 1
+},
+{
+"id": 25,
+"repo": "WangQrkkk/PaperQuay",
+"asset_name": "PaperQuay-0.1.25-mac-arm64.dmg",
+"chunk": 1
+},
+{
+"id": 26,
+"repo": "WangQrkkk/PaperQuay",
+"asset_name": "PaperQuay-0.1.25-mac-x64.dmg",
+"chunk": 1
+},
+{
+"id": 27,
+"repo": "WangQrkkk/PaperQuay",
+"asset_name": "PaperQuay-0.1.25-win-x64.exe",
+"chunk": 1
+},
+{
+"id": 28,
+"repo": "WangQrkkk/PaperQuay",
+"asset_name": "PaperQuay-0.1.25-win-x64.msi",
+"chunk": 1
+},
+{
+"id": 29,
+"repo": "KejPi/AbracaDABra",
+"asset_name": "AbracaDABra-v4.3.0-aarch64.AppImage",
+"chunk": 1
+},
+{
+"id": 30,
+"repo": "KejPi/AbracaDABra",
+"asset_name": "AbracaDABra-v4.3.0-AppleSilicon.dmg",
+"chunk": 1
+},
+{
+"id": 31,
+"repo": "KejPi/AbracaDABra",
+"asset_name": "AbracaDABra-v4.3.0-Intel.dmg",
+"chunk": 1
+},
+{
+"id": 32,
+"repo": "KejPi/AbracaDABra",
+"asset_name": "AbracaDABra-v4.3.0-x86_64.AppImage",
+"chunk": 1
+},
+{
+"id": 33,
+"repo": "baizeteam/baize-toolbox",
+"asset_name": "baize-toolbox-1.0.0-beta1-setup.exe",
+"chunk": 1
+},
+{
+"id": 34,
+"repo": "Punshnut/macos-launchy",
+"asset_name": "Launchy.dmg",
+"chunk": 1
+},
+{
+"id": 35,
+"repo": "sekey/sekey",
+"asset_name": "SeKey-0.1.pkg",
+"chunk": 1
+},
+{
+"id": 36,
+"repo": "xiajingren/xhznl-todo-list",
+"asset_name": "xhznl-todo-list-Setup-0.2.3.exe",
+"chunk": 1
+},
+{
+"id": 37,
+"repo": "SunshineStream/Sunshine",
+"asset_name": "Sunshine-FreeBSD-15.1-amd64.pkg",
+"chunk": 1
+},
+{
+"id": 38,
+"repo": "SunshineStream/Sunshine",
+"asset_name": "Sunshine-macOS-arm64.dmg",
+"chunk": 1
+},
+{
+"id": 39,
+"repo": "SunshineStream/Sunshine",
+"asset_name": "Sunshine-macOS-x86_64.dmg",
+"chunk": 1
+},
+{
+"id": 40,
+"repo": "SunshineStream/Sunshine",
+"asset_name": "Sunshine-Windows-AMD64-installer.msi",
+"chunk": 1
+},
+{
+"id": 41,
+"repo": "SunshineStream/Sunshine",
+"asset_name": "Sunshine-Windows-ARM64-installer.msi",
+"chunk": 1
+},
+{
+"id": 42,
+"repo": "SunshineStream/Sunshine",
+"asset_name": "Sunshine_2026.914.233613_aarch64.AppImage",
+"chunk": 1
+},
+{
+"id": 43,
+"repo": "SunshineStream/Sunshine",
+"asset_name": "Sunshine_2026.914.233613_x86_64.AppImage",
+"chunk": 1
+},
+{
+"id": 44,
+"repo": "RhysSullivan/executor",
+"asset_name": "executor-desktop-mac-arm64.dmg",
+"chunk": 1
+},
+{
+"id": 45,
+"repo": "RhysSullivan/executor",
+"asset_name": "executor-desktop-mac-x64.dmg",
+"chunk": 1
+},
+{
+"id": 46,
+"repo": "RhysSullivan/executor",
+"asset_name": "executor-desktop-win-x64.exe",
+"chunk": 1
+},
+{
+"id": 47,
+"repo": "itsVicOC/bilibili-downloader",
+"asset_name": "BilibiliDownloader-macOS-full-v0.8.10.dmg",
+"chunk": 1
+},
+{
+"id": 48,
+"repo": "itsVicOC/bilibili-downloader",
+"asset_name": "BilibiliDownloader-Windows-full-v0.8.10-setup.exe",
+"chunk": 1
+},
+{
+"id": 49,
+"repo": "andrew-waters/orchard",
+"asset_name": "Orchard-2.7.1.dmg",
+"chunk": 1
+},
+{
+"id": 50,
+"repo": "andrew-waters/orchard",
+"asset_name": "Orchard.dmg",
+"chunk": 1
+},
+{
+"id": 51,
+"repo": "leminlimez/Nugget",
+"asset_name": "Nugget_macOS_arm.dmg",
+"chunk": 1
+},
+{
+"id": 52,
+"repo": "leminlimez/Nugget",
+"asset_name": "Nugget_macOS_intel.dmg",
+"chunk": 1
+},
+{
+"id": 53,
+"repo": "n457/Uncolored",
+"asset_name": "Uncolored-v.0.10.2-linux-x64.AppImage",
+"chunk": 1
+},
+{
+"id": 54,
+"repo": "n457/Uncolored",
+"asset_name": "Uncolored-v.0.10.2-osx-x64.dmg",
+"chunk": 1
+},
+{
+"id": 55,
+"repo": "n457/Uncolored",
+"asset_name": "Uncolored-v.0.10.2-win-x64-setup.exe",
+"chunk": 1
+},
+{
+"id": 56,
+"repo": "thisnick/agent-wechat",
+"asset_name": "AgentWechat-v2.3.2-macos-arm64.dmg",
+"chunk": 1
+},
+{
+"id": 57,
+"repo": "thisnick/agent-wechat",
+"asset_name": "AgentWechat-v2.3.2-windows-arm64-setup.exe",
+"chunk": 1
+},
+{
+"id": 58,
+"repo": "thisnick/agent-wechat",
+"asset_name": "AgentWechat-v2.3.2-windows-x64-setup.exe",
+"chunk": 1
+},
+{
+"id": 59,
+"repo": "thisnick/agent-wechat",
+"asset_name": "wx-v2.3.2-win32-arm64.exe",
+"chunk": 1
+},
+{
+"id": 60,
+"repo": "thisnick/agent-wechat",
+"asset_name": "wx-v2.3.2-win32-x64.exe",
+"chunk": 1
+},
+{
+"id": 61,
+"repo": "aredden/electron-G14Control",
+"asset_name": "G14ControlV2-Setup-0.2.2.exe",
+"chunk": 1
+},
+{
+"id": 62,
+"repo": "luyuhuang/DWords2",
+"asset_name": "DWords-0.2.3.dmg",
+"chunk": 1
+},
+{
+"id": 63,
+"repo": "luyuhuang/DWords2",
+"asset_name": "DWords.Setup.0.2.3.exe",
+"chunk": 1
+},
+{
+"id": 64,
+"repo": "Augani/dory",
+"asset_name": "Dory-0.4.5-arm64.dmg",
+"chunk": 1
+},
+{
+"id": 65,
+"repo": "Augani/dory",
+"asset_name": "Dory-0.4.5.dmg",
+"chunk": 1
+},
+{
+"id": 66,
+"repo": "storytold/figcraft",
+"asset_name": "figcraft-0.17.0-linux-aarch64.AppImage",
+"chunk": 1
+},
+{
+"id": 67,
+"repo": "storytold/figcraft",
+"asset_name": "figcraft-0.17.0-linux-x86_64.AppImage",
+"chunk": 1
+},
+{
+"id": 68,
+"repo": "storytold/figcraft",
+"asset_name": "figcraft-0.17.0-macos-universal.dmg",
+"chunk": 1
+},
+{
+"id": 69,
+"repo": "storytold/figcraft",
+"asset_name": "figcraft-0.17.0-windows-arm64.msi",
+"chunk": 1
+},
+{
+"id": 70,
+"repo": "storytold/figcraft",
+"asset_name": "figcraft-0.17.0-windows-x64.msi",
+"chunk": 1
+},
+{
+"id": 71,
+"repo": "alipay/SoloPi",
+"asset_name": "solopi-desktop-0.1.140-arm64.dmg",
+"chunk": 1
+},
+{
+"id": 72,
+"repo": "xmannv/xkey",
+"asset_name": "XKey.dmg",
+"chunk": 1
+},
+{
+"id": 73,
+"repo": "nicepkg/deskmakeover",
+"asset_name": "DeskMakeover_0.1.1_x64-setup.exe",
+"chunk": 1
+},
+{
+"id": 74,
+"repo": "sprout2000/elephicon",
+"asset_name": "Elephicon-4.3.1-darwin-arm64.dmg",
+"chunk": 1
+},
+{
+"id": 75,
+"repo": "sprout2000/elephicon",
+"asset_name": "Elephicon-4.3.1-win32-x64-installer.exe",
+"chunk": 1
+},
+{
+"id": 76,
+"repo": "acheronfail/xi-electron",
+"asset_name": "Xi.Electron-0.1.3.dmg",
+"chunk": 1
+},
+{
+"id": 77,
+"repo": "mpvnet-player/mpv.net",
+"asset_name": "mpv.net-v7.1.2.0-setup-x64.exe",
+"chunk": 1
+},
+{
+"id": 78,
+"repo": "jorio/Bugdom",
+"asset_name": "Bugdom-1.3.4-linux-aarch64.AppImage",
+"chunk": 1
+},
+{
+"id": 79,
+"repo": "jorio/Bugdom",
+"asset_name": "Bugdom-1.3.4-linux-x86_64.AppImage",
+"chunk": 1
+},
+{
+"id": 80,
+"repo": "jorio/Bugdom",
+"asset_name": "Bugdom-1.3.4-mac.dmg",
+"chunk": 1
+},
+{
+"id": 81,
+"repo": "AutoHotkey/AutoHotkey",
+"asset_name": "AutoHotkey_2.0.31_setup.exe",
+"chunk": 1
+},
+{
+"id": 82,
+"repo": "aehyok/video2blog",
+"asset_name": "Video2Blog-Windows-0.0.36-Setup.exe",
+"chunk": 1
+},
+{
+"id": 83,
+"repo": "rekkyrosso/ampcast",
+"asset_name": "ampcast-0.10.0-linux-arm64.AppImage",
+"chunk": 1
+},
+{
+"id": 84,
+"repo": "rekkyrosso/ampcast",
+"asset_name": "ampcast-0.10.0-linux-x86_64.AppImage",
+"chunk": 1
+},
+{
+"id": 85,
+"repo": "rekkyrosso/ampcast",
+"asset_name": "ampcast-0.10.0-mac-arm64.dmg",
+"chunk": 1
+},
+{
+"id": 86,
+"repo": "rekkyrosso/ampcast",
+"asset_name": "ampcast-0.10.0-mac-x64.dmg",
+"chunk": 1
+},
+{
+"id": 87,
+"repo": "rekkyrosso/ampcast",
+"asset_name": "ampcast-0.10.0-win-x64.setup.exe",
+"chunk": 1
+},
+{
+"id": 88,
+"repo": "sn4k3/UVtools",
+"asset_name": "UVtools_linux-arm64_v7.1.2.AppImage",
+"chunk": 1
+},
+{
+"id": 89,
+"repo": "sn4k3/UVtools",
+"asset_name": "UVtools_linux-x64_v7.1.2.AppImage",
+"chunk": 1
+},
+{
+"id": 90,
+"repo": "sn4k3/UVtools",
+"asset_name": "UVtools_win-arm64_v7.1.2.msi",
+"chunk": 1
+},
+{
+"id": 91,
+"repo": "sn4k3/UVtools",
+"asset_name": "UVtools_win-x64_v7.1.2.msi",
+"chunk": 1
+},
+{
+"id": 92,
+"repo": "setvisible/ArrowDL",
+"asset_name": "ArrowDL_x64_Setup.exe",
+"chunk": 1
+},
+{
+"id": 93,
+"repo": "osxfuse/osxfuse",
+"asset_name": "macfuse-5.5.0.dmg",
+"chunk": 1
+},
+{
+"id": 94,
+"repo": "steveseguin/social_stream",
+"asset_name": "socialstreamninja-portable.exe",
+"chunk": 1
+},
+{
+"id": 95,
+"repo": "steveseguin/social_stream",
+"asset_name": "socialstreamninja-setup-0.4.40.exe",
+"chunk": 1
+},
+{
+"id": 96,
+"repo": "steveseguin/social_stream",
+"asset_name": "socialstreamninja_linux_v0.4.40_x86_64.AppImage",
+"chunk": 1
+},
+{
+"id": 97,
+"repo": "steveseguin/social_stream",
+"asset_name": "socialstreamninja_mac_v0.4.40_arm64.dmg",
+"chunk": 1
+},
+{
+"id": 98,
+"repo": "steveseguin/social_stream",
+"asset_name": "socialstreamninja_mac_v0.4.40_x64.dmg",
+"chunk": 1
+},
+{
+"id": 99,
+"repo": "nab138/iloader",
+"asset_name": "iloader-darwin-universal.dmg",
+"chunk": 1
+},
+{
+"id": 100,
+"repo": "nab138/iloader",
+"asset_name": "iloader-linux-aarch64.AppImage",
+"chunk": 1
+},
+{
+"id": 101,
+"repo": "nab138/iloader",
+"asset_name": "iloader-linux-amd64.AppImage",
+"chunk": 1
+},
+{
+"id": 102,
+"repo": "nab138/iloader",
+"asset_name": "iloader-windows-x64.exe",
+"chunk": 1
+},
+{
+"id": 103,
+"repo": "nab138/iloader",
+"asset_name": "iloader-windows-x64.msi",
+"chunk": 1
+},
+{
+"id": 104,
+"repo": "koharu-rs/koharu",
+"asset_name": "koharu_0.83.5_aarch64.AppImage",
+"chunk": 1
+},
+{
+"id": 105,
+"repo": "koharu-rs/koharu",
+"asset_name": "koharu_0.83.5_aarch64.dmg",
+"chunk": 1
+},
+{
+"id": 106,
+"repo": "koharu-rs/koharu",
+"asset_name": "koharu_0.83.5_amd64.AppImage",
+"chunk": 1
+},
+{
+"id": 107,
+"repo": "koharu-rs/koharu",
+"asset_name": "koharu_0.83.5_x64-setup.exe",
+"chunk": 1
+},
+{
+"id": 108,
+"repo": "koharu-rs/koharu",
+"asset_name": "koharu_0.83.5_x64_en-US.msi",
+"chunk": 1
+},
+{
+"id": 109,
+"repo": "ciromattia/kcc",
+"asset_name": "KCC_13.0.1.exe",
+"chunk": 1
+},
+{
+"id": 110,
+"repo": "ciromattia/kcc",
+"asset_name": "KCC_ARM64_13.0.1.exe",
+"chunk": 1
+},
+{
+"id": 111,
+"repo": "ciromattia/kcc",
+"asset_name": "kcc_linux-13.0.1-aarch64.AppImage",
+"chunk": 1
+},
+{
+"id": 112,
+"repo": "ciromattia/kcc",
+"asset_name": "kcc_linux-13.0.1-x86_64.AppImage",
+"chunk": 1
+},
+{
+"id": 113,
+"repo": "ciromattia/kcc",
+"asset_name": "kcc_macos_arm_13.0.1.dmg",
+"chunk": 1
+},
+{
+"id": 114,
+"repo": "ciromattia/kcc",
+"asset_name": "kcc_macos_i386_13.0.1.dmg",
+"chunk": 1
+},
+{
+"id": 115,
+"repo": "ciromattia/kcc",
+"asset_name": "kcc_win7_legacy_13.0.1.exe",
+"chunk": 1
+},
+{
+"id": 116,
+"repo": "ciromattia/kcc",
+"asset_name": "tool_cli_c2e_13.0.1_AMD64.exe",
+"chunk": 1
+},
+{
+"id": 117,
+"repo": "ciromattia/kcc",
+"asset_name": "tool_cli_c2e_13.0.1_ARM64.exe",
+"chunk": 1
+},
+{
+"id": 118,
+"repo": "ciromattia/kcc",
+"asset_name": "tool_cli_c2p_13.0.1_AMD64.exe",
+"chunk": 1
+},
+{
+"id": 119,
+"repo": "ciromattia/kcc",
+"asset_name": "tool_cli_c2p_13.0.1_ARM64.exe",
+"chunk": 1
+},
+{
+"id": 120,
+"repo": "BloopAI/vibe-kanban",
+"asset_name": "Vibe-Kanban-0.1.43-aarch64.msi",
+"chunk": 1
+},
+{
+"id": 121,
+"repo": "BloopAI/vibe-kanban",
+"asset_name": "Vibe-Kanban-0.1.43-x86_64.msi",
+"chunk": 1
+},
+{
+"id": 122,
+"repo": "BloopAI/vibe-kanban",
+"asset_name": "Vibe-Kanban-0.1.44-aarch64.msi",
+"chunk": 1
+},
+{
+"id": 123,
+"repo": "BloopAI/vibe-kanban",
+"asset_name": "Vibe-Kanban-0.1.44-x86_64.msi",
+"chunk": 1
+},
+{
+"id": 124,
+"repo": "BloopAI/vibe-kanban",
+"asset_name": "Vibe.Kanban_0.1.43_arm64-setup.exe",
+"chunk": 1
+},
+{
+"id": 125,
+"repo": "BloopAI/vibe-kanban",
+"asset_name": "Vibe.Kanban_0.1.43_x64-setup.exe",
+"chunk": 1
+},
+{
+"id": 126,
+"repo": "BloopAI/vibe-kanban",
+"asset_name": "Vibe.Kanban_0.1.44_aarch64.AppImage",
+"chunk": 1
+},
+{
+"id": 127,
+"repo": "BloopAI/vibe-kanban",
+"asset_name": "Vibe.Kanban_0.1.44_aarch64.dmg",
+"chunk": 1
+},
+{
+"id": 128,
+"repo": "BloopAI/vibe-kanban",
+"asset_name": "Vibe.Kanban_0.1.44_amd64.AppImage",
+"chunk": 1
+},
+{
+"id": 129,
+"repo": "BloopAI/vibe-kanban",
+"asset_name": "Vibe.Kanban_0.1.44_arm64-setup.exe",
+"chunk": 1
+},
+{
+"id": 130,
+"repo": "BloopAI/vibe-kanban",
+"asset_name": "Vibe.Kanban_0.1.44_x64-setup.exe",
+"chunk": 1
+},
+{
+"id": 131,
+"repo": "BloopAI/vibe-kanban",
+"asset_name": "Vibe.Kanban_0.1.44_x64.dmg",
+"chunk": 1
+},
+{
+"id": 132,
+"repo": "sybil-solutions/local-studio",
+"asset_name": "Local-Studio-3.0.3-arm64.AppImage",
+"chunk": 1
+},
+{
+"id": 133,
+"repo": "sybil-solutions/local-studio",
+"asset_name": "Local-Studio-3.0.3-arm64.dmg",
+"chunk": 1
+},
+{
+"id": 134,
+"repo": "sybil-solutions/local-studio",
+"asset_name": "Local-Studio-3.0.3-x64.dmg",
+"chunk": 1
+},
+{
+"id": 135,
+"repo": "sybil-solutions/local-studio",
+"asset_name": "Local-Studio-3.0.3-x64.exe",
+"chunk": 1
+},
+{
+"id": 136,
+"repo": "sybil-solutions/local-studio",
+"asset_name": "Local-Studio-3.0.3-x86_64.AppImage",
+"chunk": 1
+},
+{
+"id": 137,
+"repo": "sybil-solutions/local-studio",
+"asset_name": "local-studio-controller-windows-x64.exe",
+"chunk": 1
+},
+{
+"id": 138,
+"repo": "sybil-solutions/local-studio",
+"asset_name": "Local-Studio-linux-arm64.AppImage",
+"chunk": 1
+},
+{
+"id": 139,
+"repo": "sybil-solutions/local-studio",
+"asset_name": "Local-Studio-linux-x64.AppImage",
+"chunk": 1
+},
+{
+"id": 140,
+"repo": "sybil-solutions/local-studio",
+"asset_name": "Local-Studio-mac-arm64.dmg",
+"chunk": 1
+},
+{
+"id": 141,
+"repo": "sybil-solutions/local-studio",
+"asset_name": "Local-Studio-mac-x64.dmg",
+"chunk": 1
+},
+{
+"id": 142,
+"repo": "sybil-solutions/local-studio",
+"asset_name": "Local-Studio-win-x64.exe",
+"chunk": 1
+},
+{
+"id": 143,
+"repo": "44886/Exeify",
+"asset_name": "exeify-v0.7.6-windows-x64.exe",
+"chunk": 1
+},
+{
+"id": 144,
+"repo": "Vita3K/Vita3K",
+"asset_name": "macos-arm64-latest.dmg",
+"chunk": 1
+},
+{
+"id": 145,
+"repo": "Vita3K/Vita3K",
+"asset_name": "macos-latest.dmg",
+"chunk": 1
+},
+{
+"id": 146,
+"repo": "Vita3K/Vita3K",
+"asset_name": "Vita3K-aarch64.AppImage",
+"chunk": 1
+},
+{
+"id": 147,
+"repo": "Vita3K/Vita3K",
+"asset_name": "Vita3K-x86_64.AppImage",
+"chunk": 1
+},
+{
+"id": 148,
+"repo": "TsaiKoga/it-tools",
+"asset_name": "IT-Tools-v1.5.1.dmg",
+"chunk": 1
+},
+{
+"id": 149,
+"repo": "zellij-org/zellij",
+"asset_name": "zellij-no-web-x86_64-pc-windows-msvc-installer.msi",
+"chunk": 1
+},
+{
+"id": 150,
+"repo": "zellij-org/zellij",
+"asset_name": "zellij-x86_64-pc-windows-msvc-installer.msi",
+"chunk": 1
+},
+{
+"id": 151,
+"repo": "epicenter-os/epicenter",
+"asset_name": "Whispering_7.11.0_aarch64.dmg",
+"chunk": 1
+},
+{
+"id": 152,
+"repo": "epicenter-os/epicenter",
+"asset_name": "Whispering_7.11.0_amd64.AppImage",
+"chunk": 1
+},
+{
+"id": 153,
+"repo": "epicenter-os/epicenter",
+"asset_name": "Whispering_7.11.0_x64-setup.exe",
+"chunk": 1
+},
+{
+"id": 154,
+"repo": "epicenter-os/epicenter",
+"asset_name": "Whispering_7.11.0_x64_en-US.msi",
+"chunk": 1
+},
+{
+"id": 155,
+"repo": "OyadotAI/oya-browser",
+"asset_name": "Oya.Browser-1.0.233-universal.dmg",
+"chunk": 1
+},
+{
+"id": 156,
+"repo": "OyadotAI/oya-browser",
+"asset_name": "Oya.Browser-1.0.233-x64.exe",
+"chunk": 1
+},
+{
+"id": 157,
+"repo": "openclaw/Peekaboo",
+"asset_name": "Peekaboo-4.9.8.dmg",
+"chunk": 1
+},
+{
+"id": 158,
+"repo": "bardsoftware/ganttproject",
+"asset_name": "ganttproject-3.3.3323-intel.dmg",
+"chunk": 1
+},
+{
+"id": 159,
+"repo": "bardsoftware/ganttproject",
+"asset_name": "ganttproject-3.3.3323-silicon.dmg",
+"chunk": 1
+},
+{
+"id": 160,
+"repo": "bardsoftware/ganttproject",
+"asset_name": "ganttproject-3.3.3323.AppImage",
+"chunk": 1
+},
+{
+"id": 161,
+"repo": "bardsoftware/ganttproject",
+"asset_name": "ganttproject-3.3.3323.exe",
+"chunk": 1
+},
+{
+"id": 162,
+"repo": "bardsoftware/ganttproject",
+"asset_name": "ganttproject-3.3.3323.msi",
+"chunk": 1
+},
+{
+"id": 163,
+"repo": "MediaHarbor/mediaharbor",
+"asset_name": "MediaHarbor_3.0.0_aarch64.dmg",
+"chunk": 1
+},
+{
+"id": 164,
+"repo": "MediaHarbor/mediaharbor",
+"asset_name": "MediaHarbor_3.0.0_amd64.AppImage",
+"chunk": 1
+},
+{
+"id": 165,
+"repo": "MediaHarbor/mediaharbor",
+"asset_name": "MediaHarbor_3.0.0_x64-setup.exe",
+"chunk": 1
+},
+{
+"id": 166,
+"repo": "MediaHarbor/mediaharbor",
+"asset_name": "MediaHarbor_3.0.0_x64.dmg",
+"chunk": 1
+},
+{
+"id": 167,
+"repo": "MediaHarbor/mediaharbor",
+"asset_name": "MediaHarbor_3.0.0_x64_en-US.msi",
+"chunk": 1
+},
+{
+"id": 168,
+"repo": "zoolapp/aime",
+"asset_name": "AIME-0.1.12.pkg",
+"chunk": 1
+},
+{
+"id": 169,
+"repo": "Hxy1992/MapDownload",
+"asset_name": "map-download-Setup-26.8.21-479.exe",
+"chunk": 1
+},
+{
+"id": 170,
+"repo": "DDDuoDuo/EndfieldHUD",
+"asset_name": "EndfieldHUD-1.3.1-build20-Installer.pkg",
+"chunk": 1
+},
+{
+"id": 171,
+"repo": "DDDuoDuo/EndfieldHUD",
+"asset_name": "EndfieldHUD-1.3.1-build20-macOS.dmg",
+"chunk": 1
+},
+{
+"id": 172,
+"repo": "DDDuoDuo/EndfieldHUD",
+"asset_name": "EndfieldHUD-1.3.1-build21-windows-x64-setup.exe",
+"chunk": 1
+},
+{
+"id": 173,
+"repo": "dunkbing/typeview",
+"asset_name": "TypeView_0.0.0_aarch64.dmg",
+"chunk": 1
+},
+{
+"id": 174,
+"repo": "dunkbing/typeview",
+"asset_name": "TypeView_0.0.0_x64-setup.exe",
+"chunk": 1
+},
+{
+"id": 175,
+"repo": "dunkbing/typeview",
+"asset_name": "TypeView_0.0.0_x64.dmg",
+"chunk": 1
+},
+{
+"id": 176,
+"repo": "dunkbing/typeview",
+"asset_name": "TypeView_0.0.0_x64_en-US.msi",
+"chunk": 1
+},
+{
+"id": 177,
+"repo": "pdone/FreeControl",
+"asset_name": "FreeControl_2.5.1_linux_amd64.AppImage",
+"chunk": 1
+},
+{
+"id": 178,
+"repo": "pdone/FreeControl",
+"asset_name": "FreeControl_2.5.1_macos_arm64.dmg",
+"chunk": 1
+},
+{
+"id": 179,
+"repo": "pdone/FreeControl",
+"asset_name": "FreeControl_2.5.1_macos_x64.dmg",
+"chunk": 1
+},
+{
+"id": 180,
+"repo": "pdone/FreeControl",
+"asset_name": "FreeControl_2.5.1_windows_arm64.exe",
+"chunk": 1
+},
+{
+"id": 181,
+"repo": "pdone/FreeControl",
+"asset_name": "FreeControl_2.5.1_windows_x64.exe",
+"chunk": 1
+},
+{
+"id": 182,
+"repo": "1000ch/whale",
+"asset_name": "Whale-3.0.0-arm64.dmg",
+"chunk": 1
+},
+{
+"id": 183,
+"repo": "1000ch/whale",
+"asset_name": "Whale.Setup.3.0.0.exe",
+"chunk": 1
+},
+{
+"id": 184,
+"repo": "SkyD666/PodAura",
+"asset_name": "PodAura_1.0.0_macOS_JVM_arm64_release_GitHub.dmg",
+"chunk": 1
+},
+{
+"id": 185,
+"repo": "mozilla/mozregression",
+"asset_name": "mozregression-gui-signed.exe",
+"chunk": 1
+},
+{
+"id": 186,
+"repo": "mozilla/mozregression",
+"asset_name": "mozregression-gui.dmg",
+"chunk": 1
+},
+{
+"id": 187,
+"repo": "pmbstyle/Alice",
+"asset_name": "Alice-AI-App-Linux-1.5.0.AppImage",
+"chunk": 1
+},
+{
+"id": 188,
+"repo": "pmbstyle/Alice",
+"asset_name": "Alice-AI-App-Mac-1.5.0-Installer.dmg",
+"chunk": 1
+},
+{
+"id": 189,
+"repo": "pmbstyle/Alice",
+"asset_name": "Alice-AI-App-Windows-1.5.0-Setup.exe",
+"chunk": 1
+},
+{
+"id": 190,
+"repo": "UniversalMediaServer/UniversalMediaServer",
+"asset_name": "UMS-Linux-15.9.0-x86_64.AppImage",
+"chunk": 1
+},
+{
+"id": 191,
+"repo": "UniversalMediaServer/UniversalMediaServer",
+"asset_name": "UMS-macOS-15.9.0-arm.dmg",
+"chunk": 1
+},
+{
+"id": 192,
+"repo": "UniversalMediaServer/UniversalMediaServer",
+"asset_name": "UMS-macOS-15.9.0-pre10.15.dmg",
+"chunk": 1
+},
+{
+"id": 193,
+"repo": "UniversalMediaServer/UniversalMediaServer",
+"asset_name": "UMS-macOS-15.9.0-x86_64.dmg",
+"chunk": 1
+},
+{
+"id": 194,
+"repo": "UniversalMediaServer/UniversalMediaServer",
+"asset_name": "UMS-Windows-15.9.0-x86.exe",
+"chunk": 1
+},
+{
+"id": 195,
+"repo": "UniversalMediaServer/UniversalMediaServer",
+"asset_name": "UMS-Windows-15.9.0-x86_64.exe",
+"chunk": 1
+},
+{
+"id": 196,
+"repo": "blaise-io/acelink",
+"asset_name": "Ace.Link.2.1.0.dmg",
+"chunk": 1
+},
+{
+"id": 197,
+"repo": "yuxino/Mimi",
+"asset_name": "mimi_1.6.17_aarch64.dmg",
+"chunk": 1
+},
+{
+"id": 198,
+"repo": "yuxino/Mimi",
+"asset_name": "mimi_1.6.17_amd64.AppImage",
+"chunk": 1
+},
+{
+"id": 199,
+"repo": "yuxino/Mimi",
+"asset_name": "mimi_1.6.17_x64-setup.exe",
+"chunk": 1
+},
+{
+"id": 200,
+"repo": "yuxino/Mimi",
+"asset_name": "mimi_1.6.17_x64.dmg",
+"chunk": 1
+},
+{
+"id": 201,
+"repo": "yuxino/Mimi",
+"asset_name": "mimi_1.6.17_x64_en-US.msi",
+"chunk": 1
+},
+{
+"id": 202,
+"repo": "cocojojo5213/Dev-Janitor",
+"asset_name": "Dev.Janitor_2.5.1_aarch64.dmg",
+"chunk": 1
+},
+{
+"id": 203,
+"repo": "cocojojo5213/Dev-Janitor",
+"asset_name": "Dev.Janitor_2.5.1_amd64.AppImage",
+"chunk": 1
+},
+{
+"id": 204,
+"repo": "cocojojo5213/Dev-Janitor",
+"asset_name": "Dev.Janitor_2.5.1_x64-setup.exe",
+"chunk": 1
+},
+{
+"id": 205,
+"repo": "cocojojo5213/Dev-Janitor",
+"asset_name": "Dev.Janitor_2.5.1_x64.dmg",
+"chunk": 1
+},
+{
+"id": 206,
+"repo": "cocojojo5213/Dev-Janitor",
+"asset_name": "Dev.Janitor_2.5.1_x64_en-US.msi",
+"chunk": 1
+},
+{
+"id": 207,
+"repo": "cocojojo5213/Dev-Janitor",
+"asset_name": "Dev.Janitor_2.5.1_x64_ja-JP.msi",
+"chunk": 1
+},
+{
+"id": 208,
+"repo": "cocojojo5213/Dev-Janitor",
+"asset_name": "Dev.Janitor_2.5.1_x64_zh-CN.msi",
+"chunk": 1
+},
+{
+"id": 209,
+"repo": "scosman/Biscotti",
+"asset_name": "Biscotti.dmg",
+"chunk": 1
+},
+{
+"id": 210,
+"repo": "Blave-TW/blave-agent",
+"asset_name": "Blave-0.1.52-universal.dmg",
+"chunk": 1
+},
+{
+"id": 211,
+"repo": "Blave-TW/blave-agent",
+"asset_name": "Blave-Setup-0.1.52.exe",
+"chunk": 1
+},
+{
+"id": 212,
+"repo": "superhighfives/pika",
+"asset_name": "Pika-2.0.2.dmg",
+"chunk": 1
+},
+{
+"id": 213,
+"repo": "QL-Win/QuickLook",
+"asset_name": "QuickLook-4.5.0.appx",
+"chunk": 1
+},
+{
+"id": 214,
+"repo": "QL-Win/QuickLook",
+"asset_name": "QuickLook-4.5.0.exe",
+"chunk": 1
+},
+{
+"id": 215,
+"repo": "QL-Win/QuickLook",
+"asset_name": "QuickLook-4.5.0.msi",
+"chunk": 1
+},
+{
+"id": 216,
+"repo": "3529/fish-book",
+"asset_name": "fish-book.Setup.1.0.0.exe",
+"chunk": 1
+},
+{
+"id": 217,
+"repo": "Z-Siqi/Clash-for-Windows_Chinese",
+"asset_name": "Clash.for.Windows.Setup_Opt-5.arm64.exe",
+"chunk": 1
+},
+{
+"id": 218,
+"repo": "Z-Siqi/Clash-for-Windows_Chinese",
+"asset_name": "Clash.for.Windows.Setup_Opt-5.exe",
+"chunk": 1
+},
+{
+"id": 219,
+"repo": "Z-Siqi/Clash-for-Windows_Chinese",
+"asset_name": "Setup_Opt-0.20.39.5.exe",
+"chunk": 1
+},
+{
+"id": 220,
+"repo": "Psiphon-Inc/conduit",
+"asset_name": "conduit-windows-amd64.exe",
+"chunk": 1
+},
+{
+"id": 221,
+"repo": "mvdicarlo/postybirb",
+"asset_name": "PostyBirb-2.3.44.AppImage",
+"chunk": 1
+},
+{
+"id": 222,
+"repo": "mvdicarlo/postybirb",
+"asset_name": "PostyBirb-2.3.44.dmg",
+"chunk": 1
+},
+{
+"id": 223,
+"repo": "mvdicarlo/postybirb",
+"asset_name": "PostyBirb-2.3.44.exe",
+"chunk": 1
+},
+{
+"id": 224,
+"repo": "mvdicarlo/postybirb",
+"asset_name": "PostyBirb-Setup-2.3.44.exe",
+"chunk": 1
+},
+{
+"id": 225,
+"repo": "qqqqqf-q/Arkloop",
+"asset_name": "Arkloop-linux-x86_64.AppImage",
+"chunk": 1
+},
+{
+"id": 226,
+"repo": "qqqqqf-q/Arkloop",
+"asset_name": "Arkloop-mac-arm64.dmg",
+"chunk": 1
+},
+{
+"id": 227,
+"repo": "qqqqqf-q/Arkloop",
+"asset_name": "Arkloop-mac-x64.dmg",
+"chunk": 1
+},
+{
+"id": 228,
+"repo": "qqqqqf-q/Arkloop",
+"asset_name": "Arkloop-win-x64.exe",
+"chunk": 1
+},
+{
+"id": 229,
+"repo": "Kilian/fromscratch",
+"asset_name": "FromScratch-1.4.3.dmg",
+"chunk": 1
+},
+{
+"id": 230,
+"repo": "Kilian/fromscratch",
+"asset_name": "FromScratch.1.4.3.AppImage",
+"chunk": 1
+},
+{
+"id": 231,
+"repo": "Kilian/fromscratch",
+"asset_name": "FromScratch.Setup.1.4.3.exe",
+"chunk": 1
+},
+{
+"id": 232,
+"repo": "coder/coder",
+"asset_name": "coder_2.38.7_windows_amd64_installer.exe",
+"chunk": 1
+},
+{
+"id": 233,
+"repo": "lettier/lambda-lantern",
+"asset_name": "lambda-lantern-0.0.0.0-ubuntu-16.04-x86.AppImage",
+"chunk": 1
+},
+{
+"id": 234,
+"repo": "lettier/lambda-lantern",
+"asset_name": "lambda-lantern-0.0.0.0-x86.AppImage",
+"chunk": 1
+},
+{
+"id": 235,
+"repo": "joyanhui/ikuai-bypass",
+"asset_name": "ikuai-bypass-gui-macos-aarch64.dmg",
+"chunk": 1
+},
+{
+"id": 236,
+"repo": "joyanhui/ikuai-bypass",
+"asset_name": "ikuai-bypass-gui-macos-x86_64.dmg",
+"chunk": 1
+},
+{
+"id": 237,
+"repo": "Eugeny/tabby",
+"asset_name": "tabby-1.0.238-linux-arm64.AppImage",
+"chunk": 1
+},
+{
+"id": 238,
+"repo": "Eugeny/tabby",
+"asset_name": "tabby-1.0.238-linux-armv7l.AppImage",
+"chunk": 1
+},
+{
+"id": 239,
+"repo": "Eugeny/tabby",
+"asset_name": "tabby-1.0.238-linux-x64.AppImage",
+"chunk": 1
+},
+{
+"id": 240,
+"repo": "Eugeny/tabby",
+"asset_name": "tabby-1.0.238-macos-arm64.dmg",
+"chunk": 1
+},
+{
+"id": 241,
+"repo": "Eugeny/tabby",
+"asset_name": "tabby-1.0.238-macos-x86_64.dmg",
+"chunk": 1
+},
+{
+"id": 242,
+"repo": "Eugeny/tabby",
+"asset_name": "tabby-1.0.238-setup-arm64.exe",
+"chunk": 1
+},
+{
+"id": 243,
+"repo": "Eugeny/tabby",
+"asset_name": "tabby-1.0.238-setup-x64.exe",
+"chunk": 1
+},
+{
+"id": 244,
+"repo": "realm/realm-studio",
+"asset_name": "Realm.Studio-15.2.1.AppImage",
+"chunk": 1
+},
+{
+"id": 245,
+"repo": "realm/realm-studio",
+"asset_name": "Realm.Studio-15.2.1.dmg",
+"chunk": 1
+},
+{
+"id": 246,
+"repo": "realm/realm-studio",
+"asset_name": "Realm.Studio.15.2.1.exe",
+"chunk": 1
+},
+{
+"id": 247,
+"repo": "realm/realm-studio",
+"asset_name": "Realm.Studio.Setup.15.2.1.exe",
+"chunk": 1
+},
+{
+"id": 248,
+"repo": "GitJournal/GitJournal",
+"asset_name": "GitJournal-linux-x86_64.AppImage",
+"chunk": 1
+},
+{
+"id": 249,
+"repo": "GitJournal/GitJournal",
+"asset_name": "GitJournal-osx.dmg",
+"chunk": 1
+},
+{
+"id": 250,
+"repo": "h3poteto/whalebird-desktop",
+"asset_name": "Whalebird-6.3.1-linux-x86_64.AppImage",
+"chunk": 1
+},
+{
+"id": 251,
+"repo": "h3poteto/whalebird-desktop",
+"asset_name": "Whalebird-6.3.1-mac-universal.dmg",
+"chunk": 1
+},
+{
+"id": 252,
+"repo": "h3poteto/whalebird-desktop",
+"asset_name": "Whalebird-6.3.1-win-x64.exe",
+"chunk": 1
+},
+{
+"id": 253,
+"repo": "gpodder/gpodder",
+"asset_name": "windows-gpodder-3.11.5-installer.exe",
+"chunk": 1
+},
+{
+"id": 254,
+"repo": "gpodder/gpodder",
+"asset_name": "windows-gpodder-3.11.5-portable.exe",
+"chunk": 1
+},
+{
+"id": 255,
+"repo": "flick9000/winscript",
+"asset_name": "winscript-installer.exe",
+"chunk": 2
+},
+{
+"id": 256,
+"repo": "flick9000/winscript",
+"asset_name": "winscript-portable.exe",
+"chunk": 2
+},
+{
+"id": 257,
+"repo": "lidarr/Lidarr",
+"asset_name": "Lidarr.master.3.1.6.5079.windows-core-x64-installer.exe",
+"chunk": 2
+},
+{
+"id": 258,
+"repo": "lidarr/Lidarr",
+"asset_name": "Lidarr.master.3.1.6.5079.windows-core-x86-installer.exe",
+"chunk": 2
+},
+{
+"id": 259,
+"repo": "BigPizzaV3/CodexPlusPlus",
+"asset_name": "CodexPlusPlus-2.6.3-macos-universal.dmg",
+"chunk": 2
+},
+{
+"id": 260,
+"repo": "BigPizzaV3/CodexPlusPlus",
+"asset_name": "CodexPlusPlus-2.6.3-windows-x64-setup.exe",
+"chunk": 2
+},
+{
+"id": 261,
+"repo": "847850277/postman-gpui",
+"asset_name": "postman-gpui_0.1.3_x64-setup.exe",
+"chunk": 2
+},
+{
+"id": 262,
+"repo": "847850277/postman-gpui",
+"asset_name": "postman-gpui_0.1.3_x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 263,
+"repo": "847850277/postman-gpui",
+"asset_name": "Postman.GPUI_0.1.3_universal.dmg",
+"chunk": 2
+},
+{
+"id": 264,
+"repo": "risa-labs-inc/BossConsole",
+"asset_name": "BOSS-9.5.45-arm64.msi",
+"chunk": 2
+},
+{
+"id": 265,
+"repo": "risa-labs-inc/BossConsole",
+"asset_name": "BOSS-9.5.45-Universal.dmg",
+"chunk": 2
+},
+{
+"id": 266,
+"repo": "risa-labs-inc/BossConsole",
+"asset_name": "BOSS-9.5.45.msi",
+"chunk": 2
+},
+{
+"id": 267,
+"repo": "utmapp/UTM",
+"asset_name": "UTM.dmg",
+"chunk": 2
+},
+{
+"id": 268,
+"repo": "mifi/lossless-cut",
+"asset_name": "LosslessCut-linux-x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 269,
+"repo": "mifi/lossless-cut",
+"asset_name": "LosslessCut-mac-arm64.dmg",
+"chunk": 2
+},
+{
+"id": 270,
+"repo": "mifi/lossless-cut",
+"asset_name": "LosslessCut-mac-universal-DONT-USE-THIS-FILE.pkg",
+"chunk": 2
+},
+{
+"id": 271,
+"repo": "mifi/lossless-cut",
+"asset_name": "LosslessCut-mac-x64.dmg",
+"chunk": 2
+},
+{
+"id": 272,
+"repo": "mifi/lossless-cut",
+"asset_name": "LosslessCut-win-arm64-DONT-USE-THIS-FILE.appx",
+"chunk": 2
+},
+{
+"id": 273,
+"repo": "mifi/lossless-cut",
+"asset_name": "LosslessCut-win-x64-DONT-USE-THIS-FILE.appx",
+"chunk": 2
+},
+{
+"id": 274,
+"repo": "peteonrails/voxtype",
+"asset_name": "voxtype-1.2.1-macos-universal.dmg",
+"chunk": 2
+},
+{
+"id": 275,
+"repo": "tw93/Pake",
+"asset_name": "ChatGPT.dmg",
+"chunk": 2
+},
+{
+"id": 276,
+"repo": "tw93/Pake",
+"asset_name": "ChatGPT_x64.msi",
+"chunk": 2
+},
+{
+"id": 277,
+"repo": "tw93/Pake",
+"asset_name": "ChatGPT_x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 278,
+"repo": "tw93/Pake",
+"asset_name": "DeepSeek.dmg",
+"chunk": 2
+},
+{
+"id": 279,
+"repo": "tw93/Pake",
+"asset_name": "DeepSeek_x64.msi",
+"chunk": 2
+},
+{
+"id": 280,
+"repo": "tw93/Pake",
+"asset_name": "DeepSeek_x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 281,
+"repo": "tw93/Pake",
+"asset_name": "Excalidraw.dmg",
+"chunk": 2
+},
+{
+"id": 282,
+"repo": "tw93/Pake",
+"asset_name": "Excalidraw_x64.msi",
+"chunk": 2
+},
+{
+"id": 283,
+"repo": "tw93/Pake",
+"asset_name": "Excalidraw_x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 284,
+"repo": "tw93/Pake",
+"asset_name": "Flomo.dmg",
+"chunk": 2
+},
+{
+"id": 285,
+"repo": "tw93/Pake",
+"asset_name": "Flomo_x64.msi",
+"chunk": 2
+},
+{
+"id": 286,
+"repo": "tw93/Pake",
+"asset_name": "Flomo_x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 287,
+"repo": "tw93/Pake",
+"asset_name": "Gemini.dmg",
+"chunk": 2
+},
+{
+"id": 288,
+"repo": "tw93/Pake",
+"asset_name": "Gemini_x64.msi",
+"chunk": 2
+},
+{
+"id": 289,
+"repo": "tw93/Pake",
+"asset_name": "Gemini_x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 290,
+"repo": "tw93/Pake",
+"asset_name": "Grok.dmg",
+"chunk": 2
+},
+{
+"id": 291,
+"repo": "tw93/Pake",
+"asset_name": "Grok_x64.msi",
+"chunk": 2
+},
+{
+"id": 292,
+"repo": "tw93/Pake",
+"asset_name": "Grok_x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 293,
+"repo": "tw93/Pake",
+"asset_name": "LiZhi.dmg",
+"chunk": 2
+},
+{
+"id": 294,
+"repo": "tw93/Pake",
+"asset_name": "LiZhi_x64.msi",
+"chunk": 2
+},
+{
+"id": 295,
+"repo": "tw93/Pake",
+"asset_name": "LiZhi_x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 296,
+"repo": "tw93/Pake",
+"asset_name": "Notion.dmg",
+"chunk": 2
+},
+{
+"id": 297,
+"repo": "tw93/Pake",
+"asset_name": "Notion_x64.msi",
+"chunk": 2
+},
+{
+"id": 298,
+"repo": "tw93/Pake",
+"asset_name": "Notion_x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 299,
+"repo": "tw93/Pake",
+"asset_name": "ProgramMusic.dmg",
+"chunk": 2
+},
+{
+"id": 300,
+"repo": "tw93/Pake",
+"asset_name": "ProgramMusic_x64.msi",
+"chunk": 2
+},
+{
+"id": 301,
+"repo": "tw93/Pake",
+"asset_name": "ProgramMusic_x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 302,
+"repo": "tw93/Pake",
+"asset_name": "Qwerty.dmg",
+"chunk": 2
+},
+{
+"id": 303,
+"repo": "tw93/Pake",
+"asset_name": "Qwerty_x64.msi",
+"chunk": 2
+},
+{
+"id": 304,
+"repo": "tw93/Pake",
+"asset_name": "Qwerty_x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 305,
+"repo": "tw93/Pake",
+"asset_name": "Twitter.dmg",
+"chunk": 2
+},
+{
+"id": 306,
+"repo": "tw93/Pake",
+"asset_name": "Twitter_x64.msi",
+"chunk": 2
+},
+{
+"id": 307,
+"repo": "tw93/Pake",
+"asset_name": "Twitter_x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 308,
+"repo": "tw93/Pake",
+"asset_name": "WeChat.dmg",
+"chunk": 2
+},
+{
+"id": 309,
+"repo": "tw93/Pake",
+"asset_name": "WeChat_x64.msi",
+"chunk": 2
+},
+{
+"id": 310,
+"repo": "tw93/Pake",
+"asset_name": "WeChat_x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 311,
+"repo": "tw93/Pake",
+"asset_name": "WeRead.dmg",
+"chunk": 2
+},
+{
+"id": 312,
+"repo": "tw93/Pake",
+"asset_name": "WeRead_x64.msi",
+"chunk": 2
+},
+{
+"id": 313,
+"repo": "tw93/Pake",
+"asset_name": "WeRead_x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 314,
+"repo": "tw93/Pake",
+"asset_name": "XiaoHongShu.dmg",
+"chunk": 2
+},
+{
+"id": 315,
+"repo": "tw93/Pake",
+"asset_name": "XiaoHongShu_x64.msi",
+"chunk": 2
+},
+{
+"id": 316,
+"repo": "tw93/Pake",
+"asset_name": "XiaoHongShu_x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 317,
+"repo": "tw93/Pake",
+"asset_name": "YouTube.dmg",
+"chunk": 2
+},
+{
+"id": 318,
+"repo": "tw93/Pake",
+"asset_name": "YouTubeMusic.dmg",
+"chunk": 2
+},
+{
+"id": 319,
+"repo": "tw93/Pake",
+"asset_name": "YouTubeMusic_x64.msi",
+"chunk": 2
+},
+{
+"id": 320,
+"repo": "tw93/Pake",
+"asset_name": "YouTubeMusic_x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 321,
+"repo": "tw93/Pake",
+"asset_name": "YouTube_x64.msi",
+"chunk": 2
+},
+{
+"id": 322,
+"repo": "tw93/Pake",
+"asset_name": "YouTube_x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 323,
+"repo": "OpenShot/openshot-qt",
+"asset_name": "OpenShot-v4.1.1-x86.exe",
+"chunk": 2
+},
+{
+"id": 324,
+"repo": "OpenShot/openshot-qt",
+"asset_name": "OpenShot-v4.1.1-x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 325,
+"repo": "OpenShot/openshot-qt",
+"asset_name": "OpenShot-v4.1.1-x86_64.dmg",
+"chunk": 2
+},
+{
+"id": 326,
+"repo": "OpenShot/openshot-qt",
+"asset_name": "OpenShot-v4.1.1-x86_64.exe",
+"chunk": 2
+},
+{
+"id": 327,
+"repo": "SAP/SapMachine",
+"asset_name": "sapmachine-jdk-27.0.1.0.3_macos-aarch64_bin.dmg",
+"chunk": 2
+},
+{
+"id": 328,
+"repo": "SAP/SapMachine",
+"asset_name": "sapmachine-jdk-27.0.1.0.3_windows-x64_bin.msi",
+"chunk": 2
+},
+{
+"id": 329,
+"repo": "SAP/SapMachine",
+"asset_name": "sapmachine-jre-27.0.1.0.3_macos-aarch64_bin.dmg",
+"chunk": 2
+},
+{
+"id": 330,
+"repo": "SAP/SapMachine",
+"asset_name": "sapmachine-jre-27.0.1.0.3_windows-x64_bin.msi",
+"chunk": 2
+},
+{
+"id": 331,
+"repo": "pinokiocomputer/pinokio",
+"asset_name": "Pinokio-8.3.7-arm64.AppImage",
+"chunk": 2
+},
+{
+"id": 332,
+"repo": "pinokiocomputer/pinokio",
+"asset_name": "Pinokio-8.3.7-arm64.dmg",
+"chunk": 2
+},
+{
+"id": 333,
+"repo": "pinokiocomputer/pinokio",
+"asset_name": "Pinokio-8.3.7.AppImage",
+"chunk": 2
+},
+{
+"id": 334,
+"repo": "pinokiocomputer/pinokio",
+"asset_name": "Pinokio-8.3.7.dmg",
+"chunk": 2
+},
+{
+"id": 335,
+"repo": "pinokiocomputer/pinokio",
+"asset_name": "Pinokio.exe",
+"chunk": 2
+},
+{
+"id": 336,
+"repo": "pyzo/pyzo",
+"asset_name": "pyzo-4.22.0-macos_arm64.dmg",
+"chunk": 2
+},
+{
+"id": 337,
+"repo": "pyzo/pyzo",
+"asset_name": "pyzo-4.22.0-macos_x86_64.dmg",
+"chunk": 2
+},
+{
+"id": 338,
+"repo": "pyzo/pyzo",
+"asset_name": "pyzo-4.22.0-win64.exe",
+"chunk": 2
+},
+{
+"id": 339,
+"repo": "vycdev/Kromacut",
+"asset_name": "Kromacut_4.2.0_aarch64.dmg",
+"chunk": 2
+},
+{
+"id": 340,
+"repo": "vycdev/Kromacut",
+"asset_name": "Kromacut_4.2.0_amd64.AppImage",
+"chunk": 2
+},
+{
+"id": 341,
+"repo": "vycdev/Kromacut",
+"asset_name": "Kromacut_4.2.0_windows_x64_offline-setup.exe",
+"chunk": 2
+},
+{
+"id": 342,
+"repo": "vycdev/Kromacut",
+"asset_name": "Kromacut_4.2.0_x64-setup.exe",
+"chunk": 2
+},
+{
+"id": 343,
+"repo": "vycdev/Kromacut",
+"asset_name": "Kromacut_4.2.0_x64.dmg",
+"chunk": 2
+},
+{
+"id": 344,
+"repo": "Jmiao11/bili-music",
+"asset_name": "Bili-Music-v1.0.0-macos-arm64.dmg",
+"chunk": 2
+},
+{
+"id": 345,
+"repo": "Jmiao11/bili-music",
+"asset_name": "Bili-Music-v1.0.0-macos-x64.dmg",
+"chunk": 2
+},
+{
+"id": 346,
+"repo": "runta-dev/errand",
+"asset_name": "Errand-0.2.6-arm64.dmg",
+"chunk": 2
+},
+{
+"id": 347,
+"repo": "AntonyCorbett/OnlyM",
+"asset_name": "OnlyMSetup.exe",
+"chunk": 2
+},
+{
+"id": 348,
+"repo": "lamquangminh/EVKey",
+"asset_name": "evkau.exe",
+"chunk": 2
+},
+{
+"id": 349,
+"repo": "N64Recomp/N64Recomp",
+"asset_name": "RecompModTool.exe",
+"chunk": 2
+},
+{
+"id": 350,
+"repo": "teras/Jubler",
+"asset_name": "Jubler-10.0.0-aarch64.AppImage",
+"chunk": 2
+},
+{
+"id": 351,
+"repo": "teras/Jubler",
+"asset_name": "Jubler-10.0.0-arm64.dmg",
+"chunk": 2
+},
+{
+"id": 352,
+"repo": "teras/Jubler",
+"asset_name": "Jubler-10.0.0-x64.exe",
+"chunk": 2
+},
+{
+"id": 353,
+"repo": "teras/Jubler",
+"asset_name": "Jubler-10.0.0-x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 354,
+"repo": "teras/Jubler",
+"asset_name": "Jubler-10.0.0-x86_64.dmg",
+"chunk": 2
+},
+{
+"id": 355,
+"repo": "Mouseww/anything-analyzer",
+"asset_name": "Anything-Analyzer-3.7.1-arm64.dmg",
+"chunk": 2
+},
+{
+"id": 356,
+"repo": "Mouseww/anything-analyzer",
+"asset_name": "Anything-Analyzer-3.7.1-x64.dmg",
+"chunk": 2
+},
+{
+"id": 357,
+"repo": "Mouseww/anything-analyzer",
+"asset_name": "Anything-Analyzer-3.7.1.AppImage",
+"chunk": 2
+},
+{
+"id": 358,
+"repo": "Mouseww/anything-analyzer",
+"asset_name": "Anything-Analyzer-Setup-3.7.1.exe",
+"chunk": 2
+},
+{
+"id": 359,
+"repo": "kritzikratzi/Oscilloscope",
+"asset_name": "Oscilloscope-1.1.0-win64.msi",
+"chunk": 2
+},
+{
+"id": 360,
+"repo": "DRAZY/deemix-remastered",
+"asset_name": "Deemix.Remastered-2.6.6-arm64.AppImage",
+"chunk": 2
+},
+{
+"id": 361,
+"repo": "DRAZY/deemix-remastered",
+"asset_name": "Deemix.Remastered-2.6.6-arm64.dmg",
+"chunk": 2
+},
+{
+"id": 362,
+"repo": "DRAZY/deemix-remastered",
+"asset_name": "Deemix.Remastered-2.6.6-universal.dmg",
+"chunk": 2
+},
+{
+"id": 363,
+"repo": "DRAZY/deemix-remastered",
+"asset_name": "Deemix.Remastered-2.6.6.AppImage",
+"chunk": 2
+},
+{
+"id": 364,
+"repo": "DRAZY/deemix-remastered",
+"asset_name": "Deemix.Remastered-Portable-2.6.6-arm64.exe",
+"chunk": 2
+},
+{
+"id": 365,
+"repo": "DRAZY/deemix-remastered",
+"asset_name": "Deemix.Remastered-Portable-2.6.6-x64.exe",
+"chunk": 2
+},
+{
+"id": 366,
+"repo": "DRAZY/deemix-remastered",
+"asset_name": "Deemix.Remastered-Setup-2.6.6-arm64.exe",
+"chunk": 2
+},
+{
+"id": 367,
+"repo": "DRAZY/deemix-remastered",
+"asset_name": "Deemix.Remastered-Setup-2.6.6-x64.exe",
+"chunk": 2
+},
+{
+"id": 368,
+"repo": "Newspicel/sdrmm",
+"asset_name": "sdrmm-app_2.4.3_aarch64.AppImage",
+"chunk": 2
+},
+{
+"id": 369,
+"repo": "Newspicel/sdrmm",
+"asset_name": "sdrmm-app_2.4.3_amd64.AppImage",
+"chunk": 2
+},
+{
+"id": 370,
+"repo": "Newspicel/sdrmm",
+"asset_name": "SDRmm_2.4.3_aarch64.dmg",
+"chunk": 2
+},
+{
+"id": 371,
+"repo": "Newspicel/sdrmm",
+"asset_name": "SDRmm_2.4.3_arm64-setup.exe",
+"chunk": 2
+},
+{
+"id": 372,
+"repo": "Newspicel/sdrmm",
+"asset_name": "SDRmm_2.4.3_x64-setup.exe",
+"chunk": 2
+},
+{
+"id": 373,
+"repo": "Newspicel/sdrmm",
+"asset_name": "SDRmm_2.4.3_x64.dmg",
+"chunk": 2
+},
+{
+"id": 374,
+"repo": "Newspicel/sdrmm",
+"asset_name": "SDRmm_2.4.3_x64_en-US.msi",
+"chunk": 2
+},
+{
+"id": 375,
+"repo": "meetqy/rao-pics",
+"asset_name": "Rao.Pics-1.0.0-alpha.13-arm64.dmg",
+"chunk": 2
+},
+{
+"id": 376,
+"repo": "meetqy/rao-pics",
+"asset_name": "Rao.Pics-1.0.0-alpha.13.dmg",
+"chunk": 2
+},
+{
+"id": 377,
+"repo": "meetqy/rao-pics",
+"asset_name": "Rao.Pics.Setup.1.0.0-alpha.13.exe",
+"chunk": 2
+},
+{
+"id": 378,
+"repo": "OpenRA/OpenRA",
+"asset_name": "OpenRA-Dune-2000-x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 379,
+"repo": "OpenRA/OpenRA",
+"asset_name": "OpenRA-Red-Alert-x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 380,
+"repo": "OpenRA/OpenRA",
+"asset_name": "OpenRA-release-20250330-x64.exe",
+"chunk": 2
+},
+{
+"id": 381,
+"repo": "OpenRA/OpenRA",
+"asset_name": "OpenRA-release-20250330-x86.exe",
+"chunk": 2
+},
+{
+"id": 382,
+"repo": "OpenRA/OpenRA",
+"asset_name": "OpenRA-release-20250330.dmg",
+"chunk": 2
+},
+{
+"id": 383,
+"repo": "OpenRA/OpenRA",
+"asset_name": "OpenRA-Tiberian-Dawn-x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 384,
+"repo": "open-ani/animeko",
+"asset_name": "ani-6.4.0-linux-x86_64.appimage",
+"chunk": 2
+},
+{
+"id": 385,
+"repo": "open-ani/animeko",
+"asset_name": "ani-6.4.0-macos-aarch64.dmg",
+"chunk": 2
+},
+{
+"id": 386,
+"repo": "HenriWahl/Nagstamon",
+"asset_name": "Nagstamon-3.18.2-ARM.dmg",
+"chunk": 2
+},
+{
+"id": 387,
+"repo": "HenriWahl/Nagstamon",
+"asset_name": "Nagstamon-3.18.2-Intel.dmg",
+"chunk": 2
+},
+{
+"id": 388,
+"repo": "HenriWahl/Nagstamon",
+"asset_name": "Nagstamon-3.18.2-win32_setup.exe",
+"chunk": 2
+},
+{
+"id": 389,
+"repo": "HenriWahl/Nagstamon",
+"asset_name": "Nagstamon-3.18.2-win64_setup.exe",
+"chunk": 2
+},
+{
+"id": 390,
+"repo": "BCUninstaller/Bulk-Crap-Uninstaller",
+"asset_name": "BCUninstaller_6.3.0_setup.exe",
+"chunk": 2
+},
+{
+"id": 391,
+"repo": "bitwarden/directory-connector",
+"asset_name": "Bitwarden-Connector-2026.10.0-arm64.dmg",
+"chunk": 2
+},
+{
+"id": 392,
+"repo": "bitwarden/directory-connector",
+"asset_name": "Bitwarden-Connector-2026.10.0-x64.dmg",
+"chunk": 2
+},
+{
+"id": 393,
+"repo": "bitwarden/directory-connector",
+"asset_name": "Bitwarden-Connector-2026.10.0-x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 394,
+"repo": "bitwarden/directory-connector",
+"asset_name": "Bitwarden-Connector-Installer-2026.10.0.exe",
+"chunk": 2
+},
+{
+"id": 395,
+"repo": "bitwarden/directory-connector",
+"asset_name": "Bitwarden-Connector-Portable-2026.10.0.exe",
+"chunk": 2
+},
+{
+"id": 396,
+"repo": "supabitapp/supacode",
+"asset_name": "supacode.dmg",
+"chunk": 2
+},
+{
+"id": 397,
+"repo": "napari/napari",
+"asset_name": "napari-0.10.0-macOS-arm64.buggy.pkg",
+"chunk": 2
+},
+{
+"id": 398,
+"repo": "napari/napari",
+"asset_name": "napari-0.10.0-macOS-arm64.pkg",
+"chunk": 2
+},
+{
+"id": 399,
+"repo": "napari/napari",
+"asset_name": "napari-0.10.0-macOS-x86_64.buggy.pkg",
+"chunk": 2
+},
+{
+"id": 400,
+"repo": "napari/napari",
+"asset_name": "napari-0.10.0-macOS-x86_64.pkg",
+"chunk": 2
+},
+{
+"id": 401,
+"repo": "napari/napari",
+"asset_name": "napari-0.10.0-Windows-x86_64.buggy.exe",
+"chunk": 2
+},
+{
+"id": 402,
+"repo": "napari/napari",
+"asset_name": "napari-0.10.0-Windows-x86_64.exe",
+"chunk": 2
+},
+{
+"id": 403,
+"repo": "digimezzo/dopamine-windows",
+"asset_name": "Dopamine.2.0.10.Release.msi",
+"chunk": 2
+},
+{
+"id": 404,
+"repo": "lemonade-sdk/lemonade",
+"asset_name": "Lemonade-2026.45.3-Darwin.pkg",
+"chunk": 2
+},
+{
+"id": 405,
+"repo": "lemonade-sdk/lemonade",
+"asset_name": "lemonade-server-minimal.msi",
+"chunk": 2
+},
+{
+"id": 406,
+"repo": "lemonade-sdk/lemonade",
+"asset_name": "lemonade.msi",
+"chunk": 2
+},
+{
+"id": 407,
+"repo": "dortania/OpenCore-Legacy-Patcher",
+"asset_name": "AutoPkg-Assets.pkg",
+"chunk": 2
+},
+{
+"id": 408,
+"repo": "dortania/OpenCore-Legacy-Patcher",
+"asset_name": "OpenCore-Patcher-Uninstaller.pkg",
+"chunk": 2
+},
+{
+"id": 409,
+"repo": "dortania/OpenCore-Legacy-Patcher",
+"asset_name": "OpenCore-Patcher.pkg",
+"chunk": 2
+},
+{
+"id": 410,
+"repo": "icsharpcode/ILSpy",
+"asset_name": "ILSpy_Installer_11.2.0.10050-arm64.msi",
+"chunk": 2
+},
+{
+"id": 411,
+"repo": "icsharpcode/ILSpy",
+"asset_name": "ILSpy_Installer_11.2.0.10050-x64.msi",
+"chunk": 2
+},
+{
+"id": 412,
+"repo": "DistroAV/DistroAV",
+"asset_name": "distroav-6.2.2-macos-universal.pkg",
+"chunk": 2
+},
+{
+"id": 413,
+"repo": "DistroAV/DistroAV",
+"asset_name": "distroav-6.2.2-windows-x64-Installer.exe",
+"chunk": 2
+},
+{
+"id": 414,
+"repo": "ibuilder/massing",
+"asset_name": "Massing_0.3.1133_aarch64.dmg",
+"chunk": 2
+},
+{
+"id": 415,
+"repo": "ibuilder/massing",
+"asset_name": "Massing_0.3.1133_amd64.AppImage",
+"chunk": 2
+},
+{
+"id": 416,
+"repo": "ibuilder/massing",
+"asset_name": "Massing_0.3.1133_x64-setup.exe",
+"chunk": 2
+},
+{
+"id": 417,
+"repo": "ibuilder/massing",
+"asset_name": "Massing_0.3.1133_x64_en-US.msi",
+"chunk": 2
+},
+{
+"id": 418,
+"repo": "SteveTheKiller/KillerPDF",
+"asset_name": "KillerPDF-Portable.exe",
+"chunk": 2
+},
+{
+"id": 419,
+"repo": "SteveTheKiller/KillerPDF",
+"asset_name": "KillerPDF-Store.exe",
+"chunk": 2
+},
+{
+"id": 420,
+"repo": "SteveTheKiller/KillerPDF",
+"asset_name": "KillerPDF.exe",
+"chunk": 2
+},
+{
+"id": 421,
+"repo": "bwendell/gemini-desktop",
+"asset_name": "Gemini-Desktop-0.12.1-arm64-installer.exe",
+"chunk": 2
+},
+{
+"id": 422,
+"repo": "bwendell/gemini-desktop",
+"asset_name": "Gemini-Desktop-0.12.1-arm64.dmg",
+"chunk": 2
+},
+{
+"id": 423,
+"repo": "bwendell/gemini-desktop",
+"asset_name": "Gemini-Desktop-0.12.1-x64-installer.exe",
+"chunk": 2
+},
+{
+"id": 424,
+"repo": "bwendell/gemini-desktop",
+"asset_name": "Gemini-Desktop-0.12.1-x64.dmg",
+"chunk": 2
+},
+{
+"id": 425,
+"repo": "bwendell/gemini-desktop",
+"asset_name": "Gemini-Desktop-0.12.1-x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 426,
+"repo": "koala73/worldmonitor",
+"asset_name": "World.Monitor_2.11.8_aarch64.AppImage",
+"chunk": 2
+},
+{
+"id": 427,
+"repo": "koala73/worldmonitor",
+"asset_name": "World.Monitor_2.11.8_aarch64.dmg",
+"chunk": 2
+},
+{
+"id": 428,
+"repo": "koala73/worldmonitor",
+"asset_name": "World.Monitor_2.11.8_amd64.AppImage",
+"chunk": 2
+},
+{
+"id": 429,
+"repo": "koala73/worldmonitor",
+"asset_name": "World.Monitor_2.11.8_x64-setup.exe",
+"chunk": 2
+},
+{
+"id": 430,
+"repo": "koala73/worldmonitor",
+"asset_name": "World.Monitor_2.11.8_x64.dmg",
+"chunk": 2
+},
+{
+"id": 431,
+"repo": "koala73/worldmonitor",
+"asset_name": "World.Monitor_2.11.8_x64_en-US.msi",
+"chunk": 2
+},
+{
+"id": 432,
+"repo": "LYH105/iCloudEmail-Lite",
+"asset_name": "iCloud.Email.Manager-0.2.1-mac-arm64.dmg",
+"chunk": 2
+},
+{
+"id": 433,
+"repo": "LYH105/iCloudEmail-Lite",
+"asset_name": "iCloud.Email.Manager-0.2.1-mac-x64.dmg",
+"chunk": 2
+},
+{
+"id": 434,
+"repo": "LYH105/iCloudEmail-Lite",
+"asset_name": "iCloud.Email.Manager-0.2.1-win-x64.exe",
+"chunk": 2
+},
+{
+"id": 435,
+"repo": "dunkbing/dearsql",
+"asset_name": "DearSQL-aarch64.AppImage",
+"chunk": 2
+},
+{
+"id": 436,
+"repo": "dunkbing/dearsql",
+"asset_name": "DearSQL-x64.msi",
+"chunk": 2
+},
+{
+"id": 437,
+"repo": "dunkbing/dearsql",
+"asset_name": "DearSQL-x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 438,
+"repo": "dunkbing/dearsql",
+"asset_name": "DearSQL.dmg",
+"chunk": 2
+},
+{
+"id": 439,
+"repo": "qunqin24/Pulse",
+"asset_name": "Pulse-1.13.0.dmg",
+"chunk": 2
+},
+{
+"id": 440,
+"repo": "thealpa/SaneSideButtons",
+"asset_name": "SaneSideButtons.dmg",
+"chunk": 2
+},
+{
+"id": 441,
+"repo": "AerialWindows/Aerial",
+"asset_name": "Aerial-Setup.exe",
+"chunk": 2
+},
+{
+"id": 442,
+"repo": "dlunch/wie",
+"asset_name": "wie-v0.2.26-linux-aarch64.AppImage",
+"chunk": 2
+},
+{
+"id": 443,
+"repo": "dlunch/wie",
+"asset_name": "wie-v0.2.26-linux-x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 444,
+"repo": "dlunch/wie",
+"asset_name": "wie-v0.2.26-macos-universal-unsigned.dmg",
+"chunk": 2
+},
+{
+"id": 445,
+"repo": "dlunch/wie",
+"asset_name": "wie-v0.2.26-windows-aarch64-unsigned-setup.exe",
+"chunk": 2
+},
+{
+"id": 446,
+"repo": "dlunch/wie",
+"asset_name": "wie-v0.2.26-windows-aarch64-unsigned.msi",
+"chunk": 2
+},
+{
+"id": 447,
+"repo": "dlunch/wie",
+"asset_name": "wie-v0.2.26-windows-x86_64-unsigned-setup.exe",
+"chunk": 2
+},
+{
+"id": 448,
+"repo": "dlunch/wie",
+"asset_name": "wie-v0.2.26-windows-x86_64-unsigned.msi",
+"chunk": 2
+},
+{
+"id": 449,
+"repo": "psmokotnin/osm",
+"asset_name": "OpenSoundMeter_arm.dmg",
+"chunk": 2
+},
+{
+"id": 450,
+"repo": "psmokotnin/osm",
+"asset_name": "OpenSoundMeter_intel.dmg",
+"chunk": 2
+},
+{
+"id": 451,
+"repo": "psmokotnin/osm",
+"asset_name": "Open_Sound_Meter-v1.5.2-x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 452,
+"repo": "psmokotnin/osm",
+"asset_name": "SetupOpenSoundMeter.exe",
+"chunk": 2
+},
+{
+"id": 453,
+"repo": "Ray-lea/Argus",
+"asset_name": "Argus_0.4.0_x64-setup.exe",
+"chunk": 2
+},
+{
+"id": 454,
+"repo": "Ray-lea/Argus",
+"asset_name": "Argus_0.4.0_x64.exe",
+"chunk": 2
+},
+{
+"id": 455,
+"repo": "OpenChemistry/avogadrolibs",
+"asset_name": "Avogadro2-2.1.0-Darwin-arm64.dmg",
+"chunk": 2
+},
+{
+"id": 456,
+"repo": "OpenChemistry/avogadrolibs",
+"asset_name": "Avogadro2-2.1.0-Darwin.dmg",
+"chunk": 2
+},
+{
+"id": 457,
+"repo": "OpenChemistry/avogadrolibs",
+"asset_name": "Avogadro2-2.1.0-win-arm.exe",
+"chunk": 2
+},
+{
+"id": 458,
+"repo": "OpenChemistry/avogadrolibs",
+"asset_name": "Avogadro2-2.1.0-win64.exe",
+"chunk": 2
+},
+{
+"id": 459,
+"repo": "OpenChemistry/avogadrolibs",
+"asset_name": "Avogadro2-aarch64.AppImage",
+"chunk": 2
+},
+{
+"id": 460,
+"repo": "OpenChemistry/avogadrolibs",
+"asset_name": "Avogadro2-Diagnostic-2.1.0-win-arm.exe",
+"chunk": 2
+},
+{
+"id": 461,
+"repo": "OpenChemistry/avogadrolibs",
+"asset_name": "Avogadro2-Diagnostic-2.1.0-win64.exe",
+"chunk": 2
+},
+{
+"id": 462,
+"repo": "OpenChemistry/avogadrolibs",
+"asset_name": "Avogadro2-x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 463,
+"repo": "tvrenamer/tvrenamer",
+"asset_name": "TVRenamer-1.0-macos-aarch64.dmg",
+"chunk": 2
+},
+{
+"id": 464,
+"repo": "tvrenamer/tvrenamer",
+"asset_name": "TVRenamer-1.0-macos-x86_64.dmg",
+"chunk": 2
+},
+{
+"id": 465,
+"repo": "Kuddev/pebrel",
+"asset_name": "Pebrel-v2.4.0-linux-x64-preview.AppImage",
+"chunk": 2
+},
+{
+"id": 466,
+"repo": "Kuddev/pebrel",
+"asset_name": "Pebrel-v2.4.0-macos-arm64-preview.dmg",
+"chunk": 2
+},
+{
+"id": 467,
+"repo": "Kuddev/pebrel",
+"asset_name": "Pebrel-v2.4.0-macos-x64-preview.dmg",
+"chunk": 2
+},
+{
+"id": 468,
+"repo": "Kuddev/pebrel",
+"asset_name": "Pebrel-v2.4.0-windows-arm64-setup.exe",
+"chunk": 2
+},
+{
+"id": 469,
+"repo": "Kuddev/pebrel",
+"asset_name": "Pebrel-v2.4.0-windows-x64-setup.exe",
+"chunk": 2
+},
+{
+"id": 470,
+"repo": "cheat2001/angkorgit",
+"asset_name": "AngKorGit_0.27.0_amd64.AppImage",
+"chunk": 2
+},
+{
+"id": 471,
+"repo": "cheat2001/angkorgit",
+"asset_name": "AngKorGit_0.27.0_universal.dmg",
+"chunk": 2
+},
+{
+"id": 472,
+"repo": "cheat2001/angkorgit",
+"asset_name": "AngKorGit_0.27.0_x64-setup.exe",
+"chunk": 2
+},
+{
+"id": 473,
+"repo": "cheat2001/angkorgit",
+"asset_name": "AngKorGit_0.27.0_x64_en-US.msi",
+"chunk": 2
+},
+{
+"id": 474,
+"repo": "thaw-app/Floe",
+"asset_name": "Floe.dmg",
+"chunk": 2
+},
+{
+"id": 475,
+"repo": "mmvanheusden/SteamDepotDownloaderGUI",
+"asset_name": "SteamDepotDownloaderGUI-Linux-v3.2.1-x64.AppImage",
+"chunk": 2
+},
+{
+"id": 476,
+"repo": "mmvanheusden/SteamDepotDownloaderGUI",
+"asset_name": "SteamDepotDownloaderGUI-macOS-v3.2.1-aarch64.dmg",
+"chunk": 2
+},
+{
+"id": 477,
+"repo": "mmvanheusden/SteamDepotDownloaderGUI",
+"asset_name": "SteamDepotDownloaderGUI-macOS-v3.2.1-x64.dmg",
+"chunk": 2
+},
+{
+"id": 478,
+"repo": "mmvanheusden/SteamDepotDownloaderGUI",
+"asset_name": "SteamDepotDownloaderGUI-Windows-v3.2.1-x64.exe",
+"chunk": 2
+},
+{
+"id": 479,
+"repo": "waydabber/BetterDisplay",
+"asset_name": "BetterDisplay-v5.2.1.dmg",
+"chunk": 2
+},
+{
+"id": 480,
+"repo": "dannagle/PacketSender",
+"asset_name": "PacketSender_v8.11.3.dmg",
+"chunk": 2
+},
+{
+"id": 481,
+"repo": "dannagle/PacketSender",
+"asset_name": "PacketSender_x64_v8.11.3.exe",
+"chunk": 2
+},
+{
+"id": 482,
+"repo": "dannagle/PacketSender",
+"asset_name": "Packet_Sender-v8.11.3-x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 483,
+"repo": "MirrorX-Desktop/MirrorX",
+"asset_name": "MirrorX_0.1.5_x64.dmg",
+"chunk": 2
+},
+{
+"id": 484,
+"repo": "pch/rawmakase",
+"asset_name": "rawmakase-0.4.12-aarch64.AppImage",
+"chunk": 2
+},
+{
+"id": 485,
+"repo": "pch/rawmakase",
+"asset_name": "rawmakase-0.4.12-x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 486,
+"repo": "pch/rawmakase",
+"asset_name": "rawmakase-v0.4.12-aarch64-pc-windows-msvc-setup.exe",
+"chunk": 2
+},
+{
+"id": 487,
+"repo": "pch/rawmakase",
+"asset_name": "rawmakase-v0.4.12-macos-arm64.dmg",
+"chunk": 2
+},
+{
+"id": 488,
+"repo": "pch/rawmakase",
+"asset_name": "rawmakase-v0.4.12-macos-x86_64.dmg",
+"chunk": 2
+},
+{
+"id": 489,
+"repo": "pch/rawmakase",
+"asset_name": "rawmakase-v0.4.12-x86_64-pc-windows-msvc-setup.exe",
+"chunk": 2
+},
+{
+"id": 490,
+"repo": "cluster1900/apexo-code",
+"asset_name": "apexo-desktop-linux-x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 491,
+"repo": "cluster1900/apexo-code",
+"asset_name": "apexo-desktop-mac-arm64.dmg",
+"chunk": 2
+},
+{
+"id": 492,
+"repo": "cluster1900/apexo-code",
+"asset_name": "apexo-desktop-win-x64.exe",
+"chunk": 2
+},
+{
+"id": 493,
+"repo": "artisan-roaster-scope/artisan",
+"asset_name": "artisan-linux-5.0.0.AppImage",
+"chunk": 2
+},
+{
+"id": 494,
+"repo": "artisan-roaster-scope/artisan",
+"asset_name": "artisan-mac-arm-5.0.0.dmg",
+"chunk": 2
+},
+{
+"id": 495,
+"repo": "artisan-roaster-scope/artisan",
+"asset_name": "artisan-mac-intel-5.0.0.dmg",
+"chunk": 2
+},
+{
+"id": 496,
+"repo": "artisan-roaster-scope/artisan",
+"asset_name": "artisan-win-x64-5.0.0-setup.exe",
+"chunk": 2
+},
+{
+"id": 497,
+"repo": "firerpa/lamda",
+"asset_name": "startmitm.exe",
+"chunk": 2
+},
+{
+"id": 498,
+"repo": "sanderland/katrain",
+"asset_name": "KaTrain-1.20.0-arm64.dmg",
+"chunk": 2
+},
+{
+"id": 499,
+"repo": "sanderland/katrain",
+"asset_name": "KaTrain-1.20.0-x86_64.dmg",
+"chunk": 2
+},
+{
+"id": 500,
+"repo": "sanderland/katrain",
+"asset_name": "KaTrain.exe",
+"chunk": 2
+},
+{
+"id": 501,
+"repo": "Commit-Plus/commit-plus",
+"asset_name": "Commit+-1.1.25-arm64.dmg",
+"chunk": 2
+},
+{
+"id": 502,
+"repo": "raine/Lolgato",
+"asset_name": "Lolgato.dmg",
+"chunk": 2
+},
+{
+"id": 503,
+"repo": "screwys/Rufin",
+"asset_name": "Rufin-0.17.1-setup.exe",
+"chunk": 2
+},
+{
+"id": 504,
+"repo": "screwys/Rufin",
+"asset_name": "Rufin-macos-arm64.dmg",
+"chunk": 2
+},
+{
+"id": 505,
+"repo": "screwys/Rufin",
+"asset_name": "Rufin-macos-x86_64.dmg",
+"chunk": 2
+},
+{
+"id": 506,
+"repo": "mattDavo/Yippy",
+"asset_name": "Yippy.dmg",
+"chunk": 2
+},
+{
+"id": 507,
+"repo": "akameco/PixivDeck",
+"asset_name": "PixivDeck-1.4.0-x86_64.AppImage",
+"chunk": 2
+},
+{
+"id": 508,
+"repo": "akameco/PixivDeck",
+"asset_name": "PixivDeck-1.4.0.dmg",
+"chunk": 2
+}
+]

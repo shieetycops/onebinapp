@@ -1,0 +1,1563 @@
+[
+ {
+  "idx": 0,
+  "repo": "kando-menu/kando",
+  "asset_name": "kando_3.0.1_arm64.deb",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/126732228",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ar (deb)",
+   "members": [
+    "debian-binary",
+    "control.tar.zst"
+   ],
+   "control_Architecture": "arm64",
+   "control_head": "Package: kando\nVersion: 3.0.1\nSection: utils\nPriority: optional\nArchitecture: arm64\nDepends: libgtk-3-0, libnotify4, libnss3, xdg-utils, libatspi2.0-0, libdrm2, libgbm1, libxcb-dri3-0, kde-cli-tools | kde-runtime | trash-cli | libglib2.0-bin | gvfs-bin, libxtst6\nRecommends: pulseaudio | libasound2\nS"
+  }
+ },
+ {
+  "idx": 1,
+  "repo": "hovancik/stretchly",
+  "asset_name": "Stretchly_1.22.1_arm64.deb",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/147977264",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ar (deb)",
+   "members": [
+    "debian-binary/",
+    "control.tar.xz/"
+   ],
+   "control_Architecture": "arm64",
+   "control_head": "Package: stretchly\nVersion: 1.22.1\nLicense: BSD-2-Clause\nVendor: Jan Hovancik <jan@hovancik.net>\nArchitecture: arm64\nMaintainer: Jan Hovancik <jan@hovancik.net>\nInstalled-Size: 417446\nDepends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0\nRecom"
+  }
+ },
+ {
+  "idx": 2,
+  "repo": "Suwayomi/Suwayomi-Server",
+  "asset_name": "Suwayomi-Server-v2.4.2366-macOS-arm64.tar.gz",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/329964641",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "gzip",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 3,
+  "repo": "meowtec/imgo",
+  "asset_name": "imgo_1.1.0_aarch64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/87939592",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000300b700"
+  }
+ },
+ {
+  "idx": 4,
+  "repo": "t1m0thyj/WinDynamicDesktop",
+  "asset_name": "checksums.txt",
+  "http_status": 206,
+  "content_range": "bytes 0-642/643",
+  "bytes_read": 643,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "text",
+   "head": "d24e1212632aa0929c7de4b9b4eed380a91b76f19e751188e0b2edd0f40ff911  WinDynamicDesk",
+   "note": "text; states no OS/arch"
+  }
+ },
+ {
+  "idx": 5,
+  "repo": "readest/readest",
+  "asset_name": "Readest_0.12.20_universal.app.tar.gz.sig",
+  "http_status": 206,
+  "content_range": "bytes 0-403/404",
+  "bytes_read": 404,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "text",
+   "head": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSUnMxU09G",
+   "note": "text; states no OS/arch"
+  }
+ },
+ {
+  "idx": 6,
+  "repo": "TabularisDB/tabularis",
+  "asset_name": "tabularis_0.32.0_x64-portable.zip",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/26866132",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "ZIP",
+   "first_entry": "web-ui/debba-avatar.jpg",
+   "note": "zip header carries no OS/arch"
+  }
+ },
+ {
+  "idx": 7,
+  "repo": "libnyanpasu/clash-nyanpasu",
+  "asset_name": "Clash.Nyanpasu.x86_64.app.tar.gz",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/132723645",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "gzip",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 8,
+  "repo": "clementine-player/Clementine",
+  "asset_name": "ClementineSetup-1.4.5.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/109893978",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft",
+    "WiX"
+   ]
+  }
+ },
+ {
+  "idx": 9,
+  "repo": "readest/readest",
+  "asset_name": "Readest_0.12.20_arm64-setup.exe.sig",
+  "http_status": 206,
+  "content_range": "bytes 0-423/424",
+  "bytes_read": 424,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "text",
+   "head": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSUnMxU09G",
+   "note": "text; states no OS/arch"
+  }
+ },
+ {
+  "idx": 10,
+  "repo": "kando-menu/kando",
+  "asset_name": "Kando-win32-x64-3.0.1.zip",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/188045333",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "ZIP",
+   "first_entry": "chrome_100_percent.pak",
+   "note": "zip header carries no OS/arch"
+  }
+ },
+ {
+  "idx": 11,
+  "repo": "Ruben2776/PicView",
+  "asset_name": "PicView-5.2.2-macOS-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/57774094",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 12,
+  "repo": "KnifeLemon/Filee",
+  "asset_name": "Filee-2.4.0-osx-x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/145027986",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "7801ed94bb4bc35014c6bf145b8b4d53"
+  }
+ },
+ {
+  "idx": 13,
+  "repo": "nightly-labs/openbot",
+  "asset_name": "OpenBot-0.67.1-x64.dmg.blockmap",
+  "http_status": 206,
+  "content_range": "bytes 0-299483/299484",
+  "bytes_read": 299484,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "gzip",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 14,
+  "repo": "wealthfolio/wealthfolio",
+  "asset_name": "Wealthfolio_3.12.0_arm64-setup.nsis.zip.sig",
+  "http_status": 206,
+  "content_range": "bytes 0-451/452",
+  "bytes_read": 452,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "text",
+   "head": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSOU53MmYz",
+   "note": "text; states no OS/arch"
+  }
+ },
+ {
+  "idx": 15,
+  "repo": "hql287/Manta",
+  "asset_name": "Manta_1.1.4_amd64.deb",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/57607546",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ar (deb)",
+   "members": [
+    "debian-binary",
+    "control.tar.gz"
+   ],
+   "control_Architecture": "amd64",
+   "control_head": "Package: manta\nVersion: 1.1.4\nLicense: GPL-3.0\nVendor: Hung Q. Le <lequochung@me.com>\nArchitecture: amd64\nMaintainer: Hung Q. Le <lequochung@me.com>\nInstalled-Size: 258434\nDepends: gconf2, gconf-service, libnotify4, libappindicator1, libxtst6, libnss3, libxss1\nSection: default\nPriority: extra\nHomepa"
+  }
+ },
+ {
+  "idx": 16,
+  "repo": "ThinkInAIXYZ/deepchat",
+  "asset_name": "DeepChat-1.1.3-mac-x64.zip.blockmap",
+  "http_status": 206,
+  "content_range": "bytes 0-459426/459427",
+  "bytes_read": 459427,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "gzip",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 17,
+  "repo": "jhen0409/react-native-debugger",
+  "asset_name": "rn-debugger-linux-x64.zip",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/106278887",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "ZIP",
+   "first_entry": "LICENSE",
+   "note": "zip header carries no OS/arch"
+  }
+ },
+ {
+  "idx": 18,
+  "repo": "ayangweb/BongoCat",
+  "asset_name": "BongoCat-2.4.1-aarch64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/11432656",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "xz",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 19,
+  "repo": "vastsa/PI-Desktop",
+  "asset_name": "pi-desktop_0.22.0_amd64.deb",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/124050340",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ar (deb)",
+   "members": [
+    "debian-binary/",
+    "control.tar.xz/"
+   ],
+   "control_Architecture": "amd64",
+   "control_head": "Package: pi-desktop\nVersion: 0.22.0\nLicense: unknown\nVendor: vastsa <hhxk666@gmail.com>\nArchitecture: amd64\nMaintainer: vastsa <hhxk666@gmail.com>\nInstalled-Size: 437219\nDepends: libgtk-3-0, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0, libuuid1, libsecret-1-0\nRecommends: libappi"
+  }
+ },
+ {
+  "idx": 20,
+  "repo": "hql287/Manta",
+  "asset_name": "Manta-1.1.4.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/90987832",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 21,
+  "repo": "hovancik/stretchly",
+  "asset_name": "latest.yml",
+  "http_status": 206,
+  "content_range": "bytes 0-349/350",
+  "bytes_read": 350,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "text",
+   "head": "version: 1.22.1\nfiles:\n  - url: Stretchly-Setup-1.22.1.exe\n    sha512: +WQHrB/ds",
+   "note": "text; states no OS/arch"
+  }
+ },
+ {
+  "idx": 22,
+  "repo": "InukaAsith/TwinDesk",
+  "asset_name": "TwinDesk-3.0.0-full.apk",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/28351682",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "ZIP",
+   "first_entry": "META-INF/com/android/build/gradle/app-metadata.properties",
+   "note": "zip header carries no OS/arch"
+  }
+ },
+ {
+  "idx": 23,
+  "repo": "sveinbjornt/Platypus",
+  "asset_name": "platypus5.5.0.src.zip",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/25366371",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "ZIP",
+   "first_entry": "../",
+   "note": "zip header carries no OS/arch"
+  }
+ },
+ {
+  "idx": 24,
+  "repo": "amir1376/ab-download-manager",
+  "asset_name": "ABDownloadManager_1.11.4_windows_arm64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/76011775",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 25,
+  "repo": "OpenCoworkAI/open-codesign",
+  "asset_name": "SHA256SUMS.txt",
+  "http_status": 206,
+  "content_range": "bytes 0-1160/1161",
+  "bytes_read": 1161,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "text",
+   "head": "3fc99bec826773e88ab6cac7363027284df209f6db4a719fc00bf301a9f22086  open-codesign-",
+   "note": "text; states no OS/arch"
+  }
+ },
+ {
+  "idx": 26,
+  "repo": "listen1/listen1_desktop",
+  "asset_name": "listen1_2.33.0_win.exe.blockmap",
+  "http_status": 206,
+  "content_range": "bytes 0-248871/248872",
+  "bytes_read": 248872,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "gzip",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 27,
+  "repo": "tutti-os/tutti",
+  "asset_name": "alpha.yml",
+  "http_status": 206,
+  "content_range": "bytes 0-345/346",
+  "bytes_read": 346,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "text",
+   "head": "version: 0.2.33\nfiles:\n  - url: Tutti-0.2.33-win-x64.exe\n    sha512: RqRQLKpOOJ5",
+   "note": "text; states no OS/arch"
+  }
+ },
+ {
+  "idx": 28,
+  "repo": "Molunerfinn/PicGo",
+  "asset_name": "latest-mac.yml",
+  "http_status": 206,
+  "content_range": "bytes 0-504/505",
+  "bytes_read": 505,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "text",
+   "head": "version: 3.0.3\nfiles:\n  - url: PicGo-3.0.3-arm64.dmg\n    sha512: F+4uC0OhFETTu57",
+   "note": "text; states no OS/arch"
+  }
+ },
+ {
+  "idx": 29,
+  "repo": "Open-Less/openless",
+  "asset_name": "OpenLess_2.0.1+build.20261016_armeabi-v7a.apk",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/23960463",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "ZIP",
+   "first_entry": "META-INF/com/android/build/gradle/app-metadata.properties",
+   "note": "zip header carries no OS/arch"
+  }
+ },
+ {
+  "idx": 30,
+  "repo": "marktext/marktext",
+  "asset_name": "SHA256SUMS.txt",
+  "http_status": 206,
+  "content_range": "bytes 0-2690/2691",
+  "bytes_read": 2691,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "text",
+   "head": "d637278f9d8428eace4839ae69a430d21e2e5dcf0d489b00bd221fbe7a724fe2  builder-debug.",
+   "note": "text; states no OS/arch"
+  }
+ },
+ {
+  "idx": 31,
+  "repo": "Zettlr/Zettlr",
+  "asset_name": "SHA256SUMS.txt",
+  "http_status": 206,
+  "content_range": "bytes 0-810/811",
+  "bytes_read": 811,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "text",
+   "head": "ffccfcbdd71531fd7a6d4805ea9c199d75c2b4e023ee73df9b3bf6e20cdb5068  Zettlr-4.9.0-x",
+   "note": "text; states no OS/arch"
+  }
+ },
+ {
+  "idx": 32,
+  "repo": "open-pencil/open-pencil",
+  "asset_name": "release-manifest.json",
+  "http_status": 206,
+  "content_range": "bytes 0-8199/8200",
+  "bytes_read": 8200,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "text",
+   "head": "{\n  \"tag\": \"v0.16.0\",\n  \"sourceCommit\": \"ffe2fc5798468988a5943c5f5737905c3c7a28b",
+   "note": "text; states no OS/arch"
+  }
+ },
+ {
+  "idx": 33,
+  "repo": "jgraph/drawio-desktop",
+  "asset_name": "draw.io-x64-32.6.10.dmg.blockmap",
+  "http_status": 206,
+  "content_range": "bytes 0-172920/172921",
+  "bytes_read": 172921,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "gzip",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 34,
+  "repo": "nilbuild/pennywise",
+  "asset_name": "pennywise_0.8.0_i386.deb",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/61070988",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "ar (deb)",
+   "members": [
+    "debian-binary",
+    "control.tar.gz"
+   ],
+   "control_Architecture": "i386",
+   "control_head": "Package: pennywise\nVersion: 0.8.0\nLicense: MIT\nVendor: Kamran Ahmed <kamranahmed.se@gmail.com>\nArchitecture: i386\nMaintainer: Kamran Ahmed <kamranahmed.se@gmail.com>\nInstalled-Size: 283401\nDepends: gconf2, gconf-service, libnotify4, libappindicator1, libxtst6, libnss3, libxss1\nSection: default\nPrior"
+  }
+ },
+ {
+  "idx": 35,
+  "repo": "dbgate/dbgate",
+  "asset_name": "dbgate-premium-7.3.4-win_x64.exe.blockmap",
+  "http_status": 206,
+  "content_range": "bytes 0-175583/175584",
+  "bytes_read": 175584,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "gzip",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 36,
+  "repo": "dbgate/dbgate",
+  "asset_name": "dbgate-premium-7.3.4-mac_x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/234892933",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 37,
+  "repo": "aipoch/open-science",
+  "asset_name": "open-science-cli_1.2.1_arm64.deb",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/121692912",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ar (deb)",
+   "members": [
+    "debian-binary",
+    "control.tar.zst"
+   ],
+   "control_Architecture": "arm64",
+   "control_head": "Package: open-science-cli\nVersion: 1.2.1\nArchitecture: arm64\nSection: science\nPriority: optional\nMaintainer: aipoch\nHomepage: https://github.com/aipoch/open-science\nDepends: libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libgcc-s1 (>= 4.2), libglib2.0-0t64 (>= 2.12.0), libsecret-1-0 (>= 0.7), libssl3t64 "
+  }
+ },
+ {
+  "idx": 38,
+  "repo": "InukaAsith/TwinDesk",
+  "asset_name": "TwinDesk-3.0.0-amd64.deb",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/102919568",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ar (deb)",
+   "members": [
+    "debian-binary/",
+    "control.tar.gz/"
+   ],
+   "control_Architecture": "amd64",
+   "control_head": "Package: twindesk\nVersion: 3.0.0\nLicense: GPL-3.0\nVendor: inukaasith\nArchitecture: amd64\nMaintainer: inukaasith\nInstalled-Size: 347405\nDepends: libgtk-3-0 | libgtk-3-0t64, libnotify4, libnss3, libxss1, libxtst6, xdg-utils, libatspi2.0-0 | libatspi2.0-0t64, libuuid1, libsecret-1-0, libxi6, libxrandr2"
+  }
+ },
+ {
+  "idx": 39,
+  "repo": "sqlectron/sqlectron",
+  "asset_name": "sqlectron-1.39.0-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/118074184",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 40,
+  "repo": "podman-desktop/podman-desktop",
+  "asset_name": "podman-desktop-1.30.5-setup-arm64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/155765472",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 41,
+  "repo": "IsmaelMartinez/teams-for-linux",
+  "asset_name": "teams-for-linux-2.28.0-arm64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/131797132",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000200b700"
+  }
+ },
+ {
+  "idx": 42,
+  "repo": "harry0703/MangoDisk",
+  "asset_name": "MangoDisk-1.2.3-linux-x64.deb",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/17403164",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ar (deb)",
+   "members": [
+    "debian-binary",
+    "control.tar.gz"
+   ],
+   "control_Architecture": "amd64",
+   "control_head": "Package: mango-disk\nVersion: 1.2.3\nArchitecture: amd64\nInstalled-Size: 53763\nMaintainer: harry0703\nPriority: optional\nHomepage: https://mangodisk.app\nDepends: libayatana-appindicator3-1, libwebkit2gtk-4.1-0, libgtk-3-0\nDescription: MangoDisk cross-platform disk space manager\n (none)\n"
+  }
+ },
+ {
+  "idx": 43,
+  "repo": "totec448-spec/chat-on-steroids",
+  "asset_name": "Chat-On-Steroids-Linux-arm64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/181556532",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000300b700"
+  }
+ },
+ {
+  "idx": 44,
+  "repo": "dail8859/NotepadNext",
+  "asset_name": "NotepadNext-v0.15-Installer.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/10904664",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 45,
+  "repo": "LibreCAD/LibreCAD",
+  "asset_name": "LICENSE",
+  "http_status": 206,
+  "content_range": "bytes 0-4034/4035",
+  "bytes_read": 4035,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "text",
+   "head": "## LibreCAD and the GPLv2 ##\n\nLibreCAD is free software; you can redistribute it",
+   "note": "text; states no OS/arch"
+  }
+ },
+ {
+  "idx": 46,
+  "repo": "PintaProject/Pinta",
+  "asset_name": "Pinta-x86_64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/60723896",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 47,
+  "repo": "hoowhoami/EchoMusic",
+  "asset_name": "EchoMusic-2.3.2-Windows-Setup-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/123891427",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 48,
+  "repo": "spieglt/FlyingCarpet",
+  "asset_name": "macOS_FlyingCarpet_10.0.4.zip",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/663616",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "ZIP",
+   "first_entry": "FlyingCarpet.app/",
+   "note": "zip header carries no OS/arch"
+  }
+ },
+ {
+  "idx": 49,
+  "repo": "jhen0409/react-native-debugger",
+  "asset_name": "rn-debugger-macos-x64.zip",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/107340818",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "ZIP",
+   "first_entry": "React Native Debugger.app/",
+   "note": "zip header carries no OS/arch"
+  }
+ },
+ {
+  "idx": 50,
+  "repo": "strawberrymusicplayer/strawberry",
+  "asset_name": "strawberry-dbgsym_1.2.31-trixie_amd64.deb",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/145713484",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ar (deb)",
+   "members": [
+    "debian-binary",
+    "control.tar.xz"
+   ],
+   "control_Architecture": "amd64",
+   "control_head": "Package: strawberry-dbgsym\nSource: strawberry\nVersion: 1.2.31-trixie\nAuto-Built-Package: debug-symbols\nArchitecture: amd64\nMaintainer: Jonas Kvinge <jonas@jkvinge.net>\nInstalled-Size: 151512\nDepends: strawberry (= 1.2.31-trixie)\nSection: debug\nPriority: optional\nDescription: debug symbols for strawb"
+  }
+ },
+ {
+  "idx": 51,
+  "repo": "albertlauncher/albert",
+  "asset_name": "Albert-v35.2.0-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/2086909",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 52,
+  "repo": "electerm/electerm",
+  "asset_name": "electerm-5.10.0-linux-armv7l-legacy.rpm",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/60799060",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "other(armv7l)",
+  "evidence": {
+   "format": "RPM",
+   "lead_archnum": 12,
+   "header_ARCH": "armv7l"
+  }
+ },
+ {
+  "idx": 53,
+  "repo": "podman-desktop/podman-desktop",
+  "asset_name": "store-cache-pnpm-arm64.tgz",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/462473774",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "gzip",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 54,
+  "repo": "lencx/nofwl",
+  "asset_name": "NoFWL_0.1.0_macos_x86_64.app.tar.gz.sig",
+  "http_status": 206,
+  "content_range": "bytes 0-403/404",
+  "bytes_read": 404,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "text",
+   "head": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUU1ZxOFhW",
+   "note": "text; states no OS/arch"
+  }
+ },
+ {
+  "idx": 55,
+  "repo": "PurpleDoubleD/locally-uncensored",
+  "asset_name": "locally-uncensored-3.0.10-voice-python.cdx.json",
+  "http_status": 206,
+  "content_range": "bytes 0-66787/66788",
+  "bytes_read": 66788,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "text",
+   "head": "{\n  \"components\": [\n    {\n      \"bom-ref\": \"requirements-L11\",\n      \"descriptio",
+   "note": "text; states no OS/arch"
+  }
+ },
+ {
+  "idx": 56,
+  "repo": "4gray/iptvnator",
+  "asset_name": "iptvnator-0.25.0-linux-amd64.snap",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/179625984",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "squashfs"
+  }
+ },
+ {
+  "idx": 57,
+  "repo": "oldj/SwitchHosts",
+  "asset_name": "SwitchHosts-5.0.3-mac-universal.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/9556689",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 58,
+  "repo": "mihomo-party-org/clash-party",
+  "asset_name": "mihomo-party-windows-2.0.4-ia32-portable.7z.sha256",
+  "http_status": 206,
+  "content_range": "bytes 0-63/64",
+  "bytes_read": 64,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "text",
+   "head": "19905e796f373660651b2b9b83c37e5087cda6a2e03c5cde05ee3f5fa717741c",
+   "note": "text; states no OS/arch"
+  }
+ },
+ {
+  "idx": 59,
+  "repo": "truelockmc/streambert",
+  "asset_name": "Streambert-2.7.0.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/126256693",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 60,
+  "repo": "Dimillian/CodexMonitor",
+  "asset_name": "latest.json",
+  "http_status": 206,
+  "content_range": "bytes 0-2712/2713",
+  "bytes_read": 2713,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "text",
+   "head": "{\n  \"version\": \"0.7.67\",\n  \"notes\": \"## New Features\\n- auto-convert review find",
+   "note": "text; states no OS/arch"
+  }
+ },
+ {
+  "idx": 61,
+  "repo": "oliverschwendener/ueli",
+  "asset_name": "ueli-9.29.1-arm64.zip",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/208416298",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "ZIP",
+   "first_entry": "LICENSE.electron.txt",
+   "note": "zip header carries no OS/arch"
+  }
+ },
+ {
+  "idx": 62,
+  "repo": "ytmdesktop/ytmdesktop",
+  "asset_name": "youtube-music-desktop-app-2.1.0-1.arm64.rpm",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/102371925",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "RPM",
+   "lead_archnum": 19,
+   "header_ARCH": "aarch64"
+  }
+ },
+ {
+  "idx": 63,
+  "repo": "ytmdesktop/ytmdesktop",
+  "asset_name": "RELEASES",
+  "http_status": 206,
+  "content_range": "bytes 0-95/96",
+  "bytes_read": 96,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "text",
+   "head": "﻿D50031A185FCAEDBA3E853A5CEF6CB5A80C057D3 youtube_music_desktop_app-2.1.0-full",
+   "note": "text; states no OS/arch"
+  }
+ },
+ {
+  "idx": 64,
+  "repo": "thaw-app/Thaw",
+  "asset_name": "Thaw_2.1.0.cdx.json.sigstore.json",
+  "http_status": 206,
+  "content_range": "bytes 0-10345/10346",
+  "bytes_read": 10346,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "text",
+   "head": "{\"mediaType\":\"application/vnd.dev.sigstore.bundle.v0.3+json\",\"verificationMateri",
+   "note": "text; states no OS/arch"
+  }
+ },
+ {
+  "idx": 65,
+  "repo": "electerm/electerm",
+  "asset_name": "electerm-5.10.0-linux-ppc64le.tar.gz",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/148939101",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "gzip",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 66,
+  "repo": "libnyanpasu/clash-nyanpasu",
+  "asset_name": "Clash.Nyanpasu.aarch64.app.tar.gz",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/125765766",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "gzip",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 67,
+  "repo": "aipoch/open-science",
+  "asset_name": "aipoch-open-science-1.2.1-linux-arm64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/325854314",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000200b700"
+  }
+ },
+ {
+  "idx": 68,
+  "repo": "pulsar-edit/pulsar",
+  "asset_name": "Silicon.Mac.Pulsar-1.133.1-arm64-mac.zip.blockmap",
+  "http_status": 206,
+  "content_range": "bytes 0-248527/248528",
+  "bytes_read": 248528,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "gzip",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 69,
+  "repo": "thtbee/nectarlink",
+  "asset_name": "nectarlink_0.1.5_amd64.deb",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/50626074",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ar (deb)",
+   "members": [
+    "debian-binary",
+    "control.tar.zst"
+   ],
+   "control_Architecture": "amd64",
+   "control_head": "Package: nectarlink\nVersion: 0.1.5\nSection: net\nPriority: optional\nArchitecture: amd64\nInstalled-Size: 194956\nDepends: libc6, libgcc-s1, libstdc++6, zlib1g, libzstd1, libbrotli1, libglib2.0-0t64 | libglib2.0-0, libgssapi-krb5-2, libdbus-1-3, libfontconfig1, libfreetype6, libgl1, libegl1, libxkbcommo"
+  }
+ },
+ {
+  "idx": 70,
+  "repo": "ThinkInAIXYZ/deepchat",
+  "asset_name": "DeepChat-1.1.3-windows-arm64.exe.blockmap",
+  "http_status": 206,
+  "content_range": "bytes 0-291233/291234",
+  "bytes_read": 291234,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "gzip",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 71,
+  "repo": "keeweb/keeweb",
+  "asset_name": "KeeWeb-1.18.7.linux.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/81703944",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 72,
+  "repo": "strawberrymusicplayer/strawberry",
+  "asset_name": "strawberry_1.2.31-trixie_amd64.deb",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/7497116",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ar (deb)",
+   "members": [
+    "debian-binary",
+    "control.tar.xz"
+   ],
+   "control_Architecture": "amd64",
+   "control_head": "Package: strawberry\nVersion: 1.2.31-trixie\nArchitecture: amd64\nMaintainer: Jonas Kvinge <jonas@jkvinge.net>\nInstalled-Size: 16059\nDepends: libasound2t64 (>= 1.0.16), libc6 (>= 2.34), libcdio19t64 (>= 2.1.0), libchromaprint1 (>= 1.3.2), libebur128-1 (>= 1.1.0), libfftw3-double3 (>= 3.3.10), libgcc-s1"
+  }
+ },
+ {
+  "idx": 73,
+  "repo": "marktext/marktext",
+  "asset_name": "marktext-win-x64-0.23.0-setup.exe.blockmap",
+  "http_status": 206,
+  "content_range": "bytes 0-137417/137418",
+  "bytes_read": 137418,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "gzip",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 74,
+  "repo": "vastsa/PI-Desktop",
+  "asset_name": "pi-host-0.22.0-linux-x64.tar.gz",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/73883218",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "gzip",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 75,
+  "repo": "listen1/listen1_desktop",
+  "asset_name": "listen1_2.33.0_win_x64.exe.blockmap",
+  "http_status": 206,
+  "content_range": "bytes 0-85744/85745",
+  "bytes_read": 85745,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "gzip",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 76,
+  "repo": "Heroic-Games-Launcher/HeroicGamesLauncher",
+  "asset_name": "Heroic-2.22.4-Setup-x64.exe.blockmap",
+  "http_status": 206,
+  "content_range": "bytes 0-163386/163387",
+  "bytes_read": 163387,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "gzip",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 77,
+  "repo": "devhubapp/devhub",
+  "asset_name": "DevHub-0.102.0.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/88859779",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 78,
+  "repo": "Molunerfinn/PicGo",
+  "asset_name": "PicGo-3.0.3-arm64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/126782840",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 79,
+  "repo": "jgraph/drawio-desktop",
+  "asset_name": "draw.io-arm64-32.6.10-windows-arm64-installer.exe.blockmap",
+  "http_status": 206,
+  "content_range": "bytes 0-145973/145974",
+  "bytes_read": 145974,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "gzip",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 80,
+  "repo": "TriliumNext/Trilium",
+  "asset_name": "TriliumNotes-Server-v0.107.0-linux-x64.tar.xz",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/88744004",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "xz",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 81,
+  "repo": "lencx/nofwl",
+  "asset_name": "NoFWL_0.1.0_macos_x86_64.app.tar.gz",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/3586790",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "gzip",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 82,
+  "repo": "opengeos/GeoLibre",
+  "asset_name": "geolibre-android.aab",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/183146567",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "ZIP",
+   "first_entry": "META-INF/MANIFEST.MF",
+   "note": "zip header carries no OS/arch"
+  }
+ },
+ {
+  "idx": 83,
+  "repo": "momenbasel/PureMac",
+  "asset_name": "PureMac-3.2.0.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/5766547",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 84,
+  "repo": "Achilng/floral-notepaper",
+  "asset_name": "floral-notepaper_1.2.0_x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/27035368",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 85,
+  "repo": "SpriteOvO/AirPodsDesktop",
+  "asset_name": "AirPodsDesktop-0.6.1-win32-bridge.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/57326838",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft",
+    "WiX"
+   ]
+  }
+ },
+ {
+  "idx": 86,
+  "repo": "kdzwinel/betwixt",
+  "asset_name": "Betwixt-win32-ia32.zip",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/45537452",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "ZIP",
+   "first_entry": "Betwixt-win32-ia32/",
+   "note": "zip header carries no OS/arch"
+  }
+ },
+ {
+  "idx": 87,
+  "repo": "shiyutim/tickets",
+  "asset_name": "tickets_0.6.1_amd64.deb",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/11266862",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ar (deb)",
+   "members": [
+    "debian-binary",
+    "control.tar.gz"
+   ],
+   "control_Architecture": "amd64",
+   "control_head": "Package: tickets\nVersion: 0.6.1\nArchitecture: amd64\nInstalled-Size: 28447\nMaintainer: you\nDepends: libwebkit2gtk-4.0-37, libgtk-3-0\nDescription: A Tauri App\n (none)\nPriority: optional\n"
+  }
+ },
+ {
+  "idx": 88,
+  "repo": "l0ng-ai/openidea",
+  "asset_name": "OpenIDEA_0.1.41_arm64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/47944641",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 89,
+  "repo": "qier222/YesPlayMusic",
+  "asset_name": "latest.yml",
+  "http_status": 206,
+  "content_range": "bytes 0-386/387",
+  "bytes_read": 387,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "text",
+   "head": "version: 0.4.11\nfiles:\n  - url: YesPlayMusic-Setup-0.4.11.exe\n    sha512: McZwq4",
+   "note": "text; states no OS/arch"
+  }
+ },
+ {
+  "idx": 90,
+  "repo": "hiroi-sora/Umi-OCR",
+  "asset_name": "Umi-OCR_Linux_Paddle_2.1.5.tar.xz",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/277369884",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "xz",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 91,
+  "repo": "HarnessMD/munder-difflin",
+  "asset_name": "SHA256SUMS.txt",
+  "http_status": 206,
+  "content_range": "bytes 0-531/532",
+  "bytes_read": 532,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "text",
+   "head": "637c2ce58acae20d3a13386bff4d334065feb63e3b1ea47473adc89860eb0357  Munder-Difflin",
+   "note": "text; states no OS/arch"
+  }
+ },
+ {
+  "idx": 92,
+  "repo": "Splode/pomotroid",
+  "asset_name": "Pomotroid_1.7.1_amd64.deb.asc",
+  "http_status": 206,
+  "content_range": "bytes 0-227/228",
+  "bytes_read": 228,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "text",
+   "head": "-----BEGIN PGP SIGNATURE-----\n\niHUEABYKAB0WIQQubEsflTipKWkHEMcEpFxy+Lk+wgUCagIJL",
+   "note": "text; states no OS/arch"
+  }
+ },
+ {
+  "idx": 93,
+  "repo": "TriliumNext/Trilium",
+  "asset_name": "TriliumNotes-v0.107.0-windows-arm64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/218921632",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 94,
+  "repo": "LibreCAD/LibreCAD",
+  "asset_name": "LibreCAD-v2.2.1.6.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/92506713",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "780163601805433804fefdffff0e8819"
+  }
+ },
+ {
+  "idx": 95,
+  "repo": "laurent22/joplin",
+  "asset_name": "Joplin-3.7.22.AppImage.sha512",
+  "http_status": 206,
+  "content_range": "bytes 0-127/128",
+  "bytes_read": 128,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "text",
+   "head": "a6477b21a1141601958caced724b569f35af9e9e3e16a6847cae362756dff0727daf865780bf243b",
+   "note": "text; states no OS/arch"
+  }
+ },
+ {
+  "idx": 96,
+  "repo": "Heroic-Games-Launcher/HeroicGamesLauncher",
+  "asset_name": "Heroic-2.22.4-Setup-arm64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/153766816",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 97,
+  "repo": "wulkano/Kap",
+  "asset_name": "Kap-3.6.0-mac.zip",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/118008237",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "ZIP",
+   "first_entry": "Kap.app/",
+   "note": "zip header carries no OS/arch"
+  }
+ },
+ {
+  "idx": 98,
+  "repo": "crmne/zapfast",
+  "asset_name": "zapfast-v0.21.1-macos-universal.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/70578048",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 99,
+  "repo": "cerebroapp/cerebro",
+  "asset_name": "Cerebro-0.11.0.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/91077725",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ }
+]

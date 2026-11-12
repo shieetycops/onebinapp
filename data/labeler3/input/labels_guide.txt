@@ -1,0 +1,20 @@
+PANDUAN LABEL (putaran 3). Isi kolom OS, arch, type, dan satu confidence PER KOLOM.
+OS   : windows | macos | linux | android | ios | any | unknown
+arch : x64 | arm64 | arm32 | x86 | universal | any | unknown      (universal = macOS Intel+Apple Silicon sekaligus)
+type : installer      = Windows .exe/.msi/.msix setup, macOS .dmg/.pkg, Linux .AppImage/.deb/.rpm/.flatpak/.snap -> klik lalu pasang
+       portable       = zip/tar/7z berisi app jadi tanpa instal
+       ambiguous      = tidak bisa dipastikan dari NAMA saja (mis. app.exe bisa setup atau portabel)
+       not_installer  = checksum, signature, blockmap, latest*.yml, source code, symbols, debug, sbom, dokumen, dll
+Isi berdasarkan NAMA FILE (dan ekstensi) saja, seperti yang dilihat calon pengguna. Jika OS/arch tidak tertulis, isi unknown.
+
+ATURAN BARIS BUKAN INSTALLER: jika type = not_installer, isi OS dan arch dengan 'unknown' (jangan tebak dari nama).
+Jika nama file tidak menyebut arsitektur, isi arch = unknown walau Anda tahu kebiasaannya (misalnya AppImage tanpa arch).
+
+KEPERCAYAAN PER KOLOM: conf_os, conf_arch, conf_type masing-masing yakin atau ragu.
+Isi 'ragu' pada kolom ITU SAJA bila nama file tidak cukup untuk memastikan kolom tersebut. Nama yang tidak menyebut arsitektur
+tetapi jelas OS-nya: conf_os = yakin, arch = unknown, conf_arch = yakin (unknown yang jujur adalah jawaban pasti, bukan keraguan).
+
+KOLOM TAMBAHAN ROLE (putaran 3): role = app | helper
+  app    = installer atau paket milik aplikasi itu sendiri (yang ingin dipasang orang).
+  helper = bukan aplikasi utama: uninstaller, updater, vc_redist, runtime/prasyarat, CLI pendamping, varian debug, varian legacy/lama,
+           versi "lite/portable-launcher" yang jelas bukan installer utama. Jika tidak bisa ditentukan dari nama, isi app dan conf_type = ragu.

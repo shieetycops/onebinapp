@@ -1,0 +1,8067 @@
+[
+ {
+  "idx": 0,
+  "repo": "lachydotmcg/capri-desktop",
+  "asset_name": "Capri-linux-x64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/59394552",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 1,
+  "repo": "lachydotmcg/capri-desktop",
+  "asset_name": "Capri-Setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/23302144",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 2,
+  "repo": "lachydotmcg/capri-desktop",
+  "asset_name": "Capri.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/23302144",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 3,
+  "repo": "Cerzi/videoswarm",
+  "asset_name": "VideoSwarm-0.6.0-rc.5-win-x64-Portable.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/118569105",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 4,
+  "repo": "Cerzi/videoswarm",
+  "asset_name": "VideoSwarm-0.6.0-rc.5-win-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/118811369",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 5,
+  "repo": "pauljoda/Crest",
+  "asset_name": "Installer-Crest-0.9.1-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/219741252",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "6276786e0002000025000000680100f0"
+  }
+ },
+ {
+  "idx": 6,
+  "repo": "NOVA-TECH-KIT/nova-island",
+  "asset_name": "Nova-Island-Setup-1.8.6.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/1181420",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 7,
+  "repo": "btsouth/toolport",
+  "asset_name": "Toolport_2.3.4_amd64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/170650104",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 8,
+  "repo": "btsouth/toolport",
+  "asset_name": "Toolport_2.3.4_x64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/78875768",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 9,
+  "repo": "btsouth/toolport",
+  "asset_name": "Toolport_aarch64-apple-darwin.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/93186764",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 10,
+  "repo": "btsouth/toolport",
+  "asset_name": "Toolport_x86_64-apple-darwin.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/96378791",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 11,
+  "repo": "Tunnelblick/Tunnelblick",
+  "asset_name": "Tunnelblick_10.0.3_build_6610.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/29389258",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 12,
+  "repo": "multizenteam/multizen-browser",
+  "asset_name": "MultiZen-linux-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/133690069",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 13,
+  "repo": "multizenteam/multizen-browser",
+  "asset_name": "MultiZen-mac-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/126782586",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 14,
+  "repo": "multizenteam/multizen-browser",
+  "asset_name": "MultiZen-mac-x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/131736282",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103382"
+  }
+ },
+ {
+  "idx": 15,
+  "repo": "multizenteam/multizen-browser",
+  "asset_name": "MultiZen-win-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/103724077",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 16,
+  "repo": "Rem0o/FanControl.Releases",
+  "asset_name": "FanControl_285_net_10_0_Installer.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/20894624",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 17,
+  "repo": "Rem0o/FanControl.Releases",
+  "asset_name": "FanControl_285_net_4_8_Installer.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/14390624",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 18,
+  "repo": "modstart-lib/focusany",
+  "asset_name": "FocusAny-snapshot-linux-arm64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/178869028",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000200b700"
+  }
+ },
+ {
+  "idx": 19,
+  "repo": "modstart-lib/focusany",
+  "asset_name": "FocusAny-snapshot-linux-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/182481664",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 20,
+  "repo": "modstart-lib/focusany",
+  "asset_name": "FocusAny-snapshot-mac-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/161074091",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 21,
+  "repo": "modstart-lib/focusany",
+  "asset_name": "FocusAny-snapshot-mac-x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/168775199",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 22,
+  "repo": "modstart-lib/focusany",
+  "asset_name": "FocusAny-snapshot-win-setup-arm64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/120715780",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 23,
+  "repo": "modstart-lib/focusany",
+  "asset_name": "FocusAny-snapshot-win-setup-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/110466158",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 24,
+  "repo": "WangQrkkk/PaperQuay",
+  "asset_name": "PaperQuay-0.1.25-linux-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/135478997",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 25,
+  "repo": "WangQrkkk/PaperQuay",
+  "asset_name": "PaperQuay-0.1.25-mac-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/130384406",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 26,
+  "repo": "WangQrkkk/PaperQuay",
+  "asset_name": "PaperQuay-0.1.25-mac-x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/137276278",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 27,
+  "repo": "WangQrkkk/PaperQuay",
+  "asset_name": "PaperQuay-0.1.25-win-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/110863371",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 28,
+  "repo": "WangQrkkk/PaperQuay",
+  "asset_name": "PaperQuay-0.1.25-win-x64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/122695680",
+  "bytes_read": 4194304,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;1033"
+  }
+ },
+ {
+  "idx": 29,
+  "repo": "KejPi/AbracaDABra",
+  "asset_name": "AbracaDABra-v4.3.0-aarch64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/117481856",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000300b700"
+  }
+ },
+ {
+  "idx": 30,
+  "repo": "KejPi/AbracaDABra",
+  "asset_name": "AbracaDABra-v4.3.0-AppleSilicon.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/81581357",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 31,
+  "repo": "KejPi/AbracaDABra",
+  "asset_name": "AbracaDABra-v4.3.0-Intel.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/81791517",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 32,
+  "repo": "KejPi/AbracaDABra",
+  "asset_name": "AbracaDABra-v4.3.0-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/67799544",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 33,
+  "repo": "baizeteam/baize-toolbox",
+  "asset_name": "baize-toolbox-1.0.0-beta1-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/117668973",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 34,
+  "repo": "Punshnut/macos-launchy",
+  "asset_name": "Launchy.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/9841559",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "7801edd0b109c2001404d07301211b58"
+  }
+ },
+ {
+  "idx": 35,
+  "repo": "sekey/sekey",
+  "asset_name": "SeKey-0.1.pkg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/3065141",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "xar (.pkg)",
+   "hdr": 28,
+   "toc_compressed": 4101,
+   "err": "no Distribution file in TOC"
+  }
+ },
+ {
+  "idx": 36,
+  "repo": "xiajingren/xhznl-todo-list",
+  "asset_name": "xhznl-todo-list-Setup-0.2.3.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/110057597",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 37,
+  "repo": "SunshineStream/Sunshine",
+  "asset_name": "Sunshine-FreeBSD-15.1-amd64.pkg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/11235311",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "28b52ffd04689c1401dac59e7528b0d4"
+  }
+ },
+ {
+  "idx": 38,
+  "repo": "SunshineStream/Sunshine",
+  "asset_name": "Sunshine-macOS-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/40375035",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 39,
+  "repo": "SunshineStream/Sunshine",
+  "asset_name": "Sunshine-macOS-x86_64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/43417393",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 40,
+  "repo": "SunshineStream/Sunshine",
+  "asset_name": "Sunshine-Windows-AMD64-installer.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/33710080",
+  "bytes_read": 4194304,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;1033"
+  }
+ },
+ {
+  "idx": 41,
+  "repo": "SunshineStream/Sunshine",
+  "asset_name": "Sunshine-Windows-ARM64-installer.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/24541615",
+  "bytes_read": 4194304,
+  "content_os": "windows",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "Arm64;1033"
+  }
+ },
+ {
+  "idx": 42,
+  "repo": "SunshineStream/Sunshine",
+  "asset_name": "Sunshine_2026.914.233613_aarch64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/42301960",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000300b700"
+  }
+ },
+ {
+  "idx": 43,
+  "repo": "SunshineStream/Sunshine",
+  "asset_name": "Sunshine_2026.914.233613_x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/43883000",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 44,
+  "repo": "RhysSullivan/executor",
+  "asset_name": "executor-desktop-mac-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/214090037",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 45,
+  "repo": "RhysSullivan/executor",
+  "asset_name": "executor-desktop-mac-x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/229307987",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 46,
+  "repo": "RhysSullivan/executor",
+  "asset_name": "executor-desktop-win-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/188178407",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 47,
+  "repo": "itsVicOC/bilibili-downloader",
+  "asset_name": "BilibiliDownloader-macOS-full-v0.8.10.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/81133239",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 48,
+  "repo": "itsVicOC/bilibili-downloader",
+  "asset_name": "BilibiliDownloader-Windows-full-v0.8.10-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/71475635",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 49,
+  "repo": "andrew-waters/orchard",
+  "asset_name": "Orchard-2.7.1.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/32798236",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 50,
+  "repo": "andrew-waters/orchard",
+  "asset_name": "Orchard.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/32798236",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 51,
+  "repo": "leminlimez/Nugget",
+  "asset_name": "Nugget_macOS_arm.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/117612225",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 52,
+  "repo": "leminlimez/Nugget",
+  "asset_name": "Nugget_macOS_intel.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/110753279",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 53,
+  "repo": "n457/Uncolored",
+  "asset_name": "Uncolored-v.0.10.2-linux-x64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/61145088",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414901000000000002003e00"
+  }
+ },
+ {
+  "idx": 54,
+  "repo": "n457/Uncolored",
+  "asset_name": "Uncolored-v.0.10.2-osx-x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/49994479",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "425a683131415926535976a455850000"
+  }
+ },
+ {
+  "idx": 55,
+  "repo": "n457/Uncolored",
+  "asset_name": "Uncolored-v.0.10.2-win-x64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/38033488",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 56,
+  "repo": "thisnick/agent-wechat",
+  "asset_name": "AgentWechat-v2.3.2-macos-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/65467612",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 57,
+  "repo": "thisnick/agent-wechat",
+  "asset_name": "AgentWechat-v2.3.2-windows-arm64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/55991336",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 58,
+  "repo": "thisnick/agent-wechat",
+  "asset_name": "AgentWechat-v2.3.2-windows-x64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/57905688",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 59,
+  "repo": "thisnick/agent-wechat",
+  "asset_name": "wx-v2.3.2-win32-arm64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/31529472",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0xaa64",
+   "raw_hex": "5045000064aa",
+   "markers": []
+  }
+ },
+ {
+  "idx": 60,
+  "repo": "thisnick/agent-wechat",
+  "asset_name": "wx-v2.3.2-win32-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/38399488",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x8664",
+   "raw_hex": "504500006486",
+   "markers": []
+  }
+ },
+ {
+  "idx": 61,
+  "repo": "aredden/electron-G14Control",
+  "asset_name": "G14ControlV2-Setup-0.2.2.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/74586687",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 62,
+  "repo": "luyuhuang/DWords2",
+  "asset_name": "DWords-0.2.3.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/115379566",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 63,
+  "repo": "luyuhuang/DWords2",
+  "asset_name": "DWords.Setup.0.2.3.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/94413952",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 64,
+  "repo": "Augani/dory",
+  "asset_name": "Dory-0.4.5-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/238399578",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "785e636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 65,
+  "repo": "Augani/dory",
+  "asset_name": "Dory-0.4.5.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/238399578",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "785e636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 66,
+  "repo": "storytold/figcraft",
+  "asset_name": "figcraft-0.17.0-linux-aarch64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/92617224",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000300b700"
+  }
+ },
+ {
+  "idx": 67,
+  "repo": "storytold/figcraft",
+  "asset_name": "figcraft-0.17.0-linux-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/95894008",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 68,
+  "repo": "storytold/figcraft",
+  "asset_name": "figcraft-0.17.0-macos-universal.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/111506288",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da730de260e8b9c7c8300a46260000"
+  }
+ },
+ {
+  "idx": 69,
+  "repo": "storytold/figcraft",
+  "asset_name": "figcraft-0.17.0-windows-arm64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/77492224",
+  "bytes_read": 4194304,
+  "content_os": "windows",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "Arm64;1033"
+  }
+ },
+ {
+  "idx": 70,
+  "repo": "storytold/figcraft",
+  "asset_name": "figcraft-0.17.0-windows-x64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/81276928",
+  "bytes_read": 4194304,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;1033"
+  }
+ },
+ {
+  "idx": 71,
+  "repo": "alipay/SoloPi",
+  "asset_name": "solopi-desktop-0.1.140-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/239904261",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 72,
+  "repo": "xmannv/xkey",
+  "asset_name": "XKey.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/11519733",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "785e636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 73,
+  "repo": "nicepkg/deskmakeover",
+  "asset_name": "DeskMakeover_0.1.1_x64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/15342248",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 74,
+  "repo": "sprout2000/elephicon",
+  "asset_name": "Elephicon-4.3.1-darwin-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/124638777",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 75,
+  "repo": "sprout2000/elephicon",
+  "asset_name": "Elephicon-4.3.1-win32-x64-installer.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/123613984",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 76,
+  "repo": "acheronfail/xi-electron",
+  "asset_name": "Xi.Electron-0.1.3.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/74553449",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 77,
+  "repo": "mpvnet-player/mpv.net",
+  "asset_name": "mpv.net-v7.1.2.0-setup-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/38021649",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 78,
+  "repo": "jorio/Bugdom",
+  "asset_name": "Bugdom-1.3.4-linux-aarch64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/52851904",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000200b700"
+  }
+ },
+ {
+  "idx": 79,
+  "repo": "jorio/Bugdom",
+  "asset_name": "Bugdom-1.3.4-linux-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/53044416",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 80,
+  "repo": "jorio/Bugdom",
+  "asset_name": "Bugdom-1.3.4-mac.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/56385078",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78016360606061606060fbcfc8c00da4"
+  }
+ },
+ {
+  "idx": 81,
+  "repo": "AutoHotkey/AutoHotkey",
+  "asset_name": "AutoHotkey_2.0.31_setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/3044864",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 82,
+  "repo": "aehyok/video2blog",
+  "asset_name": "Video2Blog-Windows-0.0.36-Setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/240268075",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 83,
+  "repo": "rekkyrosso/ampcast",
+  "asset_name": "ampcast-0.10.0-linux-arm64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/128882274",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000200b700"
+  }
+ },
+ {
+  "idx": 84,
+  "repo": "rekkyrosso/ampcast",
+  "asset_name": "ampcast-0.10.0-linux-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/127576060",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 85,
+  "repo": "rekkyrosso/ampcast",
+  "asset_name": "ampcast-0.10.0-mac-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/131854054",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 86,
+  "repo": "rekkyrosso/ampcast",
+  "asset_name": "ampcast-0.10.0-mac-x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/138327493",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 87,
+  "repo": "rekkyrosso/ampcast",
+  "asset_name": "ampcast-0.10.0-win-x64.setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/113418058",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 88,
+  "repo": "sn4k3/UVtools",
+  "asset_name": "UVtools_linux-arm64_v7.1.2.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/67557896",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000300b700"
+  }
+ },
+ {
+  "idx": 89,
+  "repo": "sn4k3/UVtools",
+  "asset_name": "UVtools_linux-x64_v7.1.2.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/84077048",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 90,
+  "repo": "sn4k3/UVtools",
+  "asset_name": "UVtools_win-arm64_v7.1.2.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/83375369",
+  "bytes_read": 4194304,
+  "content_os": "windows",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "Arm64;1033"
+  }
+ },
+ {
+  "idx": 91,
+  "repo": "sn4k3/UVtools",
+  "asset_name": "UVtools_win-x64_v7.1.2.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/107558279",
+  "bytes_read": 4194304,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;1033"
+  }
+ },
+ {
+  "idx": 92,
+  "repo": "setvisible/ArrowDL",
+  "asset_name": "ArrowDL_x64_Setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/36856366",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 93,
+  "repo": "osxfuse/osxfuse",
+  "asset_name": "macfuse-5.5.0.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/22946514",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "785e636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 94,
+  "repo": "steveseguin/social_stream",
+  "asset_name": "socialstreamninja-portable.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/344735648",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 95,
+  "repo": "steveseguin/social_stream",
+  "asset_name": "socialstreamninja-setup-0.4.40.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/346154872",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 96,
+  "repo": "steveseguin/social_stream",
+  "asset_name": "socialstreamninja_linux_v0.4.40_x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/443594760",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 97,
+  "repo": "steveseguin/social_stream",
+  "asset_name": "socialstreamninja_mac_v0.4.40_arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/452582855",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 98,
+  "repo": "steveseguin/social_stream",
+  "asset_name": "socialstreamninja_mac_v0.4.40_x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/462548147",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 99,
+  "repo": "nab138/iloader",
+  "asset_name": "iloader-darwin-universal.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/18758860",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 100,
+  "repo": "nab138/iloader",
+  "asset_name": "iloader-linux-aarch64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/86915592",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000300b700"
+  }
+ },
+ {
+  "idx": 101,
+  "repo": "nab138/iloader",
+  "asset_name": "iloader-linux-amd64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/88611320",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 102,
+  "repo": "nab138/iloader",
+  "asset_name": "iloader-windows-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/6026098",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 103,
+  "repo": "nab138/iloader",
+  "asset_name": "iloader-windows-x64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/8888320",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 104,
+  "repo": "koharu-rs/koharu",
+  "asset_name": "koharu_0.83.5_aarch64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/165904176",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000200b700"
+  }
+ },
+ {
+  "idx": 105,
+  "repo": "koharu-rs/koharu",
+  "asset_name": "koharu_0.83.5_aarch64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/189780084",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 106,
+  "repo": "koharu-rs/koharu",
+  "asset_name": "koharu_0.83.5_amd64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/168623063",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 107,
+  "repo": "koharu-rs/koharu",
+  "asset_name": "koharu_0.83.5_x64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/165880120",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 108,
+  "repo": "koharu-rs/koharu",
+  "asset_name": "koharu_0.83.5_x64_en-US.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/219176960",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 109,
+  "repo": "ciromattia/kcc",
+  "asset_name": "KCC_13.0.1.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/91593416",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x8664",
+   "raw_hex": "504500006486",
+   "markers": []
+  }
+ },
+ {
+  "idx": 110,
+  "repo": "ciromattia/kcc",
+  "asset_name": "KCC_ARM64_13.0.1.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/70893768",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0xaa64",
+   "raw_hex": "5045000064aa",
+   "markers": []
+  }
+ },
+ {
+  "idx": 111,
+  "repo": "ciromattia/kcc",
+  "asset_name": "kcc_linux-13.0.1-aarch64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/109634681",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000200b700"
+  }
+ },
+ {
+  "idx": 112,
+  "repo": "ciromattia/kcc",
+  "asset_name": "kcc_linux-13.0.1-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/113933438",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 113,
+  "repo": "ciromattia/kcc",
+  "asset_name": "kcc_macos_arm_13.0.1.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/77784270",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 114,
+  "repo": "ciromattia/kcc",
+  "asset_name": "kcc_macos_i386_13.0.1.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/86067523",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 115,
+  "repo": "ciromattia/kcc",
+  "asset_name": "kcc_win7_legacy_13.0.1.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/71158720",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x8664",
+   "raw_hex": "504500006486",
+   "markers": []
+  }
+ },
+ {
+  "idx": 116,
+  "repo": "ciromattia/kcc",
+  "asset_name": "tool_cli_c2e_13.0.1_AMD64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/91598960",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x8664",
+   "raw_hex": "504500006486",
+   "markers": []
+  }
+ },
+ {
+  "idx": 117,
+  "repo": "ciromattia/kcc",
+  "asset_name": "tool_cli_c2e_13.0.1_ARM64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/70899512",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0xaa64",
+   "raw_hex": "5045000064aa",
+   "markers": []
+  }
+ },
+ {
+  "idx": 118,
+  "repo": "ciromattia/kcc",
+  "asset_name": "tool_cli_c2p_13.0.1_AMD64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/91598760",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x8664",
+   "raw_hex": "504500006486",
+   "markers": []
+  }
+ },
+ {
+  "idx": 119,
+  "repo": "ciromattia/kcc",
+  "asset_name": "tool_cli_c2p_13.0.1_ARM64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/70899800",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0xaa64",
+   "raw_hex": "5045000064aa",
+   "markers": []
+  }
+ },
+ {
+  "idx": 120,
+  "repo": "BloopAI/vibe-kanban",
+  "asset_name": "Vibe-Kanban-0.1.43-aarch64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/53619200",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 121,
+  "repo": "BloopAI/vibe-kanban",
+  "asset_name": "Vibe-Kanban-0.1.43-x86_64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/55677440",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 122,
+  "repo": "BloopAI/vibe-kanban",
+  "asset_name": "Vibe-Kanban-0.1.44-aarch64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/53579776",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 123,
+  "repo": "BloopAI/vibe-kanban",
+  "asset_name": "Vibe-Kanban-0.1.44-x86_64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/55616000",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 124,
+  "repo": "BloopAI/vibe-kanban",
+  "asset_name": "Vibe.Kanban_0.1.43_arm64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/36450540",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 125,
+  "repo": "BloopAI/vibe-kanban",
+  "asset_name": "Vibe.Kanban_0.1.43_x64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/39023283",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 126,
+  "repo": "BloopAI/vibe-kanban",
+  "asset_name": "Vibe.Kanban_0.1.44_aarch64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/121301512",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000300b700"
+  }
+ },
+ {
+  "idx": 127,
+  "repo": "BloopAI/vibe-kanban",
+  "asset_name": "Vibe.Kanban_0.1.44_aarch64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/51306861",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 128,
+  "repo": "BloopAI/vibe-kanban",
+  "asset_name": "Vibe.Kanban_0.1.44_amd64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/124389880",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 129,
+  "repo": "BloopAI/vibe-kanban",
+  "asset_name": "Vibe.Kanban_0.1.44_arm64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/36457425",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 130,
+  "repo": "BloopAI/vibe-kanban",
+  "asset_name": "Vibe.Kanban_0.1.44_x64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/38882306",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 131,
+  "repo": "BloopAI/vibe-kanban",
+  "asset_name": "Vibe.Kanban_0.1.44_x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/53075137",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 132,
+  "repo": "sybil-solutions/local-studio",
+  "asset_name": "Local-Studio-3.0.3-arm64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/229617768",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000200b700"
+  }
+ },
+ {
+  "idx": 133,
+  "repo": "sybil-solutions/local-studio",
+  "asset_name": "Local-Studio-3.0.3-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/189844875",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 134,
+  "repo": "sybil-solutions/local-studio",
+  "asset_name": "Local-Studio-3.0.3-x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/201044506",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 135,
+  "repo": "sybil-solutions/local-studio",
+  "asset_name": "Local-Studio-3.0.3-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/218211693",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 136,
+  "repo": "sybil-solutions/local-studio",
+  "asset_name": "Local-Studio-3.0.3-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/230078773",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 137,
+  "repo": "sybil-solutions/local-studio",
+  "asset_name": "local-studio-controller-windows-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/98761216",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x8664",
+   "raw_hex": "504500006486",
+   "markers": []
+  }
+ },
+ {
+  "idx": 138,
+  "repo": "sybil-solutions/local-studio",
+  "asset_name": "Local-Studio-linux-arm64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/229617768",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000200b700"
+  }
+ },
+ {
+  "idx": 139,
+  "repo": "sybil-solutions/local-studio",
+  "asset_name": "Local-Studio-linux-x64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/230078773",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 140,
+  "repo": "sybil-solutions/local-studio",
+  "asset_name": "Local-Studio-mac-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/189844875",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 141,
+  "repo": "sybil-solutions/local-studio",
+  "asset_name": "Local-Studio-mac-x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/201044506",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 142,
+  "repo": "sybil-solutions/local-studio",
+  "asset_name": "Local-Studio-win-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/218211693",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 143,
+  "repo": "44886/Exeify",
+  "asset_name": "exeify-v0.7.6-windows-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/2849280",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x8664",
+   "raw_hex": "504500006486",
+   "markers": []
+  }
+ },
+ {
+  "idx": 144,
+  "repo": "Vita3K/Vita3K",
+  "asset_name": "macos-arm64-latest.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/60608220",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 145,
+  "repo": "Vita3K/Vita3K",
+  "asset_name": "macos-latest.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/62510400",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 146,
+  "repo": "Vita3K/Vita3K",
+  "asset_name": "Vita3K-aarch64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/88443529",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000200b700"
+  }
+ },
+ {
+  "idx": 147,
+  "repo": "Vita3K/Vita3K",
+  "asset_name": "Vita3K-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/89982211",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 148,
+  "repo": "TsaiKoga/it-tools",
+  "asset_name": "IT-Tools-v1.5.1.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/79836439",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 149,
+  "repo": "zellij-org/zellij",
+  "asset_name": "zellij-no-web-x86_64-pc-windows-msvc-installer.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/30150656",
+  "bytes_read": 4194304,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;1033"
+  }
+ },
+ {
+  "idx": 150,
+  "repo": "zellij-org/zellij",
+  "asset_name": "zellij-x86_64-pc-windows-msvc-installer.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/32612352",
+  "bytes_read": 4194304,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;1033"
+  }
+ },
+ {
+  "idx": 151,
+  "repo": "epicenter-os/epicenter",
+  "asset_name": "Whispering_7.11.0_aarch64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/15606745",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 152,
+  "repo": "epicenter-os/epicenter",
+  "asset_name": "Whispering_7.11.0_amd64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/102181368",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 153,
+  "repo": "epicenter-os/epicenter",
+  "asset_name": "Whispering_7.11.0_x64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/13421289",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 154,
+  "repo": "epicenter-os/epicenter",
+  "asset_name": "Whispering_7.11.0_x64_en-US.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/23764992",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 155,
+  "repo": "OyadotAI/oya-browser",
+  "asset_name": "Oya.Browser-1.0.233-universal.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/236487833",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 156,
+  "repo": "OyadotAI/oya-browser",
+  "asset_name": "Oya.Browser-1.0.233-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/123963784",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 157,
+  "repo": "openclaw/Peekaboo",
+  "asset_name": "Peekaboo-4.9.8.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/49191262",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "780163601805433804fefdffff0e8819"
+  }
+ },
+ {
+  "idx": 158,
+  "repo": "bardsoftware/ganttproject",
+  "asset_name": "ganttproject-3.3.3323-intel.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/146129461",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "425a68313141592653598367d7a20000"
+  }
+ },
+ {
+  "idx": 159,
+  "repo": "bardsoftware/ganttproject",
+  "asset_name": "ganttproject-3.3.3323-silicon.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/142191251",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "425a6831314159265359a83c7f280000"
+  }
+ },
+ {
+  "idx": 160,
+  "repo": "bardsoftware/ganttproject",
+  "asset_name": "ganttproject-3.3.3323.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/184560120",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 161,
+  "repo": "bardsoftware/ganttproject",
+  "asset_name": "ganttproject-3.3.3323.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/143179289",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 162,
+  "repo": "bardsoftware/ganttproject",
+  "asset_name": "ganttproject-3.3.3323.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/144510023",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 163,
+  "repo": "MediaHarbor/mediaharbor",
+  "asset_name": "MediaHarbor_3.0.0_aarch64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/14259849",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 164,
+  "repo": "MediaHarbor/mediaharbor",
+  "asset_name": "MediaHarbor_3.0.0_amd64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/94493176",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 165,
+  "repo": "MediaHarbor/mediaharbor",
+  "asset_name": "MediaHarbor_3.0.0_x64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/12639331",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 166,
+  "repo": "MediaHarbor/mediaharbor",
+  "asset_name": "MediaHarbor_3.0.0_x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/15831662",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 167,
+  "repo": "MediaHarbor/mediaharbor",
+  "asset_name": "MediaHarbor_3.0.0_x64_en-US.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/17731584",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 168,
+  "repo": "zoolapp/aime",
+  "asset_name": "AIME-0.1.12.pkg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/36735871",
+  "bytes_read": 524288,
+  "content_os": "macos",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "xar (.pkg)",
+   "hdr": 28,
+   "toc_compressed": 4926,
+   "err": "Distribution beyond fetched range"
+  }
+ },
+ {
+  "idx": 169,
+  "repo": "Hxy1992/MapDownload",
+  "asset_name": "map-download-Setup-26.8.21-479.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/86308071",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 170,
+  "repo": "DDDuoDuo/EndfieldHUD",
+  "asset_name": "EndfieldHUD-1.3.1-build20-Installer.pkg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/62268095",
+  "bytes_read": 524288,
+  "content_os": "macos",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "xar (.pkg)",
+   "hdr": 28,
+   "toc_compressed": 1065,
+   "err": "Distribution beyond fetched range"
+  }
+ },
+ {
+  "idx": 171,
+  "repo": "DDDuoDuo/EndfieldHUD",
+  "asset_name": "EndfieldHUD-1.3.1-build20-macOS.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/68686827",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 172,
+  "repo": "DDDuoDuo/EndfieldHUD",
+  "asset_name": "EndfieldHUD-1.3.1-build21-windows-x64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/44510464",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x8664",
+   "raw_hex": "504500006486",
+   "markers": []
+  }
+ },
+ {
+  "idx": 173,
+  "repo": "dunkbing/typeview",
+  "asset_name": "TypeView_0.0.0_aarch64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/2651254",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 174,
+  "repo": "dunkbing/typeview",
+  "asset_name": "TypeView_0.0.0_x64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/1643863",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 175,
+  "repo": "dunkbing/typeview",
+  "asset_name": "TypeView_0.0.0_x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/2688710",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 176,
+  "repo": "dunkbing/typeview",
+  "asset_name": "TypeView_0.0.0_x64_en-US.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-2621439/2621440",
+  "bytes_read": 2621440,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;0"
+  }
+ },
+ {
+  "idx": 177,
+  "repo": "pdone/FreeControl",
+  "asset_name": "FreeControl_2.5.1_linux_amd64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/84548088",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 178,
+  "repo": "pdone/FreeControl",
+  "asset_name": "FreeControl_2.5.1_macos_arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/5857471",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 179,
+  "repo": "pdone/FreeControl",
+  "asset_name": "FreeControl_2.5.1_macos_x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/5864907",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 180,
+  "repo": "pdone/FreeControl",
+  "asset_name": "FreeControl_2.5.1_windows_arm64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/5937664",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0xaa64",
+   "raw_hex": "5045000064aa",
+   "markers": []
+  }
+ },
+ {
+  "idx": 181,
+  "repo": "pdone/FreeControl",
+  "asset_name": "FreeControl_2.5.1_windows_x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/6559232",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x8664",
+   "raw_hex": "504500006486",
+   "markers": []
+  }
+ },
+ {
+  "idx": 182,
+  "repo": "1000ch/whale",
+  "asset_name": "Whale-3.0.0-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/114884658",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 183,
+  "repo": "1000ch/whale",
+  "asset_name": "Whale.Setup.3.0.0.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/102353790",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 184,
+  "repo": "SkyD666/PodAura",
+  "asset_name": "PodAura_1.0.0_macOS_JVM_arm64_release_GitHub.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/123483637",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "780163601805433804fefdffff0e8819"
+  }
+ },
+ {
+  "idx": 185,
+  "repo": "mozilla/mozregression",
+  "asset_name": "mozregression-gui-signed.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/39678832",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 186,
+  "repo": "mozilla/mozregression",
+  "asset_name": "mozregression-gui.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/86506174",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "425a68313141592653594b2733100000"
+  }
+ },
+ {
+  "idx": 187,
+  "repo": "pmbstyle/Alice",
+  "asset_name": "Alice-AI-App-Linux-1.5.0.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/550535564",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 188,
+  "repo": "pmbstyle/Alice",
+  "asset_name": "Alice-AI-App-Mac-1.5.0-Installer.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/1069656591",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "00000000000000000000000000000000"
+  }
+ },
+ {
+  "idx": 189,
+  "repo": "pmbstyle/Alice",
+  "asset_name": "Alice-AI-App-Windows-1.5.0-Setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/532831188",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 190,
+  "repo": "UniversalMediaServer/UniversalMediaServer",
+  "asset_name": "UMS-Linux-15.9.0-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/233421304",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 191,
+  "repo": "UniversalMediaServer/UniversalMediaServer",
+  "asset_name": "UMS-macOS-15.9.0-arm.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/222193743",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 192,
+  "repo": "UniversalMediaServer/UniversalMediaServer",
+  "asset_name": "UMS-macOS-15.9.0-pre10.15.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/233481446",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 193,
+  "repo": "UniversalMediaServer/UniversalMediaServer",
+  "asset_name": "UMS-macOS-15.9.0-x86_64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/228841286",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 194,
+  "repo": "UniversalMediaServer/UniversalMediaServer",
+  "asset_name": "UMS-Windows-15.9.0-x86.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/236669285",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 195,
+  "repo": "UniversalMediaServer/UniversalMediaServer",
+  "asset_name": "UMS-Windows-15.9.0-x86_64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/173497468",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 196,
+  "repo": "blaise-io/acelink",
+  "asset_name": "Ace.Link.2.1.0.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/4507668",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 197,
+  "repo": "yuxino/Mimi",
+  "asset_name": "mimi_1.6.17_aarch64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/7666410",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 198,
+  "repo": "yuxino/Mimi",
+  "asset_name": "mimi_1.6.17_amd64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/85154296",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 199,
+  "repo": "yuxino/Mimi",
+  "asset_name": "mimi_1.6.17_x64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/4859636",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 200,
+  "repo": "yuxino/Mimi",
+  "asset_name": "mimi_1.6.17_x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/8121676",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 201,
+  "repo": "yuxino/Mimi",
+  "asset_name": "mimi_1.6.17_x64_en-US.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/5361664",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 202,
+  "repo": "cocojojo5213/Dev-Janitor",
+  "asset_name": "Dev.Janitor_2.5.1_aarch64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/4311307",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 203,
+  "repo": "cocojojo5213/Dev-Janitor",
+  "asset_name": "Dev.Janitor_2.5.1_amd64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/84023800",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 204,
+  "repo": "cocojojo5213/Dev-Janitor",
+  "asset_name": "Dev.Janitor_2.5.1_x64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/2897983",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 205,
+  "repo": "cocojojo5213/Dev-Janitor",
+  "asset_name": "Dev.Janitor_2.5.1_x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/4621827",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 206,
+  "repo": "cocojojo5213/Dev-Janitor",
+  "asset_name": "Dev.Janitor_2.5.1_x64_en-US.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4030463/4030464",
+  "bytes_read": 4030464,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;0"
+  }
+ },
+ {
+  "idx": 207,
+  "repo": "cocojojo5213/Dev-Janitor",
+  "asset_name": "Dev.Janitor_2.5.1_x64_ja-JP.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4030463/4030464",
+  "bytes_read": 4030464,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;0"
+  }
+ },
+ {
+  "idx": 208,
+  "repo": "cocojojo5213/Dev-Janitor",
+  "asset_name": "Dev.Janitor_2.5.1_x64_zh-CN.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4026367/4026368",
+  "bytes_read": 4026368,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;0"
+  }
+ },
+ {
+  "idx": 209,
+  "repo": "scosman/Biscotti",
+  "asset_name": "Biscotti.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/22892691",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "6276786e0002000025000000680100f0"
+  }
+ },
+ {
+  "idx": 210,
+  "repo": "Blave-TW/blave-agent",
+  "asset_name": "Blave-0.1.52-universal.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/273614144",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "6276786e0002000025000000680100f0"
+  }
+ },
+ {
+  "idx": 211,
+  "repo": "Blave-TW/blave-agent",
+  "asset_name": "Blave-Setup-0.1.52.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/137823041",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 212,
+  "repo": "superhighfives/pika",
+  "asset_name": "Pika-2.0.2.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/8509840",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "6276786e0002000026000000680100f0"
+  }
+ },
+ {
+  "idx": 213,
+  "repo": "QL-Win/QuickLook",
+  "asset_name": "QuickLook-4.5.0.appx",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/136671507",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "ZIP",
+   "first_entry": "Assets/Branding/01.png",
+   "note": "zip header carries no OS/arch"
+  }
+ },
+ {
+  "idx": 214,
+  "repo": "QL-Win/QuickLook",
+  "asset_name": "QuickLook-4.5.0.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/64748544",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 215,
+  "repo": "QL-Win/QuickLook",
+  "asset_name": "QuickLook-4.5.0.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/94425456",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 216,
+  "repo": "3529/fish-book",
+  "asset_name": "fish-book.Setup.1.0.0.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/71620052",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 217,
+  "repo": "Z-Siqi/Clash-for-Windows_Chinese",
+  "asset_name": "Clash.for.Windows.Setup_Opt-5.arm64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/154754025",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 218,
+  "repo": "Z-Siqi/Clash-for-Windows_Chinese",
+  "asset_name": "Clash.for.Windows.Setup_Opt-5.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/163053850",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 219,
+  "repo": "Z-Siqi/Clash-for-Windows_Chinese",
+  "asset_name": "Setup_Opt-0.20.39.5.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/163053850",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 220,
+  "repo": "Psiphon-Inc/conduit",
+  "asset_name": "conduit-windows-amd64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/28978176",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x8664",
+   "raw_hex": "504500006486",
+   "markers": []
+  }
+ },
+ {
+  "idx": 221,
+  "repo": "mvdicarlo/postybirb",
+  "asset_name": "PostyBirb-2.3.44.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/93283050",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 222,
+  "repo": "mvdicarlo/postybirb",
+  "asset_name": "PostyBirb-2.3.44.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/94086474",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 223,
+  "repo": "mvdicarlo/postybirb",
+  "asset_name": "PostyBirb-2.3.44.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/126929720",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 224,
+  "repo": "mvdicarlo/postybirb",
+  "asset_name": "PostyBirb-Setup-2.3.44.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/127133984",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 225,
+  "repo": "qqqqqf-q/Arkloop",
+  "asset_name": "Arkloop-linux-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/174754458",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 226,
+  "repo": "qqqqqf-q/Arkloop",
+  "asset_name": "Arkloop-mac-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/169121107",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 227,
+  "repo": "qqqqqf-q/Arkloop",
+  "asset_name": "Arkloop-mac-x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/180246046",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 228,
+  "repo": "qqqqqf-q/Arkloop",
+  "asset_name": "Arkloop-win-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/141021553",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 229,
+  "repo": "Kilian/fromscratch",
+  "asset_name": "FromScratch-1.4.3.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/55126992",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 230,
+  "repo": "Kilian/fromscratch",
+  "asset_name": "FromScratch.1.4.3.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/76963800",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 231,
+  "repo": "Kilian/fromscratch",
+  "asset_name": "FromScratch.Setup.1.4.3.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/44145433",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 232,
+  "repo": "coder/coder",
+  "asset_name": "coder_2.38.7_windows_amd64_installer.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/174055184",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x8664",
+   "raw_hex": "504500006486",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 233,
+  "repo": "lettier/lambda-lantern",
+  "asset_name": "lambda-lantern-0.0.0.0-ubuntu-16.04-x86.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/60840152",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 234,
+  "repo": "lettier/lambda-lantern",
+  "asset_name": "lambda-lantern-0.0.0.0-x86.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/63555800",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 235,
+  "repo": "joyanhui/ikuai-bypass",
+  "asset_name": "ikuai-bypass-gui-macos-aarch64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/5429216",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 236,
+  "repo": "joyanhui/ikuai-bypass",
+  "asset_name": "ikuai-bypass-gui-macos-x86_64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/5601889",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 237,
+  "repo": "Eugeny/tabby",
+  "asset_name": "tabby-1.0.238-linux-arm64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/169287060",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000200b700"
+  }
+ },
+ {
+  "idx": 238,
+  "repo": "Eugeny/tabby",
+  "asset_name": "tabby-1.0.238-linux-armv7l.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/165589059",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm32",
+  "evidence": {
+   "format": "ELF",
+   "class": 1,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x28",
+   "raw_hex": "7f454c4601010100414902000000000002002800"
+  }
+ },
+ {
+  "idx": 239,
+  "repo": "Eugeny/tabby",
+  "asset_name": "tabby-1.0.238-linux-x64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/168153321",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 240,
+  "repo": "Eugeny/tabby",
+  "asset_name": "tabby-1.0.238-macos-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/162632008",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 241,
+  "repo": "Eugeny/tabby",
+  "asset_name": "tabby-1.0.238-macos-x86_64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/168689034",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 242,
+  "repo": "Eugeny/tabby",
+  "asset_name": "tabby-1.0.238-setup-arm64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/150590024",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 243,
+  "repo": "Eugeny/tabby",
+  "asset_name": "tabby-1.0.238-setup-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/169744184",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 244,
+  "repo": "realm/realm-studio",
+  "asset_name": "Realm.Studio-15.2.1.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/119330075",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 245,
+  "repo": "realm/realm-studio",
+  "asset_name": "Realm.Studio-15.2.1.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/114027467",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 246,
+  "repo": "realm/realm-studio",
+  "asset_name": "Realm.Studio.15.2.1.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/85639181",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 247,
+  "repo": "realm/realm-studio",
+  "asset_name": "Realm.Studio.Setup.15.2.1.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/85854648",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 248,
+  "repo": "GitJournal/GitJournal",
+  "asset_name": "GitJournal-linux-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/13128896",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 249,
+  "repo": "GitJournal/GitJournal",
+  "asset_name": "GitJournal-osx.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/18240721",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 250,
+  "repo": "h3poteto/whalebird-desktop",
+  "asset_name": "Whalebird-6.3.1-linux-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/160895605",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 251,
+  "repo": "h3poteto/whalebird-desktop",
+  "asset_name": "Whalebird-6.3.1-mac-universal.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/267369634",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 252,
+  "repo": "h3poteto/whalebird-desktop",
+  "asset_name": "Whalebird-6.3.1-win-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/145838535",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 253,
+  "repo": "gpodder/gpodder",
+  "asset_name": "windows-gpodder-3.11.5-installer.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/35871209",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 254,
+  "repo": "gpodder/gpodder",
+  "asset_name": "windows-gpodder-3.11.5-portable.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/35954673",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 255,
+  "repo": "flick9000/winscript",
+  "asset_name": "winscript-installer.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/5813768",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 256,
+  "repo": "flick9000/winscript",
+  "asset_name": "winscript-portable.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/13787944",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x8664",
+   "raw_hex": "504500006486",
+   "markers": []
+  }
+ },
+ {
+  "idx": 257,
+  "repo": "lidarr/Lidarr",
+  "asset_name": "Lidarr.master.3.1.6.5079.windows-core-x64-installer.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/76046981",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 258,
+  "repo": "lidarr/Lidarr",
+  "asset_name": "Lidarr.master.3.1.6.5079.windows-core-x86-installer.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/70211593",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 259,
+  "repo": "BigPizzaV3/CodexPlusPlus",
+  "asset_name": "CodexPlusPlus-2.6.3-macos-universal.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/108110885",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "780163601805433804fefdffff0e8819"
+  }
+ },
+ {
+  "idx": 260,
+  "repo": "BigPizzaV3/CodexPlusPlus",
+  "asset_name": "CodexPlusPlus-2.6.3-windows-x64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/30605445",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 261,
+  "repo": "847850277/postman-gpui",
+  "asset_name": "postman-gpui_0.1.3_x64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/11854728",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 262,
+  "repo": "847850277/postman-gpui",
+  "asset_name": "postman-gpui_0.1.3_x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/26225144",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 263,
+  "repo": "847850277/postman-gpui",
+  "asset_name": "Postman.GPUI_0.1.3_universal.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/33059866",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 264,
+  "repo": "risa-labs-inc/BossConsole",
+  "asset_name": "BOSS-9.5.45-arm64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/200003584",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 265,
+  "repo": "risa-labs-inc/BossConsole",
+  "asset_name": "BOSS-9.5.45-Universal.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/222935128",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "780163601805433804fefdffff0e8819"
+  }
+ },
+ {
+  "idx": 266,
+  "repo": "risa-labs-inc/BossConsole",
+  "asset_name": "BOSS-9.5.45.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/230678528",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 267,
+  "repo": "utmapp/UTM",
+  "asset_name": "UTM.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/304304581",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 268,
+  "repo": "mifi/lossless-cut",
+  "asset_name": "LosslessCut-linux-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/221357823",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 269,
+  "repo": "mifi/lossless-cut",
+  "asset_name": "LosslessCut-mac-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/165792537",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 270,
+  "repo": "mifi/lossless-cut",
+  "asset_name": "LosslessCut-mac-universal-DONT-USE-THIS-FILE.pkg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/302919928",
+  "bytes_read": 524288,
+  "content_os": "macos",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "xar (.pkg)",
+   "hdr": 28,
+   "toc_compressed": 4382,
+   "err": "Distribution beyond fetched range"
+  }
+ },
+ {
+  "idx": 271,
+  "repo": "mifi/lossless-cut",
+  "asset_name": "LosslessCut-mac-x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/177945549",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 272,
+  "repo": "mifi/lossless-cut",
+  "asset_name": "LosslessCut-win-arm64-DONT-USE-THIS-FILE.appx",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/234807724",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "ZIP",
+   "first_entry": "app/resources/avutil-60.dll",
+   "note": "zip header carries no OS/arch"
+  }
+ },
+ {
+  "idx": 273,
+  "repo": "mifi/lossless-cut",
+  "asset_name": "LosslessCut-win-x64-DONT-USE-THIS-FILE.appx",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/260713415",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "ZIP",
+   "first_entry": "app/resources/avcodec-62.dll",
+   "note": "zip header carries no OS/arch"
+  }
+ },
+ {
+  "idx": 274,
+  "repo": "peteonrails/voxtype",
+  "asset_name": "voxtype-1.2.1-macos-universal.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/16771389",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 275,
+  "repo": "tw93/Pake",
+  "asset_name": "ChatGPT.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/9910581",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 276,
+  "repo": "tw93/Pake",
+  "asset_name": "ChatGPT_x64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-3747839/3747840",
+  "bytes_read": 3747840,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;0"
+  }
+ },
+ {
+  "idx": 277,
+  "repo": "tw93/Pake",
+  "asset_name": "ChatGPT_x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/80370168",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 278,
+  "repo": "tw93/Pake",
+  "asset_name": "DeepSeek.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/9811915",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 279,
+  "repo": "tw93/Pake",
+  "asset_name": "DeepSeek_x64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-3661823/3661824",
+  "bytes_read": 3661824,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;0"
+  }
+ },
+ {
+  "idx": 280,
+  "repo": "tw93/Pake",
+  "asset_name": "DeepSeek_x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/80284152",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 281,
+  "repo": "tw93/Pake",
+  "asset_name": "Excalidraw.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/8739192",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 282,
+  "repo": "tw93/Pake",
+  "asset_name": "Excalidraw_x64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-3620863/3620864",
+  "bytes_read": 3620864,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;0"
+  }
+ },
+ {
+  "idx": 283,
+  "repo": "tw93/Pake",
+  "asset_name": "Excalidraw_x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/80239096",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 284,
+  "repo": "tw93/Pake",
+  "asset_name": "Flomo.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/9481127",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 285,
+  "repo": "tw93/Pake",
+  "asset_name": "Flomo_x64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-3698687/3698688",
+  "bytes_read": 3698688,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;0"
+  }
+ },
+ {
+  "idx": 286,
+  "repo": "tw93/Pake",
+  "asset_name": "Flomo_x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/80333304",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 287,
+  "repo": "tw93/Pake",
+  "asset_name": "Gemini.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/9262242",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 288,
+  "repo": "tw93/Pake",
+  "asset_name": "Gemini_x64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-3637247/3637248",
+  "bytes_read": 3637248,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;0"
+  }
+ },
+ {
+  "idx": 289,
+  "repo": "tw93/Pake",
+  "asset_name": "Gemini_x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/80280056",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 290,
+  "repo": "tw93/Pake",
+  "asset_name": "Grok.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/11520950",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 291,
+  "repo": "tw93/Pake",
+  "asset_name": "Grok_x64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-3817471/3817472",
+  "bytes_read": 3817472,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;0"
+  }
+ },
+ {
+  "idx": 292,
+  "repo": "tw93/Pake",
+  "asset_name": "Grok_x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/80505336",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 293,
+  "repo": "tw93/Pake",
+  "asset_name": "LiZhi.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/14116307",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 294,
+  "repo": "tw93/Pake",
+  "asset_name": "LiZhi_x64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4038655/4038656",
+  "bytes_read": 4038656,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;0"
+  }
+ },
+ {
+  "idx": 295,
+  "repo": "tw93/Pake",
+  "asset_name": "LiZhi_x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/80927224",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 296,
+  "repo": "tw93/Pake",
+  "asset_name": "Notion.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/9597004",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 297,
+  "repo": "tw93/Pake",
+  "asset_name": "Notion_x64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-3706879/3706880",
+  "bytes_read": 3706880,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;0"
+  }
+ },
+ {
+  "idx": 298,
+  "repo": "tw93/Pake",
+  "asset_name": "Notion_x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/80366072",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 299,
+  "repo": "tw93/Pake",
+  "asset_name": "ProgramMusic.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/9262547",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 300,
+  "repo": "tw93/Pake",
+  "asset_name": "ProgramMusic_x64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-3686399/3686400",
+  "bytes_read": 3686400,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;0"
+  }
+ },
+ {
+  "idx": 301,
+  "repo": "tw93/Pake",
+  "asset_name": "ProgramMusic_x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/80308728",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 302,
+  "repo": "tw93/Pake",
+  "asset_name": "Qwerty.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/12206283",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 303,
+  "repo": "tw93/Pake",
+  "asset_name": "Qwerty_x64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-3776511/3776512",
+  "bytes_read": 3776512,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;0"
+  }
+ },
+ {
+  "idx": 304,
+  "repo": "tw93/Pake",
+  "asset_name": "Qwerty_x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/80501240",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 305,
+  "repo": "tw93/Pake",
+  "asset_name": "Twitter.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/8795396",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 306,
+  "repo": "tw93/Pake",
+  "asset_name": "Twitter_x64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-3637247/3637248",
+  "bytes_read": 3637248,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;0"
+  }
+ },
+ {
+  "idx": 307,
+  "repo": "tw93/Pake",
+  "asset_name": "Twitter_x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/80259576",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 308,
+  "repo": "tw93/Pake",
+  "asset_name": "WeChat.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/9716882",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 309,
+  "repo": "tw93/Pake",
+  "asset_name": "WeChat_x64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-3686399/3686400",
+  "bytes_read": 3686400,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;0"
+  }
+ },
+ {
+  "idx": 310,
+  "repo": "tw93/Pake",
+  "asset_name": "WeChat_x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/80325112",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 311,
+  "repo": "tw93/Pake",
+  "asset_name": "WeRead.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/8723288",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 312,
+  "repo": "tw93/Pake",
+  "asset_name": "WeRead_x64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-3616767/3616768",
+  "bytes_read": 3616768,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;0"
+  }
+ },
+ {
+  "idx": 313,
+  "repo": "tw93/Pake",
+  "asset_name": "WeRead_x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/80235000",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 314,
+  "repo": "tw93/Pake",
+  "asset_name": "XiaoHongShu.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/11889635",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 315,
+  "repo": "tw93/Pake",
+  "asset_name": "XiaoHongShu_x64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-3731455/3731456",
+  "bytes_read": 3731456,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;0"
+  }
+ },
+ {
+  "idx": 316,
+  "repo": "tw93/Pake",
+  "asset_name": "XiaoHongShu_x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/80431608",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 317,
+  "repo": "tw93/Pake",
+  "asset_name": "YouTube.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/8441557",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 318,
+  "repo": "tw93/Pake",
+  "asset_name": "YouTubeMusic.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/15364108",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 319,
+  "repo": "tw93/Pake",
+  "asset_name": "YouTubeMusic_x64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-3964927/3964928",
+  "bytes_read": 3964928,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;0"
+  }
+ },
+ {
+  "idx": 320,
+  "repo": "tw93/Pake",
+  "asset_name": "YouTubeMusic_x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/80890360",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 321,
+  "repo": "tw93/Pake",
+  "asset_name": "YouTube_x64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-3575807/3575808",
+  "bytes_read": 3575808,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;0"
+  }
+ },
+ {
+  "idx": 322,
+  "repo": "tw93/Pake",
+  "asset_name": "YouTube_x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/80214520",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 323,
+  "repo": "OpenShot/openshot-qt",
+  "asset_name": "OpenShot-v4.1.1-x86.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/243824048",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 324,
+  "repo": "OpenShot/openshot-qt",
+  "asset_name": "OpenShot-v4.1.1-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/258921664",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 325,
+  "repo": "OpenShot/openshot-qt",
+  "asset_name": "OpenShot-v4.1.1-x86_64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/308547400",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 326,
+  "repo": "OpenShot/openshot-qt",
+  "asset_name": "OpenShot-v4.1.1-x86_64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/248497059",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 327,
+  "repo": "SAP/SapMachine",
+  "asset_name": "sapmachine-jdk-27.0.1.0.3_macos-aarch64_bin.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/135077964",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 328,
+  "repo": "SAP/SapMachine",
+  "asset_name": "sapmachine-jdk-27.0.1.0.3_windows-x64_bin.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/132354048",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 329,
+  "repo": "SAP/SapMachine",
+  "asset_name": "sapmachine-jre-27.0.1.0.3_macos-aarch64_bin.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/52877851",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 330,
+  "repo": "SAP/SapMachine",
+  "asset_name": "sapmachine-jre-27.0.1.0.3_windows-x64_bin.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/47947776",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 331,
+  "repo": "pinokiocomputer/pinokio",
+  "asset_name": "Pinokio-8.3.7-arm64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/168237331",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000200b700"
+  }
+ },
+ {
+  "idx": 332,
+  "repo": "pinokiocomputer/pinokio",
+  "asset_name": "Pinokio-8.3.7-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/162427772",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 333,
+  "repo": "pinokiocomputer/pinokio",
+  "asset_name": "Pinokio-8.3.7.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/166354146",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 334,
+  "repo": "pinokiocomputer/pinokio",
+  "asset_name": "Pinokio-8.3.7.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/169483590",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 335,
+  "repo": "pinokiocomputer/pinokio",
+  "asset_name": "Pinokio.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/155730736",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 336,
+  "repo": "pyzo/pyzo",
+  "asset_name": "pyzo-4.22.0-macos_arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/48107994",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78016360601067606090fccfc8c006a4"
+  }
+ },
+ {
+  "idx": 337,
+  "repo": "pyzo/pyzo",
+  "asset_name": "pyzo-4.22.0-macos_x86_64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/52207060",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78016360601067606090fccfc8c006a4"
+  }
+ },
+ {
+  "idx": 338,
+  "repo": "pyzo/pyzo",
+  "asset_name": "pyzo-4.22.0-win64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/38613468",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 339,
+  "repo": "vycdev/Kromacut",
+  "asset_name": "Kromacut_4.2.0_aarch64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/96436597",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 340,
+  "repo": "vycdev/Kromacut",
+  "asset_name": "Kromacut_4.2.0_amd64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/176761336",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 341,
+  "repo": "vycdev/Kromacut",
+  "asset_name": "Kromacut_4.2.0_windows_x64_offline-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/295303734",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 342,
+  "repo": "vycdev/Kromacut",
+  "asset_name": "Kromacut_4.2.0_x64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/80131041",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 343,
+  "repo": "vycdev/Kromacut",
+  "asset_name": "Kromacut_4.2.0_x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/97247391",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 344,
+  "repo": "Jmiao11/bili-music",
+  "asset_name": "Bili-Music-v1.0.0-macos-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/13998249",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 345,
+  "repo": "Jmiao11/bili-music",
+  "asset_name": "Bili-Music-v1.0.0-macos-x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/14615479",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 346,
+  "repo": "runta-dev/errand",
+  "asset_name": "Errand-0.2.6-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/102303672",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "xz",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 347,
+  "repo": "AntonyCorbett/OnlyM",
+  "asset_name": "OnlyMSetup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/181350168",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 348,
+  "repo": "lamquangminh/EVKey",
+  "asset_name": "evkau.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-448759/448760",
+  "bytes_read": 448760,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 349,
+  "repo": "N64Recomp/N64Recomp",
+  "asset_name": "RecompModTool.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/871936",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x8664",
+   "raw_hex": "504500006486",
+   "markers": []
+  }
+ },
+ {
+  "idx": 350,
+  "repo": "teras/Jubler",
+  "asset_name": "Jubler-10.0.0-aarch64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/43380912",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000200b700"
+  }
+ },
+ {
+  "idx": 351,
+  "repo": "teras/Jubler",
+  "asset_name": "Jubler-10.0.0-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/43625610",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "7801edda314a03411400d0bfc6422c54"
+  }
+ },
+ {
+  "idx": 352,
+  "repo": "teras/Jubler",
+  "asset_name": "Jubler-10.0.0-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/39022032",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 353,
+  "repo": "teras/Jubler",
+  "asset_name": "Jubler-10.0.0-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/43749720",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 354,
+  "repo": "teras/Jubler",
+  "asset_name": "Jubler-10.0.0-x86_64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/45038154",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "7801eddab12e04511400d03b08a240a2"
+  }
+ },
+ {
+  "idx": 355,
+  "repo": "Mouseww/anything-analyzer",
+  "asset_name": "Anything-Analyzer-3.7.1-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/130549815",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 356,
+  "repo": "Mouseww/anything-analyzer",
+  "asset_name": "Anything-Analyzer-3.7.1-x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/135000255",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 357,
+  "repo": "Mouseww/anything-analyzer",
+  "asset_name": "Anything-Analyzer-3.7.1.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/138397983",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 358,
+  "repo": "Mouseww/anything-analyzer",
+  "asset_name": "Anything-Analyzer-Setup-3.7.1.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/103730559",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 359,
+  "repo": "kritzikratzi/Oscilloscope",
+  "asset_name": "Oscilloscope-1.1.0-win64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/18178048",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 360,
+  "repo": "DRAZY/deemix-remastered",
+  "asset_name": "Deemix.Remastered-2.6.6-arm64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/139172024",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000200b700"
+  }
+ },
+ {
+  "idx": 361,
+  "repo": "DRAZY/deemix-remastered",
+  "asset_name": "Deemix.Remastered-2.6.6-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/131575486",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 362,
+  "repo": "DRAZY/deemix-remastered",
+  "asset_name": "Deemix.Remastered-2.6.6-universal.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/230293046",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 363,
+  "repo": "DRAZY/deemix-remastered",
+  "asset_name": "Deemix.Remastered-2.6.6.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/140700234",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 364,
+  "repo": "DRAZY/deemix-remastered",
+  "asset_name": "Deemix.Remastered-Portable-2.6.6-arm64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/105444526",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 365,
+  "repo": "DRAZY/deemix-remastered",
+  "asset_name": "Deemix.Remastered-Portable-2.6.6-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/109084808",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 366,
+  "repo": "DRAZY/deemix-remastered",
+  "asset_name": "Deemix.Remastered-Setup-2.6.6-arm64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/105673638",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 367,
+  "repo": "DRAZY/deemix-remastered",
+  "asset_name": "Deemix.Remastered-Setup-2.6.6-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/109314498",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 368,
+  "repo": "Newspicel/sdrmm",
+  "asset_name": "sdrmm-app_2.4.3_aarch64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/119409160",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000300b700"
+  }
+ },
+ {
+  "idx": 369,
+  "repo": "Newspicel/sdrmm",
+  "asset_name": "sdrmm-app_2.4.3_amd64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/124479992",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 370,
+  "repo": "Newspicel/sdrmm",
+  "asset_name": "SDRmm_2.4.3_aarch64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/34264584",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 371,
+  "repo": "Newspicel/sdrmm",
+  "asset_name": "SDRmm_2.4.3_arm64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/23950608",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 372,
+  "repo": "Newspicel/sdrmm",
+  "asset_name": "SDRmm_2.4.3_x64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/27990364",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 373,
+  "repo": "Newspicel/sdrmm",
+  "asset_name": "SDRmm_2.4.3_x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/38000328",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 374,
+  "repo": "Newspicel/sdrmm",
+  "asset_name": "SDRmm_2.4.3_x64_en-US.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/39985152",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 375,
+  "repo": "meetqy/rao-pics",
+  "asset_name": "Rao.Pics-1.0.0-alpha.13-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/106224455",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 376,
+  "repo": "meetqy/rao-pics",
+  "asset_name": "Rao.Pics-1.0.0-alpha.13.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/110590709",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 377,
+  "repo": "meetqy/rao-pics",
+  "asset_name": "Rao.Pics.Setup.1.0.0-alpha.13.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/84244592",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 378,
+  "repo": "OpenRA/OpenRA",
+  "asset_name": "OpenRA-Dune-2000-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/47892984",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 379,
+  "repo": "OpenRA/OpenRA",
+  "asset_name": "OpenRA-Red-Alert-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/44026360",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 380,
+  "repo": "OpenRA/OpenRA",
+  "asset_name": "OpenRA-release-20250330-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/61266292",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 381,
+  "repo": "OpenRA/OpenRA",
+  "asset_name": "OpenRA-release-20250330-x86.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/58528821",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 382,
+  "repo": "OpenRA/OpenRA",
+  "asset_name": "OpenRA-release-20250330.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/159559841",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "6276786e0002000025000000680100f0"
+  }
+ },
+ {
+  "idx": 383,
+  "repo": "OpenRA/OpenRA",
+  "asset_name": "OpenRA-Tiberian-Dawn-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/55323128",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 384,
+  "repo": "open-ani/animeko",
+  "asset_name": "ani-6.4.0-linux-x86_64.appimage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/342665720",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 385,
+  "repo": "open-ani/animeko",
+  "asset_name": "ani-6.4.0-macos-aarch64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/322230666",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "780163601805433804fefdffff0e8819"
+  }
+ },
+ {
+  "idx": 386,
+  "repo": "HenriWahl/Nagstamon",
+  "asset_name": "Nagstamon-3.18.2-ARM.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/187123958",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 387,
+  "repo": "HenriWahl/Nagstamon",
+  "asset_name": "Nagstamon-3.18.2-Intel.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/204829444",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 388,
+  "repo": "HenriWahl/Nagstamon",
+  "asset_name": "Nagstamon-3.18.2-win32_setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/40030000",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 389,
+  "repo": "HenriWahl/Nagstamon",
+  "asset_name": "Nagstamon-3.18.2-win64_setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/164739088",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 390,
+  "repo": "BCUninstaller/Bulk-Crap-Uninstaller",
+  "asset_name": "BCUninstaller_6.3.0_setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/9430340",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 391,
+  "repo": "bitwarden/directory-connector",
+  "asset_name": "Bitwarden-Connector-2026.10.0-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/258073503",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 392,
+  "repo": "bitwarden/directory-connector",
+  "asset_name": "Bitwarden-Connector-2026.10.0-x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/266951715",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 393,
+  "repo": "bitwarden/directory-connector",
+  "asset_name": "Bitwarden-Connector-2026.10.0-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/360369568",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 394,
+  "repo": "bitwarden/directory-connector",
+  "asset_name": "Bitwarden-Connector-Installer-2026.10.0.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/206407408",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 395,
+  "repo": "bitwarden/directory-connector",
+  "asset_name": "Bitwarden-Connector-Portable-2026.10.0.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/206178680",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 396,
+  "repo": "supabitapp/supacode",
+  "asset_name": "supacode.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/36483669",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "6276786e0002000025000000680100f0"
+  }
+ },
+ {
+  "idx": 397,
+  "repo": "napari/napari",
+  "asset_name": "napari-0.10.0-macOS-arm64.buggy.pkg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/521585760",
+  "bytes_read": 524288,
+  "content_os": "macos",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "xar (.pkg)",
+   "hdr": 28,
+   "toc_compressed": 5809,
+   "err": "Distribution beyond fetched range"
+  }
+ },
+ {
+  "idx": 398,
+  "repo": "napari/napari",
+  "asset_name": "napari-0.10.0-macOS-arm64.pkg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/521624543",
+  "bytes_read": 524288,
+  "content_os": "macos",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "xar (.pkg)",
+   "hdr": 28,
+   "toc_compressed": 5815,
+   "err": "Distribution beyond fetched range"
+  }
+ },
+ {
+  "idx": 399,
+  "repo": "napari/napari",
+  "asset_name": "napari-0.10.0-macOS-x86_64.buggy.pkg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/531443656",
+  "bytes_read": 524288,
+  "content_os": "macos",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "xar (.pkg)",
+   "hdr": 28,
+   "toc_compressed": 5814,
+   "err": "Distribution beyond fetched range"
+  }
+ },
+ {
+  "idx": 400,
+  "repo": "napari/napari",
+  "asset_name": "napari-0.10.0-macOS-x86_64.pkg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/531450921",
+  "bytes_read": 524288,
+  "content_os": "macos",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "xar (.pkg)",
+   "hdr": 28,
+   "toc_compressed": 5826,
+   "err": "Distribution beyond fetched range"
+  }
+ },
+ {
+  "idx": 401,
+  "repo": "napari/napari",
+  "asset_name": "napari-0.10.0-Windows-x86_64.buggy.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/619958152",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 402,
+  "repo": "napari/napari",
+  "asset_name": "napari-0.10.0-Windows-x86_64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/620155832",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 403,
+  "repo": "digimezzo/dopamine-windows",
+  "asset_name": "Dopamine.2.0.10.Release.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/35409920",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 404,
+  "repo": "lemonade-sdk/lemonade",
+  "asset_name": "Lemonade-2026.45.3-Darwin.pkg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/17068045",
+  "bytes_read": 524288,
+  "content_os": "macos",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "xar (.pkg)",
+   "hdr": 28,
+   "toc_compressed": 6437,
+   "err": "Distribution beyond fetched range"
+  }
+ },
+ {
+  "idx": 405,
+  "repo": "lemonade-sdk/lemonade",
+  "asset_name": "lemonade-server-minimal.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/7999488",
+  "bytes_read": 4194304,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;1033"
+  }
+ },
+ {
+  "idx": 406,
+  "repo": "lemonade-sdk/lemonade",
+  "asset_name": "lemonade.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/12185600",
+  "bytes_read": 4194304,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;1033"
+  }
+ },
+ {
+  "idx": 407,
+  "repo": "dortania/OpenCore-Legacy-Patcher",
+  "asset_name": "AutoPkg-Assets.pkg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/738087731",
+  "bytes_read": 524288,
+  "content_os": "macos",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "xar (.pkg)",
+   "hdr": 28,
+   "toc_compressed": 1235,
+   "err": "Distribution beyond fetched range"
+  }
+ },
+ {
+  "idx": 408,
+  "repo": "dortania/OpenCore-Legacy-Patcher",
+  "asset_name": "OpenCore-Patcher-Uninstaller.pkg",
+  "http_status": 206,
+  "content_range": "bytes 0-163965/163966",
+  "bytes_read": 163966,
+  "content_os": "macos",
+  "content_arch": "universal",
+  "evidence": {
+   "format": "xar (.pkg)",
+   "hdr": 28,
+   "toc_compressed": 4757,
+   "hostArchitectures": "x86_64,arm64",
+   "distribution_head": "<?xml version=\"1.0\"?>\n<installer-gui-script minSpecVersion=\"1\">\n    <pkg-ref id=\"com.dortania.opencore-legacy-patcher-uninstaller\">\n        <bundle-version/>\n    </pkg-ref>\n    <options customize=\"nev"
+  }
+ },
+ {
+  "idx": 409,
+  "repo": "dortania/OpenCore-Legacy-Patcher",
+  "asset_name": "OpenCore-Patcher.pkg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/738123145",
+  "bytes_read": 524288,
+  "content_os": "macos",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "xar (.pkg)",
+   "hdr": 28,
+   "toc_compressed": 4784,
+   "err": "Distribution beyond fetched range"
+  }
+ },
+ {
+  "idx": 410,
+  "repo": "icsharpcode/ILSpy",
+  "asset_name": "ILSpy_Installer_11.2.0.10050-arm64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/17326080",
+  "bytes_read": 4194304,
+  "content_os": "windows",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "Arm64;1033"
+  }
+ },
+ {
+  "idx": 411,
+  "repo": "icsharpcode/ILSpy",
+  "asset_name": "ILSpy_Installer_11.2.0.10050-x64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/18145280",
+  "bytes_read": 4194304,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;1033"
+  }
+ },
+ {
+  "idx": 412,
+  "repo": "DistroAV/DistroAV",
+  "asset_name": "distroav-6.2.2-macos-universal.pkg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/2608434",
+  "bytes_read": 524288,
+  "content_os": "macos",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "xar (.pkg)",
+   "hdr": 28,
+   "toc_compressed": 4358,
+   "err": "Distribution beyond fetched range"
+  }
+ },
+ {
+  "idx": 413,
+  "repo": "DistroAV/DistroAV",
+  "asset_name": "distroav-6.2.2-windows-x64-Installer.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/3329790",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 414,
+  "repo": "ibuilder/massing",
+  "asset_name": "Massing_0.3.1133_aarch64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/211965591",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 415,
+  "repo": "ibuilder/massing",
+  "asset_name": "Massing_0.3.1133_amd64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/357292536",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 416,
+  "repo": "ibuilder/massing",
+  "asset_name": "Massing_0.3.1133_x64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/203465415",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft",
+    "WiX"
+   ]
+  }
+ },
+ {
+  "idx": 417,
+  "repo": "ibuilder/massing",
+  "asset_name": "Massing_0.3.1133_x64_en-US.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/205303808",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 418,
+  "repo": "SteveTheKiller/KillerPDF",
+  "asset_name": "KillerPDF-Portable.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/97618944",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x8664",
+   "raw_hex": "504500006486",
+   "markers": []
+  }
+ },
+ {
+  "idx": 419,
+  "repo": "SteveTheKiller/KillerPDF",
+  "asset_name": "KillerPDF-Store.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/97619456",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x8664",
+   "raw_hex": "504500006486",
+   "markers": []
+  }
+ },
+ {
+  "idx": 420,
+  "repo": "SteveTheKiller/KillerPDF",
+  "asset_name": "KillerPDF.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/34765312",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x8664",
+   "raw_hex": "504500006486",
+   "markers": []
+  }
+ },
+ {
+  "idx": 421,
+  "repo": "bwendell/gemini-desktop",
+  "asset_name": "Gemini-Desktop-0.12.1-arm64-installer.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/134379776",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 422,
+  "repo": "bwendell/gemini-desktop",
+  "asset_name": "Gemini-Desktop-0.12.1-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/151591695",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 423,
+  "repo": "bwendell/gemini-desktop",
+  "asset_name": "Gemini-Desktop-0.12.1-x64-installer.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/370254272",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 424,
+  "repo": "bwendell/gemini-desktop",
+  "asset_name": "Gemini-Desktop-0.12.1-x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/157110473",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 425,
+  "repo": "bwendell/gemini-desktop",
+  "asset_name": "Gemini-Desktop-0.12.1-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/155273548",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 426,
+  "repo": "koala73/worldmonitor",
+  "asset_name": "World.Monitor_2.11.8_aarch64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/223746568",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000300b700"
+  }
+ },
+ {
+  "idx": 427,
+  "repo": "koala73/worldmonitor",
+  "asset_name": "World.Monitor_2.11.8_aarch64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/69214270",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 428,
+  "repo": "koala73/worldmonitor",
+  "asset_name": "World.Monitor_2.11.8_amd64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/232438264",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 429,
+  "repo": "koala73/worldmonitor",
+  "asset_name": "World.Monitor_2.11.8_x64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/46732457",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 430,
+  "repo": "koala73/worldmonitor",
+  "asset_name": "World.Monitor_2.11.8_x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/70561403",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 431,
+  "repo": "koala73/worldmonitor",
+  "asset_name": "World.Monitor_2.11.8_x64_en-US.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/64847837",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 432,
+  "repo": "LYH105/iCloudEmail-Lite",
+  "asset_name": "iCloud.Email.Manager-0.2.1-mac-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/142056956",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 433,
+  "repo": "LYH105/iCloudEmail-Lite",
+  "asset_name": "iCloud.Email.Manager-0.2.1-mac-x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/148335599",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 434,
+  "repo": "LYH105/iCloudEmail-Lite",
+  "asset_name": "iCloud.Email.Manager-0.2.1-win-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/106914685",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 435,
+  "repo": "dunkbing/dearsql",
+  "asset_name": "DearSQL-aarch64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/30222856",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000300b700"
+  }
+ },
+ {
+  "idx": 436,
+  "repo": "dunkbing/dearsql",
+  "asset_name": "DearSQL-x64.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/17211392",
+  "bytes_read": 4194304,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "template": "x64;1033"
+  }
+ },
+ {
+  "idx": 437,
+  "repo": "dunkbing/dearsql",
+  "asset_name": "DearSQL-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/31566328",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 438,
+  "repo": "dunkbing/dearsql",
+  "asset_name": "DearSQL.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/20203481",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 439,
+  "repo": "qunqin24/Pulse",
+  "asset_name": "Pulse-1.13.0.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/17398889",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 440,
+  "repo": "thealpa/SaneSideButtons",
+  "asset_name": "SaneSideButtons.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/1432856",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "6276786e0002000026000000680100f0"
+  }
+ },
+ {
+  "idx": 441,
+  "repo": "AerialWindows/Aerial",
+  "asset_name": "Aerial-Setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/288964412",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 442,
+  "repo": "dlunch/wie",
+  "asset_name": "wie-v0.2.26-linux-aarch64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/100616712",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000300b700"
+  }
+ },
+ {
+  "idx": 443,
+  "repo": "dlunch/wie",
+  "asset_name": "wie-v0.2.26-linux-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/103270904",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 444,
+  "repo": "dlunch/wie",
+  "asset_name": "wie-v0.2.26-macos-universal-unsigned.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/43183460",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 445,
+  "repo": "dlunch/wie",
+  "asset_name": "wie-v0.2.26-windows-aarch64-unsigned-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/10884805",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 446,
+  "repo": "dlunch/wie",
+  "asset_name": "wie-v0.2.26-windows-aarch64-unsigned.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/18063360",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 447,
+  "repo": "dlunch/wie",
+  "asset_name": "wie-v0.2.26-windows-x86_64-unsigned-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/13354048",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 448,
+  "repo": "dlunch/wie",
+  "asset_name": "wie-v0.2.26-windows-x86_64-unsigned.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/20881408",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 449,
+  "repo": "psmokotnin/osm",
+  "asset_name": "OpenSoundMeter_arm.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/37188361",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "7801edd0b109c2001404d0c30db28195"
+  }
+ },
+ {
+  "idx": 450,
+  "repo": "psmokotnin/osm",
+  "asset_name": "OpenSoundMeter_intel.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/37997661",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78016360604864606048f9cfc8c001a4"
+  }
+ },
+ {
+  "idx": 451,
+  "repo": "psmokotnin/osm",
+  "asset_name": "Open_Sound_Meter-v1.5.2-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/110788296",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 452,
+  "repo": "psmokotnin/osm",
+  "asset_name": "SetupOpenSoundMeter.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/33633848",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 453,
+  "repo": "Ray-lea/Argus",
+  "asset_name": "Argus_0.4.0_x64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/7223381",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 454,
+  "repo": "Ray-lea/Argus",
+  "asset_name": "Argus_0.4.0_x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/24294912",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x8664",
+   "raw_hex": "504500006486",
+   "markers": []
+  }
+ },
+ {
+  "idx": 455,
+  "repo": "OpenChemistry/avogadrolibs",
+  "asset_name": "Avogadro2-2.1.0-Darwin-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/96021909",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "xz",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 456,
+  "repo": "OpenChemistry/avogadrolibs",
+  "asset_name": "Avogadro2-2.1.0-Darwin.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/101351048",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "xz",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 457,
+  "repo": "OpenChemistry/avogadrolibs",
+  "asset_name": "Avogadro2-2.1.0-win-arm.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/108085552",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 458,
+  "repo": "OpenChemistry/avogadrolibs",
+  "asset_name": "Avogadro2-2.1.0-win64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/120027776",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 459,
+  "repo": "OpenChemistry/avogadrolibs",
+  "asset_name": "Avogadro2-aarch64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/113336704",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000300b700"
+  }
+ },
+ {
+  "idx": 460,
+  "repo": "OpenChemistry/avogadrolibs",
+  "asset_name": "Avogadro2-Diagnostic-2.1.0-win-arm.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/144667624",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 461,
+  "repo": "OpenChemistry/avogadrolibs",
+  "asset_name": "Avogadro2-Diagnostic-2.1.0-win64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/158713312",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 462,
+  "repo": "OpenChemistry/avogadrolibs",
+  "asset_name": "Avogadro2-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/112665792",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 463,
+  "repo": "tvrenamer/tvrenamer",
+  "asset_name": "TVRenamer-1.0-macos-aarch64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/52794795",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "780163601805433804fefdffff0e8819"
+  }
+ },
+ {
+  "idx": 464,
+  "repo": "tvrenamer/tvrenamer",
+  "asset_name": "TVRenamer-1.0-macos-x86_64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/54281456",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "780163601805433804fefdffff0e8819"
+  }
+ },
+ {
+  "idx": 465,
+  "repo": "Kuddev/pebrel",
+  "asset_name": "Pebrel-v2.4.0-linux-x64-preview.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/43563512",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 466,
+  "repo": "Kuddev/pebrel",
+  "asset_name": "Pebrel-v2.4.0-macos-arm64-preview.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/44664586",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 467,
+  "repo": "Kuddev/pebrel",
+  "asset_name": "Pebrel-v2.4.0-macos-x64-preview.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/47352100",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 468,
+  "repo": "Kuddev/pebrel",
+  "asset_name": "Pebrel-v2.4.0-windows-arm64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/34605119",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 469,
+  "repo": "Kuddev/pebrel",
+  "asset_name": "Pebrel-v2.4.0-windows-x64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/36122056",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 470,
+  "repo": "cheat2001/angkorgit",
+  "asset_name": "AngKorGit_0.27.0_amd64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/87759352",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 471,
+  "repo": "cheat2001/angkorgit",
+  "asset_name": "AngKorGit_0.27.0_universal.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/14373647",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 472,
+  "repo": "cheat2001/angkorgit",
+  "asset_name": "AngKorGit_0.27.0_x64-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/5784368",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 473,
+  "repo": "cheat2001/angkorgit",
+  "asset_name": "AngKorGit_0.27.0_x64_en-US.msi",
+  "http_status": 206,
+  "content_range": "bytes 0-4194303/7942144",
+  "bytes_read": 4194304,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "OLE2 (MSI?)",
+   "err": "Template property not within fetched range"
+  }
+ },
+ {
+  "idx": 474,
+  "repo": "thaw-app/Floe",
+  "asset_name": "Floe.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/80860638",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 475,
+  "repo": "mmvanheusden/SteamDepotDownloaderGUI",
+  "asset_name": "SteamDepotDownloaderGUI-Linux-v3.2.1-x64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/82397688",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 476,
+  "repo": "mmvanheusden/SteamDepotDownloaderGUI",
+  "asset_name": "SteamDepotDownloaderGUI-macOS-v3.2.1-aarch64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/4031106",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 477,
+  "repo": "mmvanheusden/SteamDepotDownloaderGUI",
+  "asset_name": "SteamDepotDownloaderGUI-macOS-v3.2.1-x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/4435964",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 478,
+  "repo": "mmvanheusden/SteamDepotDownloaderGUI",
+  "asset_name": "SteamDepotDownloaderGUI-Windows-v3.2.1-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/3087497",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 479,
+  "repo": "waydabber/BetterDisplay",
+  "asset_name": "BetterDisplay-v5.2.1.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/30039229",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 480,
+  "repo": "dannagle/PacketSender",
+  "asset_name": "PacketSender_v8.11.3.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/30480969",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 481,
+  "repo": "dannagle/PacketSender",
+  "asset_name": "PacketSender_x64_v8.11.3.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/27085024",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 482,
+  "repo": "dannagle/PacketSender",
+  "asset_name": "Packet_Sender-v8.11.3-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/28830200",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 483,
+  "repo": "MirrorX-Desktop/MirrorX",
+  "asset_name": "MirrorX_0.1.5_x64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/34724603",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 484,
+  "repo": "pch/rawmakase",
+  "asset_name": "rawmakase-0.4.12-aarch64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/34380296",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "arm64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0xb7",
+   "raw_hex": "7f454c460201010041490200000000000300b700"
+  }
+ },
+ {
+  "idx": 485,
+  "repo": "pch/rawmakase",
+  "asset_name": "rawmakase-0.4.12-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/35162616",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 3,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000003003e00"
+  }
+ },
+ {
+  "idx": 486,
+  "repo": "pch/rawmakase",
+  "asset_name": "rawmakase-v0.4.12-aarch64-pc-windows-msvc-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/20552902",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 487,
+  "repo": "pch/rawmakase",
+  "asset_name": "rawmakase-v0.4.12-macos-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/39495824",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "7801edd0b109c2001404d00327486927"
+  }
+ },
+ {
+  "idx": 488,
+  "repo": "pch/rawmakase",
+  "asset_name": "rawmakase-v0.4.12-macos-x86_64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/43828285",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "7801f3d06660696060643034d0336000"
+  }
+ },
+ {
+  "idx": 489,
+  "repo": "pch/rawmakase",
+  "asset_name": "rawmakase-v0.4.12-x86_64-pc-windows-msvc-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/22391773",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": []
+  }
+ },
+ {
+  "idx": 490,
+  "repo": "cluster1900/apexo-code",
+  "asset_name": "apexo-desktop-linux-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/165541892",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 491,
+  "repo": "cluster1900/apexo-code",
+  "asset_name": "apexo-desktop-mac-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/155722230",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 492,
+  "repo": "cluster1900/apexo-code",
+  "asset_name": "apexo-desktop-win-x64.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/128363219",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 493,
+  "repo": "artisan-roaster-scope/artisan",
+  "asset_name": "artisan-linux-5.0.0.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/206652608",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 494,
+  "repo": "artisan-roaster-scope/artisan",
+  "asset_name": "artisan-mac-arm-5.0.0.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/152378860",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "7801ed994b4c136110c7670b0577bbbb"
+  }
+ },
+ {
+  "idx": 495,
+  "repo": "artisan-roaster-scope/artisan",
+  "asset_name": "artisan-mac-intel-5.0.0.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/189123923",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "00000000000000000000000000000000"
+  }
+ },
+ {
+  "idx": 496,
+  "repo": "artisan-roaster-scope/artisan",
+  "asset_name": "artisan-win-x64-5.0.0-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/153623296",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x86",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x14c",
+   "raw_hex": "504500004c01",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 497,
+  "repo": "firerpa/lamda",
+  "asset_name": "startmitm.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/22463129",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x8664",
+   "raw_hex": "504500006486",
+   "markers": []
+  }
+ },
+ {
+  "idx": 498,
+  "repo": "sanderland/katrain",
+  "asset_name": "KaTrain-1.20.0-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/90675425",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 499,
+  "repo": "sanderland/katrain",
+  "asset_name": "KaTrain-1.20.0-x86_64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/89589838",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 500,
+  "repo": "sanderland/katrain",
+  "asset_name": "KaTrain.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/152060205",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x8664",
+   "raw_hex": "504500006486",
+   "markers": []
+  }
+ },
+ {
+  "idx": 501,
+  "repo": "Commit-Plus/commit-plus",
+  "asset_name": "Commit+-1.1.25-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/28460792",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "xz",
+   "note": "compressed; not parsed"
+  }
+ },
+ {
+  "idx": 502,
+  "repo": "raine/Lolgato",
+  "asset_name": "Lolgato.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/1201522",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "425a6831314159265359c306b14d0000"
+  }
+ },
+ {
+  "idx": 503,
+  "repo": "screwys/Rufin",
+  "asset_name": "Rufin-0.17.1-setup.exe",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/97368150",
+  "bytes_read": 524288,
+  "content_os": "windows",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "PE",
+   "machine": "0x8664",
+   "raw_hex": "504500006486",
+   "markers": [
+    "Nullsoft"
+   ]
+  }
+ },
+ {
+  "idx": 504,
+  "repo": "screwys/Rufin",
+  "asset_name": "Rufin-macos-arm64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/94919591",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 505,
+  "repo": "screwys/Rufin",
+  "asset_name": "Rufin-macos-x86_64.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/108604808",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78017375f35408700c0a616060648861"
+  }
+ },
+ {
+  "idx": 506,
+  "repo": "mattDavo/Yippy",
+  "asset_name": "Yippy.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/6105430",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ },
+ {
+  "idx": 507,
+  "repo": "akameco/PixivDeck",
+  "asset_name": "PixivDeck-1.4.0-x86_64.AppImage",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/50904426",
+  "bytes_read": 524288,
+  "content_os": "linux",
+  "content_arch": "x64",
+  "evidence": {
+   "format": "ELF",
+   "class": 2,
+   "osabi": 0,
+   "e_type": 2,
+   "e_machine": "0x3e",
+   "raw_hex": "7f454c4602010100414902000000000002003e00"
+  }
+ },
+ {
+  "idx": 508,
+  "repo": "akameco/PixivDeck",
+  "asset_name": "PixivDeck-1.4.0.dmg",
+  "http_status": 206,
+  "content_range": "bytes 0-524287/51072590",
+  "bytes_read": 524288,
+  "content_os": "tidak terbaca",
+  "content_arch": "tidak terbaca",
+  "evidence": {
+   "format": "unknown at file start",
+   "raw_hex": "78da636018054318fcfbffff1d103302"
+  }
+ }
+]
