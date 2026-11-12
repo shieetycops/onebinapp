@@ -9,7 +9,7 @@ What it does
 - Candidate repos = union of `data/round3/seen_repos.txt`, round-3 drawn repos, komi cached-data `fullName`s and `data/catalog_extra.txt` (one `owner/repo` per line, `#` comments allowed).
 - Fetches GraphQL in batches (default 25, halves automatically on RESOURCE_LIMITS errors), prints the measured `rateLimit cost/remaining` per query, appends to `data/catalog_cache/cost_log.jsonl`.
 - Raw per-repo responses go to `data/catalog_cache/repos/` (never published). Cache entries younger than `--max-age-hours` (default 20) are reused, so a crashed or rate-limited run resumes where it stopped.
-- Exit code 3 = some repos are still unfetched: run it again. Exit 0 = complete.
+- A repo that fails to fetch keeps its previous cache (stale, up to 7 days) instead of stopping the build; exit 4 when too many are not fresh.
 - Writes (atomically) `site/public/data/catalog.json`, `apps/<slug>.json`, `stats.json`, `trending.json`, and `data/history/snapshot-YYYY-MM-DD.json` (overwritten on the same day).
 - `--limit N` / `--only owner/repo` are test modes: outputs go to `data/catalog_test_out/`, no snapshot is written, nothing under `site/public/data/` is touched.
 - `--fetch-only` fills the cache without building.
@@ -21,47 +21,9 @@ Trending: `trending.json` has `ready=false` until a history snapshot 6-9 days ol
 
 Do not run this at the same time as `next build` or Playwright (memory).
 
-## Sample workflow (NOT enabled: lives here, not in `.github/workflows/`)
+## Daily workflow
 
-```yaml
-name: rebuild-catalog
-on:
-  schedule:
-    - cron: '17 3 * * *'
-  workflow_dispatch: {}
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    timeout-minutes: 120
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: { python-version: '3.11' }
-      - uses: actions/cache@v4
-        with:
-          path: data/catalog_cache
-          key: catalog-cache-${{ github.run_id }}
-          restore-keys: catalog-cache-
-      - name: Build catalog (re-run on exit 3 = rate limited / incomplete)
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          for i in 1 2 3; do
-            python -I scripts/catalog/build_catalog.py && exit 0
-            [ $? -ne 3 ] && exit 1
-          done
-          exit 1
-      - name: Tests
-        run: python -I scripts/catalog/test_catalog.py
-      - uses: actions/upload-artifact@v4
-        with:
-          name: catalog-data
-          path: |
-            site/public/data
-            data/history
-```
-
-Notes: the repo checkout must contain `data/round3/*`, `data/ext/komi/...`, `data/curation*.json`. The Actions cache and the artifact never contain the token.
+The real workflow is `.github/workflows/daily.yml` (see `docs/DEPLOY.md`). Exit codes of `build_catalog.py`: 0 complete, 2 refused (hash mismatch / no token), 4 guard (more than 20% of repos not fresh; nothing written), 3 only with `--strict`. Releases come from REST with ETag by default (`--releases graphql` restores the old heavy query); a repo that cannot be fetched keeps its previous data for `--max-stale-days` (7).
 
 ## Trending options (SPEC_TRENDING)
 

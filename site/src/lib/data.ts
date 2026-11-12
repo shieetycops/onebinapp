@@ -25,6 +25,16 @@ export async function loadTrendingDoc(file: 'trending' | 'trending-ai' = 'trendi
   }
 }
 
+export interface Meta { desktop?: string; ai?: string }
+let metaP: Promise<Meta | null> | null = null;
+/** meta.json is written by the builders: the generated_at of each catalog (the footer date comes from here, never from the visitor's clock). */
+export function loadMeta(): Promise<Meta | null> {
+  if (!metaP) {
+    metaP = fetch('/data/meta.json').then((r) => (r.ok ? r.json() : null)).then((j) => (j && typeof j === 'object' ? (j as Meta) : null)).catch(() => null);
+  }
+  return metaP;
+}
+
 export async function loadTrendingReady(): Promise<boolean> {
   const j = await loadTrendingDoc('trending');
   return !!j && j.ready === true;

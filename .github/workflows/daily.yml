@@ -1,0 +1,118 @@
+# Daily update: discover new apps, fetch releases (ETag), build both catalogs, keep trending snapshots, deploy to Cloudflare Pages.
+# Needs (repo settings): secret CATALOG_GH_TOKEN, secret CLOUDFLARE_API_TOKEN, secret CLOUDFLARE_ACCOUNT_ID, variable CF_PAGES_PROJECT.
+# See docs/DEPLOY.md for the checklist.  Nothing here runs until the repo is on GitHub and the secrets exist.
+name: daily-catalog
+
+on:
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch: {}
+
+# never two runs at once: they would race on the caches and on the state commit
+concurrency:
+  group: daily-catalog
+  cancel-in-progress: false
+
+permissions:
+  contents: write        # only to commit data/history, data/changelog and data/discovered.txt back (see "Commit state")
+
+env:
+  PYTHONUTF8: '1'
+  GH_TOKEN: ${{ secrets.CATALOG_GH_TOKEN }}   # a personal token: the built-in GITHUB_TOKEN is limited to 1,000 requests/hour per repository
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 170
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - name: Check the secret is present (the value is never printed)
+        run: |
+          test -n "$GH_TOKEN" || { echo "CATALOG_GH_TOKEN secret is missing"; exit 1; }
+
+      # Raw caches (repo metadata, ETags, release lists, registry crawl). Losing them only makes the next run slower.
+      - name: Restore caches
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            data/catalog_cache
+            data/catalog_cache_ai
+          key: catalog-cache-${{ github.run_id }}
+          restore-keys: catalog-cache-
+
+      - name: Refresh komi data (candidate source)
+        run: |
+          rm -rf data/ext/komi/komi-store-backend-data
+          mkdir -p data/ext/komi
+          git clone --depth 1 https://github.com/komi-store/komi-store-backend-data data/ext/komi/komi-store-backend-data
+
+      - name: 'Verify the locked picker and classifier (sha256)'
+        run: sha256sum -c data/round3/hashes.txt
+
+      - name: Discover new desktop apps
+        run: python -I scripts/catalog/discover.py --max-new 150
+
+      - name: 'Build desktop catalog (exit 4 means too many repos are not fresh, nothing is deployed)'
+        run: python -I scripts/catalog/build_catalog.py
+
+      - name: Build AI catalog
+        run: python -I scripts/catalog/build_ai.py
+
+      - name: AI usage data (plugin components) and AI rebuild from cache
+        run: |
+          python -I scripts/catalog/usage_fetch.py
+          python -I scripts/catalog/build_ai.py --offline --no-changelog
+
+      - name: Python tests
+        run: |
+          python -I scripts/catalog/test_catalog.py
+          python -I scripts/catalog/test_ai.py
+          python -I scripts/catalog/test_trending.py
+          python -I scripts/catalog/test_usage.py
+          python -I scripts/catalog/test_pipeline.py
+
+      - name: Save caches
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            data/catalog_cache
+            data/catalog_cache_ai
+          key: catalog-cache-${{ github.run_id }}
+
+      - name: Build the static site
+        working-directory: site
+        run: |
+          npm ci
+          npm run build
+          test -f out/index.html
+          test -f out/data/catalog.json
+          test -f out/data/meta.json
+
+      # Snapshots and the changelog must survive (cache eviction would reset trending), so they live in git.
+      # This makes one small bot commit per day.
+      - name: Commit state
+        run: |
+          git config user.name "catalog-bot"
+          git config user.email "catalog-bot@users.noreply.github.com"
+          for p in data/history data/changelog data/discovered.txt; do [ -e "$p" ] && git add "$p"; done
+          if git diff --cached --quiet; then echo "no state change"; else
+            git commit -m "chore(data): daily snapshot and changelog $(date -u +%F) [skip ci]"
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      - name: Deploy to Cloudflare Pages (direct upload)
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npx --yes wrangler@3 pages deploy site/out --project-name "${{ vars.CF_PAGES_PROJECT }}" --branch main --commit-dirty=true

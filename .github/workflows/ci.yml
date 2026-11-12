@@ -1,0 +1,38 @@
+# Checks on every push / pull request: Python tests and the fixture-based site tests. No token, no network to GitHub's API.
+name: ci
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['data/history/**', 'data/changelog/**', 'data/discovered.txt']
+  pull_request: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - name: Locked files unchanged
+        run: sha256sum -c data/round3/hashes.txt
+      - name: Python tests
+        run: |
+          python -I scripts/catalog/test_catalog.py
+          python -I scripts/catalog/test_ai.py
+          python -I scripts/catalog/test_trending.py
+          python -I scripts/catalog/test_usage.py
+          python -I scripts/catalog/test_pipeline.py
+      - name: Site tests (fixtures)
+        working-directory: site
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+          node tests/make-fixtures.mjs
+          npm run build:test
+          npm test

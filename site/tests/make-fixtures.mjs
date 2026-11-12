@@ -292,5 +292,6 @@ for (let i = 0; i < 55; i++) {
 
 fs.writeFileSync(path.join(root, 'catalog-ai.json'), JSON.stringify({ generated_at: '2026-11-11T00:00:00Z', count: aiCards.length, entries: aiCards }));
 fs.writeFileSync(path.join(root, 'trending-ai.json'), JSON.stringify({ ready: false, generated_at: '2026-11-11T00:00:00Z', window_days: { d7: 7, d30: 30 }, items: [], badges: 0, sources_used: ['stars_history'], snapshot_dates: ['2026-11-11'], github_trending: { enabled: false, ok: false, fetched_at: null, daily: [], weekly: [] } }));
+fs.writeFileSync(path.join(root, 'meta.json'), JSON.stringify({ desktop: '2026-03-04T23:30:00Z', ai: '2026-05-06T00:10:00Z' }));
 fs.writeFileSync(path.join(root, 'stats-ai.json'), JSON.stringify({ generated_at: '2026-11-11T00:00:00Z', count: aiCards.length }));
 console.log('ai fixtures:', aiCards.length, 'entries');

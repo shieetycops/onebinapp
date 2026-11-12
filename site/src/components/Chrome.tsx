@@ -2,7 +2,10 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useEffect, useState } from 'react';
 import { useI18n } from './Providers';
+import { loadMeta } from '@/lib/data';
+import { fmtDay, fill } from '@/lib/format';
 
 export function Header() {
   const { t, lang, setLang, theme, toggleTheme } = useI18n();
@@ -40,10 +43,19 @@ export function Header() {
 }
 
 export function Footer() {
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
+  const inAi = (usePathname() || '').startsWith('/ai');
+  const [iso, setIso] = useState<string | null>(null);
+  useEffect(() => {
+    let live = true;
+    loadMeta().then((m) => { if (live) setIso((inAi ? m?.ai : m?.desktop) || null); });
+    return () => { live = false; };
+  }, [inAi]);
+  const day = fmtDay(iso, lang);
   return (
     <footer className="foot">
       <div className="wrap">
+        {day && <p data-testid="catalog-updated" data-iso={iso ?? ''}>{fill(t.footer.updated, { date: day })}</p>}
         <p>{t.footer.line1}</p>
         <p>{t.footer.line2}</p>
         <p className="foot-links">

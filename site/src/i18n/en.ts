@@ -105,6 +105,7 @@ export const en: Dict = {
     line1: 'The repo list comes from Komi Store (Apache-2.0) and its backend data. Release data from GitHub.',
     line2: 'Not affiliated with GitHub or Komi Store. File picking is not fully evaluated; often silent for Windows and macOS.',
     about: 'Sources and notes',
+    updated: 'Catalog updated: {date}',
   },
   about: {
     title: 'About Jembatan Rilis',

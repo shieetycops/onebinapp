@@ -13,6 +13,14 @@ export function fmtSize(b: number): string {
   return Math.max(1, Math.round(b / 1024)) + ' KB';
 }
 
+/** Calendar day of an ISO timestamp, always in UTC (the build date), never shifted by the visitor's time zone. */
+export function fmtDay(iso: string | null | undefined, lang: string): string {
+  if (!iso) return '';
+  const d = new Date(iso);
+  if (isNaN(d.getTime())) return '';
+  return new Intl.DateTimeFormat(lang === 'en' ? 'en-GB' : 'id-ID', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(d);
+}
+
 export function fmtDate(iso: string | null | undefined, lang: string): string {
   if (!iso) return '-';
   const d = new Date(iso);

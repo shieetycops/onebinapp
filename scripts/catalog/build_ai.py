@@ -7,7 +7,7 @@ repos (GraphQL, tiny) (4) rank by stars, fetch heavy GraphQL batches in star ord
 Cache: data/catalog_cache_ai/ (never published). Token: env GH_TOKEN / ~/.gh_token via build_catalog.load_token; never printed or stored.
 Reuses atomic_write/jdump/load_token/Fetcher._post/wait_if_low from build_catalog (imported; that file is not modified).
 Decisions are listed in DECISIONS (printed in stats-ai.json)."""
-import sys, os, re, json, time, glob, pathlib, argparse, datetime, urllib.request, urllib.error, urllib.parse
+import sys, os, re, json, time, glob, pathlib, argparse, datetime, http.client, urllib.request, urllib.error, urllib.parse
 
 HERE = pathlib.Path(__file__).resolve().parent
 sys.path[:0] = [str(HERE), str(HERE.parent)]
@@ -17,8 +17,10 @@ import install_ai as IA                           # noqa: E402
 import categories_ai as CA                        # noqa: E402
 import trending as TR                             # noqa: E402
 import usage_ai as USG                            # noqa: E402
+import pipeline as PL                             # noqa: E402
 
 ROOT, DATA, OUT, HIST = B.ROOT, B.DATA, B.OUT, B.HIST
+CHANGELOG = DATA / 'changelog'
 CACHE = DATA / 'catalog_cache_ai'
 COST_LOG = CACHE / 'cost_log_ai.jsonl'
 UA = 'catalog-builder-ai'
@@ -80,7 +82,7 @@ def http_json(url, headers=None, retries=5, timeout=90):
                 log('  HTTP %s, retry in %ds' % (code, wait)); time.sleep(wait)
             else:
                 raise RuntimeError('HTTP %s for %s' % (code, url.split('?')[0]))
-        except (urllib.error.URLError, TimeoutError, ConnectionError, OSError) as e:
+        except (urllib.error.URLError, TimeoutError, ConnectionError, OSError, http.client.HTTPException) as e:      # IncompleteRead etc.
             log('  network error %s, retry in %ds' % (type(e).__name__, wait)); time.sleep(wait)
         wait = min(wait * 2, 60)
     raise RuntimeError('giving up on ' + url.split('?')[0])
@@ -108,24 +110,94 @@ def github_repo_from_url(u):
     return '%s/%s' % (o, r)
 
 
+FULL_CRAWL_EVERY_DAYS = 7      # in between, only records changed since the last crawl are read (registry docs: aggregators should use updated_since)
+REGISTRY_RETRIES = 8           # exponential backoff up to 60 s: rides out a few minutes of registry trouble
+
+
+def _is_latest_active(rec):
+    meta = (rec.get('_meta') or {}).get('io.modelcontextprotocol.registry/official') or {}
+    return bool(meta.get('isLatest')), meta.get('status', 'active')
+
+
+def merge_incremental(servers, records, skipped):
+    """servers: stored list of latest+active server dicts.  records: raw registry records changed since the last crawl.
+    A latest+active record replaces/inserts its server (by name); a latest record that is no longer active removes it;
+    records of older versions are ignored.  -> (new list, counts)"""
+    idx = {s.get('name'): i for i, s in enumerate(servers)}
+    out = list(servers)
+    gone = set()
+    cnt = {'updated': 0, 'added': 0, 'removed': 0}
+    for rec in records:
+        latest, st = _is_latest_active(rec)
+        if not latest:
+            skipped['not_latest'] = skipped.get('not_latest', 0) + 1
+            continue
+        srv = rec.get('server') or {}
+        nm = srv.get('name')
+        if st != 'active':
+            skipped[st] = skipped.get(st, 0) + 1
+            if nm in idx and nm not in gone: gone.add(nm); cnt['removed'] += 1
+            continue
+        if nm in idx:
+            out[idx[nm]] = srv; cnt['updated'] += 1; gone.discard(nm)
+        else:
+            idx[nm] = len(out); out.append(srv); cnt['added'] += 1
+    if gone: out = [x for x in out if x.get('name') not in gone]
+    return out, cnt
+
+
+def _iso_utc(ts):
+    return datetime.datetime.fromtimestamp(ts, datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
+
+
 def registry_crawl(max_age_h, offline=False):
+    """Full crawl when there is no complete copy or it is older than FULL_CRAWL_EVERY_DAYS; otherwise an incremental crawl with
+    updated_since.  Progress of a full crawl goes to registry.partial.json (resumable); registry.json is replaced ONLY by a finished
+    crawl, so a crawl that dies half-way never destroys the previous complete copy (registry_or_previous falls back to it)."""
     p = CACHE / 'registry.json'
+    pp = CACHE / 'registry.partial.json'
     j = read_json(p) or {}
     if j.get('complete') and (fresh(j, max_age_h) or offline):
         log('registry: using cache (%d latest-active servers)' % len(j['servers'])); return j
     if offline and j: return j
-    state = j if (j and not j.get('complete')) else {'servers': [], 'cursor': None, 'pages': 0, 'records_seen': 0, 'skipped_status': {}, 'started_at': time.time()}
-    log('registry: crawl start (resume cursor=%s)' % bool(state.get('cursor')))
+    t0 = time.time()
+    full_age_days = (t0 - (j.get('full_at') or 0)) / 86400.0 if j.get('complete') else None
+    if j.get('complete') and j.get('servers') and full_age_days is not None and full_age_days < FULL_CRAWL_EVERY_DAYS and j.get('started_at'):
+        since = _iso_utc(j['started_at'] - 86400)           # one day of overlap: nothing can slip through a slow previous crawl
+        log('registry: incremental crawl updated_since=%s (full crawl was %.1f days ago)' % (since, full_age_days))
+        recs, cursor, pages = [], None, 0
+        while True:
+            q = {'limit': '100', 'updated_since': since}
+            if cursor: q['cursor'] = cursor
+            d, _ = http_json(REGISTRY_URL + '?' + urllib.parse.urlencode(q), retries=REGISTRY_RETRIES)
+            recs += d.get('servers') or []
+            pages += 1
+            cursor = (d.get('metadata') or {}).get('nextCursor')
+            if not cursor: break
+            time.sleep(0.3)
+        skipped = dict(j.get('skipped_status') or {})
+        servers, cnt = merge_incremental(j['servers'], recs, skipped)
+        state = dict(j, servers=servers, skipped_status=skipped, started_at=t0, fetched_at=time.time(), complete=True, mode='incremental',
+                     incremental={'since': since, 'pages': pages, 'records': len(recs), **cnt})
+        B.atomic_write(p, B.jdump(state))
+        log('registry: incremental done pages=%d records=%d %s -> %d latest-active servers' % (pages, len(recs), cnt, len(servers)))
+        return state
+    part = read_json(pp)
+    state = part if (part and not part.get('complete')) else {'servers': [], 'cursor': None, 'pages': 0, 'records_seen': 0, 'skipped_status': {}, 'started_at': t0}
+    log('registry: FULL crawl start (resume cursor=%s)' % bool(state.get('cursor')))
     while True:
         q = {'limit': '100'}
         if state['cursor']: q['cursor'] = state['cursor']
-        d, _ = http_json(REGISTRY_URL + '?' + urllib.parse.urlencode(q))
+        try:
+            d, _ = http_json(REGISTRY_URL + '?' + urllib.parse.urlencode(q), retries=REGISTRY_RETRIES)
+        except Exception:
+            B.atomic_write(pp, B.jdump(state))            # keep the progress so the next run resumes
+            raise
         for rec in d.get('servers') or []:
             state['records_seen'] += 1
-            meta = (rec.get('_meta') or {}).get('io.modelcontextprotocol.registry/official') or {}
-            st = meta.get('status', 'active')
-            if not meta.get('isLatest') or st != 'active':
-                k = 'not_latest' if not meta.get('isLatest') else st
+            latest, st = _is_latest_active(rec)
+            if not latest or st != 'active':
+                k = 'not_latest' if not latest else st
                 state['skipped_status'][k] = state['skipped_status'].get(k, 0) + 1
                 continue
             state['servers'].append(rec.get('server') or {})
@@ -133,13 +205,31 @@ def registry_crawl(max_age_h, offline=False):
         state['cursor'] = (d.get('metadata') or {}).get('nextCursor')
         state['fetched_at'] = time.time()
         state['complete'] = not state['cursor']
-        if state['pages'] % 5 == 0 or state['complete']:
+        if state['complete']:
+            state['full_at'] = time.time(); state['mode'] = 'full'
             B.atomic_write(p, B.jdump(state))
+            try: pp.unlink()
+            except OSError: pass
+        elif state['pages'] % 5 == 0:
+            B.atomic_write(pp, B.jdump(state))
         if state['pages'] % 20 == 0: log('  registry pages=%d records=%d latest_active=%d' % (state['pages'], state['records_seen'], len(state['servers'])))
         if state['complete']: break
         time.sleep(0.3)
     log('registry: done pages=%d records=%d latest_active=%d' % (state['pages'], state['records_seen'], len(state['servers'])))
     return state
+
+
+def registry_or_previous(max_age_h, offline=False):
+    """Registry crawl; if it fails, the previous COMPLETE copy is used (logged and counted), otherwise the error propagates."""
+    try:
+        return registry_crawl(max_age_h, offline), None
+    except Exception as e:
+        prev = read_json(CACHE / 'registry.json')
+        if prev and prev.get('complete') and prev.get('servers'):
+            age = round((time.time() - (prev.get('fetched_at') or 0)) / 86400.0, 2)
+            log('registry crawl FAILED (%s); using the previous complete copy (%s days old)' % (type(e).__name__, age))
+            return prev, {'failed': type(e).__name__, 'previous_copy_age_days': age}
+        raise
 
 
 # ------------------------------------------------------------------ 2. topic search
@@ -287,7 +377,10 @@ def fetch_repos(fetcher, names, batch, max_age_h, offline):
         except Exception as e:
             log('  batch of %d failed (%s)' % (len(chunk), str(e)[:80]))
             if len(chunk) == 1:
-                B.atomic_write(repo_cache(chunk[0]), B.jdump({'fetched_at': time.time(), 'error': str(e)[:100]})); failed.append(chunk[0]); queue.pop(0)
+                prev = read_json(repo_cache(chunk[0]))
+                if not (prev and prev.get('rec')):       # keep the previous good copy (reused as "stale"); record an error only when there is none
+                    B.atomic_write(repo_cache(chunk[0]), B.jdump({'fetched_at': time.time(), 'error': str(e)[:100]}))
+                failed.append(chunk[0]); queue.pop(0)
             size = max(1, len(chunk) // 2); continue
         now = time.time()
         for i, n in enumerate(chunk):
@@ -398,13 +491,14 @@ def evaluate(name, cand, now):
     if not j or j.get('error') or not j.get('rec'):
         return {'status': 'fetch_failed' if j and j.get('error') else 'missing', 'code': None}
     rec = j['rec']
+    age_days = max(0.0, (time.time() - (j.get('fetched_at') or 0)) / 86400.0)
     node = dict(rec['node'])
     node['pushedAt'] = node.get('pushedAt')
     reg_srv = primary_server(cand.get('servers'))
     sk = (read_json(skills_cache(name)) or {}).get('files') or {}
     M = CU.parse_manifests(rec['texts'], reg_srv, sk)
     ok, code, detail, types = CU.curate(node, M, rec.get('readme'), now, bool(cand.get('servers')))
-    return {'status': 'ok' if ok else 'rejected', 'code': code, 'detail': detail, 'rec': rec, 'M': M, 'types': types, 'node': node}
+    return {'status': 'ok' if ok else 'rejected', 'code': code, 'detail': detail, 'rec': rec, 'M': M, 'types': types, 'node': node, 'age_days': age_days}
 
 
 def quick_r123(rec, now):
@@ -493,6 +587,9 @@ def main():
     ap.add_argument('--max-age-hours', type=float, default=20)
     ap.add_argument('--registry-max-age-hours', type=float, default=1)
     ap.add_argument('--offline', action='store_true', help='use caches only, no network')
+    ap.add_argument('--max-stale-days', type=float, default=PL.MAX_STALE_DAYS, help='a repo that cannot be fetched keeps its previous data this long')
+    ap.add_argument('--max-not-fresh', type=float, default=PL.MAX_NOT_FRESH_FRACTION, help='fail (exit 4, nothing written) above this share of not-fresh repos')
+    ap.add_argument('--no-changelog', action='store_true')
     ap.add_argument('--history-dir', help='directory with ai-snapshot-YYYY-MM-DD.json (default data/history)')
     ap.add_argument('--with-github-trending', action='store_true',
                     help='OPT-IN (default off): read github.com/trending (2 requests max) and curate its repos as extra candidates')
@@ -506,7 +603,7 @@ def main():
     today = now.date()
     fetcher = AIFetcher(token or '')
 
-    registry = registry_crawl(a.registry_max_age_hours, a.offline)
+    registry, registry_fallback = registry_or_previous(a.registry_max_age_hours, a.offline)
     topics_res = topic_search(token, a.max_age_hours, a.offline)
     github = TR.disabled_github()
     tfile = DATA / 'trending_candidates.txt'
@@ -557,6 +654,8 @@ def main():
     rej_examples = {c: [] for c in CU.CODES}
     included, examined, fetch_failed, dupes = [], 0, 0, 0
     seen_ids, fetched_names = set(), []
+    reasons, stale_list, expired_list = {}, [], []
+    stale_h = a.max_age_hours
     CH = 30
     pos = 0
     stop = False
@@ -571,19 +670,35 @@ def main():
             ev = evaluate(c['name'], c, now)
             fetched_names.append(c['name'])
             if ev['status'] in ('fetch_failed', 'missing'):
-                fetch_failed += 1; continue
+                fetch_failed += 1; reasons[c['name'].lower()] = 'fetch_failed'; continue
+            if ev['age_days'] * 24 > stale_h:
+                if ev['age_days'] > a.max_stale_days:
+                    expired_list.append((c['name'], round(ev['age_days'], 2))); fetch_failed += 1; reasons[c['name'].lower()] = 'stale_expired'; continue
+                stale_list.append((c['name'], round(ev['age_days'], 2)))
             did = ev['rec']['node']['databaseId']
             if did in seen_ids: dupes += 1; continue
             seen_ids.add(did)
             examined += 1
             if ev['status'] == 'rejected':
-                rej[ev['code']] += 1
+                rej[ev['code']] += 1; reasons[c['name'].lower()] = ev['code']
                 if len(rej_examples[ev['code']]) < 5: rej_examples[ev['code']].append('%s: %s' % (c['name'], ev['detail']))
             else:
                 included.append((c, ev))
             if len(included) >= a.target or examined >= a.cap:
                 stop = True; break
         log('progress: examined=%d included=%d rejected=%s' % (examined, len(included), sum(rej.values())))
+
+    n_checked = len(fetched_names)
+    n_missing = fetch_failed - len(expired_list)
+    fr = {'fresh': [None] * (n_checked - len(stale_list) - len(expired_list) - n_missing - dupes - 0), 'stale': stale_list, 'expired': expired_list,
+          'missing': [None] * n_missing}
+    guard_ok, n_bad, frac = PL.guard(n_checked, fr, a.max_not_fresh)
+    fstats = PL.freshness_stats(fr, a.max_stale_days)
+    log('freshness: fresh=%d stale_reused=%d stale_expired=%d missing=%d (not fresh %.1f%%)' % (
+        fstats['fresh'], fstats['stale_reused'], fstats['stale_expired'], fstats['missing'], 100 * frac))
+    if not a.offline and not guard_ok:
+        log('GUARD: %d of %d repos are not fresh (limit %.0f%%). Nothing was written; the previous site data stays.' % (n_bad, n_checked, 100 * a.max_not_fresh))
+        return 4
 
     # ---- github_trending candidates: same R1-R8 curation, outside the star-order target/cap, counted separately
     for i in range(0, len(trend_list), CH):
@@ -653,7 +768,7 @@ def main():
         'fetched_not_examined': max(0, len(fetched_names) - examined - fetch_failed - dupes),
         'fetch_failed': fetch_failed, 'duplicate_database_id_after_fetch': dupes,
         'forbidden_word_identifier_skipped': forb_skipped, 'masked_desc_or_name_entries': masked_n,
-        'sources': {'registry': dict(reg_stats, records_seen=registry.get('records_seen'), pages=registry.get('pages'),
+        'sources': {'registry': dict(reg_stats, mode=registry.get('mode'), incremental=registry.get('incremental'), records_seen=registry.get('records_seen'), pages=registry.get('pages'),
                                      skipped_records=registry.get('skipped_status'), unresolved_repos=unresolved),
                     'gh_topic_items_per_topic': topic_counts, 'candidates_unique_after_dedupe': len(ranked),
                     'duplicates_merged_by_database_id': dup_merged, 'candidates_in_both_sources': both,
@@ -666,6 +781,13 @@ def main():
         'mcp_without_install_spec': sum(1 for d in details if 'mcp' in d['types'] and d['install']['claude-code']['mcp']['kind'] == 'none'),
         'decisions': DECISIONS,
     }
+    stats['freshness'] = fstats
+    stats['registry_fallback'] = registry_fallback
+    cur = {c['repo'].lower(): {'repo': c['repo'], 'stars': c['stars']} for c in cards}
+    srcmap = {c['repo'].lower(): '+'.join(sorted({s['kind'] for s in c['sources']})) for c in cards}
+    if not a.no_changelog:
+        PL.record_changelog(CHANGELOG, 'ai', today.isoformat(), cur, reasons, srcmap, default_reason='rank_cutoff',
+                            extra={'examined': examined, 'stale_reused': fstats['stale_reused'], 'target': a.target})
     OUT.mkdir(parents=True, exist_ok=True)
     adir = OUT / 'ai'
     adir.mkdir(parents=True, exist_ok=True)
@@ -676,6 +798,8 @@ def main():
         if f.name not in keep: f.unlink()
     B.atomic_write(OUT / 'catalog-ai.json', B.jdump({'generated_at': stats['generated_at'], 'count': n, 'entries': cards}))
     B.atomic_write(OUT / 'stats-ai.json', B.jdump(stats, indent=1))
+    PL.update_meta(OUT, 'ai', stats['generated_at'])
+    B.atomic_write(OUT / 'changelog-ai.json', B.jdump({'generated_at': stats['generated_at'], 'section': 'ai', 'entries': PL.published_changelog(CHANGELOG, 'ai')}))
     B.atomic_write(OUT / 'trending-ai.json', B.jdump(TR.trending_doc(tranked, ready, stats['generated_at'], snaps, tbase, github, today)))
     hist.mkdir(parents=True, exist_ok=True)
     snap = {}

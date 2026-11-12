@@ -1,7 +1,9 @@
 """Catalog builder (SPEC.md section 1). One command, idempotent:  python -I scripts/catalog/build_catalog.py
 Options: --limit N  --only owner/repo  --max-age-hours H (default 20)  --fetch-only  --batch N (default 25)
          --history-dir DIR (star snapshots; default data/history)  --with-github-trending (OPT-IN, default off; see trending.py)
-Exit codes: 0 complete, 3 candidates still unfetched (re-run; it resumes from data/catalog_cache/), 2 refused (hash mismatch / no token).
+Exit codes: 0 complete, 2 refused (hash mismatch / no token), 3 (only with --strict) some candidates unfetched, 4 guard: too many repos not fresh (nothing written).
+Daily mode (default): repo metadata by light GraphQL, releases by REST with ETag (releases_rest.py; --releases graphql = old behaviour);
+a repo that cannot be fetched keeps its previous cached data for --max-stale-days (7) and is counted in stats.freshness.
 
 Phases: (1) fetch GraphQL batches into data/catalog_cache/repos/*.json (atomic, resumable, one repo per file);
 (2) build: stream the cache one repo at a time, curate, pick, write apps/<slug>.json; keep only cards in memory.
@@ -23,6 +25,7 @@ REPOS_CACHE = CACHE / 'repos'
 COST_LOG = CACHE / 'cost_log.jsonl'
 OUT = ROOT / 'site' / 'public' / 'data'
 HIST = DATA / 'history'
+CHANGELOG = DATA / 'changelog'
 
 try:
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
@@ -59,6 +62,8 @@ import classifier_v3 as CL     # noqa: E402
 import curation as CUR         # noqa: E402
 import trending as TR          # noqa: E402
 import categories as CAT       # noqa: E402
+import pipeline as PL         # noqa: E402
+import releases_rest as RR    # noqa: E402
 
 CELLS = [('windows', 'x64'), ('windows', 'arm64'), ('macos', 'arm64'), ('macos', 'x64'), ('linux', 'x64'), ('linux', 'arm64')]
 EXT_OS = {'exe': 'windows', 'msi': 'windows', 'msix': 'windows', 'appx': 'windows', 'dmg': 'macos', 'pkg': 'macos', 'appimage': 'linux', 'apk': 'android'}
@@ -83,6 +88,9 @@ fragment R on Release {
   releaseAssets(first: 100) { nodes { name size downloadCount downloadUrl updatedAt } }
 }
 '''
+
+GQL_LIGHT = GQL_FIELDS.split('fragment R on Release')[0].replace('latestRelease { ...R }', 'latestRelease { tagName }').replace(
+    '  releases(first: @REL@, orderBy: {field: CREATED_AT, direction: DESC}) { nodes { ...R } }\n', '')
 
 
 # ---------------------------------------------------------------- io helpers
@@ -126,10 +134,23 @@ def candidates():
         for r in json.loads(pathlib.Path(f).read_text(encoding='utf-8'))['repositories']:
             komi.add(r['fullName'])
     for n in sorted(komi, key=str.lower): add(n)
+    for n in discovered_map().values(): add(n[0])
     extra = DATA / 'catalog_extra.txt'
     if extra.exists():
         for l in extra.read_text(encoding='utf-8').splitlines():
             if l.strip() and not l.strip().startswith('#'): add(l)
+    return out
+
+
+def discovered_map(path=None):
+    """data/discovered.txt (written by discover.py): 'owner/repo<TAB>source<TAB>first_seen_date' -> {lower: (name, source, date)}."""
+    p = pathlib.Path(path) if path else DATA / 'discovered.txt'
+    out = {}
+    if p.exists():
+        for l in p.read_text(encoding='utf-8').splitlines():
+            f = l.split('\t')
+            if len(f) >= 2 and '/' in f[0] and not f[0].startswith('#'):
+                out[f[0].strip().lower()] = (f[0].strip(), f[1].strip(), f[2].strip() if len(f) > 2 else '')
     return out
 
 
@@ -155,6 +176,8 @@ class Fetcher:
         self.reset_at = None
         self.session_cost = 0
         self.queries = 0
+        self.rest = None            # RR.RestReleases when releases come from REST (default in daily mode)
+        self.rest_failed = []
 
     def _post(self, query):
         body = json.dumps({'query': query}).encode()
@@ -177,7 +200,7 @@ class Fetcher:
         for i, n in enumerate(names):
             o, r = n.split('/', 1)
             parts.append('r%d: repository(owner: %s, name: %s) { ...F }' % (i, json.dumps(o), json.dumps(r)))
-        q = 'query { rateLimit { cost remaining resetAt } ' + ' '.join(parts) + ' }' + GQL_FIELDS.replace('@REL@', str(rel_n))
+        q = 'query { rateLimit { cost remaining resetAt } ' + ' '.join(parts) + ' }' + (GQL_LIGHT if rel_n == 0 else GQL_FIELDS.replace('@REL@', str(rel_n)))
         resp = self._post(q)
         data = resp.get('data')
         if not data:
@@ -202,6 +225,7 @@ class Fetcher:
 
     def fetch_heavy(self, name):
         """Single repo that exceeds GraphQL resource limits at 15 releases x 100 assets: retry with fewer releases (recorded in cache)."""
+        if self.rest: return False                  # REST mode has no GraphQL release size limits
         for rel_n in (8, 4, 2, 1):
             try:
                 res = self.query_batch([name], rel_n)
@@ -222,7 +246,7 @@ class Fetcher:
             self.wait_if_low()
             chunk = queue[:size]
             try:
-                res = self.query_batch(chunk)
+                res = self.query_batch(chunk, 0 if self.rest else 15)
             except urllib.error.HTTPError as e:
                 code = e.code
                 if code in (401, 403) and e.headers.get('x-ratelimit-remaining') == '0':
@@ -243,6 +267,16 @@ class Fetcher:
                     size = max(1, len(chunk) // 2); ok_streak = 0
                     if len(chunk) == 1: failed.append(queue.pop(0))
                     continue
+            if self.rest:
+                items = [(n, node['nameWithOwner'], (node.get('latestRelease') or {}).get('tagName')) for n, node in res.items() if node]
+                got = self.rest.fetch_many([(full, tag) for n, full, tag in items])
+                for n, full, tag in items:
+                    r = got[full]
+                    if not r['ok']:                      # keep the previous cache file untouched: the repo becomes "stale"
+                        res.pop(n); self.rest_failed.append(n); continue
+                    node = res[n]
+                    node['releases'] = {'nodes': r['nodes']}
+                    node['latestRelease'] = r['latest']
             now = time.time()
             for n, node in res.items():
                 atomic_write(cache_path(n), jdump({'requested': n, 'fetched_at': now, 'node': node}))
@@ -250,7 +284,7 @@ class Fetcher:
             del res
             ok_streak += 1
             if ok_streak >= 8 and size < batch: size = min(batch, size * 2); ok_streak = 0
-        return [n for n in failed if not self.fetch_heavy(n)]
+        return [n for n in failed if not self.fetch_heavy(n)] + list(self.rest_failed)
 
     def _retry_or_halve(self, chunk, size, why):
         print('  batch of %d failed (%s)' % (len(chunk), why), flush=True)
@@ -402,6 +436,12 @@ def main():
     ap.add_argument('--history-dir', help='directory with snapshot-YYYY-MM-DD.json (default data/history)')
     ap.add_argument('--with-github-trending', action='store_true',
                     help='OPT-IN (default off): read github.com/trending (2 requests max) and curate its repos as extra candidates')
+    ap.add_argument('--releases', choices=['rest', 'graphql'], default='rest',
+                    help='rest (default): light GraphQL + REST releases with ETag; graphql: the old heavy query')
+    ap.add_argument('--max-stale-days', type=float, default=PL.MAX_STALE_DAYS, help='a repo that cannot be fetched keeps its previous data this long')
+    ap.add_argument('--max-not-fresh', type=float, default=PL.MAX_NOT_FRESH_FRACTION, help='fail (exit 4, nothing written) above this share of not-fresh repos')
+    ap.add_argument('--strict', action='store_true', help='exit 3 when a fetch failed (old behaviour)')
+    ap.add_argument('--no-changelog', action='store_true')
     args = ap.parse_args()
     partial = bool(args.limit or args.only)
     hist = pathlib.Path(args.history_dir) if args.history_dir else HIST
@@ -428,19 +468,35 @@ def main():
     REPOS_CACHE.mkdir(parents=True, exist_ok=True)
     pending = [n for n in cands if not cache_fresh(n, args.max_age_hours)]
     print('to fetch:', len(pending), 'cached fresh:', len(cands) - len(pending), flush=True)
-    failed = []
+    failed, fx, rest_report = [], None, None
     if pending:
         tok = load_token()
         if not tok:
             print('no token (env GH_TOKEN or ~/.gh_token)', file=sys.stderr); return 2
         fx = Fetcher(tok)
+        if args.releases == 'rest': fx.rest = RR.RestReleases(tok, CACHE / 'rest_releases')
         failed = fx.fetch(pending, args.batch)
+        if fx.rest: rest_report = fx.rest.report()
         print('fetched; queries=%d points spent this run=%d remaining=%s' % (fx.queries, fx.session_cost, fx.remaining), flush=True)
-    still = [n for n in cands if not cache_path(n).exists()]
-    if failed or still:
-        print('remaining %d unfetched (re-run to resume)' % len(set(failed) | set(still)))
-        return 3
+        if rest_report: print('releases (REST): ' + json.dumps(rest_report), flush=True)
+
+    def _mtime(n):
+        q = cache_path(n)
+        return q.stat().st_mtime if q.exists() else None
+    fr = PL.classify_freshness(cands, _mtime, time.time(), args.max_age_hours, args.max_stale_days)
+    guard_ok, n_bad, frac = PL.guard(len(cands), fr, args.max_not_fresh)
+    fstats = PL.freshness_stats(fr, args.max_stale_days)
+    print('freshness: fresh=%d stale_reused=%d stale_expired=%d missing=%d (not fresh %.1f%%)' % (
+        fstats['fresh'], fstats['stale_reused'], fstats['stale_expired'], fstats['missing'], 100 * frac), flush=True)
+    if args.strict and failed:
+        print('remaining %d unfetched (--strict)' % len(failed)); return 3
     if args.fetch_only: return 0
+    if not partial and not guard_ok:
+        print('GUARD: %d of %d repos are not fresh (limit %.0f%%). Nothing was written; the previous site data stays.' % (n_bad, len(cands), 100 * args.max_not_fresh), file=sys.stderr)
+        return 4
+    unusable = {n.lower(): 'stale_expired' for n, _ in fr['expired']}
+    unusable.update({n.lower(): 'not_fetched' for n in fr['missing']})
+    reasons = {}
 
     # ---- build phase
     now = datetime.datetime.now(datetime.timezone.utc)
@@ -450,25 +506,28 @@ def main():
     outdir = (ROOT / 'data' / 'catalog_test_out') if partial else OUT   # test runs never touch site/public/data
     out_apps = outdir / 'apps'
     out_apps.mkdir(parents=True, exist_ok=True)
-    dropped = {'failed_curation': 0, 'manual_deny': 0, 'not_found': 0, 'duplicate_id': 0, 'no_release': 0, 'no_installer': 0}
+    dropped = {'failed_curation': 0, 'manual_deny': 0, 'not_found': 0, 'duplicate_id': 0, 'no_release': 0, 'no_installer': 0, 'stale_expired': 0, 'not_fetched': 0}
     by_rule = {}
     cards, ids, written = [], set(), set()
     snapshot, uncategorized, platforms_empty = {}, 0, 0
     sil = {'%s-%s' % c: {'n': 0, 'silent': 0} for c in CELLS}
     sil_android = {'n': 0, 'silent': 0}
     for name in cands:
+        if name.lower() in unusable:
+            k = unusable[name.lower()]; dropped[k] += 1; reasons[name.lower()] = k
+            continue
         j = json.loads(cache_path(name).read_text(encoding='utf-8'))
         node = j.get('node')
         is_trend = name.lower() in trend_only
         if not node or node['databaseId'] in ids:
             k = 'not_found' if not node else 'duplicate_id'
-            dropped[k] += 1
+            dropped[k] += 1; reasons[name.lower()] = k
             if is_trend: tstats['rejected'][k] = tstats['rejected'].get(k, 0) + 1
             continue
         ids.add(node['databaseId'])
         res, reason, why = evaluate_node(name, node, denied, now)
         if res is None:
-            dropped[reason] += 1
+            dropped[reason] += 1; reasons[name.lower()] = (why[0].split(':')[0] if why else reason)
             for w in why: by_rule[w.split(':')[0]] = by_rule.get(w.split(':')[0], 0) + 1
             if is_trend:
                 k = trend_reason_key(reason, why); tstats['rejected'][k] = tstats['rejected'].get(k, 0) + 1
@@ -521,7 +580,27 @@ def main():
     share = {}
     for k, v in list(sil.items()) + [('android', sil_android)]:
         share[k] = {'n': v['n'], 'silent': v['silent'], 'share': round(v['silent'] / v['n'], 4) if v['n'] else None}
-    stats = {'generated_at': gen, 'partial_run': partial, 'candidates': len(cands), 'count': len(cards), 'platforms': plat_counts,
+    # ---- changelog: who entered / left the catalog (and why), plus new candidates of the day
+    cur = {c['repo'].lower(): {'repo': c['repo'], 'stars': c['stars']} for c in cards}
+    dmap = discovered_map()
+    sources = {}
+    for k in cur:
+        sources[k] = dmap[k][1] if k in dmap else 'candidate_pool'
+    prev_c = None
+    try: prev_c = json.loads((CHANGELOG / 'desktop-candidates.json').read_text(encoding='utf-8')).get('names')
+    except Exception: pass
+    new_names = [] if prev_c is None else [n for n in cands if n.lower() not in {x.lower() for x in prev_c}]
+    new_rej = {}
+    for n in new_names:
+        if n.lower() in reasons: new_rej[reasons[n.lower()]] = new_rej.get(reasons[n.lower()], 0) + 1
+    new_added = sum(1 for n in new_names if n.lower() in cur)
+    changelog_entry = None
+    if not partial and not args.no_changelog:
+        changelog_entry = PL.record_changelog(CHANGELOG, 'desktop', today.isoformat(), cur, reasons, sources,
+                                              extra={'new_candidates': {'seen': len(new_names), 'added': new_added, 'rejected': new_rej},
+                                                     'stale_reused': fstats['stale_reused']})
+        atomic_write(CHANGELOG / 'desktop-candidates.json', jdump({'date': today.isoformat(), 'names': list(cands)}))
+    stats = {'generated_at': gen, 'partial_run': partial, 'freshness': fstats, 'releases_rest': rest_report, 'candidates': len(cands), 'count': len(cards), 'platforms': plat_counts,
              'categories': cat_counts, 'dropped': dropped, 'failed_curation_by_rule': by_rule, 'uncategorized': uncategorized,
              'dev_category': cat_counts['developer'], 'apps_without_platform_badge': platforms_empty,
              'picker_silent_share': share, 'trending_candidates': tstats,
@@ -532,6 +611,9 @@ def main():
     atomic_write(outdir / 'catalog.json', jdump({'generated_at': gen, 'picker_sha256': PICKER_SHA, 'count': len(cards), 'apps': cards}))
     atomic_write(outdir / 'stats.json', jdump(stats, 2))
     atomic_write(outdir / 'trending.json', jdump(trend))
+    if not partial:
+        PL.update_meta(outdir, 'desktop', gen)
+        atomic_write(outdir / 'changelog.json', jdump({'generated_at': gen, 'section': 'desktop', 'entries': PL.published_changelog(CHANGELOG, 'desktop')}))
     if not partial:
         for f in out_apps.glob('*.json'):
             if f.name not in written: f.unlink()

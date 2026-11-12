@@ -104,6 +104,7 @@ export const id = {
     line1: 'Daftar repo berasal dari Komi Store (Apache-2.0) dan data backend-nya. Data rilis dari GitHub.',
     line2: 'Tidak berafiliasi dengan GitHub atau Komi Store. Pemilihan file belum dievaluasi penuh; sering diam untuk Windows dan macOS.',
     about: 'Sumber dan catatan',
+    updated: 'Katalog diperbarui: {date}',
   },
   about: {
     title: 'Tentang Jembatan Rilis',
