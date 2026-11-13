@@ -97,7 +97,7 @@ export default function UsagePanel({ d, tool }: { d: AiDetail; tool: string | nu
   const readme = u?.readme_url || `https://github.com/${d.repo}#readme`;
   if (!tool) {
     return (
-      <section className="panel" data-testid="usage-box">
+      <section className="usage-panel" data-testid="usage-box">
         <h2>{t.ai.useTitle}</h2>
         <p className="note" data-testid="use-pick-hint">{t.ai.usePickTool}</p>
       </section>
@@ -108,7 +108,7 @@ export default function UsagePanel({ d, tool }: { d: AiDetail; tool: string | nu
   const settings = u?.settings;
   const showSettings = type === 'mcp';
   return (
-    <section className="panel" data-testid="usage-box" data-tool={tool} data-type={type ?? ''}>
+    <section className="usage-panel" data-testid="usage-box" data-tool={tool} data-type={type ?? ''}>
       <h2>{t.ai.useTitle}</h2>
       <p className="note">{t.ai.useTextOnly}</p>
 

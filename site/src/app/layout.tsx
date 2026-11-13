@@ -4,7 +4,7 @@ import { Header, Footer } from '@/components/Chrome';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Jembatan Rilis',
+  title: 'onebin',
   description: 'Katalog app dari rilis GitHub dengan unduhan langsung ke OS Anda.',
 };
 
@@ -20,9 +20,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         <Providers>
-          <Header />
-          <main className="wrap" id="main">{children}</main>
-          <Footer />
+          <div className="catalog-app">
+            <Header />
+            <main id="main" className="detail-main">{children}</main>
+            <Footer />
+          </div>
         </Providers>
       </body>
     </html>

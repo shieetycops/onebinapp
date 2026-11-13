@@ -65,6 +65,8 @@ export interface AppDetail extends Card {
 
 export interface Trending {
   ready: boolean;
+  /** Top gainers of the last day (1 to 2 days between snapshots). Absent in older builds. */
+  daily?: { ready: boolean; baseline: string | null; items: { slug: string; d1: number }[] };
   sources_used?: string[];
   github_trending?: { enabled: boolean; ok: boolean; fetched_at?: string | null };
 }

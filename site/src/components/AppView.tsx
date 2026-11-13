@@ -9,6 +9,7 @@ import { detectOS } from '@/lib/os';
 import { fill, fmtDate, fmtNum, fmtSize } from '@/lib/format';
 import { readMine, writeMine } from '@/lib/store';
 import { useI18n } from './Providers';
+import { Eyebrow, Icon } from './Ui';
 
 interface Btn { cell: string; asset: Asset; archLabel: string | null }
 
@@ -103,134 +104,168 @@ export default function AppView({ slug }: { slug: string }) {
     setMine(next.includes(slug));
   }
 
-  if (err) return (<><Link href="/" className="crumb">{t.app.back}</Link><p className="notice" role="alert">{t.app.notFound}</p></>);
+  if (err) return (<><Link href="/" className="back-link"><Icon name="arrowLeft" size={15} /> {t.app.back}</Link><p className="notice" role="alert">{t.app.notFound}</p></>);
   if (!app) return <p className="meta">{t.ui.loading}</p>;
 
   const trust = app.trust || {};
   const shownAssets = showAll ? sortedAssets : sortedAssets.slice(0, 30);
+  const pub = rel?.published_at ? new Date(rel.published_at) : null;
+  const pubOk = pub && !Number.isNaN(pub.getTime());
+  const pubDay = pubOk ? String(pub.getUTCDate()).padStart(2, '0') : '';
+  const pubMon = pubOk ? pub.toLocaleDateString(lang === 'en' ? 'en-US' : 'id-ID', { month: 'short', timeZone: 'UTC' }).toUpperCase() : '';
+  const letter = (app.name.match(/[A-Za-z0-9]/)?.[0] || '#').toUpperCase();
+  const catLabel = t.categories[app.category] || app.category;
 
   return (
-    <article>
-      <Link href="/" className="crumb">&larr; {t.app.back}</Link>
-      <div className="app-head">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img className="avatar" src={app.avatar} alt={`${app.owner} avatar`} width={64} height={64} loading="lazy" referrerPolicy="no-referrer" />
-        <div>
-          <h1 data-testid="app-name">{app.name}</h1>
-          <div className="owner">{app.owner} &middot; {t.categories[app.category] || app.category}</div>
+    <>
+      <Link href="/" className="back-link"><Icon name="arrowLeft" size={15} /> {t.app.back}</Link>
+      <section className="app-hero">
+        <div className="app-identity">
+          <div className="app-glyph" aria-hidden="true"><span>{letter}</span><i /><i /><i /></div>
+          <div>
+            <Eyebrow>{catLabel.toUpperCase()}</Eyebrow>
+            <h1 data-testid="app-name">{app.name}</h1>
+            <p className="app-owner">{app.owner}</p>
+          </div>
         </div>
-      </div>
-      <p>{app.desc}</p>
-      <div className="badges" style={{ marginBottom: 8 }}>
-        {app.platforms.map((p) => <span key={p} className="os">{t.platforms[p]}</span>)}
-      </div>
-
-      <section className="dl-box" aria-live="polite" data-testid="dl-box" data-os={os || ''}>
-        {!rel && <p className="notice">{t.app.noBuild.replace('{os}', osName)}</p>}
-        {rel && known && buttons.length > 0 && (
-          <>
-            <div className="dl-actions">
-              {buttons.map((b, i) => (
-                <a
-                  key={b.cell} href={b.asset.url} rel="noopener noreferrer"
-                  className={i === 0 ? 'btn primary' : 'btn'} data-testid="dl-btn" data-cell={b.cell}
-                >
-                  {b.archLabel ? fill(t.app.downloadArch, { os: osName, arch: b.archLabel }) : fill(t.app.downloadFor, { os: osName })}
-                </a>
-              ))}
-            </div>
-            <p className="note">
-              {known === 'macos' && buttons.length > 0 && buttons[0].archLabel ? t.app.macNote + ' ' : ''}
-              {known !== 'macos' && buttons.length > 1 ? t.app.archNote + ' ' : ''}
-              {t.app.pickedBy} ({rel.tag}, {buttons.map((b) => b.asset.name).join(', ')})
-            </p>
-          </>
-        )}
-        {rel && known && buttons.length === 0 && osAssets.length > 0 && (
-          <p className="notice" data-testid="dl-silent">{fill(t.app.pickerSilent, { os: osName })}</p>
-        )}
-        {rel && known && buttons.length === 0 && osAssets.length === 0 && (
-          <p className="notice" data-testid="dl-nobuild">{fill(t.app.noBuild, { os: osName })}</p>
-        )}
-        {rel && !known && os && <p className="notice" data-testid="dl-unknown">{t.app.unknownOs}</p>}
-        <div className="tabs" role="tablist">
-          <button type="button" role="tab" className="tab" aria-selected={tab === 'stable'} data-testid="tab-stable" disabled={stable.length === 0}
-            onClick={() => { setTab('stable'); setTag(stable[0]?.tag || ''); }}>{t.app.stable} ({stable.length})</button>
-          <button type="button" role="tab" className="tab" aria-selected={tab === 'pre'} data-testid="tab-pre" disabled={pre.length === 0}
-            title={pre.length === 0 ? t.app.noPre : undefined}
-            onClick={() => { setTab('pre'); setTag(pre[0]?.tag || ''); }}>{t.app.pre} ({pre.length})</button>
-          <label className="owner" style={{ marginLeft: 'auto' }}>
-            {t.app.version}{' '}
-            <select value={rel?.tag || ''} onChange={(e) => setTag(e.target.value)} data-testid="version-select" aria-label={t.app.version}>
-              {list.map((r) => <option key={r.tag} value={r.tag}>{r.tag}</option>)}
-            </select>
-          </label>
+        <p className="app-deck">{app.desc}</p>
+        <div className="app-tags">
+          {app.platforms.map((p) => <span key={p}>{t.platforms[p]}</span>)}
+          {app.license && <span>{app.license}</span>}
         </div>
-        {rel && <p className="note">{t.app.published}: {fmtDate(rel.published_at, lang)}</p>}
       </section>
 
-      <div className="panel">
-        <button type="button" className="btn" onClick={toggleMine} data-testid="add-mine" aria-pressed={mine}>
-          {mine ? t.app.inMine : t.app.addMine}
+      <section className="release-panel" aria-live="polite" data-testid="dl-box" data-os={os || ''}>
+        <div className="release-side">
+          <Eyebrow>{t.app.published.toUpperCase()}</Eyebrow>
+          {pubOk && <span className="release-date">{pubDay} <span>{pubMon}</span><br />{pub.getUTCFullYear()}</span>}
+          <span className="release-rule" />
+        </div>
+        <div className="release-main">
+          <div className="release-main-head">
+            <div><span className="release-label">{t.app.version.toUpperCase()}</span><h2>{rel?.tag || '-'}</h2></div>
+            <label className="version-select-label">{t.app.version}
+              <select value={rel?.tag || ''} onChange={(e) => setTag(e.target.value)} data-testid="version-select" aria-label={t.app.version}>
+                {list.map((r) => <option key={r.tag} value={r.tag}>{r.tag}</option>)}
+              </select>
+            </label>
+          </div>
+          {!rel && <p className="notice">{t.app.noBuild.replace('{os}', osName)}</p>}
+          {rel && known && buttons.length > 0 && (
+            <>
+              <div className="release-dl">
+                {buttons.map((b, i) => (
+                  <a
+                    key={b.cell} href={b.asset.url} rel="noopener noreferrer"
+                    className={i === 0 ? 'btn primary' : 'btn'} data-testid="dl-btn" data-cell={b.cell}
+                  >
+                    <Icon name="download" size={16} />
+                    {b.archLabel ? fill(t.app.downloadArch, { os: osName, arch: b.archLabel }) : fill(t.app.downloadFor, { os: osName })}
+                  </a>
+                ))}
+              </div>
+              <p className="note">
+                {known === 'macos' && buttons.length > 0 && buttons[0].archLabel ? t.app.macNote + ' ' : ''}
+                {known !== 'macos' && buttons.length > 1 ? t.app.archNote + ' ' : ''}
+                {t.app.pickedBy} ({rel.tag}, {buttons.map((b) => b.asset.name).join(', ')})
+              </p>
+            </>
+          )}
+          {rel && known && buttons.length === 0 && osAssets.length > 0 && (
+            <p className="notice" data-testid="dl-silent">{fill(t.app.pickerSilent, { os: osName })}</p>
+          )}
+          {rel && known && buttons.length === 0 && osAssets.length === 0 && (
+            <p className="notice" data-testid="dl-nobuild">{fill(t.app.noBuild, { os: osName })}</p>
+          )}
+          {rel && !known && os && <p className="notice" data-testid="dl-unknown">{t.app.unknownOs}</p>}
+          <div className="release-tabs" role="tablist">
+            <button type="button" role="tab" className={tab === 'stable' ? 'active' : ''} aria-selected={tab === 'stable'} data-testid="tab-stable" disabled={stable.length === 0}
+              onClick={() => { setTab('stable'); setTag(stable[0]?.tag || ''); }}>{t.app.stable} <span>({stable.length})</span></button>
+            <button type="button" role="tab" className={tab === 'pre' ? 'active' : ''} aria-selected={tab === 'pre'} data-testid="tab-pre" disabled={pre.length === 0}
+              title={pre.length === 0 ? t.app.noPre : undefined}
+              onClick={() => { setTab('pre'); setTag(pre[0]?.tag || ''); }}>{t.app.pre} <span>({pre.length})</span></button>
+          </div>
+          {rel && (
+            <div className="release-asset-summary">
+              <span>{t.app.assets} ({rel.assets.length})</span>
+              <span>{t.app.published}: {fmtDate(rel.published_at, lang)}</span>
+            </div>
+          )}
+        </div>
+      </section>
+
+      <div className="app-action-row">
+        <button type="button" className={`save-app-button ${mine ? 'saved' : ''}`} onClick={toggleMine} data-testid="add-mine" aria-pressed={mine}>
+          <Icon name={mine ? 'check' : 'sparkles'} size={15} />{mine ? t.app.inMine : t.app.addMine}
         </button>
       </div>
 
-      <section className="panel">
-        <h2>{t.app.stats}</h2>
-        <dl className="stats">
-          <div><dt>{t.app.statStars}</dt><dd>{fmtNum(app.stars)}</dd></div>
-          <div><dt>{t.app.statDownloads}</dt><dd>{fmtNum(app.downloads_total)}</dd></div>
-          <div><dt>{t.app.statForks}</dt><dd>{fmtNum(app.forks)}</dd></div>
-          <div><dt>{t.app.statLicense}</dt><dd>{app.license || '-'}</dd></div>
-        </dl>
-        <p className="note" style={{ marginTop: 10 }}>
-          <a href={`https://github.com/${app.repo}`} rel="noopener noreferrer">{t.app.repo}</a>
-          {app.homepage && /^https?:\/\//i.test(app.homepage) && <> &middot; <a href={app.homepage} rel="noopener noreferrer nofollow">{t.app.homepage}</a></>}
-        </p>
+      <section className="stat-strip">
+        <div className="section-stamp"><span>01</span><h2>{t.app.stats}</h2></div>
+        <div className="stats-grid">
+          <div><span>{t.app.statStars.toUpperCase()}</span><strong><Icon name="star" fill />{fmtNum(app.stars)}</strong></div>
+          <div><span>{t.app.statDownloads.toUpperCase()}</span><strong><Icon name="download" />{fmtNum(app.downloads_total)}</strong></div>
+          <div><span>{t.app.statForks.toUpperCase()}</span><strong><Icon name="branch" />{fmtNum(app.forks)}</strong></div>
+          <div><span>{t.app.statLicense.toUpperCase()}</span><strong><Icon name="shield" />{app.license || '-'}</strong></div>
+        </div>
+        <div className="app-source-links">
+          <a href={`https://github.com/${app.repo}`} rel="noopener noreferrer">{t.app.repo} <Icon name="external" /></a>
+          {app.homepage && /^https?:\/\//i.test(app.homepage) && <a href={app.homepage} rel="noopener noreferrer nofollow">{t.app.homepage} <Icon name="external" /></a>}
+        </div>
       </section>
 
-      <section className="panel" data-testid="trust">
-        <h2>{t.app.trustTitle}</h2>
-        <p className="note">{t.app.trustIntro}</p>
-        <ul className="trust">
+      <section className="trust-panel" data-testid="trust">
+        <div className="trust-heading"><span className="trust-icon"><Icon name="shield" /></span><div><h2>{t.app.trustTitle}</h2></div></div>
+        <p className="trust-intro">{t.app.trustIntro}</p>
+        <ul className="trust-list">
           <li>{trust.curated_rules ? fill(t.app.trustCurated, { rules: trust.rules || '' }) : t.app.trustNotCurated}</li>
           {typeof trust.has_checksum_asset === 'boolean' && <li>{trust.has_checksum_asset ? t.app.trustChecksumYes : t.app.trustChecksumNo}</li>}
           <li>{t.app.trustSigned}</li>
           {trust.source && <li>{t.app.trustSource}</li>}
           {trust.picker && <li>{t.app.trustPicker}</li>}
         </ul>
-        <p className="note">
+        <p className="trust-intro" style={{ margin: 0 }}>
           {(os === 'windows' || !known) && <><Link href="/panduan/windows/" data-testid="guide-win">{t.app.warnWindows}</Link>. </>}
           {(os === 'macos' || !known) && <><Link href="/panduan/macos/" data-testid="guide-mac">{t.app.warnMacos}</Link>.</>}
         </p>
       </section>
 
       {rel && (
-        <section className="panel">
-          <h2>{t.app.assets} ({rel.assets.length})</h2>
-          <p className="note">{t.app.assetsHint}</p>
-          <ul className="assets" data-testid="asset-list">
-            {shownAssets.map((a) => (
-              <li key={a.name} className={known && a.os === known ? 'mine' : ''}>
-                <span className="os">{a.os === 'unknown' ? t.app.unlabeled : (t.platforms[a.os] || a.os)}{a.arch && a.arch !== 'unknown' ? ` ${a.arch}` : ''}</span>
-                <a href={a.url} rel="noopener noreferrer">{a.name}</a>
-                <span className="sub">{fmtSize(a.size)} &middot; {fmtNum(a.downloads)} {'↓'}</span>
-              </li>
-            ))}
-          </ul>
-          {sortedAssets.length > shownAssets.length && (
-            <button type="button" className="btn" style={{ marginTop: 8 }} onClick={() => setShowAll(true)}>{fill(t.app.showAll, { n: sortedAssets.length })}</button>
-          )}
-        </section>
+        <div className="app-detail-grid">
+          <section className="assets-panel">
+            <div className="panel-heading">
+              <div><h2>{t.app.assets} <span>({rel.assets.length})</span></h2></div>
+            </div>
+            <p className="panel-description">{t.app.assetsHint}</p>
+            <div className="asset-list" data-testid="asset-list">
+              {shownAssets.map((a) => (
+                <div key={a.name} className={`asset-row ${known && a.os === known ? 'asset-highlight' : ''}`}>
+                  <span className="asset-icon"><Icon name="file" /></span>
+                  <div className="asset-info">
+                    <span className="asset-platform">{a.os === 'unknown' ? t.app.unlabeled : (t.platforms[a.os] || a.os)}{a.arch && a.arch !== 'unknown' ? ` ${a.arch}` : ''}</span>
+                    <a className="asset-name" href={a.url} rel="noopener noreferrer">{a.name}</a>
+                    <small>{fmtSize(a.size)} <span>·</span> {fmtNum(a.downloads)} {'↓'}</small>
+                  </div>
+                  <a className="asset-download" href={a.url} rel="noopener noreferrer" aria-hidden="true" tabIndex={-1}><Icon name="arrowDown" /></a>
+                </div>
+              ))}
+            </div>
+            {sortedAssets.length > shownAssets.length && (
+              <button type="button" className="download-all" onClick={() => setShowAll(true)}>{fill(t.app.showAll, { n: sortedAssets.length })} <Icon name="arrowRight" /></button>
+            )}
+          </section>
+          <section className="release-notes">
+            <div className="panel-heading">
+              <div><h2>{t.app.notes} {rel.tag}</h2></div>
+              <span className="notes-version">{rel.tag}</span>
+            </div>
+            <div className="notes-body">
+              {rel.notes_md ? <Md text={rel.notes_md} /> : <p>{t.app.noNotes}</p>}
+            </div>
+            {rel.notes_md && rel.notes_md.length >= 4000 && <div className="note-callout"><Icon name="info" /><span>{t.app.notesTrunc}</span></div>}
+          </section>
+        </div>
       )}
-
-      {rel && (
-        <section className="panel">
-          <h2>{t.app.notes} {rel.tag}</h2>
-          {rel.notes_md ? <Md text={rel.notes_md} /> : <p className="note">{t.app.noNotes}</p>}
-          {rel.notes_md && rel.notes_md.length >= 4000 && <p className="note">{t.app.notesTrunc}</p>}
-        </section>
-      )}
-    </article>
+    </>
   );
 }
