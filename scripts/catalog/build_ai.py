@@ -800,7 +800,7 @@ def main():
     B.atomic_write(OUT / 'stats-ai.json', B.jdump(stats, indent=1))
     PL.update_meta(OUT, 'ai', stats['generated_at'])
     B.atomic_write(OUT / 'changelog-ai.json', B.jdump({'generated_at': stats['generated_at'], 'section': 'ai', 'entries': PL.published_changelog(CHANGELOG, 'ai')}))
-    B.atomic_write(OUT / 'trending-ai.json', B.jdump(TR.trending_doc(tranked, ready, stats['generated_at'], snaps, tbase, github, today)))
+    B.atomic_write(OUT / 'trending-ai.json', B.jdump(TR.trending_doc(tranked, ready, stats['generated_at'], snaps, tbase, github, today, daily=TR.daily_top(trows, snaps, today))))
     hist.mkdir(parents=True, exist_ok=True)
     snap = {}
     for nm in fetched_names:

@@ -133,6 +133,36 @@ class Ranking(unittest.TestCase):
         self.assertEqual(TR.trending_doc(ranked, True, 'g', {}, {7: None, 30: None}, gh, TODAY)['sources_used'], ['stars_history'])
 
 
+class DailyTop(unittest.TestCase):
+    def rows(self):
+        return [{'repo': 'a/a', 'slug': 'a--a', 'stars': 110}, {'repo': 'b/b', 'slug': 'b--b', 'stars': 500},
+                {'repo': 'c/c', 'slug': 'c--c', 'stars': 50}, {'repo': 'd/d', 'slug': 'd--d', 'stars': 70}, {'repo': 'e/e', 'slug': 'e--e', 'stars': 9}]
+
+    def snaps(self, age=1):
+        return {day(age): {'a/a': {'stars': 100}, 'b/b': {'stars': 490}, 'c/c': {'stars': 60}, 'd/d': {'stars': 70}}}
+
+    def test_ranks_by_gain_and_skips_flat_negative_unknown(self):
+        base, items = TR.daily_top(self.rows(), self.snaps(), TODAY)
+        self.assertEqual(base, day(1))
+        self.assertEqual(items, [{'slug': 'b--b', 'd1': 10}, {'slug': 'a--a', 'd1': 10}])   # tie on gain: more stars first
+        # c lost stars, d is flat, e is not in the snapshot: none of them are listed
+
+    def test_two_day_old_baseline_accepted_three_not(self):
+        self.assertEqual(TR.daily_top(self.rows(), self.snaps(2), TODAY)[0], day(2))
+        self.assertEqual(TR.daily_top(self.rows(), self.snaps(3), TODAY), (None, []))
+        self.assertEqual(TR.daily_top(self.rows(), {}, TODAY), (None, []))
+
+    def test_top_n_and_doc(self):
+        rows = [{'repo': 'o/r%d' % i, 'slug': 'o--r%d' % i, 'stars': 1000} for i in range(40)]
+        snaps = {day(1): {'o/r%d' % i: {'stars': 1000 - 1 - i} for i in range(40)}}
+        daily = TR.daily_top(rows, snaps, TODAY)
+        self.assertEqual(len(daily[1]), TR.DAILY_TOP)
+        self.assertEqual(daily[1][0], {'slug': 'o--r39', 'd1': 40})
+        doc = TR.trending_doc([], False, 'g', snaps, {7: None, 30: None}, TR.disabled_github(), TODAY, daily=daily)
+        self.assertEqual(doc['daily']['ready'], True); self.assertEqual(doc['daily']['baseline'], day(1).isoformat())
+        self.assertNotIn('daily', TR.trending_doc([], False, 'g', snaps, {7: None, 30: None}, TR.disabled_github(), TODAY))
+
+
 class FakeResp:
     def __init__(self, text): self.b = text.encode('utf-8')
     def read(self): return self.b

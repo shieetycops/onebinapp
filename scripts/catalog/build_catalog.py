@@ -623,7 +623,7 @@ def main():
              'trending': {'ready': ready, 'ranked': len(ranked), 'badges': sum(1 for r in ranked if TR.has_badge(r['d7'], r['rank'], r['stars']))},
              'picker_silent_share_note': 'denominator = apps whose default release (latest stable, else latest pre-release) has >=1 strict-extension asset for that OS',
              'graphql': cost}
-    trend = TR.trending_doc(ranked, ready, gen, snaps, base, github, today)
+    trend = TR.trending_doc(ranked, ready, gen, snaps, base, github, today, daily=TR.daily_top(rows, snaps, today))
     atomic_write(outdir / 'catalog.json', jdump({'generated_at': gen, 'picker_sha256': PICKER_SHA, 'count': len(cards), 'apps': cards}))
     atomic_write(outdir / 'stats.json', jdump(stats, 2))
     atomic_write(outdir / 'trending.json', jdump(trend))

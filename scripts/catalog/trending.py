@@ -76,15 +76,37 @@ def rank_rows(rows, top_n=TOP_N):
     return pos[:top_n]
 
 
+DAILY_TOP = 30
+DAILY_AGE = (1, 2)
+
+
+def daily_top(rows, snaps, today, top_n=DAILY_TOP):
+    """Daily growth: stars_now - stars at the snapshot 1 day ago (2 days accepted when yesterday is missing).
+    -> (baseline date | None, [{slug, d1}] best first). Only repos that gained stars are listed; no baseline => (None, [])."""
+    base = None
+    for d in snaps:
+        age = (today - d).days
+        if DAILY_AGE[0] <= age <= DAILY_AGE[1] and (base is None or age < (today - base).days): base = d
+    if base is None: return None, []
+    out = []
+    for r in rows:
+        b = snaps[base].get(str(r['repo']).lower())
+        s = b.get('stars') if b else None
+        if isinstance(s, (int, float)) and r['stars'] - s > 0:
+            out.append({'slug': r['slug'], 'd1': r['stars'] - s, '_stars': r['stars'], '_repo': str(r['repo']).lower()})
+    out.sort(key=lambda x: (-x['d1'], -x['_stars'], x['_repo']))
+    return base, [{'slug': x['slug'], 'd1': x['d1']} for x in out[:top_n]]
+
+
 def has_badge(d7, rank, stars):
     return rank is not None and d7 is not None and d7 >= max(BADGE_MIN_D7, BADGE_PCT * stars)
 
 
-def trending_doc(ranked, ready, gen, snaps, base, github, today):
+def trending_doc(ranked, ready, gen, snaps, base, github, today, daily=None):
     """The trending.json / trending-ai.json document."""
     used = ['stars_history']
     if github.get('enabled') and github.get('ok'): used.append('github_trending')
-    return {
+    doc = {
         'ready': ready, 'generated_at': gen, 'window_days': {'d7': 7, 'd30': 30},
         'items': [{'slug': r['slug'], 'd7': r['d7'], 'd30': r['d30'], 'rank': r['rank']} for r in ranked],
         'badges': sum(1 for r in ranked if has_badge(r['d7'], r['rank'], r['stars'])),
@@ -93,6 +115,9 @@ def trending_doc(ranked, ready, gen, snaps, base, github, today):
         'baseline_dates': {str(w): (base[w].isoformat() if base[w] else None) for w in WINDOWS},
         'github_trending': github,
     }
+    if daily is not None:
+        doc['daily'] = {'ready': daily[0] is not None, 'baseline': daily[0].isoformat() if daily[0] else None, 'items': daily[1]}
+    return doc
 
 
 # ------------------------------------------------------------------ github.com/trending (opt-in)
