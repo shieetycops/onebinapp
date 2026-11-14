@@ -291,7 +291,9 @@ class AIFetcher(B.Fetcher):
                 return self.gql(query)
             except urllib.error.HTTPError as e:
                 if e.code == 401: raise SystemExit('token rejected (HTTP 401)')
-                last = 'HTTP %s' % e.code
+                try: body = e.read().decode('utf-8', 'replace')[:300]
+                except Exception: body = ''
+                last = 'HTTP %s %s' % (e.code, body)
             except SystemExit:
                 raise
             except Exception as e:

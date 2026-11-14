@@ -6,7 +6,12 @@ import curation as CUR, categories as CAT, build_catalog as B
 DATA = B.DATA
 
 
+HAVE_RAW = (DATA / 'round3' / 'raw').is_dir() and any((DATA / 'round3' / 'raw').glob('*.meta.json'))
+NEED_RAW = unittest.skipUnless(HAVE_RAW, 'data/round3/raw is gitignored; these run only where it exists locally')
+
+
 class Curation(unittest.TestCase):
+    @NEED_RAW
     def test_round3_gate_300(self):
         dec = json.loads((DATA / 'round3' / 'curation_decisions.json').read_text(encoding='utf-8'))
         self.assertEqual(len(dec), 300)
@@ -16,6 +21,7 @@ class Curation(unittest.TestCase):
             if not ok and not v['why'][0].startswith('meta_http'):
                 self.assertEqual(why, v['why'], name)
 
+    @NEED_RAW
     def test_graphql_adapter_matches_rest_on_round3(self):
         n = 0
         for p in sorted((DATA / 'round3' / 'raw').glob('*.meta.json'))[:200]:
